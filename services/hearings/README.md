@@ -57,7 +57,10 @@ python3 hearings.py [--config hearings.toml] site
 | `remove <id>` | Takes a session off the list and deletes its public files. The recording stays in the work folder until you delete it |
 | `site` | Rewrites only the goals, members, glossary and bodies files, after you edit them |
 
-A YouTube session's id is the video's id. A file's id is its name unless you pass `--id`.
+A YouTube session's id is the video's id. A file's id is its name unless you pass `--id`. An id is 1
+to 64 of `A-Z a-z 0-9 _ -`, the same check the pages make: any other character in a file's name
+becomes a dash (`sesión.mp4` is `sesi-n`). `index` cannot be an id, because `sessions/index.json` is
+the list; a file named `index.mp4` needs `--id`.
 
 ## Settings
 
@@ -117,10 +120,26 @@ Nobody reviews it for you.
 | `omnilingual` | A GPU in practice | Meta's Omnilingual ASR: more than 1,600 languages, many Philippine ones among them | `model`: `omniASR_LLM_3B_v2` (about 10 GB of GPU memory). `language` is like `bcl_Latn` or `tgl_Latn`. A line must stay under 40 seconds. Install with `--with omnilingual-asr` |
 
 A transcript line is a fixed stretch of the recording (`line_seconds`, 30 by default), not a
-sentence: a word can be cut at a line's edge. Check each model's licence before you use it.
+sentence: a word can be cut at a line's edge.
 
 Word timings (`[align] enabled = true`) add `--with torch==2.8.0 --with torchaudio==2.8.0`, a
 1.2 GB model download, and run on a CPU.
+
+### Model licences
+
+Read at each source on 2026-11-20. This pipeline's own code is the repo's (AGPL-3.0); the models
+are other people's.
+
+| Model | Licence | Source |
+|---|---|---|
+| Whisper, code and weights; `faster-whisper` and the converted weights it downloads | MIT | [openai/whisper](https://github.com/openai/whisper#license), [SYSTRAN/faster-whisper](https://github.com/SYSTRAN/faster-whisper/blob/master/LICENSE) |
+| Omnilingual ASR, code and models | Apache 2.0 | [facebookresearch/omnilingual-asr](https://github.com/facebookresearch/omnilingual-asr#license) |
+| MMS_FA, the forced-alignment weights behind word timings | **CC-BY-NC 4.0: non-commercial** | [torchaudio's MMS_FA page](https://docs.pytorch.org/audio/stable/generated/torchaudio.pipelines.MMS_FA.html) |
+
+**Word timings are the one non-commercial piece.** If you cannot meet that licence, leave
+`[align] enabled = false` (the default): the page then spreads each line's words across the
+line by their length, and everything else works the same. The summary model's licence is whichever
+model you point the settings at.
 
 ## The summary model
 

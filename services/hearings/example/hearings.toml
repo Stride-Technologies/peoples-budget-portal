@@ -13,6 +13,7 @@ compute_type = "int8"       # faster-whisper only: int8 is the quick one on a CP
 line_seconds = 30           # the length of one transcript line. omnilingual needs under 40
 
 # Word timings, so the page marks each word as it is said. Needs torch and torchaudio; fine on a CPU.
+# The alignment weights (torchaudio's MMS_FA) are CC-BY-NC 4.0, non-commercial: leave this off if you cannot meet that.
 [align]
 enabled = false
 
