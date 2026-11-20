@@ -390,6 +390,60 @@ class Config(unittest.TestCase):
             self.assertIn("public", str(e.exception))
 
 
+class Ids(unittest.TestCase):
+    """An id becomes a file name here and a path in the pages, whose own check is ASCII."""
+
+    def args(self, **k):
+        return mock.Mock(**{"id": None, "title": None, "date": None, "body": None, **k})
+
+    def test_an_id_is_ascii_and_never_index(self):
+        for good in ("s1", "sample-session_1", "dQw4w9WgXcQ", "a" * 64):
+            self.assertTrue(hearings.session_id(good), good)
+        for bad in ("index", "Index", "INDEX", "sesión", "会议", "a b", "a/b", "..", "a.b", "", "a" * 65):
+            self.assertFalse(hearings.session_id(bad), bad)
+        self.assertEqual(hearings.as_id("sesión ordinaria #3"), "sesi-n-ordinaria-3")
+        self.assertEqual(hearings.as_id("会议"), "")
+
+    def test_a_files_name_becomes_an_ascii_id_or_the_run_stops(self):
+        with tempfile.TemporaryDirectory() as tmp, mock.patch.dict(speech.ENGINES, {"fake": fake_engine}), \
+                mock.patch.object(hearings, "duration", lambda media: 60):
+            tmp = pathlib.Path(tmp)
+            cfg = hearings.load_config(settings(tmp))
+            for name in ("sesión.mp4", "index.mp4", "Index.mp4", "会议.mp4"):
+                (tmp / name).write_bytes(b"")
+            self.assertEqual(hearings.fetch(str(tmp / "sesión.mp4"), cfg, self.args())["id"], "sesi-n")
+            self.assertEqual(hearings.fetch(str(tmp / "index.mp4"), cfg, self.args(id="session-1"))["id"], "session-1")
+            for name, given in (("index.mp4", None), ("Index.mp4", None), ("会议.mp4", None), ("sesión.mp4", "sesión"), ("sesión.mp4", "index")):
+                with self.assertRaises(SystemExit) as e:
+                    hearings.fetch(str(tmp / name), cfg, self.args(id=given))
+                self.assertIn("--id", str(e.exception))
+            self.assertEqual(sorted(p.name for p in (tmp / "work").iterdir()), ["sesi-n", "session-1"])  # nothing made for a refused id
+
+    def test_remove_never_touches_the_list_itself(self):
+        with tempfile.TemporaryDirectory() as tmp, mock.patch.dict(speech.ENGINES, {"fake": fake_engine}):
+            tmp = pathlib.Path(tmp)
+            config = settings(tmp)
+            hearings.index(hearings.load_config(config), {"id": "s1", "title": "One", "durationSec": 60, "source": "file"})
+            before = (tmp / "out/sessions/index.json").read_text()
+            for bad in ("index", "Index", "sesión", "../index"):
+                with self.assertRaises(SystemExit):
+                    cli("--config", config, "remove", bad)
+            self.assertEqual((tmp / "out/sessions/index.json").read_text(), before)
+
+    def test_a_members_slug_and_a_bodys_id_are_ascii_too(self):
+        for extra, said in (('[[bodies]]\nid = "sesión"', "bodies"),):
+            with tempfile.TemporaryDirectory() as tmp, mock.patch.dict(speech.ENGINES, {"fake": fake_engine}):
+                with self.assertRaises(SystemExit) as e:
+                    hearings.load_config(settings(pathlib.Path(tmp), extra))
+                self.assertIn(said, str(e.exception))
+        with tempfile.TemporaryDirectory() as tmp, mock.patch.dict(speech.ENGINES, {"fake": fake_engine}):
+            f = settings(pathlib.Path(tmp))
+            (pathlib.Path(tmp) / "roster.json").write_text(json.dumps([{"slug": "josé-reyes", "name": "José Reyes (sample)"}]))
+            with self.assertRaises(SystemExit) as e:
+                hearings.load_config(f)
+            self.assertIn("roster", str(e.exception))
+
+
 class Index(unittest.TestCase):
     def test_newest_first_one_entry_per_session(self):
         with tempfile.TemporaryDirectory() as tmp:

@@ -14,7 +14,20 @@ import argparse, json, pathlib, re, shutil, subprocess, sys, tomllib
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
 import speech, summary, text  # noqa: E402
 
-ID = re.compile(r"[\w-]{1,64}")  # the contract's ids: safe inside a path
+# The contract's ids, as the pages check them (JavaScript's \w is ASCII; Python's is not, so the class is spelled
+# out): an id with an accented letter would be processed, listed, and never shown.
+ID = re.compile(r"[A-Za-z0-9_-]{1,64}")
+ID_RULE = "1 to 64 of: A-Z a-z 0-9 _ -"
+
+
+def session_id(s):
+    """An id, and not `index` in any case: `sessions/index.json` is the list, and some disks ignore case."""
+    return bool(ID.fullmatch(s)) and s.lower() != "index"
+
+
+def as_id(name):
+    """A file's or a site's name -> an id: anything outside the id's characters becomes a dash ("sesión" -> "sesi-n")."""
+    return re.sub(r"[^A-Za-z0-9_-]+", "-", name).strip("-")[:64]
 REDO = ("transcribe", "summary", "translate")  # each one also redoes the ones after it
 
 
@@ -53,7 +66,7 @@ def load_config(path):
     for what, rows, field in (("bodies", cfg["bodies"], "id"), ("roster", cfg["roster"], "slug")):
         for r in rows:
             if not ID.fullmatch(str(r.get(field, ""))):
-                sys.exit(f"{what}: `{field}` must be 1 to 64 letters, digits, _ or -; got {r.get(field)!r}")
+                sys.exit(f"{what}: `{field}` must be {ID_RULE}; got {r.get(field)!r}")
     if cfg.get("speech", {}).get("engine") not in speech.ENGINES:
         sys.exit(f"[speech] engine must be one of: {', '.join(speech.ENGINES)}")
     for lang in cfg.get("translate", {}):
@@ -81,12 +94,12 @@ def duration(media):
 def fetch(recording, cfg, args):
     """A link or a file -> the session's facts (`meta.json` in its work folder), downloading what is needed."""
     is_link = re.match(r"https?://", recording)
-    if not is_link and not pathlib.Path(recording).is_file() and (cfg["work"] / recording / "meta.json").exists():
+    if not is_link and not pathlib.Path(recording).is_file() and session_id(recording) and (cfg["work"] / recording / "meta.json").exists():
         meta = read_json(cfg["work"] / recording / "meta.json")  # a session already processed, named by its id
     elif is_link:
         info = json.loads(ytdlp("-J", recording))
         youtube = info.get("extractor_key") == "Youtube"
-        sid = args.id or (info["id"] if youtube else re.sub(r"[^\w-]", "-", f"{info.get('extractor_key', 'video')}-{info['id']}".lower())[:64])
+        sid = args.id or (info["id"] if youtube else as_id(f"{info.get('extractor_key', 'video')}-{info['id']}".lower()))
         if youtube and sid != info["id"]:
             sys.exit("A YouTube session's id is the video's own id: the pages build the player from it. Drop --id.")
         d = info.get("upload_date") or ""
@@ -96,10 +109,11 @@ def fetch(recording, cfg, args):
         f = pathlib.Path(recording).resolve()
         if not f.is_file():
             sys.exit(f"{recording} is not a link, a file, or the id of a session already processed.")
-        sid = args.id or re.sub(r"[^\w-]+", "-", f.stem).strip("-")[:64]
+        sid = args.id or as_id(f.stem)
         meta = {"id": sid, "title": f.stem, "date": "", "durationSec": 0, "source": "file", "media": str(f)}
-    if not ID.fullmatch(meta["id"]):
-        sys.exit(f"Session id {meta['id']!r} must be 1 to 64 letters, digits, _ or -. Pass --id.")
+    if not session_id(meta["id"]):
+        sys.exit(f"{meta['id']!r} cannot be a session id: an id is {ID_RULE}, and `index` is taken by the list of "
+                 "sessions. Pass --id.")
     work = cfg["work"] / meta["id"]
     work.mkdir(parents=True, exist_ok=True)
     meta = {**meta, **{k: v for k, v in (("title", args.title), ("date", args.date)) if v},
@@ -233,8 +247,8 @@ def run(cfg, args):
 
 
 def remove(cfg, args):
-    if not ID.fullmatch(args.id):
-        sys.exit("Not a session id.")
+    if not session_id(args.id):
+        sys.exit(f"{args.id!r} is not a session id: an id is {ID_RULE}, and `index` is the list of sessions itself.")
     index(cfg, remove=args.id)  # off the list first, then the files
     gone = [f for d, pat in (("sessions", f"{args.id}.json"), ("sessions", f"{args.id}.*.json"), ("video", f"{args.id}.*"))
             for f in (cfg["out"] / d).glob(pat)]
