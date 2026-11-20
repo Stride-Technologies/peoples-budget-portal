@@ -1,0 +1,202 @@
+{
+  "_about": "Reviewed compound phrases (specs/020, decision #16). A phrase listed here never triggers the topic keywords or label aliases named in `not`, although it contains one of their words: \"technical assistance\" is not social welfare. `not: []` marks a phrase reviewed as meaning what its words say. Candidates come from `pnpm --filter api db:report:compounds` (docs/design/explorer-compounds-report.md). Status: draft until Stride and the city review it.",
+  "compounds": [
+    {
+      "phrase": "capacity building",
+      "not": [
+        "infrastructure"
+      ],
+      "why": "training people, not a building"
+    },
+    {
+      "phrase": "capability building",
+      "not": [
+        "infrastructure"
+      ],
+      "why": "training people, not a building"
+    },
+    {
+      "phrase": "team building",
+      "not": [
+        "infrastructure"
+      ],
+      "why": "staff development, not a building"
+    },
+    {
+      "phrase": "list building",
+      "not": [
+        "infrastructure"
+      ],
+      "why": "email marketing, not a building"
+    },
+    {
+      "phrase": "cybersecurity infrastructure",
+      "not": [
+        "infrastructure"
+      ],
+      "why": "IT systems, not public works"
+    },
+    {
+      "phrase": "investment programming",
+      "not": [
+        "livelihood-jobs"
+      ],
+      "why": "the AIP planning process, not business investment"
+    },
+    {
+      "phrase": "investment planning",
+      "not": [
+        "livelihood-jobs"
+      ],
+      "why": "the AIP planning process, not business investment"
+    },
+    {
+      "phrase": "business continuity",
+      "not": [
+        "livelihood-jobs"
+      ],
+      "why": "IT continuity planning, not local business"
+    },
+    {
+      "phrase": "digital marketing",
+      "not": [
+        "livelihood-jobs"
+      ],
+      "why": "the city's tourism promotion, not a public market"
+    },
+    {
+      "phrase": "technical assistance",
+      "not": [
+        "social-welfare"
+      ],
+      "why": "advice to barangays, farmers or youth groups, not welfare aid"
+    },
+    {
+      "phrase": "disaster recovery center",
+      "not": [
+        "disaster-risk"
+      ],
+      "why": "an IT data-recovery site, not post-disaster work"
+    },
+    {
+      "phrase": "public safety",
+      "not": []
+    },
+    {
+      "phrase": "senior citizen",
+      "not": []
+    },
+    {
+      "phrase": "senior citizens",
+      "not": []
+    },
+    {
+      "phrase": "anti drug",
+      "not": []
+    },
+    {
+      "phrase": "drug abuse",
+      "not": []
+    },
+    {
+      "phrase": "digital governance",
+      "not": []
+    },
+    {
+      "phrase": "road concreting",
+      "not": []
+    },
+    {
+      "phrase": "cross drainage",
+      "not": []
+    },
+    {
+      "phrase": "elementary school",
+      "not": []
+    },
+    {
+      "phrase": "high school",
+      "not": []
+    },
+    {
+      "phrase": "road reblocking",
+      "not": []
+    },
+    {
+      "phrase": "school bldg",
+      "not": []
+    },
+    {
+      "phrase": "storey classroom",
+      "not": []
+    },
+    {
+      "phrase": "disaster risk",
+      "not": []
+    },
+    {
+      "phrase": "pipe drainage",
+      "not": []
+    },
+    {
+      "phrase": "road widening",
+      "not": []
+    },
+    {
+      "phrase": "disaster recovery",
+      "not": []
+    },
+    {
+      "phrase": "road marking",
+      "not": []
+    },
+    {
+      "phrase": "tourism products",
+      "not": []
+    },
+    {
+      "phrase": "urban poor",
+      "not": []
+    },
+    {
+      "phrase": "agri tourism",
+      "not": []
+    },
+    {
+      "phrase": "agricultural machineries",
+      "not": []
+    },
+    {
+      "phrase": "drrm research",
+      "not": []
+    },
+    {
+      "phrase": "evacuation centers",
+      "not": []
+    },
+    {
+      "phrase": "garbage collection",
+      "not": []
+    },
+    {
+      "phrase": "multi purpose building",
+      "not": []
+    },
+    {
+      "phrase": "road opening",
+      "not": []
+    },
+    {
+      "phrase": "traffic signage",
+      "not": []
+    },
+    {
+      "phrase": "youth policies",
+      "not": []
+    },
+    {
+      "phrase": "flood control",
+      "not": []
+    }
+  ]
+}

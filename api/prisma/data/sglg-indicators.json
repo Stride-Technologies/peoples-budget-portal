@@ -1,0 +1,12 @@
+[
+  { "pillar": "Financial Administration",              "code": "FA_01", "name": "Good financial housekeeping" },
+  { "pillar": "Disaster Preparedness",                 "code": "DP_01", "name": "Disaster preparedness compliance" },
+  { "pillar": "Social Protection",                     "code": "SP_01", "name": "Social protection and sensitivity" },
+  { "pillar": "Peace and Order",                       "code": "PO_01", "name": "Peace and order compliance" },
+  { "pillar": "Business-Friendliness and Competitiveness", "code": "BC_01", "name": "Business-friendliness and competitiveness" },
+  { "pillar": "Environmental Management",              "code": "EM_01", "name": "Environmental management compliance" },
+  { "pillar": "Tourism, Culture and the Arts",         "code": "TC_01", "name": "Tourism, culture, and the arts" },
+  { "pillar": "Health Compliance and Responsiveness",  "code": "HC_01", "name": "Health compliance and responsiveness" },
+  { "pillar": "Youth Development",                     "code": "YD_01", "name": "Youth development promotion" },
+  { "pillar": "Education",                             "code": "ED_01", "name": "Education and human capital development" }
+]

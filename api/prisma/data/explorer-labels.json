@@ -1,0 +1,862 @@
+{
+ "_about": "Label taxonomy for the Data Explorer (specs/018 W22–W24). Two levels: residents' themes, each mapped to the DBM functional group, the COFOG division and (where it fits) one of the city's finish lines; sub-labels are Stride's proposal from the 2027 AIP and the budget books, status draft until Stride approves them in this file. Definitions are what the labelling model and the vectors read: write what a row IS, not which office runs it. Seed: pnpm --filter api db:seed:labels -- --dry-run",
+ "unclassified": {
+  "id": "unclassified",
+  "label": "Not classified",
+  "definition": "No evidence in the row's text or accounts for any label."
+ },
+ "labels": [
+  {
+   "id": "health",
+   "label": "Health",
+   "definition": "Keeping people healthy and treating them: hospitals, health centres, doctors and nurses, medicines, vaccination, disease control, nutrition, sanitation. A health office's own staff, supplies and running costs count here too.",
+   "aliases": {
+    "en": [
+     "health",
+     "hospital",
+     "medical",
+     "clinic",
+     "medicine",
+     "nutrition"
+    ],
+    "fil": [
+     "kalusugan",
+     "ospital",
+     "gamot",
+     "klinika"
+    ],
+    "bcl": [
+     "salud",
+     "kalusugan",
+     "ospital",
+     "bulong"
+    ]
+   },
+   "maps": {
+    "functionalGroup": "Social Services",
+    "cofog": "07",
+    "finishLine": "fl-4"
+   },
+   "subs": [
+    {
+     "id": "health.hospital-care",
+     "label": "Hospital and clinical care",
+     "definition": "Hospital services, clinical and specialist care, diagnostics, laboratories, emergency care, mortuary."
+    },
+    {
+     "id": "health.primary-care",
+     "label": "Primary care and health centres",
+     "definition": "Barangay health stations, health centres, primary and community health care, maternal and child health, dental."
+    },
+    {
+     "id": "health.disease-control",
+     "label": "Disease prevention and control",
+     "definition": "Vaccination, communicable and non-communicable disease programs, mental health, surveillance, rabies, epidemics."
+    },
+    {
+     "id": "health.nutrition",
+     "label": "Nutrition",
+     "definition": "Feeding programs, micronutrients, nutrition monitoring and education."
+    },
+    {
+     "id": "health.medicines",
+     "label": "Medicines and medical supplies",
+     "definition": "Drugs, medicines, pharmacy, medical and laboratory supplies and equipment."
+    }
+   ]
+  },
+  {
+   "id": "education",
+   "label": "Education",
+   "definition": "Learning and schooling: support to public schools, scholarships, early childhood care and development, the city college, libraries, learners and teachers. An education office's own running costs count here too.",
+   "aliases": {
+    "en": [
+     "education",
+     "school",
+     "schools",
+     "scholarship",
+     "students",
+     "teachers"
+    ],
+    "fil": [
+     "edukasyon",
+     "paaralan",
+     "eskwelahan",
+     "iskolar",
+     "estudyante",
+     "guro"
+    ],
+    "bcl": [
+     "edukasyon",
+     "eskwelahan",
+     "iskolar",
+     "estudyante",
+     "maestra"
+    ]
+   },
+   "maps": {
+    "functionalGroup": "Social Services",
+    "cofog": "09",
+    "finishLine": "fl-4"
+   },
+   "subs": [
+    {
+     "id": "education.schools",
+     "label": "Support to public schools",
+     "definition": "Classrooms, school supplies, teachers' support, school programs funded by the city or the Special Education Fund."
+    },
+    {
+     "id": "education.scholarships",
+     "label": "Scholarships and student aid",
+     "definition": "Scholarships, educational assistance, student grants."
+    },
+    {
+     "id": "education.early-childhood",
+     "label": "Early childhood care",
+     "definition": "Day care, child development centres, early childhood care and development."
+    },
+    {
+     "id": "education.higher-education",
+     "label": "Higher and technical education",
+     "definition": "The city college, tertiary and technical-vocational training."
+    }
+   ]
+  },
+  {
+   "id": "infrastructure",
+   "label": "Infrastructure",
+   "definition": "Building, repairing and maintaining physical public works: roads, streets, bridges, drainage and flood control, public buildings, water and power systems, and the materials and equipment for those works. An engineering office's own staff salaries and office supplies are not infrastructure works.",
+   "aliases": {
+    "en": [
+     "infrastructure",
+     "roads",
+     "road",
+     "bridges",
+     "public works",
+     "construction",
+     "drainage"
+    ],
+    "fil": [
+     "imprastraktura",
+     "kalsada",
+     "tulay",
+     "daan",
+     "konstruksyon"
+    ],
+    "bcl": [
+     "imprastraktura",
+     "kalsada",
+     "tulay",
+     "dalan",
+     "konstruksyon"
+    ]
+   },
+   "maps": {
+    "functionalGroup": "Economic Services",
+    "cofog": "04",
+    "finishLine": "fl-8"
+   },
+   "subs": [
+    {
+     "id": "infrastructure.roads",
+     "label": "Roads and streets",
+     "definition": "Road construction, concreting, asphalting, widening, repair; streets, sidewalks, street lights, traffic signs."
+    },
+    {
+     "id": "infrastructure.bridges",
+     "label": "Bridges",
+     "definition": "Bridge construction, repair and retrofitting; footbridges."
+    },
+    {
+     "id": "infrastructure.drainage-flood",
+     "label": "Drainage and flood control",
+     "definition": "Drainage canals, culverts, flood control structures, desilting of waterways, slope protection, river walls, pumping stations."
+    },
+    {
+     "id": "infrastructure.buildings",
+     "label": "Public buildings and facilities",
+     "definition": "Construction or repair of government buildings, markets, schools, health facilities, gyms, terminals, warehouses."
+    },
+    {
+     "id": "infrastructure.water-power",
+     "label": "Water and power",
+     "definition": "Water systems, water tanks, electrification, power lines, solar installations."
+    }
+   ]
+  },
+  {
+   "id": "agriculture",
+   "label": "Agriculture and fisheries",
+   "definition": "Farming, fisheries and livestock: farmers and fisherfolk, crops, irrigation, farm machinery, veterinary services, meat inspection, food production.",
+   "aliases": {
+    "en": [
+     "agriculture",
+     "farmers",
+     "farming",
+     "farm",
+     "fisherfolk",
+     "fishermen",
+     "livestock",
+     "crops"
+    ],
+    "fil": [
+     "agrikultura",
+     "pagsasaka",
+     "magsasaka",
+     "mangingisda",
+     "sakahan",
+     "hayupan"
+    ],
+    "bcl": [
+     "agrikultura",
+     "paraoma",
+     "uma",
+     "parasira",
+     "hayop"
+    ]
+   },
+   "maps": {
+    "functionalGroup": "Economic Services",
+    "cofog": "04",
+    "finishLine": "fl-1"
+   },
+   "subs": [
+    {
+     "id": "agriculture.crops",
+     "label": "Crops and farming",
+     "definition": "Rice, corn, vegetables, high-value crops, seeds, fertilizer, farm demonstration, technical support to farmers."
+    },
+    {
+     "id": "agriculture.livestock",
+     "label": "Livestock and veterinary",
+     "definition": "Livestock, poultry, animal health, rabies control, animal population control, meat inspection, slaughterhouse."
+    },
+    {
+     "id": "agriculture.fisheries",
+     "label": "Fisheries",
+     "definition": "Fisherfolk, aquaculture, fishing gear, fish ports."
+    },
+    {
+     "id": "agriculture.farm-machinery",
+     "label": "Farm machinery and irrigation",
+     "definition": "Agri-mechanization, farm equipment, irrigation, post-harvest facilities."
+    }
+   ]
+  },
+  {
+   "id": "social-welfare",
+   "label": "Social welfare",
+   "definition": "Help for people and families in need: crisis assistance, cash aid, relief goods, protection of women and children, residential care, programs for solo parents, indigents and vulnerable groups.",
+   "aliases": {
+    "en": [
+     "social welfare",
+     "social services",
+     "assistance",
+     "aid",
+     "poor",
+     "indigent"
+    ],
+    "fil": [
+     "kapakanang panlipunan",
+     "tulong",
+     "ayuda",
+     "mahihirap"
+    ],
+    "bcl": [
+     "tabang",
+     "ayuda",
+     "mga dukha"
+    ]
+   },
+   "maps": {
+    "functionalGroup": "Social Services",
+    "cofog": "10",
+    "finishLine": "fl-4"
+   },
+   "subs": [
+    {
+     "id": "social-welfare.crisis-aid",
+     "label": "Assistance to people in crisis",
+     "definition": "Financial, medical, burial and emergency assistance to individuals and families in crisis."
+    },
+    {
+     "id": "social-welfare.protection",
+     "label": "Protection from abuse and trafficking",
+     "definition": "Anti-trafficking, violence against women and children, child protection, women's and children's desks."
+    },
+    {
+     "id": "social-welfare.care-facilities",
+     "label": "Residential and day care facilities",
+     "definition": "Homes and centres for women, children, the elderly; residential care."
+    },
+    {
+     "id": "social-welfare.cash-benefits",
+     "label": "Pensions and cash benefits",
+     "definition": "Social pensions, birthday benefits, cash grants, allowances to beneficiaries."
+    }
+   ]
+  },
+  {
+   "id": "housing",
+   "label": "Housing",
+   "definition": "Homes and settlements: socialized and affordable housing, resettlement and relocation, land for housing, housing estates and homeowners' associations.",
+   "aliases": {
+    "en": [
+     "housing",
+     "homes",
+     "resettlement",
+     "informal settlers"
+    ],
+    "fil": [
+     "pabahay",
+     "bahay",
+     "tirahan"
+    ],
+    "bcl": [
+     "harong",
+     "pabahay",
+     "istaran"
+    ]
+   },
+   "maps": {
+    "functionalGroup": "Social Services",
+    "cofog": "06",
+    "finishLine": "fl-4"
+   },
+   "subs": [
+    {
+     "id": "housing.socialized-housing",
+     "label": "Socialized and affordable housing",
+     "definition": "Housing projects, housing units, housing loans and estate management."
+    },
+    {
+     "id": "housing.resettlement",
+     "label": "Resettlement and relocation",
+     "definition": "Relocation of informal settlers, resettlement sites, social preparation."
+    },
+    {
+     "id": "housing.housing-land",
+     "label": "Land for housing",
+     "definition": "Land acquisition, inventory and titling for housing."
+    }
+   ]
+  },
+  {
+   "id": "disaster-risk",
+   "label": "Disaster risk and resilience",
+   "definition": "Preparing for, reducing and responding to disasters: early warning, evacuation centres, rescue, relief operations, the LDRRM Fund, risk mitigation.",
+   "aliases": {
+    "en": [
+     "disaster",
+     "drrm",
+     "calamity",
+     "flood",
+     "typhoon",
+     "evacuation",
+     "rescue",
+     "resilience"
+    ],
+    "fil": [
+     "sakuna",
+     "kalamidad",
+     "baha",
+     "bagyo",
+     "paglikas"
+    ],
+    "bcl": [
+     "delubyo",
+     "kalamidad",
+     "baha",
+     "bagyo"
+    ]
+   },
+   "maps": {
+    "functionalGroup": "General Public Services",
+    "cofog": "03",
+    "finishLine": "fl-3"
+   },
+   "subs": [
+    {
+     "id": "disaster-risk.preparedness",
+     "label": "Preparedness and early warning",
+     "definition": "Drills, training, early warning systems, contingency plans, rescue equipment, evacuation centres."
+    },
+    {
+     "id": "disaster-risk.response-relief",
+     "label": "Response and relief",
+     "definition": "Emergency response, rescue operations, relief goods, quick response fund, rehabilitation after disasters."
+    },
+    {
+     "id": "disaster-risk.mitigation",
+     "label": "Risk mitigation",
+     "definition": "Structural and non-structural measures that reduce disaster risk: flood mitigation, slope protection, hazard mapping."
+    }
+   ]
+  },
+  {
+   "id": "environment",
+   "label": "Environment and waste",
+   "definition": "The environment and natural resources: solid waste collection and disposal, recycling, parks and greening, trees, watersheds, rivers, wildlife, pollution control.",
+   "aliases": {
+    "en": [
+     "environment",
+     "garbage",
+     "waste",
+     "trash",
+     "parks",
+     "trees",
+     "river",
+     "climate"
+    ],
+    "fil": [
+     "kapaligiran",
+     "basura",
+     "parke",
+     "puno",
+     "ilog",
+     "klima"
+    ],
+    "bcl": [
+     "palibot",
+     "basura",
+     "parke",
+     "kahoy",
+     "salog",
+     "klima"
+    ]
+   },
+   "maps": {
+    "functionalGroup": "Economic Services",
+    "cofog": "05",
+    "finishLine": "fl-2"
+   },
+   "subs": [
+    {
+     "id": "environment.solid-waste",
+     "label": "Solid waste",
+     "definition": "Garbage collection, sanitary landfill, materials recovery, recycling, waste trucks."
+    },
+    {
+     "id": "environment.natural-resources",
+     "label": "Natural resources and watersheds",
+     "definition": "Watershed and protected areas, Mt. Isarog, forests, rivers, wildlife, tree planting."
+    },
+    {
+     "id": "environment.parks-greening",
+     "label": "Parks and greening",
+     "definition": "Parks, plazas, urban greening, tree care, beautification."
+    }
+   ]
+  },
+  {
+   "id": "peace-order",
+   "label": "Peace, order and safety",
+   "definition": "Public safety: police and peace-keeping support, barangay tanods, traffic management, fire and emergency services, anti-illegal drugs, jail support.",
+   "aliases": {
+    "en": [
+     "peace and order",
+     "safety",
+     "security",
+     "police",
+     "crime",
+     "traffic",
+     "drugs"
+    ],
+    "fil": [
+     "kapayapaan",
+     "kaayusan",
+     "kaligtasan",
+     "pulis",
+     "krimen",
+     "trapiko",
+     "droga"
+    ],
+    "bcl": [
+     "katoninongan",
+     "kaayusan",
+     "pulis",
+     "krimen",
+     "trapiko",
+     "droga"
+    ]
+   },
+   "maps": {
+    "functionalGroup": "General Public Services",
+    "cofog": "03",
+    "finishLine": "fl-3"
+   },
+   "subs": [
+    {
+     "id": "peace-order.public-safety",
+     "label": "Police and public safety",
+     "definition": "Support to police, tanods, public safety officers, CCTV, peace and order council."
+    },
+    {
+     "id": "peace-order.traffic",
+     "label": "Traffic and transport",
+     "definition": "Traffic management, enforcement, transport terminals and regulation."
+    },
+    {
+     "id": "peace-order.emergency",
+     "label": "Fire and emergency services",
+     "definition": "Fire protection, emergency medical response, rescue units."
+    },
+    {
+     "id": "peace-order.drugs",
+     "label": "Drug-abuse prevention",
+     "definition": "Anti-illegal drugs programs, rehabilitation, the drug-abuse council."
+    }
+   ]
+  },
+  {
+   "id": "tourism-culture",
+   "label": "Tourism, culture and the arts",
+   "definition": "Tourism, festivals and events, heritage, history, museums, culture and the arts, religious and civic celebrations.",
+   "aliases": {
+    "en": [
+     "tourism",
+     "culture",
+     "arts",
+     "festival",
+     "heritage",
+     "penafrancia"
+    ],
+    "fil": [
+     "turismo",
+     "kultura",
+     "sining",
+     "pista",
+     "pamana"
+    ],
+    "bcl": [
+     "turismo",
+     "kultura",
+     "arte",
+     "pyesta"
+    ]
+   },
+   "maps": {
+    "functionalGroup": "Economic Services",
+    "cofog": "08",
+    "finishLine": "fl-5"
+   },
+   "subs": [
+    {
+     "id": "tourism-culture.tourism",
+     "label": "Tourism",
+     "definition": "Tourism promotion, destinations, tourist services."
+    },
+    {
+     "id": "tourism-culture.festivals",
+     "label": "Festivals and celebrations",
+     "definition": "Peñafrancia and other festivals, city celebrations, civic events."
+    },
+    {
+     "id": "tourism-culture.heritage-arts",
+     "label": "Heritage, culture and the arts",
+     "definition": "Heritage sites, museums, history, arts and culture programs."
+    }
+   ]
+  },
+  {
+   "id": "livelihood-jobs",
+   "label": "Jobs, livelihood and business",
+   "definition": "Work and enterprise: employment services, livelihood programs, cooperatives, small business support, public markets, investment promotion and trade.",
+   "aliases": {
+    "en": [
+     "jobs",
+     "employment",
+     "livelihood",
+     "business",
+     "enterprise",
+     "cooperatives",
+     "market",
+     "investment"
+    ],
+    "fil": [
+     "trabaho",
+     "hanapbuhay",
+     "kabuhayan",
+     "negosyo",
+     "palengke"
+    ],
+    "bcl": [
+     "trabaho",
+     "pangabuhayan",
+     "negosyo",
+     "tindahan"
+    ]
+   },
+   "maps": {
+    "functionalGroup": "Economic Services",
+    "cofog": "04",
+    "finishLine": "fl-1"
+   },
+   "subs": [
+    {
+     "id": "livelihood-jobs.employment",
+     "label": "Employment",
+     "definition": "Job placement, job fairs, public employment service, wage support, skills training for work."
+    },
+    {
+     "id": "livelihood-jobs.livelihood",
+     "label": "Livelihood and small business",
+     "definition": "Livelihood projects, cooperatives, MSME support, consumer protection."
+    },
+    {
+     "id": "livelihood-jobs.markets",
+     "label": "Public markets",
+     "definition": "Running and improving public markets, market vendors, slaughterhouse operations."
+    },
+    {
+     "id": "livelihood-jobs.investment",
+     "label": "Investment and trade",
+     "definition": "Investment promotion, industry development, trade fairs."
+    }
+   ]
+  },
+  {
+   "id": "sports",
+   "label": "Sports",
+   "definition": "Sports development, tournaments, athletes, sports facilities and physical fitness.",
+   "aliases": {
+    "en": [
+     "sports",
+     "athletes",
+     "athletics"
+    ],
+    "fil": [
+     "palakasan",
+     "isports",
+     "atleta"
+    ],
+    "bcl": [
+     "sports",
+     "atleta"
+    ]
+   },
+   "maps": {
+    "functionalGroup": "Social Services",
+    "cofog": "08",
+    "finishLine": "fl-4"
+   },
+   "subs": [
+    {
+     "id": "sports.sports-events",
+     "label": "Tournaments and events",
+     "definition": "Leagues, tournaments, championships, sports festivals."
+    },
+    {
+     "id": "sports.sports-development",
+     "label": "Athlete and sports development",
+     "definition": "Training of athletes and coaches, grassroots sports programs, sports equipment."
+    }
+   ]
+  },
+  {
+   "id": "governance",
+   "label": "Administration and governance",
+   "definition": "Running the city government itself: the Mayor's and Vice Mayor's offices, the city council, finance, budget, treasury and revenue collection, human resources, records, legal, planning, information technology, and general office support of offices with no service field of their own.",
+   "aliases": {
+    "en": [
+     "governance",
+     "administration",
+     "government operations",
+     "city hall",
+     "finance",
+     "revenue",
+     "taxes",
+     "council"
+    ],
+    "fil": [
+     "pamamahala",
+     "administrasyon",
+     "pamahalaan",
+     "buwis"
+    ],
+    "bcl": [
+     "pamamahala",
+     "administrasyon",
+     "gobyerno",
+     "buhis"
+    ]
+   },
+   "maps": {
+    "functionalGroup": "General Public Services",
+    "cofog": "01",
+    "finishLine": "fl-7"
+   },
+   "subs": [
+    {
+     "id": "governance.administration",
+     "label": "Office administration and support",
+     "definition": "Personnel, supplies, utilities, administrative and human resource services, records, general support."
+    },
+    {
+     "id": "governance.finance-revenue",
+     "label": "Finance, budget and revenue",
+     "definition": "Budgeting, accounting, treasury, revenue collection, assessment, audit, debt service."
+    },
+    {
+     "id": "governance.legislation",
+     "label": "Legislation",
+     "definition": "The city council (Sangguniang Panlungsod), ordinances, legislative support."
+    },
+    {
+     "id": "governance.planning-monitoring",
+     "label": "Planning and monitoring",
+     "definition": "Development planning, zoning, monitoring and evaluation, statistics, CBMS."
+    },
+    {
+     "id": "governance.digital-government",
+     "label": "Digital government",
+     "definition": "Information technology, systems, connectivity, e-governance."
+    },
+    {
+     "id": "governance.public-information",
+     "label": "Public information and participation",
+     "definition": "Information dissemination, public affairs, citizen participation, barangay affairs."
+    }
+   ]
+  },
+  {
+   "id": "youth",
+   "label": "Youth",
+   "definition": "Programs for young people: youth development, Sangguniang Kabataan, youth employment and leadership. A theme across fields: a youth scholarship is also Education.",
+   "aliases": {
+    "en": [
+     "youth",
+     "young people",
+     "teenagers",
+     "sk",
+     "sangguniang kabataan"
+    ],
+    "fil": [
+     "kabataan",
+     "mga kabataan"
+    ],
+    "bcl": [
+     "hoben",
+     "kahobenan",
+     "mga hoben",
+     "kabataan"
+    ]
+   },
+   "maps": {
+    "functionalGroup": "Social Services",
+    "cofog": "10"
+   },
+   "subs": []
+  },
+  {
+   "id": "children",
+   "label": "Children",
+   "definition": "Programs for children: child protection, children's rights, early childhood care. A theme across fields.",
+   "aliases": {
+    "en": [
+     "children",
+     "kids",
+     "child",
+     "day care"
+    ],
+    "fil": [
+     "mga bata",
+     "bata"
+    ],
+    "bcl": [
+     "aki",
+     "mga aki",
+     "kaakian"
+    ]
+   },
+   "maps": {
+    "functionalGroup": "Social Services",
+    "cofog": "10"
+   },
+   "subs": []
+  },
+  {
+   "id": "senior-citizens",
+   "label": "Senior citizens",
+   "definition": "Programs for older people: social pensions, senior citizens' affairs, elderly care. A theme across fields.",
+   "aliases": {
+    "en": [
+     "senior citizens",
+     "seniors",
+     "elderly",
+     "older people"
+    ],
+    "fil": [
+     "matatanda",
+     "nakatatanda",
+     "senior"
+    ],
+    "bcl": [
+     "gurang",
+     "mga gurang",
+     "senior"
+    ]
+   },
+   "maps": {
+    "functionalGroup": "Social Services",
+    "cofog": "10"
+   },
+   "subs": []
+  },
+  {
+   "id": "women-gender",
+   "label": "Women and gender",
+   "definition": "Gender and development (GAD), women's welfare and LGBTQIA+ programs. A theme across fields.",
+   "aliases": {
+    "en": [
+     "women",
+     "gender",
+     "gad",
+     "gender and development",
+     "lgbt"
+    ],
+    "fil": [
+     "kababaihan",
+     "babae",
+     "kasarian"
+    ],
+    "bcl": [
+     "kababayihan",
+     "babayi",
+     "kasarian"
+    ]
+   },
+   "maps": {
+    "functionalGroup": "Social Services",
+    "cofog": "10"
+   },
+   "subs": []
+  },
+  {
+   "id": "pwd",
+   "label": "Persons with disability",
+   "definition": "Programs for persons with disability: assistive devices, accessibility, PWD affairs. A theme across fields.",
+   "aliases": {
+    "en": [
+     "pwd",
+     "persons with disability",
+     "disability",
+     "disabled"
+    ],
+    "fil": [
+     "may kapansanan",
+     "pwd"
+    ],
+    "bcl": [
+     "may kapansanan",
+     "pwd"
+    ]
+   },
+   "maps": {
+    "functionalGroup": "Social Services",
+    "cofog": "10"
+   },
+   "subs": []
+  }
+ ]
+}

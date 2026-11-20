@@ -1,0 +1,3 @@
+pnpm audit
+pnpm --filter api test
+pnpm --filter client test

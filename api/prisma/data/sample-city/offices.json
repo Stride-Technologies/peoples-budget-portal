@@ -1,0 +1,190 @@
+[
+  {
+    "code": "01",
+    "acronym": "CMO",
+    "name": "Office of the City Mayor",
+    "officeType": "MANDATORY",
+    "cluster": "Governance",
+    "papSector": "1000",
+    "form7Column": "GENERAL_PUBLIC"
+  },
+  {
+    "code": "02",
+    "acronym": "OCVM",
+    "name": "Office of the City Vice Mayor",
+    "officeType": "MANDATORY",
+    "cluster": "Governance",
+    "papSector": "1000"
+  },
+  {
+    "code": "03",
+    "acronym": "SPO",
+    "name": "Office of the Sangguniang Panlungsod Members",
+    "officeType": "MANDATORY",
+    "cluster": "Governance",
+    "papSector": "1000",
+    "form7Column": "GENERAL_PUBLIC"
+  },
+  {
+    "code": "04",
+    "acronym": "OSSP",
+    "name": "Office of the Secretary to the Sangguniang Panlungsod",
+    "officeType": "MANDATORY",
+    "cluster": "Governance",
+    "papSector": "1000"
+  },
+  {
+    "code": "05",
+    "acronym": "CTO",
+    "name": "Office of the City Treasurer",
+    "officeType": "MANDATORY",
+    "cluster": "Governance",
+    "papSector": "1000",
+    "form7Column": "GENERAL_PUBLIC"
+  },
+  {
+    "code": "06",
+    "acronym": "CAssO",
+    "name": "Office of the City Assessor",
+    "officeType": "MANDATORY",
+    "cluster": "Governance",
+    "papSector": "1000",
+    "form7Column": "GENERAL_PUBLIC"
+  },
+  {
+    "code": "07",
+    "acronym": "CAccO",
+    "name": "Office of the City Accountant",
+    "officeType": "MANDATORY",
+    "cluster": "Governance",
+    "papSector": "1000",
+    "form7Column": "GENERAL_PUBLIC"
+  },
+  {
+    "code": "08",
+    "acronym": "CBO",
+    "name": "Office of the City Budget Officer",
+    "officeType": "MANDATORY",
+    "cluster": "Governance",
+    "papSector": "1000",
+    "form7Column": "GENERAL_PUBLIC"
+  },
+  {
+    "code": "09",
+    "acronym": "CPDO",
+    "name": "Office of the City Planning and Development Coordinator",
+    "officeType": "MANDATORY",
+    "cluster": "Governance",
+    "papSector": "1000",
+    "form7Column": "GENERAL_PUBLIC"
+  },
+  {
+    "code": "10",
+    "acronym": "CEO",
+    "name": "Office of the City Engineer",
+    "officeType": "MANDATORY",
+    "cluster": "Environment & Infrastructure",
+    "papSector": "8000",
+    "aipSectorGroup": "ENVI_INFRA",
+    "form7Column": "ECONOMIC"
+  },
+  {
+    "code": "11",
+    "acronym": "CHO",
+    "name": "Office of the City Health Officer",
+    "officeType": "MANDATORY",
+    "cluster": "Health",
+    "papSector": "3000",
+    "form7Column": "SOCIAL"
+  },
+  {
+    "code": "12",
+    "acronym": "CCRO",
+    "name": "Office of the City Civil Registrar",
+    "officeType": "MANDATORY",
+    "cluster": "Arts & Culture",
+    "papSector": "1000",
+    "form7Column": "GENERAL_PUBLIC"
+  },
+  {
+    "code": "13",
+    "acronym": "OCA",
+    "name": "Office of the City Administrator",
+    "officeType": "MANDATORY",
+    "cluster": "Governance",
+    "papSector": "1000",
+    "form7Column": "GENERAL_PUBLIC"
+  },
+  {
+    "code": "14",
+    "acronym": "CLO",
+    "name": "Office of the City Legal Officer",
+    "officeType": "MANDATORY",
+    "cluster": "Governance",
+    "papSector": "1000",
+    "form7Column": "GENERAL_PUBLIC"
+  },
+  {
+    "code": "15",
+    "acronym": "CVO",
+    "name": "Office of the City Veterinarian",
+    "officeType": "MANDATORY",
+    "cluster": "Health",
+    "papSector": "8000",
+    "form7Column": "ECONOMIC"
+  },
+  {
+    "code": "16",
+    "acronym": "CSWDO",
+    "name": "Office of the City Social Welfare and Development Officer",
+    "officeType": "MANDATORY",
+    "cluster": "Social",
+    "papSector": "3000",
+    "form7Column": "SOCIAL"
+  },
+  {
+    "code": "17",
+    "acronym": "GSO",
+    "name": "Office of the City General Services Officer",
+    "officeType": "MANDATORY",
+    "cluster": "Safety & Security",
+    "papSector": "1000",
+    "form7Column": "GENERAL_PUBLIC"
+  },
+  {
+    "code": "19",
+    "acronym": "CAgO",
+    "name": "Office of the City Agriculturist",
+    "officeType": "OPTIONAL",
+    "cluster": "Economy",
+    "papSector": "8000",
+    "form7Column": "ECONOMIC"
+  },
+  {
+    "code": "21",
+    "acronym": "CENRO",
+    "name": "Office of the City Environment and Natural Resources Officer",
+    "officeType": "OPTIONAL",
+    "cluster": "Environment & Infrastructure",
+    "papSector": "8000",
+    "aipSectorGroup": "ENVI_INFRA",
+    "form7Column": "ECONOMIC"
+  },
+  {
+    "code": "30",
+    "acronym": "CHRMO",
+    "name": "City Human Resource Management Office",
+    "officeType": "OTHERS",
+    "cluster": "Governance",
+    "papSector": "1000",
+    "form7Column": "GENERAL_PUBLIC"
+  },
+  {
+    "code": "33",
+    "acronym": "CDRRMO",
+    "name": "City Disaster Risk Reduction Management Office",
+    "officeType": "OTHERS",
+    "cluster": "Safety & Security",
+    "papSector": "1000"
+  }
+]

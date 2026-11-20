@@ -1,0 +1,60 @@
+[
+  {
+    "name": "Governance",
+    "fullName": "Transparent, Accountable & Digital Governance",
+    "visions": [
+      6,
+      7,
+      8
+    ]
+  },
+  {
+    "name": "Economy",
+    "fullName": "Thriving Economy",
+    "visions": [
+      1
+    ]
+  },
+  {
+    "name": "Safety & Security",
+    "fullName": "Safe, Secure, & Humane Communities",
+    "visions": [
+      3
+    ]
+  },
+  {
+    "name": "Environment & Infrastructure",
+    "fullName": "Environment, Infrastructure & Housing",
+    "visions": [
+      2
+    ]
+  },
+  {
+    "name": "Education",
+    "fullName": "Educated & Empowered Citizens",
+    "visions": [
+      4
+    ]
+  },
+  {
+    "name": "Health",
+    "fullName": "Healthy Residents",
+    "visions": [
+      4
+    ]
+  },
+  {
+    "name": "Social",
+    "fullName": "Social Protection & Inclusion",
+    "visions": [
+      4
+    ]
+  },
+  {
+    "name": "Arts & Culture",
+    "fullName": "Culture, Arts & Heritage",
+    "visions": [
+      5
+    ]
+  }
+]

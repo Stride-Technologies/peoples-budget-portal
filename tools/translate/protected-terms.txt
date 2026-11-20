@@ -1,0 +1,38 @@
+# Budget terms never translated (specs/014 FR-003). One per line, matched
+# case-sensitively. Longer phrases first, so a phrase is masked before a word
+# inside it. Program, project, activity and office names are data and never
+# pass through translation at all. Add a term here, not in the prompt.
+Annual Investment Program
+Annual Budget
+Appropriation Ordinance
+Local Expenditure Program
+Sangguniang Panlungsod
+People’s Budget Portal
+Local Finance Committee
+Finish Lines
+Finish Line
+Ordinance
+AIP
+LEP
+PPMP
+PPAs
+PPA
+MOOE
+LDRRMF
+LDF
+SPAF
+SPA
+SEF
+CSOs
+CSO
+LFC
+LBP
+DBM
+CCET
+UACS
+GAS
+STO
+MFO
+PS
+CO
+FE

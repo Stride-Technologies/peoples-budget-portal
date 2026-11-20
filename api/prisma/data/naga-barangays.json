@@ -1,0 +1,208 @@
+{
+  "about": "Naga City's 27 barangays (specs/020 A3.1): what barangayOf() matches in row names, and the population per-capita figures divide by. Read at query time; never stored on a row.",
+  "sources": {
+    "psgc": "PSGC codes: OCHA/HDX COD-AB Philippines (phl_admin4, adm4_pcode without the 'PH' prefix), version v03, valid on 2025-02-13, from NAMRIA and PSA; CC BY-IGO. https://data.humdata.org/dataset/cod-ab-phl",
+    "population": "PSA 2020 Census of Population and Housing (POPCEN 2020), barangay counts as tabulated by PhilAtlas, https://www.philatlas.com/luzon/r05/camarines-sur/naga.html, read 2026-11-13. The 27 figures sum to the city's 209,170.",
+    "aliases": "Spellings seen in the FY2027 AIP's program and activity names, plus common abbreviations (Brgy., Bgy., Sta.)."
+  },
+  "city": {
+    "name": "Naga City",
+    "psgc": "0501724000",
+    "population2020": 209170
+  },
+  "barangays": [
+    {
+      "psgc": "0501724001",
+      "name": "Abella",
+      "aliases": [],
+      "population2020": 5757
+    },
+    {
+      "psgc": "0501724002",
+      "name": "Bagumbayan Norte",
+      "aliases": [
+        "Bagumbayan North",
+        "Bag. Norte"
+      ],
+      "population2020": 2203
+    },
+    {
+      "psgc": "0501724003",
+      "name": "Bagumbayan Sur",
+      "aliases": [
+        "Bagumbayan South",
+        "Bag. Sur"
+      ],
+      "population2020": 7867
+    },
+    {
+      "psgc": "0501724004",
+      "name": "Balatas",
+      "aliases": [],
+      "population2020": 11112
+    },
+    {
+      "psgc": "0501724006",
+      "name": "Calauag",
+      "aliases": [],
+      "population2020": 11295
+    },
+    {
+      "psgc": "0501724007",
+      "name": "Cararayan",
+      "aliases": [],
+      "population2020": 19692
+    },
+    {
+      "psgc": "0501724008",
+      "name": "Carolina",
+      "aliases": [],
+      "population2020": 6870
+    },
+    {
+      "psgc": "0501724009",
+      "name": "Concepcion Grande",
+      "aliases": [
+        "Conce Grande",
+        "Concepcion Gde",
+        "Concepcion Gde."
+      ],
+      "population2020": 11125
+    },
+    {
+      "psgc": "0501724010",
+      "name": "Concepcion Pequeña",
+      "aliases": [
+        "Concepcion Pequena",
+        "Concepcion Peq",
+        "Concepcion Peq.",
+        "Conce Pequeña",
+        "Conce Pequena"
+      ],
+      "population2020": 25139
+    },
+    {
+      "psgc": "0501724011",
+      "name": "Dayangdang",
+      "aliases": [],
+      "population2020": 4130
+    },
+    {
+      "psgc": "0501724012",
+      "name": "Del Rosario",
+      "aliases": [
+        "Delsorario"
+      ],
+      "population2020": 10337
+    },
+    {
+      "psgc": "0501724013",
+      "name": "Dinaga",
+      "aliases": [],
+      "population2020": 344
+    },
+    {
+      "psgc": "0501724014",
+      "name": "Igualdad Interior",
+      "aliases": [
+        "Igualdad"
+      ],
+      "population2020": 3008
+    },
+    {
+      "psgc": "0501724017",
+      "name": "Lerma",
+      "aliases": [],
+      "population2020": 1640
+    },
+    {
+      "psgc": "0501724018",
+      "name": "Liboton",
+      "aliases": [],
+      "population2020": 3105
+    },
+    {
+      "psgc": "0501724019",
+      "name": "Mabolo",
+      "aliases": [],
+      "population2020": 8125
+    },
+    {
+      "psgc": "0501724020",
+      "name": "Pacol",
+      "aliases": [],
+      "population2020": 14747
+    },
+    {
+      "psgc": "0501724023",
+      "name": "Panicuason",
+      "aliases": [],
+      "population2020": 3100
+    },
+    {
+      "psgc": "0501724024",
+      "name": "Peñafrancia",
+      "aliases": [
+        "Penafrancia"
+      ],
+      "population2020": 4503,
+      "prefixOnly": true
+    },
+    {
+      "psgc": "0501724025",
+      "name": "Sabang",
+      "aliases": [],
+      "population2020": 6838
+    },
+    {
+      "psgc": "0501724026",
+      "name": "San Felipe",
+      "aliases": [],
+      "population2020": 21098
+    },
+    {
+      "psgc": "0501724027",
+      "name": "San Francisco",
+      "aliases": [
+        "San Francisco (Pob.)",
+        "San Francisco (Poblacion)",
+        "Poblacion"
+      ],
+      "population2020": 722,
+      "prefixOnly": true
+    },
+    {
+      "psgc": "0501724028",
+      "name": "San Isidro",
+      "aliases": [],
+      "population2020": 3432
+    },
+    {
+      "psgc": "0501724029",
+      "name": "Santa Cruz",
+      "aliases": [
+        "Sta. Cruz",
+        "Sta Cruz"
+      ],
+      "population2020": 7135
+    },
+    {
+      "psgc": "0501724030",
+      "name": "Tabuco",
+      "aliases": [],
+      "population2020": 4240
+    },
+    {
+      "psgc": "0501724031",
+      "name": "Tinago",
+      "aliases": [],
+      "population2020": 2904
+    },
+    {
+      "psgc": "0501724032",
+      "name": "Triangulo",
+      "aliases": [],
+      "population2020": 8702
+    }
+  ]
+}

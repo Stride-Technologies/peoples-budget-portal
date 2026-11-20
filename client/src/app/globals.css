@@ -1,0 +1,352 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-sans);
+  --font-mono: var(--font-geist-mono);
+  --font-heading: var(--font-heading);
+  /* The display face is Figtree, same as headings and body. The 47 uses of
+     `font-display` on the public pages stay as they are — they are the seam
+     where a display face plugs in, so restoring Newsreader means uncommenting
+     its declaration in layout.tsx and pointing this back at
+     `var(--font-display)`. */
+  --font-display: var(--font-heading);
+  /* Editorial surface, used only by the public pages via bg-paper/text-ink and
+     friends. Opt-in utilities rather than a cascade override, so the
+     authenticated app cannot inherit them by accident. */
+  --color-paper: var(--paper);
+  --color-paper-raised: var(--paper-raised);
+  --color-paper-tint: var(--paper-tint);
+  --color-paper-deep: var(--paper-deep);
+  --color-ink: var(--ink);
+  --color-ink-muted: var(--ink-muted);
+  --color-ink-faint: var(--ink-faint);
+  --color-rule: var(--rule);
+  --color-sidebar-ring: var(--sidebar-ring);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar: var(--sidebar);
+  --color-chart-5: var(--chart-5);
+  --color-chart-4: var(--chart-4);
+  --color-chart-3: var(--chart-3);
+  --color-chart-2: var(--chart-2);
+  --color-chart-1: var(--chart-1);
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent: var(--accent);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+  --radius-sm: calc(var(--radius) * 0.6);
+  --radius-md: calc(var(--radius) * 0.8);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) * 1.4);
+  --radius-2xl: calc(var(--radius) * 1.8);
+  --radius-3xl: calc(var(--radius) * 2.2);
+  --radius-4xl: calc(var(--radius) * 2.6);
+}
+
+/* ── Table surface tokens ───────────────────────────────────────────────────
+   The colours of the shared registry tables (AIPMasterList, SimpleSelect, the
+   finish-line chips, the public browse and PPMP lists): `bg-tbl-fill`,
+   `text-tbl-muted`, `border-tbl-rule` and friends. The values here are the
+   staff app's — each is the exact Tailwind slate/blue shade the components
+   used before they had tokens, so the staff registry looks identical.
+   `[data-editorial-table]` (further down) redefines them for the public pages.
+
+   Not `inline`: the utilities read `var(--color-tbl-…)` at the element, which
+   is what lets a wrapper redefine them. Ramps run strongest first (`ink`,
+   `ink-2`, `ink-3`); the editorial surface collapses some steps together. */
+@theme {
+  --color-tbl-surface: var(--color-white);
+  --color-tbl-fill: var(--color-slate-50);
+  --color-tbl-fill-strong: var(--color-slate-100);
+  --color-tbl-fill-deep: var(--color-slate-200);
+  --color-tbl-rule-soft: var(--color-slate-100);
+  --color-tbl-rule: var(--color-slate-200);
+  --color-tbl-rule-strong: var(--color-slate-300);
+  --color-tbl-rule-hover: var(--color-slate-400);
+  --color-tbl-ink: var(--color-slate-900);
+  --color-tbl-ink-2: var(--color-slate-800);
+  --color-tbl-ink-3: var(--color-slate-700);
+  --color-tbl-muted: var(--color-slate-600);
+  --color-tbl-muted-2: var(--color-slate-500);
+  --color-tbl-faint: var(--color-slate-400);
+  --color-tbl-accent: var(--color-blue-600);
+  --color-tbl-accent-ink: var(--color-blue-700);
+  --color-tbl-accent-ink-2: var(--color-blue-800);
+  --color-tbl-accent-fill: var(--color-blue-50);
+  --color-tbl-accent-fill-strong: var(--color-blue-100);
+  --color-tbl-accent-rule-soft: var(--color-blue-100);
+  --color-tbl-accent-rule: var(--color-blue-200);
+  --color-tbl-accent-rule-strong: var(--color-blue-300);
+  /* Row grounds by level: office band, section band, then program → project →
+     activity. The staff app tints programs only. */
+  --color-tbl-band-office: var(--color-slate-100);
+  --color-tbl-band-office-hover: color-mix(in oklab, var(--color-slate-200) 70%, transparent);
+  --color-tbl-band-section: var(--color-slate-50);
+  --color-tbl-row-program: color-mix(in oklab, var(--color-blue-50) 45%, transparent);
+  --color-tbl-row-program-hover: color-mix(in oklab, var(--color-blue-50) 80%, transparent);
+  --color-tbl-row-project: var(--color-white);
+  --color-tbl-row-project-hover: color-mix(in oklab, var(--color-slate-50) 80%, transparent);
+  --color-tbl-row-activity: var(--color-white);
+  --color-tbl-row-activity-hover: color-mix(in oklab, var(--color-slate-50) 80%, transparent);
+}
+
+:root {
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.145 0 0);
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.145 0 0);
+  --primary: oklch(0.488 0.243 264.376);
+  --primary-foreground: oklch(0.97 0.014 254.604);
+  --secondary: oklch(0.967 0.001 286.375);
+  --secondary-foreground: oklch(0.21 0.006 285.885);
+  --muted: oklch(0.97 0 0);
+  --muted-foreground: oklch(0.556 0 0);
+  --accent: oklch(0.97 0 0);
+  --accent-foreground: oklch(0.205 0 0);
+  --destructive: oklch(0.577 0.245 27.325);
+  --border: oklch(0.922 0 0);
+  --input: oklch(0.922 0 0);
+  --ring: oklch(0.708 0 0);
+  --chart-1: oklch(0.809 0.105 251.813);
+  --chart-2: oklch(0.623 0.214 259.815);
+  --chart-3: oklch(0.546 0.245 262.881);
+  --chart-4: oklch(0.488 0.243 264.376);
+  --chart-5: oklch(0.424 0.199 265.638);
+  --radius: 0.625rem;
+  --sidebar: oklch(0.985 0 0);
+  --sidebar-foreground: oklch(0.145 0 0);
+  --sidebar-primary: oklch(0.546 0.245 262.881);
+  --sidebar-primary-foreground: oklch(0.97 0.014 254.604);
+  --sidebar-accent: oklch(0.97 0 0);
+  --sidebar-accent-foreground: oklch(0.205 0 0);
+  --sidebar-border: oklch(0.922 0 0);
+  --sidebar-ring: oklch(0.708 0 0);
+  --background: oklch(1 0 0);
+  --foreground: oklch(0.145 0 0);
+
+  /* ── Editorial palette (public pages) ────────────────────────────────────
+     Written as hex rather than oklch like the rest of this file, because these
+     are contrast-verified values and the hex is what was measured. Ratios
+     against --paper: ink 18.0:1, ink-muted 7.0:1, ink-faint 5.4:1 — so every
+     text tone clears WCAG AA, and the two darker ones clear AAA.
+
+     --rule is a decorative hairline only. It is not a control border and must
+     not be used as one; it does not meet 3:1. */
+  --paper: #FDFDF8;
+  --paper-raised: #FFFFFF;
+  /* Alternating band so a long editorial scroll has rhythm instead of one flat
+     field. Both stay light enough that ink keeps its 18:1 and the finish-line
+     hexes keep their punch. */
+  --paper-tint: #F7F6EE;
+  --paper-deep: #EFEDE1;
+  --ink: #151414;
+  --ink-muted: #5A5754;
+  --ink-faint: #6B6862;
+  --rule: #E5E3DC;
+}
+
+.dark {
+  --background: oklch(0.145 0 0);
+  --foreground: oklch(0.985 0 0);
+  --card: oklch(0.205 0 0);
+  --card-foreground: oklch(0.985 0 0);
+  --popover: oklch(0.205 0 0);
+  --popover-foreground: oklch(0.985 0 0);
+  --primary: oklch(0.424 0.199 265.638);
+  --primary-foreground: oklch(0.97 0.014 254.604);
+  --secondary: oklch(0.274 0.006 286.033);
+  --secondary-foreground: oklch(0.985 0 0);
+  --muted: oklch(0.269 0 0);
+  --muted-foreground: oklch(0.708 0 0);
+  --accent: oklch(0.269 0 0);
+  --accent-foreground: oklch(0.985 0 0);
+  --destructive: oklch(0.704 0.191 22.216);
+  --border: oklch(1 0 0 / 10%);
+  --input: oklch(1 0 0 / 15%);
+  --ring: oklch(0.556 0 0);
+  --chart-1: oklch(0.809 0.105 251.813);
+  --chart-2: oklch(0.623 0.214 259.815);
+  --chart-3: oklch(0.546 0.245 262.881);
+  --chart-4: oklch(0.488 0.243 264.376);
+  --chart-5: oklch(0.424 0.199 265.638);
+  --sidebar: oklch(0.205 0 0);
+  --sidebar-foreground: oklch(0.985 0 0);
+  --sidebar-primary: oklch(0.623 0.214 259.815);
+  --sidebar-primary-foreground: oklch(0.97 0.014 254.604);
+  --sidebar-accent: oklch(0.269 0 0);
+  --sidebar-accent-foreground: oklch(0.985 0 0);
+  --sidebar-border: oklch(1 0 0 / 10%);
+  --sidebar-ring: oklch(0.556 0 0);
+}
+
+/* ── Editorial motion ───────────────────────────────────────────────────────
+   Sections rise as they enter the viewport and bars grow from their baseline.
+
+   **These are the only animation on these elements.** `animation-timeline: view()`
+   ties each one to its own progress through the viewport, so a bar that is already
+   on screen is already drawn — at first paint, with no JavaScript and no waiting
+   for hydration.
+
+   `editorial-motion.tsx` deliberately does **not** touch them. It used to, and the
+   cost was severe: it waited ~530ms for hydration, disabled this CSS, reset every
+   bar to zero and redrew them over up to 1.3s, so a page appeared to spend nearly
+   two seconds loading charts that were already visible. Anything animated twice
+   ends up wherever the loser left it. */
+
+@keyframes editorial-rise {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes editorial-grow {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: none;
+  }
+}
+
+[data-reveal] {
+  animation: editorial-rise 500ms ease-out both;
+}
+
+[data-grow] {
+  transform-origin: left center;
+  animation: editorial-grow 700ms cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+@supports (animation-timeline: view()) {
+  [data-reveal] {
+    animation-timeline: view();
+    animation-range: entry 0% entry 55%;
+  }
+
+  [data-grow] {
+    animation-timeline: view();
+    animation-range: entry 0% entry 70%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  /* Not "faster" — none, with the end state rendered outright. */
+  [data-reveal],
+  [data-grow] {
+    animation: none;
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* ── Editorial table surface ────────────────────────────────────────────────
+   The public pages' values for the table surface tokens (see "Table surface
+   tokens" at the top). Only custom properties are set here, so the wrapper
+   restyles whatever uses the tokens and nothing that does not — no component's
+   class names are matched. */
+
+[data-editorial-table] {
+  /* Grounds: neutral greys, ink mixed into white, not the paper creams. Cream
+     on every band and programme row read as yellow at table scale (user, Oct
+     2026). One scale, darkest at the top of the hierarchy:
+
+       office band 8% · section band 6% · programme 2% · project 1% · activity 0
+
+     and each row steps about 3% darker on hover, so the row under the pointer is
+     always findable without a stripe or a border. The PPMP list uses the same
+     row tokens: a plan shades like a programme, its line items like activities. */
+  --tbl-tint: color-mix(in oklab, var(--ink) 3.5%, var(--paper-raised));
+
+  --color-tbl-surface: var(--paper-raised);
+  --color-tbl-fill: var(--tbl-tint);
+  --color-tbl-fill-strong: var(--tbl-tint);
+  --color-tbl-fill-deep: var(--rule);
+  --color-tbl-rule-soft: color-mix(in oklab, var(--rule) 55%, transparent);
+  --color-tbl-rule: var(--rule);
+  --color-tbl-rule-strong: var(--rule);
+  --color-tbl-rule-hover: var(--rule);
+  --color-tbl-ink: var(--ink);
+  --color-tbl-ink-2: var(--ink);
+  --color-tbl-ink-3: var(--ink);
+  --color-tbl-muted: var(--ink-muted);
+  --color-tbl-muted-2: var(--ink-muted);
+  --color-tbl-faint: var(--ink-faint);
+  /* The cool blue accents — a filter pill, a feedback link, selected chips —
+     read as a second brand beside the finish-line palette, so they go to ink. */
+  --color-tbl-accent: var(--ink);
+  --color-tbl-accent-ink: var(--ink);
+  --color-tbl-accent-ink-2: var(--ink);
+  --color-tbl-accent-fill: var(--tbl-tint);
+  --color-tbl-accent-fill-strong: var(--tbl-tint);
+  --color-tbl-accent-rule-soft: var(--rule);
+  --color-tbl-accent-rule: var(--rule);
+  --color-tbl-accent-rule-strong: var(--rule);
+
+  --color-tbl-band-office: color-mix(in oklab, var(--ink) 8%, var(--paper-raised));
+  --color-tbl-band-office-hover: color-mix(in oklab, var(--ink) 11%, var(--paper-raised));
+  --color-tbl-band-section: color-mix(in oklab, var(--ink) 6%, var(--paper-raised));
+  --color-tbl-row-program: color-mix(in oklab, var(--ink) 2%, var(--paper-raised));
+  --color-tbl-row-program-hover: color-mix(in oklab, var(--ink) 5%, var(--paper-raised));
+  --color-tbl-row-project: color-mix(in oklab, var(--ink) 1%, var(--paper-raised));
+  --color-tbl-row-project-hover: color-mix(in oklab, var(--ink) 4%, var(--paper-raised));
+  --color-tbl-row-activity: var(--paper-raised);
+  --color-tbl-row-activity-hover: color-mix(in oklab, var(--ink) 3.5%, var(--paper-raised));
+
+  /* The accent: finish line 8's blue (#00689D, lib/finish-lines.ts), not the
+     staff app's indigo, so the one coloured control on the page — the selected
+     filter, the grand total, the feedback button — reads as part of the
+     finish-line palette. `@theme inline` makes `bg-primary` and friends read
+     `var(--primary)` at the element, so overriding it here is enough. */
+  --primary: #00689D;
+  --ring: #00689D;
+}
+
+
+@keyframes marquee-left {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+
+@keyframes marquee-right {
+  from { transform: translateX(-50%); }
+  to   { transform: translateX(0); }
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+  html {
+    @apply font-sans;
+  }
+}

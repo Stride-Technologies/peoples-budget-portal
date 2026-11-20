@@ -1,0 +1,10 @@
+node_modules
+# Keep environment variables out of version control
+# Glob, not exact match — see the root .gitignore.
+.env*
+!.env*.example
+
+/generated/prisma
+dist
+# 2027 AIP import scratch (xlsx/PDF flat rows for the diff)
+.import/

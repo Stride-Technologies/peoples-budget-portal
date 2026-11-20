@@ -1,0 +1,133 @@
+# compiled output
+/dist
+/node_modules
+/build
+
+# Logs
+logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# OS
+.DS_Store
+
+# Tests
+/coverage
+/.nyc_output
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# dotenv environment variable files
+# Glob, not exact match: `.env copy`, `.env.bak`, `.env copy.zip` are all secrets too.
+.env*
+!.env*.example
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+
+# RSA key files
+*.pem
+jwt_private_key.txt
+jwt_public_key.txt
+
+# Real secret values for load-secrets.sh — never committed
+scripts/secrets/*.env
+
+# One-off script output that carries real account data (copy-accounts-to-prod.ts)
+api/prisma/out/
+
+# temp directory
+.temp
+.tmp
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Diagnostic reports (https://nodejs.org/api/report.html)
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+.agents/skills/grill-me/SKILL.md
+.github/copilot-instructions.md
+skills-lock.json
+
+dist/
+api/dist/
+docs/dist/
+api/src/generated/prisma
+.playwright-mcp/
+.playwright-screenshots/
+client/playwright-report/
+client/test-results/
+
+# Terraform — never commit state, local provider cache, or real var/backend files
+# .terraform.lock.hcl IS committed (multi-platform provider hashes) so the
+# infra pipeline's `terraform init` is reproducible — see docs/deployment.md §7.
+**/.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+*.tfplan
+**/tfplan
+**/terraform.tfvars
+**/*.auto.tfvars
+**/backend.hcl
+# (the committed *.example templates are not matched by the patterns above)
+
+# graphify — generated knowledge graph, rebuild locally (graphify update .); never commit
+graphify-out/
+
+.claude/skills/impeccable
+.github/skills/impeccable
+
+video/
+# Local capture scratch (screen recordings, screenshots) — never part of a commit
+*.mov
+/after-save.png
+
+# Source workbooks and documents the city sends us. Deliberately not committed:
+# they are large binaries that arrive revised, and what we actually depend on is
+# the reviewed output of prisma/import-aip-2027-xlsx.ts, which IS committed
+# (api/prisma/data/aip-2027-workbook.json + docs/design/aip-2027-import-report.md).
+# Ask the budget office for the current file to re-run an import.
+/*.xlsx
+/*.doc
+/*.docx
+# Reference manuals we read but never ship — e.g. the DBM Budget Operations
+# Manual for LGUs, which grounds the /learn glossary.
+/*.pdf
+/docs/budget-portal-manual.zip
+
+# Local-dev-only storage adapter output (never used in staging/production —
+# see api/src/storage/adapters/local-file-storage.adapter.ts)
+/api/uploads/
+
+# City portal budget PDFs fetched by fetch-portal-budget.ts (specs/012 P7): public
+# record, but large and re-fetchable from the manifest; not committed.
+api/prisma/data/source/
+
+# Python bytecode (tools/translate)
+__pycache__/
+
+# Reviewer sheets exported by tools/translate/review_sheet.py
+/review/

@@ -1,0 +1,47 @@
+# Docker build context is the repo root. Keep it lean: ship only source +
+# manifests, never installed deps or build outputs (those are produced inside
+# the image so the build is reproducible).
+
+# Dependencies & build outputs
+**/node_modules
+**/dist
+**/.next
+**/coverage
+**/*.tsbuildinfo
+
+# VCS & tooling
+.git
+.gitignore
+.github
+.husky
+.vscode
+.idea
+.claude
+
+# Local test/screenshot artifacts
+.playwright-mcp
+.playwright-screenshots
+.playwright-report
+
+# Docs & non-build top-level dirs
+**/*.md
+# …except the explorer's model prompts, read at runtime (specs/018). Without
+# this every Ask that missed a card answered 500 "Prompt ask.v1.md not found".
+!api/src/explorer/prompts/*.md
+docs
+terraform
+pipelines
+scripts
+
+# Secrets — never copy real env files into an image
+**/.env
+**/.env.*
+
+# Stray nested pnpm files: the root lockfile/workspace is authoritative.
+# These would make pnpm treat client/ as its own workspace root.
+client/pnpm-lock.yaml
+client/pnpm-workspace.yaml
+
+# Docker files themselves
+**/Dockerfile
+.dockerignore

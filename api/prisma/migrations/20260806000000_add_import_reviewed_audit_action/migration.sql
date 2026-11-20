@@ -1,0 +1,15 @@
+-- Records that a human confirmed the decisions the 2027 workbook import made on
+-- a program's behalf (an inferred finish line, a duplicate merge, a synthesised
+-- heading), clearing `programs.import_warnings`.
+--
+-- Written by `ProgramPublishService.acknowledgeImport`. The audit row carries
+-- the cleared sentences in its `changes` payload, which is what makes the clear
+-- recoverable — nothing else records them once the array is empty.
+--
+-- Appended rather than inserted before 'EXPORTED' so the physical enum order
+-- matches the schema declaration order and `migrate diff` stays quiet.
+--
+-- `ALTER TYPE ... ADD VALUE` runs inside this migration's transaction, which is
+-- allowed on PG 12+ as long as the new value is not *used* in the same
+-- transaction. It is not: the first use is at runtime.
+ALTER TYPE "ProgramAuditAction" ADD VALUE 'IMPORT_REVIEWED';

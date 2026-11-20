@@ -1,0 +1,23 @@
+# A local Postgres for development and for trying the portal: `docker compose -f docker-compose.dev.yml up -d`.
+# Not for production (docker-compose.yml is the production stack). Data lives in the `pgdata-dev` volume;
+# `docker compose -f docker-compose.dev.yml down -v` throws it away.
+services:
+  postgres:
+    image: postgres:17-alpine
+    environment:
+      POSTGRES_USER: portal
+      POSTGRES_PASSWORD: portal
+      POSTGRES_DB: budget_portal
+    ports:
+      # Bound to this machine only. PGPORT picks another port when 5432 is taken.
+      - "127.0.0.1:${PGPORT:-5432}:5432"
+    volumes:
+      - pgdata-dev:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U portal -d budget_portal"]
+      interval: 2s
+      timeout: 3s
+      retries: 20
+
+volumes:
+  pgdata-dev:

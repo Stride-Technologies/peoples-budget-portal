@@ -1,0 +1,58 @@
+[
+  {
+    "visionNumber": 1,
+    "name": "A Thriving and Inclusive Economy",
+    "fullName": "A Thriving and Inclusive Economy",
+    "shortName": "Thriving Economy",
+    "color": "#E5243B"
+  },
+  {
+    "visionNumber": 2,
+    "name": "A Cleaner, Greener and Flood-Resilient City",
+    "fullName": "A Cleaner, Greener and Flood-Resilient City",
+    "shortName": "Clean, Green & Resilient",
+    "color": "#4C9F38"
+  },
+  {
+    "visionNumber": 3,
+    "name": "Safer Streets and Communities",
+    "fullName": "Safer Streets and Communities",
+    "shortName": "Safe & Secure",
+    "color": "#FFB300"
+  },
+  {
+    "visionNumber": 4,
+    "name": "Healthy and Educated Residents with Decent Homes",
+    "fullName": "Healthy and Educated Residents with Decent Homes",
+    "shortName": "Health, Education & Housing",
+    "color": "#26BDE2"
+  },
+  {
+    "visionNumber": 5,
+    "name": "History, Language and Heritage Preserved",
+    "fullName": "History, Language and Heritage Preserved",
+    "shortName": "Culture & Heritage",
+    "color": "#A21942"
+  },
+  {
+    "visionNumber": 6,
+    "name": "An Open, Digital and Participatory City",
+    "fullName": "An Open, Digital and Participatory City",
+    "shortName": "Open & Digital",
+    "color": "#FD6925"
+  },
+  {
+    "visionNumber": 7,
+    "name": "Good Governance and Innovation",
+    "fullName": "Good Governance and Innovation",
+    "shortName": "Good Governance",
+    "color": "#DD1367"
+  },
+  {
+    "visionNumber": 8,
+    "name": "An Efficient, Citizen-Focused Local Government",
+    "fullName": "An Efficient, Citizen-Focused Local Government",
+    "shortName": "Efficient Government",
+    "color": "#00689D"
+  }
+]

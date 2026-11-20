@@ -1,0 +1,25 @@
+People's Budget Portal
+Copyright (C) 2026 Stride Technologies and contributors
+
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU
+Affero General Public License as published by the Free Software Foundation, version 3.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without
+even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Affero
+General Public License (the LICENSE file) for more details.
+
+Attribution
+
+The portal was first built in partnership with the City Government of Naga and the Naga City
+People's Council, for the Naga City People's Budget Reform Project led by WeSolve Foundation.
+A deployment keeps this credit on its "Source code" and licence pages.
+
+Data and third-party material
+
+- The sample city under api/prisma/data/sample-city is drawn from a city's published Annual
+  Investment Program, with every place name removed. It is sample data, not a real budget.
+- api/prisma/data/naga-barangays.json and client/public/geo/naga-barangays.topo.json are Naga
+  City's barangays, from the Philippine Statistics Authority (2020 census) and HDX COD-AB (CC BY-IGO).
+  They serve the Data Explorer's map until a deployment supplies its own.
+- The climate typology, chart of accounts, PAP sectors, SDG goals, SGLG indicators and UACS objects
+  under api/prisma/data are public reference lists of the Philippine government and the United Nations.

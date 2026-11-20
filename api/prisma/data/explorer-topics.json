@@ -1,0 +1,636 @@
+{
+  "_about": "Draft topics for the Data Explorer (specs/018 redesign W16). Stride's first draft from the office catalogue, clusters, funds, thematic tags and program-name keywords. A row is in a topic when ANY rule matches. Keyword rules are case-insensitive patterns on the row's name. Status stays 'draft' until staff review; Filipino and Bikol aliases are unreviewed drafts. Seed: pnpm --filter api db:seed:topics -- --dry-run",
+  "topics": [
+    {
+      "id": "health",
+      "label": "Health",
+      "description": "Hospitals, health offices, clinics, nutrition and the Special Health Fund.",
+      "aliases": {
+        "en": [
+          "health",
+          "hospital",
+          "medical",
+          "clinic",
+          "medicine",
+          "nutrition"
+        ],
+        "fil": [
+          "kalusugan",
+          "ospital",
+          "gamot",
+          "klinika"
+        ],
+        "bcl": [
+          "salud",
+          "kalusugan",
+          "ospital",
+          "bulong"
+        ]
+      },
+      "rules": [
+        [
+          "cluster",
+          "health"
+        ],
+        [
+          "fund",
+          "SHF"
+        ],
+        [
+          "keyword",
+          "\\b(health|hospital|medical|clinic|nutrition|vaccin|dental|maternal)"
+        ]
+      ]
+    },
+    {
+      "id": "education",
+      "label": "Education",
+      "description": "Schools, scholarships, early childhood care, libraries, the city college and the Special Education Fund.",
+      "aliases": {
+        "en": [
+          "education",
+          "school",
+          "schools",
+          "scholarship",
+          "students",
+          "teachers"
+        ],
+        "fil": [
+          "edukasyon",
+          "paaralan",
+          "eskwelahan",
+          "iskolar",
+          "estudyante",
+          "guro"
+        ],
+        "bcl": [
+          "edukasyon",
+          "eskwelahan",
+          "iskolar",
+          "estudyante",
+          "maestra"
+        ]
+      },
+      "rules": [
+        [
+          "cluster",
+          "education"
+        ],
+        [
+          "fund",
+          "SEF"
+        ],
+        [
+          "keyword",
+          "\\b(school|scholar|education|classroom|teacher|learner|day ?care|library)"
+        ]
+      ]
+    },
+    {
+      "id": "infrastructure",
+      "label": "Infrastructure",
+      "description": "Roads, bridges, drainage, buildings and other public works.",
+      "aliases": {
+        "en": [
+          "infrastructure",
+          "roads",
+          "road",
+          "bridges",
+          "public works",
+          "construction",
+          "drainage"
+        ],
+        "fil": [
+          "imprastraktura",
+          "kalsada",
+          "tulay",
+          "daan",
+          "konstruksyon"
+        ],
+        "bcl": [
+          "imprastraktura",
+          "kalsada",
+          "tulay",
+          "dalan",
+          "konstruksyon"
+        ]
+      },
+      "rules": [
+        [
+          "office",
+          "CEO"
+        ],
+        [
+          "keyword",
+          "\\b(road|bridge|drainage|building|construction|infrastructure|flood control|concreting|pavement|sidewalk|street ?light)"
+        ]
+      ]
+    },
+    {
+      "id": "agriculture",
+      "label": "Agriculture and fisheries",
+      "description": "Farmers, fisherfolk, crops, livestock and the offices that serve them.",
+      "aliases": {
+        "en": [
+          "agriculture",
+          "farmers",
+          "farming",
+          "farm",
+          "fisherfolk",
+          "fishermen",
+          "livestock",
+          "crops"
+        ],
+        "fil": [
+          "agrikultura",
+          "pagsasaka",
+          "magsasaka",
+          "mangingisda",
+          "sakahan",
+          "hayupan"
+        ],
+        "bcl": [
+          "agrikultura",
+          "paraoma",
+          "uma",
+          "parasira",
+          "hayop"
+        ]
+      },
+      "rules": [
+        [
+          "office",
+          "CAgO"
+        ],
+        [
+          "keyword",
+          "\\b(farm|agri|fisher|crop|livestock|irrigation|rice|vegetable|poultry|aquacult)"
+        ]
+      ]
+    },
+    {
+      "id": "youth",
+      "label": "Youth",
+      "description": "Programs for young people: the Youth Development Office, Sangguniang Kabataan and youth-tagged programs.",
+      "aliases": {
+        "en": [
+          "youth",
+          "young people",
+          "teenagers",
+          "sk",
+          "sangguniang kabataan"
+        ],
+        "fil": [
+          "kabataan",
+          "mga kabataan"
+        ],
+        "bcl": [
+          "hoben",
+          "kahobenan",
+          "mga hoben",
+          "kabataan"
+        ]
+      },
+      "rules": [
+        [
+          "theme",
+          "youth"
+        ],
+        [
+          "keyword",
+          "\\b(youth|sangguniang kabataan|kabataan)"
+        ]
+      ]
+    },
+    {
+      "id": "children",
+      "label": "Children",
+      "description": "Children's affairs, child protection and early childhood care.",
+      "aliases": {
+        "en": [
+          "children",
+          "kids",
+          "child",
+          "day care"
+        ],
+        "fil": [
+          "mga bata",
+          "bata"
+        ],
+        "bcl": [
+          "aki",
+          "mga aki",
+          "kaakian"
+        ]
+      },
+      "rules": [
+        [
+          "theme",
+          "children"
+        ],
+        [
+          "keyword",
+          "\\b(child|children|day ?care|infant)"
+        ]
+      ]
+    },
+    {
+      "id": "senior-citizens",
+      "label": "Senior citizens",
+      "description": "Programs for older people.",
+      "aliases": {
+        "en": [
+          "senior citizens",
+          "seniors",
+          "elderly",
+          "older people"
+        ],
+        "fil": [
+          "matatanda",
+          "nakatatanda",
+          "senior"
+        ],
+        "bcl": [
+          "gurang",
+          "mga gurang",
+          "senior"
+        ]
+      },
+      "rules": [
+        [
+          "theme",
+          "senior-citizens"
+        ],
+        [
+          "keyword",
+          "\\b(senior|elderly)"
+        ]
+      ]
+    },
+    {
+      "id": "women-gender",
+      "label": "Women and gender",
+      "description": "Gender and development (GAD), women, and LGBTQIA+ programs.",
+      "aliases": {
+        "en": [
+          "women",
+          "gender",
+          "gad",
+          "gender and development",
+          "lgbt"
+        ],
+        "fil": [
+          "kababaihan",
+          "babae",
+          "kasarian"
+        ],
+        "bcl": [
+          "kababayihan",
+          "babayi",
+          "kasarian"
+        ]
+      },
+      "rules": [
+        [
+          "fund",
+          "GAD"
+        ],
+        [
+          "theme",
+          "women"
+        ],
+        [
+          "theme",
+          "lgbtqia"
+        ],
+        [
+          "keyword",
+          "\\b(women|woman|gender|GAD\\b|lgbt)"
+        ]
+      ]
+    },
+    {
+      "id": "pwd",
+      "label": "Persons with disability",
+      "description": "Programs for persons with disability.",
+      "aliases": {
+        "en": [
+          "pwd",
+          "persons with disability",
+          "disability",
+          "disabled"
+        ],
+        "fil": [
+          "may kapansanan",
+          "pwd"
+        ],
+        "bcl": [
+          "may kapansanan",
+          "pwd"
+        ]
+      },
+      "rules": [
+        [
+          "theme",
+          "pwd"
+        ],
+        [
+          "keyword",
+          "\\b(disab|pwd)"
+        ]
+      ]
+    },
+    {
+      "id": "social-welfare",
+      "label": "Social welfare",
+      "description": "Social welfare and development, family protection and assistance to people in need.",
+      "aliases": {
+        "en": [
+          "social welfare",
+          "social services",
+          "assistance",
+          "aid",
+          "poor",
+          "indigent"
+        ],
+        "fil": [
+          "kapakanang panlipunan",
+          "tulong",
+          "ayuda",
+          "mahihirap"
+        ],
+        "bcl": [
+          "tabang",
+          "ayuda",
+          "mga dukha"
+        ]
+      },
+      "rules": [
+        [
+          "cluster",
+          "social"
+        ],
+        [
+          "keyword",
+          "\\b(social welfare|assistance|indigent|ayuda|aid to)"
+        ]
+      ]
+    },
+    {
+      "id": "housing",
+      "label": "Housing",
+      "description": "Housing, resettlement and urban settlements.",
+      "aliases": {
+        "en": [
+          "housing",
+          "homes",
+          "resettlement",
+          "informal settlers"
+        ],
+        "fil": [
+          "pabahay",
+          "bahay",
+          "tirahan"
+        ],
+        "bcl": [
+          "harong",
+          "pabahay",
+          "istaran"
+        ]
+      },
+      "rules": [
+        [
+          "keyword",
+          "\\b(housing|resettlement|settlement|socialized)"
+        ]
+      ]
+    },
+    {
+      "id": "disaster-risk",
+      "label": "Disaster risk and resilience",
+      "description": "Disaster preparedness, response and the LDRRM Fund.",
+      "aliases": {
+        "en": [
+          "disaster",
+          "drrm",
+          "calamity",
+          "flood",
+          "typhoon",
+          "evacuation",
+          "rescue",
+          "resilience"
+        ],
+        "fil": [
+          "sakuna",
+          "kalamidad",
+          "baha",
+          "bagyo",
+          "paglikas"
+        ],
+        "bcl": [
+          "delubyo",
+          "kalamidad",
+          "baha",
+          "bagyo"
+        ]
+      },
+      "rules": [
+        [
+          "office",
+          "CDRRMO"
+        ],
+        [
+          "fund",
+          "LDRRMF"
+        ],
+        [
+          "keyword",
+          "\\b(disaster|drrm|flood|evacuat|rescue|calamit|typhoon|resilien|emergency)"
+        ]
+      ]
+    },
+    {
+      "id": "environment",
+      "label": "Environment and waste",
+      "description": "Solid waste, the environment, parks and natural resources.",
+      "aliases": {
+        "en": [
+          "environment",
+          "garbage",
+          "waste",
+          "trash",
+          "parks",
+          "trees",
+          "river",
+          "climate"
+        ],
+        "fil": [
+          "kapaligiran",
+          "basura",
+          "parke",
+          "puno",
+          "ilog",
+          "klima"
+        ],
+        "bcl": [
+          "palibot",
+          "basura",
+          "parke",
+          "kahoy",
+          "salog",
+          "klima"
+        ]
+      },
+      "rules": [
+        [
+          "office",
+          "CENRO"
+        ],
+        [
+          "keyword",
+          "\\b(waste|garbage|environment|tree|river|climate|clean|recycl|landfill|green)"
+        ]
+      ]
+    },
+    {
+      "id": "peace-order",
+      "label": "Peace, order and safety",
+      "description": "Public safety, traffic, police support and the drug-abuse council.",
+      "aliases": {
+        "en": [
+          "peace and order",
+          "safety",
+          "security",
+          "police",
+          "crime",
+          "traffic",
+          "drugs"
+        ],
+        "fil": [
+          "kapayapaan",
+          "kaayusan",
+          "kaligtasan",
+          "pulis",
+          "krimen",
+          "trapiko",
+          "droga"
+        ],
+        "bcl": [
+          "katoninongan",
+          "kaayusan",
+          "pulis",
+          "krimen",
+          "trapiko",
+          "droga"
+        ]
+      },
+      "rules": [
+        [
+          "keyword",
+          "\\b(police|peace|crime|traffic|drug|safety|security|tanod)"
+        ]
+      ]
+    },
+    {
+      "id": "tourism-culture",
+      "label": "Tourism, culture and the arts",
+      "description": "Tourism, festivals, heritage, culture and the arts.",
+      "aliases": {
+        "en": [
+          "tourism",
+          "culture",
+          "arts",
+          "festival",
+          "heritage",
+          "penafrancia"
+        ],
+        "fil": [
+          "turismo",
+          "kultura",
+          "sining",
+          "pista",
+          "pamana"
+        ],
+        "bcl": [
+          "turismo",
+          "kultura",
+          "arte",
+          "pyesta"
+        ]
+      },
+      "rules": [
+        [
+          "cluster",
+          "arts-culture"
+        ],
+        [
+          "keyword",
+          "\\b(touris|festival|culture|cultural|heritage|arts\\b|pe[nñ]afrancia|museum)"
+        ]
+      ]
+    },
+    {
+      "id": "livelihood-jobs",
+      "label": "Jobs, livelihood and business",
+      "description": "Employment, livelihood, cooperatives, markets, investment and trade.",
+      "aliases": {
+        "en": [
+          "jobs",
+          "employment",
+          "livelihood",
+          "business",
+          "enterprise",
+          "cooperatives",
+          "market",
+          "investment"
+        ],
+        "fil": [
+          "trabaho",
+          "hanapbuhay",
+          "kabuhayan",
+          "negosyo",
+          "palengke"
+        ],
+        "bcl": [
+          "trabaho",
+          "pangabuhayan",
+          "negosyo",
+          "tindahan"
+        ]
+      },
+      "rules": [
+        [
+          "keyword",
+          "\\b(livelihood|employment|job|enterprise|cooperative|market|business|entrepreneur|investment)"
+        ]
+      ]
+    },
+    {
+      "id": "sports",
+      "label": "Sports",
+      "description": "Sports development and athletes.",
+      "aliases": {
+        "en": [
+          "sports",
+          "athletes",
+          "athletics"
+        ],
+        "fil": [
+          "palakasan",
+          "isports",
+          "atleta"
+        ],
+        "bcl": [
+          "sports",
+          "atleta"
+        ]
+      },
+      "rules": [
+        [
+          "keyword",
+          "\\b(sport|athlet)"
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3217 @@
+[
+ {
+  "name": "DRRM Governance, Institutional Support, and Administrative Management Program",
+  "officeAcronym": "CDRRMO",
+  "supportingOfficeAcronyms": [],
+  "finishLineVision": 3,
+  "papClass": "GAS",
+  "majorFinalOutput": null,
+  "expectedOutput": null,
+  "implementationStartMonth": 1,
+  "implementationStartYear": 2027,
+  "implementationEndMonth": 12,
+  "implementationEndYear": 2027,
+  "importWarnings": [],
+  "costMode": "DIRECT_COSTS",
+  "fundSources": [
+   "GF"
+  ],
+  "psProposedTotal": "10000000.00",
+  "mooeProposedTotal": "3796000.00",
+  "coProposedTotal": "200000.00",
+  "projectActivities": []
+ },
+ {
+  "name": "DRRM Planning, Coordination, Data, and Capacity Development Program",
+  "officeAcronym": "CDRRMO",
+  "supportingOfficeAcronyms": [],
+  "finishLineVision": 3,
+  "papClass": "STO",
+  "majorFinalOutput": null,
+  "expectedOutput": null,
+  "implementationStartMonth": 1,
+  "implementationStartYear": 2027,
+  "implementationEndMonth": 12,
+  "implementationEndYear": 2027,
+  "importWarnings": [],
+  "costMode": "ACTIVITY_CHILDREN",
+  "fundSources": [],
+  "psProposedTotal": null,
+  "mooeProposedTotal": null,
+  "coProposedTotal": null,
+  "projectActivities": [
+   {
+    "name": "Inter-Agency Coordination and Liaison Project",
+    "expectedOutput": null,
+    "fundSources": [],
+    "implementationStartMonth": null,
+    "implementationStartYear": null,
+    "implementationEndMonth": null,
+    "implementationEndYear": null,
+    "type": "PROJECT",
+    "costMode": "ACTIVITY_CHILDREN",
+    "proposedBudget": null,
+    "psEstimate": null,
+    "mooeEstimate": null,
+    "coEstimate": null,
+    "children": [
+     {
+      "name": "Inter-Agency Coordination and Liaison Services",
+      "expectedOutput": "100% of priority DRRM coordination requirements involving barangays, national government agencies, schools, hospitals, CSOs, utilities, private-sector partners, volunteer/rescue organizations, and provincial/regional DRRM bodies acted upon within prescribed or operationally required periods, with agreements, referrals, coordination records, and action points documented.",
+      "fundSources": [
+       "GF"
+      ],
+      "implementationStartMonth": 1,
+      "implementationStartYear": 2027,
+      "implementationEndMonth": 12,
+      "implementationEndYear": 2027,
+      "type": "ACTIVITY",
+      "costMode": "DIRECT_COSTS",
+      "proposedBudget": "329000.00",
+      "psEstimate": null,
+      "mooeEstimate": "329000.00",
+      "coEstimate": null,
+      "children": []
+     }
+    ]
+   },
+   {
+    "name": "Budget and Investment Planning Project",
+    "expectedOutput": null,
+    "fundSources": [],
+    "implementationStartMonth": null,
+    "implementationStartYear": null,
+    "implementationEndMonth": null,
+    "implementationEndYear": null,
+    "type": "PROJECT",
+    "costMode": "ACTIVITY_CHILDREN",
+    "proposedBudget": null,
+    "psEstimate": null,
+    "mooeEstimate": null,
+    "coEstimate": null,
+    "children": [
+     {
+      "name": "Budget Planning, Investment Programming, and PPMP Preparation Services",
+      "expectedOutput": "100% of required office budget proposals, PPAs, targets, cost estimates, supporting justifications, AIP, PPMP, APP, and related planning documents prepared, reviewed, consolidated, endorsed, or submitted in accordance with approved planning priorities, office mandate, budget preparation guidelines, and prescribed deadlines.",
+      "fundSources": [
+       "GF"
+      ],
+      "implementationStartMonth": 1,
+      "implementationStartYear": 2027,
+      "implementationEndMonth": 12,
+      "implementationEndYear": 2027,
+      "type": "ACTIVITY",
+      "costMode": "DIRECT_COSTS",
+      "proposedBudget": "15000.00",
+      "psEstimate": null,
+      "mooeEstimate": "15000.00",
+      "coEstimate": null,
+      "children": []
+     }
+    ]
+   },
+   {
+    "name": "Performance and Capacity Development Project",
+    "expectedOutput": null,
+    "fundSources": [],
+    "implementationStartMonth": null,
+    "implementationStartYear": null,
+    "implementationEndMonth": null,
+    "implementationEndYear": null,
+    "type": "PROJECT",
+    "costMode": "ACTIVITY_CHILDREN",
+    "proposedBudget": null,
+    "psEstimate": null,
+    "mooeEstimate": null,
+    "coEstimate": null,
+    "children": [
+     {
+      "name": "Performance Assessment, Review, Capacity Development, and Team Development Services",
+      "expectedOutput": "100% of required performance planning, monitoring, assessment, and review activities completed within prescribed schedules; at least 90% of identified priority capacity-development needs addressed through appropriate learning and development interventions; and at least two (2) team development activities conducted annually, with complete documentation and post-activity evaluation.",
+      "fundSources": [
+       "GF"
+      ],
+      "implementationStartMonth": 1,
+      "implementationStartYear": 2027,
+      "implementationEndMonth": 12,
+      "implementationEndYear": 2027,
+      "type": "ACTIVITY",
+      "costMode": "DIRECT_COSTS",
+      "proposedBudget": "6000.00",
+      "psEstimate": null,
+      "mooeEstimate": "6000.00",
+      "coEstimate": null,
+      "children": []
+     }
+    ]
+   },
+   {
+    "name": "DRRM Research, Planning, Policy, and Standards Project",
+    "expectedOutput": null,
+    "fundSources": [],
+    "implementationStartMonth": null,
+    "implementationStartYear": null,
+    "implementationEndMonth": null,
+    "implementationEndYear": null,
+    "type": "PROJECT",
+    "costMode": "ACTIVITY_CHILDREN",
+    "proposedBudget": null,
+    "psEstimate": null,
+    "mooeEstimate": null,
+    "coEstimate": null,
+    "children": [
+     {
+      "name": "DRRM Research and Planning, Policy Development, and Standards Compliance Services",
+      "expectedOutput": "100% of DRRM plans, contingency plans, incident response plans, continuity arrangements, protocols, guidelines, LDRRMF planning documents, compliance reports, and other documents programmed for preparation or updating in CY 2027 completed within approved schedules, with required Gawad KALASAG and other compliance documentation prepared and submitted within prescribed periods.",
+      "fundSources": [
+       "GF"
+      ],
+      "implementationStartMonth": 1,
+      "implementationStartYear": 2027,
+      "implementationEndMonth": 12,
+      "implementationEndYear": 2027,
+      "type": "ACTIVITY",
+      "costMode": "DIRECT_COSTS",
+      "proposedBudget": "70000.00",
+      "psEstimate": null,
+      "mooeEstimate": "70000.00",
+      "coEstimate": null,
+      "children": []
+     }
+    ]
+   },
+   {
+    "name": "Disaster Risk Assessment, Mapping, and Data Management Project",
+    "expectedOutput": null,
+    "fundSources": [],
+    "implementationStartMonth": null,
+    "implementationStartYear": null,
+    "implementationEndMonth": null,
+    "implementationEndYear": null,
+    "type": "PROJECT",
+    "costMode": "ACTIVITY_CHILDREN",
+    "proposedBudget": null,
+    "psEstimate": null,
+    "mooeEstimate": null,
+    "coEstimate": null,
+    "children": [
+     {
+      "name": "Disaster Risk Assessment, Mapping, and Data Management Services",
+      "expectedOutput": "100% of barangays/priority areas included in the approved CY 2027 risk-assessment program provided with updated hazard, exposure, vulnerability, capacity, and risk information, with applicable maps, geotagged data, barangay risk profiles, disaster statistics, research data, and databases validated and updated within the prescribed schedule.",
+      "fundSources": [
+       "GF"
+      ],
+      "implementationStartMonth": 1,
+      "implementationStartYear": 2027,
+      "implementationEndMonth": 12,
+      "implementationEndYear": 2027,
+      "type": "ACTIVITY",
+      "costMode": "DIRECT_COSTS",
+      "proposedBudget": "202000.00",
+      "psEstimate": null,
+      "mooeEstimate": "202000.00",
+      "coEstimate": null,
+      "children": []
+     }
+    ]
+   },
+   {
+    "name": "Emergency Operations and Incident Management Project",
+    "expectedOutput": null,
+    "fundSources": [],
+    "implementationStartMonth": null,
+    "implementationStartYear": null,
+    "implementationEndMonth": null,
+    "implementationEndYear": null,
+    "type": "PROJECT",
+    "costMode": "ACTIVITY_CHILDREN",
+    "proposedBudget": null,
+    "psEstimate": null,
+    "mooeEstimate": null,
+    "coEstimate": null,
+    "children": [
+     {
+      "name": "Emergency Operation Center and Incident Management System Support Services",
+      "expectedOutput": "EOC maintained operationally ready throughout CY 2027 and activated as required; 100% of significant monitored emergencies/events supported by appropriate incident monitoring, coordination, duty deployment, situation reporting, documentation, and Incident Command System/EOC support based on established activation protocols.",
+      "fundSources": [
+       "GF"
+      ],
+      "implementationStartMonth": 1,
+      "implementationStartYear": 2027,
+      "implementationEndMonth": 12,
+      "implementationEndYear": 2027,
+      "type": "ACTIVITY",
+      "costMode": "DIRECT_COSTS",
+      "proposedBudget": "660000.00",
+      "psEstimate": null,
+      "mooeEstimate": "660000.00",
+      "coEstimate": null,
+      "children": []
+     }
+    ]
+   },
+   {
+    "name": "DRRM Training, Drills, and Simulation Project",
+    "expectedOutput": null,
+    "fundSources": [],
+    "implementationStartMonth": null,
+    "implementationStartYear": null,
+    "implementationEndMonth": null,
+    "implementationEndYear": null,
+    "type": "PROJECT",
+    "costMode": "ACTIVITY_CHILDREN",
+    "proposedBudget": null,
+    "psEstimate": null,
+    "mooeEstimate": null,
+    "coEstimate": null,
+    "children": [
+     {
+      "name": "Community-Based Disaster Risk Reduction and Management (CBDRRM) Training of Trainers – 4 Days",
+      "expectedOutput": null,
+      "fundSources": [
+       "GF"
+      ],
+      "implementationStartMonth": 1,
+      "implementationStartYear": 2027,
+      "implementationEndMonth": 12,
+      "implementationEndYear": 2027,
+      "type": "ACTIVITY",
+      "costMode": "DIRECT_COSTS",
+      "proposedBudget": "252000.00",
+      "psEstimate": null,
+      "mooeEstimate": "252000.00",
+      "coEstimate": null,
+      "children": []
+     },
+     {
+      "name": "Basic Incident Command System (ICS) Training – 3 Days",
+      "expectedOutput": null,
+      "fundSources": [
+       "GF"
+      ],
+      "implementationStartMonth": 1,
+      "implementationStartYear": 2027,
+      "implementationEndMonth": 12,
+      "implementationEndYear": 2027,
+      "type": "ACTIVITY",
+      "costMode": "DIRECT_COSTS",
+      "proposedBudget": "199000.00",
+      "psEstimate": null,
+      "mooeEstimate": "199000.00",
+      "coEstimate": null,
+      "children": []
+     },
+     {
+      "name": "DRRM Capacity-Building Program for Institutional and Private-Sector Partners",
+      "expectedOutput": null,
+      "fundSources": [
+       "GF"
+      ],
+      "implementationStartMonth": 1,
+      "implementationStartYear": 2027,
+      "implementationEndMonth": 12,
+      "implementationEndYear": 2027,
+      "type": "ACTIVITY",
+      "costMode": "DIRECT_COSTS",
+      "proposedBudget": "34000.00",
+      "psEstimate": null,
+      "mooeEstimate": "34000.00",
+      "coEstimate": null,
+      "children": []
+     }
+    ]
+   },
+   {
+    "name": "Public Information and Early Warning Project",
+    "expectedOutput": null,
+    "fundSources": [],
+    "implementationStartMonth": null,
+    "implementationStartYear": null,
+    "implementationEndMonth": null,
+    "implementationEndYear": null,
+    "type": "PROJECT",
+    "costMode": "ACTIVITY_CHILDREN",
+    "proposedBudget": null,
+    "psEstimate": null,
+    "mooeEstimate": null,
+    "coEstimate": null,
+    "children": [
+     {
+      "name": "Public Information, Early Warning Communication, and Disaster Risk Awareness Services",
+      "expectedOutput": "100% of validated disaster warnings, emergency advisories, and risk information requiring public dissemination issued through appropriate communication channels within established warning and communication protocols; scheduled IEC, community briefings, signage, siren/warning-system testing, and risk-awareness activities implemented and documented during CY 2027.",
+      "fundSources": [
+       "GF"
+      ],
+      "implementationStartMonth": 1,
+      "implementationStartYear": 2027,
+      "implementationEndMonth": 12,
+      "implementationEndYear": 2027,
+      "type": "ACTIVITY",
+      "costMode": "DIRECT_COSTS",
+      "proposedBudget": "50000.00",
+      "psEstimate": null,
+      "mooeEstimate": "50000.00",
+      "coEstimate": null,
+      "children": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Human Resource and Administrative Support Services",
+  "officeAcronym": "CPDO",
+  "supportingOfficeAcronyms": [],
+  "finishLineVision": 8,
+  "papClass": "GAS",
+  "majorFinalOutput": null,
+  "expectedOutput": "Personnel compensation, benefits, attendance records, work deployment, HR requirements, and administrative support services processed and maintained",
+  "implementationStartMonth": 1,
+  "implementationStartYear": 2027,
+  "implementationEndMonth": 12,
+  "implementationEndYear": 2027,
+  "importWarnings": [],
+  "costMode": "DIRECT_COSTS",
+  "fundSources": [
+   "GF"
+  ],
+  "psProposedTotal": "13497550.00",
+  "mooeProposedTotal": "640717.00",
+  "coProposedTotal": "65000.00",
+  "projectActivities": []
+ },
+ {
+  "name": "Support to Zoning Division",
+  "officeAcronym": "CPDO",
+  "supportingOfficeAcronyms": [],
+  "finishLineVision": 8,
+  "papClass": "STO",
+  "majorFinalOutput": null,
+  "expectedOutput": "Technical and administrative support provided to the Zoning Division.",
+  "implementationStartMonth": 1,
+  "implementationStartYear": 2027,
+  "implementationEndMonth": 12,
+  "implementationEndYear": 2027,
+  "importWarnings": [],
+  "costMode": "DIRECT_COSTS",
+  "fundSources": [
+   "GF"
+  ],
+  "psProposedTotal": "500000.00",
+  "mooeProposedTotal": null,
+  "coProposedTotal": null,
+  "projectActivities": []
+ },
+ {
+  "name": "Planning Services",
+  "officeAcronym": "CPDO",
+  "supportingOfficeAcronyms": [],
+  "finishLineVision": 8,
+  "papClass": "OPERATIONS",
+  "majorFinalOutput": null,
+  "expectedOutput": "Plans and programs prepared and monitored on time",
+  "implementationStartMonth": 1,
+  "implementationStartYear": 2027,
+  "implementationEndMonth": 12,
+  "implementationEndYear": 2027,
+  "importWarnings": [],
+  "costMode": "DIRECT_COSTS",
+  "fundSources": [
+   "GF"
+  ],
+  "psProposedTotal": null,
+  "mooeProposedTotal": "187652.96",
+  "coProposedTotal": null,
+  "projectActivities": []
+ },
+ {
+  "name": "Research and Evaluation Services",
+  "officeAcronym": "CPDO",
+  "supportingOfficeAcronyms": [],
+  "finishLineVision": 8,
+  "papClass": "OPERATIONS",
+  "majorFinalOutput": null,
+  "expectedOutput": "R&D fund used effectively",
+  "implementationStartMonth": 1,
+  "implementationStartYear": 2027,
+  "implementationEndMonth": 12,
+  "implementationEndYear": 2027,
+  "importWarnings": [],
+  "costMode": "DIRECT_COSTS",
+  "fundSources": [
+   "GF"
+  ],
+  "psProposedTotal": null,
+  "mooeProposedTotal": "1051257.04",
+  "coProposedTotal": null,
+  "projectActivities": []
+ },
+ {
+  "name": "Project Monitoring Services",
+  "officeAcronym": "CPDO",
+  "supportingOfficeAcronyms": [],
+  "finishLineVision": 8,
+  "papClass": "OPERATIONS",
+  "majorFinalOutput": null,
+  "expectedOutput": "Effective and efficient project monitoring services extended on time",
+  "implementationStartMonth": 1,
+  "implementationStartYear": 2027,
+  "implementationEndMonth": 12,
+  "implementationEndYear": 2027,
+  "importWarnings": [],
+  "costMode": "DIRECT_COSTS",
+  "fundSources": [
+   "GF"
+  ],
+  "psProposedTotal": null,
+  "mooeProposedTotal": "200000.00",
+  "coProposedTotal": null,
+  "projectActivities": []
+ },
+ {
+  "name": "Zoning Administration Services",
+  "officeAcronym": "CPDO",
+  "supportingOfficeAcronyms": [],
+  "finishLineVision": 8,
+  "papClass": "OPERATIONS",
+  "majorFinalOutput": null,
+  "expectedOutput": "Effective and efficient zoning administration extended to clients on time",
+  "implementationStartMonth": 1,
+  "implementationStartYear": 2027,
+  "implementationEndMonth": 12,
+  "implementationEndYear": 2027,
+  "importWarnings": [],
+  "costMode": "DIRECT_COSTS",
+  "fundSources": [
+   "GF"
+  ],
+  "psProposedTotal": null,
+  "mooeProposedTotal": "605547.00",
+  "coProposedTotal": null,
+  "projectActivities": []
+ },
+ {
+  "name": "Secretariat Services",
+  "officeAcronym": "CPDO",
+  "supportingOfficeAcronyms": [],
+  "finishLineVision": 8,
+  "papClass": "OPERATIONS",
+  "majorFinalOutput": null,
+  "expectedOutput": "Council meetings, minutes, resolutions, technical documents, coordination records, and secretariat requirements prepared and supported",
+  "implementationStartMonth": 1,
+  "implementationStartYear": 2027,
+  "implementationEndMonth": 12,
+  "implementationEndYear": 2027,
+  "importWarnings": [],
+  "costMode": "DIRECT_COSTS",
+  "fundSources": [
+   "GF"
+  ],
+  "psProposedTotal": null,
+  "mooeProposedTotal": "152850.00",
+  "coProposedTotal": null,
+  "projectActivities": []
+ },
+ {
+  "name": "Social Insurance Project - P20 for Tomorrow",
+  "officeAcronym": "CPDO",
+  "supportingOfficeAcronyms": [],
+  "finishLineVision": 8,
+  "papClass": "OPERATIONS",
+  "majorFinalOutput": null,
+  "expectedOutput": "Social insurance scheme fully operationalized",
+  "implementationStartMonth": 1,
+  "implementationStartYear": 2027,
+  "implementationEndMonth": 12,
+  "implementationEndYear": 2027,
+  "importWarnings": [],
+  "costMode": "DIRECT_COSTS",
+  "fundSources": [
+   "LDRRMF"
+  ],
+  "psProposedTotal": null,
+  "mooeProposedTotal": "3600000.00",
+  "coProposedTotal": null,
+  "projectActivities": []
+ },
+ {
+  "name": "Community-Based Monitoring System",
+  "officeAcronym": "CPDO",
+  "supportingOfficeAcronyms": [],
+  "finishLineVision": 8,
+  "papClass": "OPERATIONS",
+  "majorFinalOutput": null,
+  "expectedOutput": "Effective and efficient gathering the Community-Based Monitoring System data",
+  "implementationStartMonth": 1,
+  "implementationStartYear": 2027,
+  "implementationEndMonth": 12,
+  "implementationEndYear": 2027,
+  "importWarnings": [],
+  "costMode": "DIRECT_COSTS",
+  "fundSources": [
+   "GF",
+   "LDF"
+  ],
+  "psProposedTotal": null,
+  "mooeProposedTotal": "10065000.00",
+  "coProposedTotal": null,
+  "projectActivities": []
+ },
+ {
+  "name": "Counterpart to DOST-funded Projects",
+  "officeAcronym": "CPDO",
+  "supportingOfficeAcronyms": [],
+  "finishLineVision": 8,
+  "papClass": "OPERATIONS",
+  "majorFinalOutput": null,
+  "expectedOutput": "DOST-LGU partnership projects fully implemented",
+  "implementationStartMonth": 1,
+  "implementationStartYear": 2027,
+  "implementationEndMonth": 12,
+  "implementationEndYear": 2027,
+  "importWarnings": [],
+  "costMode": "DIRECT_COSTS",
+  "fundSources": [
+   "GF"
+  ],
+  "psProposedTotal": null,
+  "mooeProposedTotal": "5200000.00",
+  "coProposedTotal": null,
+  "projectActivities": []
+ },
+ {
+  "name": "Quick Response Fund",
+  "officeAcronym": "CDRRMO",
+  "supportingOfficeAcronyms": [],
+  "finishLineVision": 3,
+  "papClass": null,
+  "majorFinalOutput": null,
+  "expectedOutput": "Immediate relief and recovery assistance provided to disaster-affected populations; fund utilized upon declaration of State of Calamity.",
+  "implementationStartMonth": 1,
+  "implementationStartYear": 2027,
+  "implementationEndMonth": 12,
+  "implementationEndYear": 2027,
+  "importWarnings": [],
+  "costMode": "DIRECT_COSTS",
+  "fundSources": [
+   "LDRRMF"
+  ],
+  "psProposedTotal": null,
+  "mooeProposedTotal": "50000000.00",
+  "coProposedTotal": null,
+  "projectActivities": []
+ },
+ {
+  "name": "Disaster Preparedness Program",
+  "officeAcronym": "CDRRMO",
+  "supportingOfficeAcronyms": [],
+  "finishLineVision": 3,
+  "papClass": "OPERATIONS",
+  "majorFinalOutput": null,
+  "expectedOutput": "Communities, responders, and institutions prepared for disasters through training, equipment, and early warning systems.",
+  "implementationStartMonth": 1,
+  "implementationStartYear": 2027,
+  "implementationEndMonth": 12,
+  "implementationEndYear": 2027,
+  "importWarnings": [],
+  "costMode": "ACTIVITY_CHILDREN",
+  "fundSources": [],
+  "psProposedTotal": null,
+  "mooeProposedTotal": null,
+  "coProposedTotal": null,
+  "projectActivities": [
+   {
+    "name": "Early Warning and Emergency Communications Project",
+    "expectedOutput": null,
+    "fundSources": [],
+    "implementationStartMonth": null,
+    "implementationStartYear": null,
+    "implementationEndMonth": null,
+    "implementationEndYear": null,
+    "type": "PROJECT",
+    "costMode": "ACTIVITY_CHILDREN",
+    "proposedBudget": null,
+    "psEstimate": null,
+    "mooeEstimate": null,
+    "coEstimate": null,
+    "children": [
+     {
+      "name": "Early Warning System (EWS)",
+      "expectedOutput": "Fully operational and integrated EWS; 100% of at-risk communities receiving real-time alerts.",
+      "fundSources": [
+       "LDRRMF"
+      ],
+      "implementationStartMonth": 1,
+      "implementationStartYear": 2027,
+      "implementationEndMonth": 12,
+      "implementationEndYear": 2027,
+      "type": "ACTIVITY",
+      "costMode": "DIRECT_COSTS",
+      "proposedBudget": "1500000.00",
+      "psEstimate": null,
+      "mooeEstimate": null,
+      "coEstimate": "1500000.00",
+      "children": []
+     }
+    ]
+   },
+   {
+    "name": "Emergency Coordination and Command Center Project",
+    "expectedOutput": null,
+    "fundSources": [],
+    "implementationStartMonth": null,
+    "implementationStartYear": null,
+    "implementationEndMonth": null,
+    "implementationEndYear": null,
+    "type": "PROJECT",
+    "costMode": "ACTIVITY_CHILDREN",
+    "proposedBudget": null,
+    "psEstimate": null,
+    "mooeEstimate": null,
+    "coEstimate": null,
+    "children": [
+     {
+      "name": "Joint Operations Center (JOC)",
+      "expectedOutput": "Established/Maintained functional command center for inter-agency coordination during planned events.",
+      "fundSources": [
+       "LDRRMF"
+      ],
+      "implementationStartMonth": 8,
+      "implementationStartYear": 2027,
+      "implementationEndMonth": 9,
+      "implementationEndYear": 2027,
+      "type": "ACTIVITY",
+      "costMode": "DIRECT_COSTS",
+      "proposedBudget": "1500000.00",
+      "psEstimate": null,
+      "mooeEstimate": "1500000.00",
+      "coEstimate": null,
+      "children": []
+     }
+    ]
+   },
+   {
+    "name": "Disaster Preparedness Training and Capacity Development Project",
+    "expectedOutput": null,
+    "fundSources": [],
+    "implementationStartMonth": null,
+    "implementationStartYear": null,
+    "implementationEndMonth": null,
+    "implementationEndYear": null,
+    "type": "PROJECT",
+    "costMode": "ACTIVITY_CHILDREN",
+    "proposedBudget": null,
+    "psEstimate": null,
+    "mooeEstimate": null,
+    "coEstimate": null,
+    "children": [
+     {
+      "name": "Conduct of Drills and Simulation Exercises",
+      "expectedOutput": "Quarterly multi-hazard drills conducted; increased disaster awareness and response efficiency among participants.",
+      "fundSources": [
+       "LDRRMF"
+      ],
+      "implementationStartMonth": 1,
+      "implementationStartYear": 2027,
+      "implementationEndMonth": 12,
+      "implementationEndYear": 2027,
+      "type": "ACTIVITY",
+      "costMode": "DIRECT_COSTS",
+      "proposedBudget": "500000.00",
+      "psEstimate": null,
+      "mooeEstimate": "500000.00",
+      "coEstimate": null,
+      "children": []
+     },
+     {
+      "name": "Conduct of Trainings on BLS, First Aid, Search and Rescue, and Search and Retrieval",
+      "expectedOutput": "Increased number of certified responders proficient in Basic Life Support and Search & Rescue operations.",
+      "fundSources": [
+       "LDRRMF"
+      ],
+      "implementationStartMonth": 1,
+      "implementationStartYear": 2027,
+      "implementationEndMonth": 12,
+      "implementationEndYear": 2027,
+      "type": "ACTIVITY",
+      "costMode": "DIRECT_COSTS",
+      "proposedBudget": "600000.00",
+      "psEstimate": null,
+      "mooeEstimate": "600000.00",
+      "coEstimate": null,
+      "children": []
+     },
+     {
+      "name": "Implementation of DRRM for Health",
+      "expectedOutput": "Health facilities equipped and staff trained for medical emergencies and disease outbreak management during disasters.",
+      "fundSources": [
+       "LDRRMF"
+      ],
+      "implementationStartMonth": 1,
+      "implementationStartYear": 2027,
+      "implementationEndMonth": 12,
+      "implementationEndYear": 2027,
+      "type": "ACTIVITY",
+      "costMode": "DIRECT_COSTS",
+      "proposedBudget": "300000.00",
+      "psEstimate": null,
+      "mooeEstimate": "300000.00",
+      "coEstimate": null,
+      "children": []
+     },
+     {
+      "name": "Conduct of OCD Trainings",
+      "expectedOutput": "Participants successfully completed standardized Office of Civil Defense training modules.",
+      "fundSources": [
+       "LDRRMF"
+      ],
+      "implementationStartMonth": 1,
+      "implementationStartYear": 2027,
+      "implementationEndMonth": 12,
+      "implementationEndYear": 2027,
+      "type": "ACTIVITY",
+      "costMode": "DIRECT_COSTS",
+      "proposedBudget": "650000.00",
+      "psEstimate": null,
+      "mooeEstimate": "650000.00",
+      "coEstimate": null,
+      "children": []
+     },
+     {
+      "name": "Safety Officer II Training of Trainers",
+      "expectedOutput": "All training team members are well-trained regarding safety protocols and procedures.",
+      "fundSources": [
+       "LDRRMF"
+      ],
+      "implementationStartMonth": 1,
+      "implementationStartYear": 2027,
+      "implementationEndMonth": 12,
+      "implementationEndYear": 2027,
+      "type": "ACTIVITY",
+      "costMode": "DIRECT_COSTS",
+      "proposedBudget": "50000.00",
+      "psEstimate": null,
+      "mooeEstimate": "50000.00",
+      "coEstimate": null,
+      "children": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Disaster Response Program",
+  "officeAcronym": "CDRRMO",
+  "supportingOfficeAcronyms": [],
+  "finishLineVision": 3,
+  "papClass": "OPERATIONS",
+  "majorFinalOutput": null,
+  "expectedOutput": "Timely, coordinated, and effective emergency response services delivered during disasters and emergencies.",
+  "implementationStartMonth": 1,
+  "implementationStartYear": 2027,
+  "implementationEndMonth": 12,
+  "implementationEndYear": 2027,
+  "importWarnings": [],
+  "costMode": "ACTIVITY_CHILDREN",
+  "fundSources": [],
+  "psProposedTotal": null,
+  "mooeProposedTotal": null,
+  "coProposedTotal": null,
+  "projectActivities": [
+   {
+    "name": "Emergency Operations Center Management Project",
+    "expectedOutput": null,
+    "fundSources": [],
+    "implementationStartMonth": null,
+    "implementationStartYear": null,
+    "implementationEndMonth": null,
+    "implementationEndYear": null,
+    "type": "PROJECT",
+    "costMode": "ACTIVITY_CHILDREN",
+    "proposedBudget": null,
+    "psEstimate": null,
+    "mooeEstimate": null,
+    "coEstimate": null,
+    "children": [
+     {
+      "name": "Activation of Emergency Operations Center During Calamities and Planned Events",
+      "expectedOutput": "Functional 24/7 EOC during emergencies; seamless coordination of resources and information.",
+      "fundSources": [
+       "LDRRMF"
+      ],
+      "implementationStartMonth": 1,
+      "implementationStartYear": 2027,
+      "implementationEndMonth": 12,
+      "implementationEndYear": 2027,
+      "type": "ACTIVITY",
+      "costMode": "DIRECT_COSTS",
+      "proposedBudget": "1460000.00",
+      "psEstimate": null,
+      "mooeEstimate": "1060000.00",
+      "coEstimate": "400000.00",
+      "children": []
+     }
+    ]
+   },
+   {
+    "name": "Search, Rescue, and Retrieval Operations Project",
+    "expectedOutput": null,
+    "fundSources": [],
+    "implementationStartMonth": null,
+    "implementationStartYear": null,
+    "implementationEndMonth": null,
+    "implementationEndYear": null,
+    "type": "PROJECT",
+    "costMode": "ACTIVITY_CHILDREN",
+    "proposedBudget": null,
+    "psEstimate": null,
+    "mooeEstimate": null,
+    "coEstimate": null,
+    "children": [
+     {
+      "name": "Deployment of Search, Rescue, and Retrieval Teams",
+      "expectedOutput": "Timely deployment of responders; zero casualties targeted during manageable disaster events.",
+      "fundSources": [
+       "LDRRMF"
+      ],
+      "implementationStartMonth": 1,
+      "implementationStartYear": 2027,
+      "implementationEndMonth": 12,
+      "implementationEndYear": 2027,
+      "type": "ACTIVITY",
+      "costMode": "DIRECT_COSTS",
+      "proposedBudget": "300000.00",
+      "psEstimate": null,
+      "mooeEstimate": "300000.00",
+      "coEstimate": null,
+      "children": []
+     }
+    ]
+   },
+   {
+    "name": "Rapid Damage Assessment and Emergency Information Management Project",
+    "expectedOutput": null,
+    "fundSources": [],
+    "implementationStartMonth": null,
+    "implementationStartYear": null,
+    "implementationEndMonth": null,
+    "implementationEndYear": null,
+    "type": "PROJECT",
+    "costMode": "ACTIVITY_CHILDREN",
+    "proposedBudget": null,
+    "psEstimate": null,
+    "mooeEstimate": null,
+    "coEstimate": null,
+    "children": [
+     {
+      "name": "Conduct of Rapid Damage Assessment and Needs Analysis (RDANA)",
+      "expectedOutput": "Rapid assessment reports submitted within 24–48 hours to guide immediate relief prioritization.",
+      "fundSources": [
+       "LDRRMF"
+      ],
+      "implementationStartMonth": 1,
+      "implementationStartYear": 2027,
+      "implementationEndMonth": 12,
+      "implementationEndYear": 2027,
+      "type": "ACTIVITY",
+      "costMode": "DIRECT_COSTS",
+      "proposedBudget": "200000.00",
+      "psEstimate": null,
+      "mooeEstimate": "200000.00",
+      "coEstimate": null,
+      "children": []
+     }
+    ]
+   },
+   {
+    "name": "Emergency Equipment and Logistics Preparedness Project",
+    "expectedOutput": null,
+    "fundSources": [],
+    "implementationStartMonth": null,
+    "implementationStartYear": null,
+    "implementationEndMonth": null,
+    "implementationEndYear": null,
+    "type": "PROJECT",
+    "costMode": "ACTIVITY_CHILDREN",
+    "proposedBudget": null,
+    "psEstimate": null,
+    "mooeEstimate": null,
+    "coEstimate": null,
+    "children": [
+     {
+      "name": "Supply and Delivery of AED Trainer Kit",
+      "expectedOutput": "Availability of high-quality training equipment; improved training quality for cardiac emergency response.",
+      "fundSources": [
+       "LDRRMF"
+      ],
+      "implementationStartMonth": 1,
+      "implementationStartYear": 2027,
+      "implementationEndMonth": 12,
+      "implementationEndYear": 2027,
+      "type": "ACTIVITY",
+      "costMode": "DIRECT_COSTS",
+      "proposedBudget": "300000.00",
+      "psEstimate": null,
+      "mooeEstimate": "300000.00",
+      "coEstimate": null,
+      "children": []
+     },
+     {
+      "name": "Repair and Maintenance of Emergency and Rescue Vehicles",
+      "expectedOutput": "100% of rescue fleet in ready-to-deploy condition with zero downtime during emergencies.",
+      "fundSources": [
+       "LDRRMF"
+      ],
+      "implementationStartMonth": 1,
+      "implementationStartYear": 2027,
+      "implementationEndMonth": 12,
+      "implementationEndYear": 2027,
+      "type": "ACTIVITY",
+      "costMode": "DIRECT_COSTS",
+      "proposedBudget": "250000.00",
+      "psEstimate": null,
+      "mooeEstimate": "250000.00",
+      "coEstimate": null,
+      "children": []
+     },
+     {
+      "name": "Supply and Delivery of Stockpile Food Supplies",
+      "expectedOutput": "Maintained buffer stock of food packs sufficient for immediate distribution to affected families.",
+      "fundSources": [
+       "LDRRMF"
+      ],
+      "implementationStartMonth": 1,
+      "implementationStartYear": 2027,
+      "implementationEndMonth": 12,
+      "implementationEndYear": 2027,
+      "type": "ACTIVITY",
+      "costMode": "DIRECT_COSTS",
+      "proposedBudget": "600000.00",
+      "psEstimate": null,
+      "mooeEstimate": "600000.00",
+      "coEstimate": null,
+      "children": []
+     },
+     {
+      "name": "Procurement of One (1) Unit Firetruck",
+      "expectedOutput": "Increased firefighting and water-rationing capacity of the city/municipality.",
+      "fundSources": [
+       "LDRRMF"
+      ],
+      "implementationStartMonth": 1,
+      "implementationStartYear": 2027,
+      "implementationEndMonth": 12,
+      "implementationEndYear": 2027,
+      "type": "ACTIVITY",
+      "costMode": "DIRECT_COSTS",
+      "proposedBudget": "7000000.00",
+      "psEstimate": null,
+      "mooeEstimate": null,
+      "coEstimate": "7000000.00",
+      "children": []
+     }
+    ]
+   },
+   {
+    "name": "Child-Centered Preparedness and Protection Project",
+    "expectedOutput": null,
+    "fundSources": [],
+    "implementationStartMonth": null,
+    "implementationStartYear": null,
+    "implementationEndMonth": null,
+    "implementationEndYear": null,
+    "type": "PROJECT",
+    "costMode": "ACTIVITY_CHILDREN",
+    "proposedBudget": null,
+    "psEstimate": null,
+    "mooeEstimate": null,
+    "coEstimate": null,
+    "children": [
+     {
+      "name": "Training of Batang Kalasag",
+      "expectedOutput": "Youth and student leaders trained in basic disaster preparedness and school-based safety protocols.",
+      "fundSources": [
+       "LDRRMF"
+      ],
+      "implementationStartMonth": 4,
+      "implementationStartYear": 2027,
+      "implementationEndMonth": 5,
+      "implementationEndYear": 2027,
+      "type": "ACTIVITY",
+      "costMode": "DIRECT_COSTS",
+      "proposedBudget": "400000.00",
+      "psEstimate": null,
+      "mooeEstimate": "400000.00",
+      "coEstimate": null,
+      "children": []
+     },
+     {
+      "name": "Implementation of CEPC",
+      "expectedOutput": "Ensuring the provision of child-friendly spaces, psychosocial support, emergency preparedness activities, and essential child protection services, thereby enhancing the safety, well-being, and resilience of children during emergencies.",
+      "fundSources": [
+       "LDRRMF"
+      ],
+      "implementationStartMonth": 1,
+      "implementationStartYear": 2027,
+      "implementationEndMonth": 12,
+      "implementationEndYear": 2027,
+      "type": "ACTIVITY",
+      "costMode": "DIRECT_COSTS",
+      "proposedBudget": "300000.00",
+      "psEstimate": null,
+      "mooeEstimate": "300000.00",
+      "coEstimate": null,
+      "children": []
+     },
+     {
+      "name": "Child-Friendly Spaces in Evacuation Centers",
+      "expectedOutput": "Established and operational Child-Friendly Spaces in designated evacuation centers.",
+      "fundSources": [
+       "LDRRMF"
+      ],
+      "implementationStartMonth": 1,
+      "implementationStartYear": 2027,
+      "implementationEndMonth": 12,
+      "implementationEndYear": 2027,
+      "type": "ACTIVITY",
+      "costMode": "DIRECT_COSTS",
+      "proposedBudget": "250000.00",
+      "psEstimate": null,
+      "mooeEstimate": "250000.00",
+      "coEstimate": null,
+      "children": []
+     }
+    ]
+   },
+   {
+    "name": "Emergency Relief and Camp Management Project",
+    "expectedOutput": null,
+    "fundSources": [],
+    "implementationStartMonth": null,
+    "implementationStartYear": null,
+    "implementationEndMonth": null,
+    "implementationEndYear": null,
+    "type": "PROJECT",
+    "costMode": "ACTIVITY_CHILDREN",
+    "proposedBudget": null,
+    "psEstimate": null,
+    "mooeEstimate": null,
+    "coEstimate": null,
+    "children": [
+     {
+      "name": "Supply and Delivery of Food Supplies, Community Kitchen Supplies and Materials, and Janitorial and Sanitation Materials for Camp/Evacuation Centers",
+      "expectedOutput": "Adequate welfare support and sanitation maintained for IDPs (Internally Displaced Persons) in evacuation centers.",
+      "fundSources": [
+       "LDRRMF"
+      ],
+      "implementationStartMonth": 1,
+      "implementationStartYear": 2027,
+      "implementationEndMonth": 12,
+      "implementationEndYear": 2027,
+      "type": "ACTIVITY",
+      "costMode": "DIRECT_COSTS",
+      "proposedBudget": "700000.00",
+      "psEstimate": null,
+      "mooeEstimate": "700000.00",
+      "coEstimate": null,
+      "children": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Disaster Rehabilitation and Recovery Program",
+  "officeAcronym": "CDRRMO",
+  "supportingOfficeAcronyms": [],
+  "finishLineVision": 3,
+  "papClass": "OPERATIONS",
+  "majorFinalOutput": null,
+  "expectedOutput": "Accelerated recovery and resilience-building measures implemented in disaster-affected communities.",
+  "implementationStartMonth": 1,
+  "implementationStartYear": 2027,
+  "implementationEndMonth": 12,
+  "implementationEndYear": 2027,
+  "importWarnings": [],
+  "costMode": "ACTIVITY_CHILDREN",
+  "fundSources": [],
+  "psProposedTotal": null,
+  "mooeProposedTotal": null,
+  "coProposedTotal": null,
+  "projectActivities": [
+   {
+    "name": "Post-Disaster Recovery Capacity Building Project",
+    "expectedOutput": null,
+    "fundSources": [],
+    "implementationStartMonth": null,
+    "implementationStartYear": null,
+    "implementationEndMonth": null,
+    "implementationEndYear": null,
+    "type": "PROJECT",
+    "costMode": "ACTIVITY_CHILDREN",
+    "proposedBudget": null,
+    "psEstimate": null,
+    "mooeEstimate": null,
+    "coEstimate": null,
+    "children": [
+     {
+      "name": "Post-Disaster Needs Assessment (PDNA) Training",
+      "expectedOutput": "Pool of trained personnel capable of conducting scientific Post-Disaster Needs Assessment (PDNA).",
+      "fundSources": [
+       "LDRRMF"
+      ],
+      "implementationStartMonth": 1,
+      "implementationStartYear": 2027,
+      "implementationEndMonth": 12,
+      "implementationEndYear": 2027,
+      "type": "ACTIVITY",
+      "costMode": "DIRECT_COSTS",
+      "proposedBudget": "300000.00",
+      "psEstimate": null,
+      "mooeEstimate": "300000.00",
+      "coEstimate": null,
+      "children": []
+     }
+    ]
+   },
+   {
+    "name": "Recovery Logistics and Operations Support Project",
+    "expectedOutput": null,
+    "fundSources": [],
+    "implementationStartMonth": null,
+    "implementationStartYear": null,
+    "implementationEndMonth": null,
+    "implementationEndYear": null,
+    "type": "PROJECT",
+    "costMode": "ACTIVITY_CHILDREN",
+    "proposedBudget": null,
+    "psEstimate": null,
+    "mooeEstimate": null,
+    "coEstimate": null,
+    "children": [
+     {
+      "name": "Fuel and Transportation Support for Recovery Operations",
+      "expectedOutput": "Efficient logistical movement for debris clearing, resource distribution, and reconstruction monitoring.",
+      "fundSources": [
+       "LDRRMF"
+      ],
+      "implementationStartMonth": 1,
+      "implementationStartYear": 2027,
+      "implementationEndMonth": 12,
+      "implementationEndYear": 2027,
+      "type": "ACTIVITY",
+      "costMode": "DIRECT_COSTS",
+      "proposedBudget": "300000.00",
+      "psEstimate": null,
+      "mooeEstimate": "300000.00",
+      "coEstimate": null,
+      "children": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Human Resource and Administrative Support Services",
+  "officeAcronym": "CAgO",
+  "supportingOfficeAcronyms": [],
+  "finishLineVision": 1,
+  "papClass": "GAS",
+  "majorFinalOutput": null,
+  "expectedOutput": "Personnel compensation, benefits, attendance records, work deployment, HR requirements, and administrative support services processed and maintained",
+  "implementationStartMonth": 1,
+  "implementationStartYear": 2027,
+  "implementationEndMonth": 12,
+  "implementationEndYear": 2027,
+  "importWarnings": [],
+  "costMode": "DIRECT_COSTS",
+  "fundSources": [
+   "GF"
+  ],
+  "psProposedTotal": "18600000.00",
+  "mooeProposedTotal": "6005000.00",
+  "coProposedTotal": "2000000.00",
+  "projectActivities": []
+ },
+ {
+  "name": "Inter-Agency Coordination and Liaison Services",
+  "officeAcronym": "CAgO",
+  "supportingOfficeAcronyms": [],
+  "finishLineVision": 1,
+  "papClass": "STO",
+  "majorFinalOutput": null,
+  "expectedOutput": "Coordination and liaison with national agencies, city offices, barangays, partner organizations, and stakeholders supported",
+  "implementationStartMonth": 1,
+  "implementationStartYear": 2027,
+  "implementationEndMonth": 12,
+  "implementationEndYear": 2027,
+  "importWarnings": [],
+  "costMode": "DIRECT_COSTS",
+  "fundSources": [
+   "GF"
+  ],
+  "psProposedTotal": null,
+  "mooeProposedTotal": "206000.00",
+  "coProposedTotal": null,
+  "projectActivities": []
+ },
+ {
+  "name": "Budget Planning, Investment Programming, and PPMP Preparation Services",
+  "officeAcronym": "CAgO",
+  "supportingOfficeAcronyms": [],
+  "finishLineVision": 1,
+  "papClass": "STO",
+  "majorFinalOutput": null,
+  "expectedOutput": "AIP, PPMP, budget proposals, project briefs, activity designs, cost estimates, and planning documents prepared and submitted",
+  "implementationStartMonth": 1,
+  "implementationStartYear": 2027,
+  "implementationEndMonth": 12,
+  "implementationEndYear": 2027,
+  "importWarnings": [],
+  "costMode": "DIRECT_COSTS",
+  "fundSources": [
+   "GF"
+  ],
+  "psProposedTotal": null,
+  "mooeProposedTotal": "65000.00",
+  "coProposedTotal": null,
+  "projectActivities": []
+ },
+ {
+  "name": "Performance Assessment, Review, Capacity Development, and Team Development Services",
+  "officeAcronym": "CAgO",
+  "supportingOfficeAcronyms": [],
+  "finishLineVision": 1,
+  "papClass": "STO",
+  "majorFinalOutput": null,
+  "expectedOutput": "Office performance reviewed, OPCR/DPCR/IPCR support documents prepared, personnel capacity strengthened, and team development activities conducted",
+  "implementationStartMonth": 1,
+  "implementationStartYear": 2027,
+  "implementationEndMonth": 12,
+  "implementationEndYear": 2027,
+  "importWarnings": [],
+  "costMode": "DIRECT_COSTS",
+  "fundSources": [
+   "GF"
+  ],
+  "psProposedTotal": null,
+  "mooeProposedTotal": "229000.00",
+  "coProposedTotal": null,
+  "projectActivities": []
+ },
+ {
+  "name": "Facility Improvement Program",
+  "officeAcronym": "CAgO",
+  "supportingOfficeAcronyms": [],
+  "finishLineVision": 1,
+  "papClass": "STO",
+  "majorFinalOutput": null,
+  "expectedOutput": "Improved and functional facilities that provide a safe, efficient and conducive environment for the delivery of agricultural programs and services",
+  "implementationStartMonth": 1,
+  "implementationStartYear": 2027,
+  "implementationEndMonth": 12,
+  "implementationEndYear": 2027,
+  "importWarnings": [],
+  "costMode": "DIRECT_COSTS",
+  "fundSources": [
+   "GF"
+  ],
+  "psProposedTotal": null,
+  "mooeProposedTotal": "2287000.00",
+  "coProposedTotal": "3780000.00",
+  "projectActivities": []
+ },
+ {
+  "name": "Market Research and Projects Support Services",
+  "officeAcronym": "CAgO",
+  "supportingOfficeAcronyms": [],
+  "finishLineVision": 1,
+  "papClass": "STO",
+  "majorFinalOutput": null,
+  "expectedOutput": "Market research studies and project support services completed",
+  "implementationStartMonth": 1,
+  "implementationStartYear": 2027,
+  "implementationEndMonth": 12,
+  "implementationEndYear": 2027,
+  "importWarnings": [],
+  "costMode": "DIRECT_COSTS",
+  "fundSources": [
+   "GF"
+  ],
+  "psProposedTotal": null,
+  "mooeProposedTotal": "600000.00",
+  "coProposedTotal": null,
+  "projectActivities": []
+ },
+ {
+  "name": "Information Dissemination",
+  "officeAcronym": "CAgO",
+  "supportingOfficeAcronyms": [],
+  "finishLineVision": 1,
+  "papClass": "STO",
+  "majorFinalOutput": null,
+  "expectedOutput": "Awareness of programs and projects for the Farmers Sectors, decisions are based on relevant and updated information",
+  "implementationStartMonth": 1,
+  "implementationStartYear": 2027,
+  "implementationEndMonth": 12,
+  "implementationEndYear": 2027,
+  "importWarnings": [],
+  "costMode": "DIRECT_COSTS",
+  "fundSources": [
+   "GF"
+  ],
+  "psProposedTotal": null,
+  "mooeProposedTotal": "117000.00",
+  "coProposedTotal": null,
+  "projectActivities": []
+ },
+ {
+  "name": "Technology Support Activities for Higher Productivity and Income",
+  "officeAcronym": "CAgO",
+  "supportingOfficeAcronyms": [],
+  "finishLineVision": 1,
+  "papClass": "OPERATIONS",
+  "majorFinalOutput": null,
+  "expectedOutput": null,
+  "implementationStartMonth": 1,
+  "implementationStartYear": 2027,
+  "implementationEndMonth": 12,
+  "implementationEndYear": 2027,
+  "importWarnings": [],
+  "costMode": "ACTIVITY_CHILDREN",
+  "fundSources": [],
+  "psProposedTotal": null,
+  "mooeProposedTotal": null,
+  "coProposedTotal": null,
+  "projectActivities": [
+   {
+    "name": "Farmers Field School",
+    "expectedOutput": "Farmers are equipped with scientific and technological know-how on crop production",
+    "fundSources": [
+     "GF"
+    ],
+    "implementationStartMonth": 1,
+    "implementationStartYear": 2027,
+    "implementationEndMonth": 12,
+    "implementationEndYear": 2027,
+    "climate": {
+     "codes": [
+      "A113-03"
+     ],
+     "rawCodes": "A113-03",
+     "ccaAmount": "160000.00",
+     "ccmAmount": null
+    },
+    "type": "ACTIVITY",
+    "costMode": "DIRECT_COSTS",
+    "proposedBudget": "160000.00",
+    "psEstimate": null,
+    "mooeEstimate": "160000.00",
+    "coEstimate": null,
+    "children": []
+   },
+   {
+    "name": "Direct Technical Assistance for Farmers",
+    "expectedOutput": "Farmers have access to updated agricultural technologies being implemented in their farms",
+    "fundSources": [
+     "GF"
+    ],
+    "implementationStartMonth": 1,
+    "implementationStartYear": 2027,
+    "implementationEndMonth": 12,
+    "implementationEndYear": 2027,
+    "climate": {
+     "codes": [
+      "A113-03"
+     ],
+     "rawCodes": "A113-03",
+     "ccaAmount": null,
+     "ccmAmount": null
+    },
+    "type": "ACTIVITY",
+    "costMode": "DIRECT_COSTS",
+    "proposedBudget": "230000.00",
+    "psEstimate": null,
+    "mooeEstimate": "230000.00",
+    "coEstimate": null,
+    "children": []
+   }
+  ]
+ },
+ {
+  "name": "Credit Assistance to Farmers",
+  "officeAcronym": "CAgO",
+  "supportingOfficeAcronyms": [],
+  "finishLineVision": 1,
+  "papClass": "OPERATIONS",
+  "majorFinalOutput": null,
+  "expectedOutput": null,
+  "implementationStartMonth": 1,
+  "implementationStartYear": 2027,
+  "implementationEndMonth": 12,
+  "implementationEndYear": 2027,
+  "importWarnings": [],
+  "costMode": "ACTIVITY_CHILDREN",
+  "fundSources": [
+   "GF"
+  ],
+  "psProposedTotal": null,
+  "mooeProposedTotal": null,
+  "coProposedTotal": null,
+  "projectActivities": [
+   {
+    "name": "SARIG Loan Program (farm inputs)",
+    "expectedOutput": "100% utilization of available funding, 90% collection efficiency",
+    "fundSources": [
+     "GF"
+    ],
+    "implementationStartMonth": 1,
+    "implementationStartYear": 2027,
+    "implementationEndMonth": 12,
+    "implementationEndYear": 2027,
+    "type": "ACTIVITY",
+    "costMode": "DIRECT_COSTS",
+    "proposedBudget": "4500000.00",
+    "psEstimate": null,
+    "mooeEstimate": "4500000.00",
+    "coEstimate": null,
+    "children": []
+   }
+  ]
+ },
+ {
+  "name": "Marketing Support for Farmers",
+  "officeAcronym": "CAgO",
+  "supportingOfficeAcronyms": [],
+  "finishLineVision": 1,
+  "papClass": "OPERATIONS",
+  "majorFinalOutput": null,
+  "expectedOutput": null,
+  "implementationStartMonth": 1,
+  "implementationStartYear": 2027,
+  "implementationEndMonth": 12,
+  "implementationEndYear": 2027,
+  "importWarnings": [],
+  "costMode": "ACTIVITY_CHILDREN",
+  "fundSources": [
+   "GF"
+  ],
+  "psProposedTotal": null,
+  "mooeProposedTotal": null,
+  "coProposedTotal": null,
+  "projectActivities": [
+   {
+    "name": "Agricultural Marketing Program",
+    "expectedOutput": "Access to markets with favorable prices for farmers' produce",
+    "fundSources": [
+     "GF"
+    ],
+    "implementationStartMonth": 1,
+    "implementationStartYear": 2027,
+    "implementationEndMonth": 12,
+    "implementationEndYear": 2027,
+    "climate": {
+     "codes": [],
+     "rawCodes": "A524-01",
+     "ccaAmount": "87000.00",
+     "ccmAmount": null
+    },
+    "type": "ACTIVITY",
+    "costMode": "DIRECT_COSTS",
+    "proposedBudget": "120000.00",
+    "psEstimate": null,
+    "mooeEstimate": "120000.00",
+    "coEstimate": null,
+    "children": []
+   }
+  ]
+ },
+ {
+  "name": "Direct City Procurement from Farmers",
+  "officeAcronym": "CAgO",
+  "supportingOfficeAcronyms": [],
+  "finishLineVision": 1,
+  "papClass": "OPERATIONS",
+  "majorFinalOutput": null,
+  "expectedOutput": null,
+  "implementationStartMonth": 1,
+  "implementationStartYear": 2027,
+  "implementationEndMonth": 12,
+  "implementationEndYear": 2027,
+  "importWarnings": [],
+  "costMode": "DIRECT_COSTS",
+  "fundSources": [
+   "GF"
+  ],
+  "psProposedTotal": null,
+  "mooeProposedTotal": null,
+  "coProposedTotal": null,
+  "climate": {
+   "codes": [],
+   "rawCodes": "A524-01",
+   "ccaAmount": null,
+   "ccmAmount": null
+  },
+  "projectActivities": []
+ },
+ {
+  "name": "Urban Agriculture Program",
+  "officeAcronym": "CAgO",
+  "supportingOfficeAcronyms": [],
+  "finishLineVision": 1,
+  "papClass": "OPERATIONS",
+  "majorFinalOutput": null,
+  "expectedOutput": null,
+  "implementationStartMonth": 1,
+  "implementationStartYear": 2027,
+  "implementationEndMonth": 12,
+  "implementationEndYear": 2027,
+  "importWarnings": [],
+  "costMode": "ACTIVITY_CHILDREN",
+  "fundSources": [
+   "GF"
+  ],
+  "psProposedTotal": null,
+  "mooeProposedTotal": null,
+  "coProposedTotal": null,
+  "projectActivities": [
+   {
+    "name": "BAT Urban Gardening Project",
+    "expectedOutput": "1350 households have access to safe and healthful food. Sustainable food production through urban agriculture strategies employing organic agriculture systems",
+    "fundSources": [
+     "GF"
+    ],
+    "implementationStartMonth": 1,
+    "implementationStartYear": 2027,
+    "implementationEndMonth": 12,
+    "implementationEndYear": 2027,
+    "climate": {
+     "codes": [
+      "M114-10"
+     ],
+     "rawCodes": "M114-10",
+     "ccaAmount": null,
+     "ccmAmount": "200000.00"
+    },
+    "type": "ACTIVITY",
+    "costMode": "DIRECT_COSTS",
+    "proposedBudget": "200000.00",
+    "psEstimate": null,
+    "mooeEstimate": "200000.00",
+    "coEstimate": null,
+    "children": []
+   },
+   {
+    "name": "Urban and Peri-Urban Agriculture Program",
+    "expectedOutput": "1350 households have access to safe and healthful food. Sustainable food production through urban agriculture strategies employing organic agriculture systems",
+    "fundSources": [
+     "GF"
+    ],
+    "implementationStartMonth": 1,
+    "implementationStartYear": 2027,
+    "implementationEndMonth": 12,
+    "implementationEndYear": 2027,
+    "climate": {
+     "codes": [
+      "M114-10"
+     ],
+     "rawCodes": "M114-10",
+     "ccaAmount": "319000.00",
+     "ccmAmount": null
+    },
+    "type": "ACTIVITY",
+    "costMode": "DIRECT_COSTS",
+    "proposedBudget": "319000.00",
+    "psEstimate": null,
+    "mooeEstimate": "319000.00",
+    "coEstimate": null,
+    "children": []
+   }
+  ]
+ },
+ {
+  "name": "Cost Reduction Interventions",
+  "officeAcronym": "CAgO",
+  "supportingOfficeAcronyms": [],
+  "finishLineVision": 1,
+  "papClass": "OPERATIONS",
+  "majorFinalOutput": null,
+  "expectedOutput": null,
+  "implementationStartMonth": 1,
+  "implementationStartYear": 2027,
+  "implementationEndMonth": 12,
+  "implementationEndYear": 2027,
+  "importWarnings": [],
+  "costMode": "ACTIVITY_CHILDREN",
+  "fundSources": [
+   "GF"
+  ],
+  "psProposedTotal": null,
+  "mooeProposedTotal": null,
+  "coProposedTotal": null,
+  "projectActivities": [
+   {
+    "name": "Balanced Fertilization Adoption Program",
+    "expectedOutput": null,
+    "fundSources": [
+     "GF"
+    ],
+    "implementationStartMonth": 1,
+    "implementationStartYear": 2027,
+    "implementationEndMonth": 12,
+    "implementationEndYear": 2027,
+    "type": "PROJECT",
+    "costMode": "ACTIVITY_CHILDREN",
+    "proposedBudget": null,
+    "psEstimate": null,
+    "mooeEstimate": null,
+    "coEstimate": null,
+    "children": [
+     {
+      "name": "Training and Adoption of BFS Protocols",
+      "expectedOutput": "50 farmers are practicing BFS",
+      "fundSources": [
+       "GF"
+      ],
+      "implementationStartMonth": 1,
+      "implementationStartYear": 2027,
+      "implementationEndMonth": 12,
+      "implementationEndYear": 2027,
+      "climate": {
+       "codes": [
+        "M114-01"
+       ],
+       "rawCodes": "M114-01",
+       "ccaAmount": null,
+       "ccmAmount": "100000.00"
+      },
+      "type": "ACTIVITY",
+      "costMode": "DIRECT_COSTS",
+      "proposedBudget": "100000.00",
+      "psEstimate": null,
+      "mooeEstimate": "100000.00",
+      "coEstimate": null,
+      "children": []
+     },
+     {
+      "name": "Soil analysis and fertilizer recommendation services",
+      "expectedOutput": "100 has analyzed and fertilizer recommendation received by farmers",
+      "fundSources": [
+       "GF"
+      ],
+      "implementationStartMonth": 1,
+      "implementationStartYear": 2027,
+      "implementationEndMonth": 12,
+      "implementationEndYear": 2027,
+      "climate": {
+       "codes": [
+        "M114-01"
+       ],
+       "rawCodes": "M114-01",
+       "ccaAmount": null,
+       "ccmAmount": "30000.00"
+      },
+      "type": "ACTIVITY",
+      "costMode": "DIRECT_COSTS",
+      "proposedBudget": "30000.00",
+      "psEstimate": null,
+      "mooeEstimate": "30000.00",
+      "coEstimate": null,
+      "children": []
+     }
+    ]
+   },
+   {
+    "name": "Natural/Organic Farming Promotion Project",
+    "expectedOutput": null,
+    "fundSources": [
+     "GF"
+    ],
+    "implementationStartMonth": 1,
+    "implementationStartYear": 2027,
+    "implementationEndMonth": 12,
+    "implementationEndYear": 2027,
+    "type": "PROJECT",
+    "costMode": "ACTIVITY_CHILDREN",
+    "proposedBudget": null,
+    "psEstimate": null,
+    "mooeEstimate": null,
+    "coEstimate": null,
+    "children": [
+     {
+      "name": "Conversion of Nursery into demo site for natural/organic farming practices",
+      "expectedOutput": "100% of farm inputs used at the city nursery are organic",
+      "fundSources": [
+       "GF"
+      ],
+      "implementationStartMonth": 1,
+      "implementationStartYear": 2027,
+      "implementationEndMonth": 12,
+      "implementationEndYear": 2027,
+      "climate": {
+       "codes": [
+        "M114-04",
+        "M114-01"
+       ],
+       "rawCodes": "M114-04, M114-01",
+       "ccaAmount": null,
+       "ccmAmount": "1061000.00"
+      },
+      "type": "ACTIVITY",
+      "costMode": "DIRECT_COSTS",
+      "proposedBudget": "601000.00",
+      "psEstimate": null,
+      "mooeEstimate": "601000.00",
+      "coEstimate": null,
+      "children": []
+     },
+     {
+      "name": "Vermicast Production",
+      "expectedOutput": "2 tons of vermicast produced; 4 vermi beds",
+      "fundSources": [
+       "GF"
+      ],
+      "implementationStartMonth": 1,
+      "implementationStartYear": 2027,
+      "implementationEndMonth": 12,
+      "implementationEndYear": 2027,
+      "climate": {
+       "codes": [
+        "M114-01"
+       ],
+       "rawCodes": "M114-01",
+       "ccaAmount": null,
+       "ccmAmount": "100000.00"
+      },
+      "type": "ACTIVITY",
+      "costMode": "DIRECT_COSTS",
+      "proposedBudget": "120000.00",
+      "psEstimate": null,
+      "mooeEstimate": "120000.00",
+      "coEstimate": null,
+      "children": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Agro-Foresty Promotion & Technical Support",
+  "officeAcronym": "CAgO",
+  "supportingOfficeAcronyms": [],
+  "finishLineVision": 1,
+  "papClass": "OPERATIONS",
+  "majorFinalOutput": null,
+  "expectedOutput": "Fruit bearing trees and Indigeneous vegetable production",
+  "implementationStartMonth": 1,
+  "implementationStartYear": 2027,
+  "implementationEndMonth": 12,
+  "implementationEndYear": 2027,
+  "importWarnings": [],
+  "costMode": "DIRECT_COSTS",
+  "fundSources": [
+   "GF"
+  ],
+  "psProposedTotal": null,
+  "mooeProposedTotal": "50000.00",
+  "coProposedTotal": null,
+  "climate": {
+   "codes": [
+    "A114-12"
+   ],
+   "rawCodes": "A114-12",
+   "ccaAmount": "50000.00",
+   "ccmAmount": null
+  },
+  "projectActivities": []
+ },
+ {
+  "name": "Tourism Destination Development",
+  "officeAcronym": "CAgO",
+  "supportingOfficeAcronyms": [],
+  "finishLineVision": 1,
+  "papClass": "OPERATIONS",
+  "majorFinalOutput": null,
+  "expectedOutput": null,
+  "implementationStartMonth": 1,
+  "implementationStartYear": 2027,
+  "implementationEndMonth": 12,
+  "implementationEndYear": 2027,
+  "importWarnings": [],
+  "costMode": "ACTIVITY_CHILDREN",
+  "fundSources": [
+   "GF"
+  ],
+  "psProposedTotal": null,
+  "mooeProposedTotal": null,
+  "coProposedTotal": null,
+  "projectActivities": [
+   {
+    "name": "Agri-tourism",
+    "expectedOutput": "Implementation of a plan to develop local farms, especially in the upland to agri-tourism and/or learning sites for agriculture",
+    "fundSources": [
+     "GF"
+    ],
+    "implementationStartMonth": 1,
+    "implementationStartYear": 2027,
+    "implementationEndMonth": 12,
+    "implementationEndYear": 2027,
+    "type": "ACTIVITY",
+    "costMode": "DIRECT_COSTS",
+    "proposedBudget": "650000.00",
+    "psEstimate": null,
+    "mooeEstimate": "150000.00",
+    "coEstimate": "500000.00",
+    "children": []
+   }
+  ]
+ },
+ {
+  "name": "Independent Component City Agriculture and Fishery Council",
+  "officeAcronym": "CAgO",
+  "supportingOfficeAcronyms": [],
+  "finishLineVision": 1,
+  "papClass": "OPERATIONS",
+  "majorFinalOutput": null,
+  "expectedOutput": "Active participation of ICCAFC in city and DA activities/events",
+  "implementationStartMonth": 1,
+  "implementationStartYear": 2027,
+  "implementationEndMonth": 12,
+  "implementationEndYear": 2027,
+  "importWarnings": [],
+  "costMode": "DIRECT_COSTS",
+  "fundSources": [
+   "GF"
+  ],
+  "psProposedTotal": null,
+  "mooeProposedTotal": "600000.00",
+  "coProposedTotal": null,
+  "projectActivities": []
+ },
+ {
+  "name": "Human Resource and Administrative Support Services",
+  "officeAcronym": "CENRO",
+  "supportingOfficeAcronyms": [],
+  "finishLineVision": 2,
+  "papClass": "GAS",
+  "majorFinalOutput": null,
+  "expectedOutput": "Personnel compensation, benefits, attendance records, work deployment, HR requirements, and administrative support services processed and maintained",
+  "implementationStartMonth": 1,
+  "implementationStartYear": 2027,
+  "implementationEndMonth": 12,
+  "implementationEndYear": 2027,
+  "importWarnings": [],
+  "costMode": "DIRECT_COSTS",
+  "fundSources": [
+   "GF"
+  ],
+  "psProposedTotal": "32400000.00",
+  "mooeProposedTotal": "6477000.00",
+  "coProposedTotal": "14800000.00",
+  "projectActivities": []
+ },
+ {
+  "name": "Inter-Agency Coordination and Liaison Services",
+  "officeAcronym": "CENRO",
+  "supportingOfficeAcronyms": [],
+  "finishLineVision": 2,
+  "papClass": "STO",
+  "majorFinalOutput": null,
+  "expectedOutput": "100% of duly authorized inter-agency coordination activities, meetings, travel-related claims, notices, minutes, and related documents processed, prepared, circulated, or acted upon with complete documentation and within prescribed internal or post-activity deadlines.",
+  "implementationStartMonth": 1,
+  "implementationStartYear": 2027,
+  "implementationEndMonth": 12,
+  "implementationEndYear": 2027,
+  "importWarnings": [],
+  "costMode": "DIRECT_COSTS",
+  "fundSources": [
+   "GF"
+  ],
+  "psProposedTotal": null,
+  "mooeProposedTotal": "104000.00",
+  "coProposedTotal": null,
+  "projectActivities": []
+ },
+ {
+  "name": "Budget Planning, Investment Programming, and PPMP Preparation Services",
+  "officeAcronym": "CENRO",
+  "supportingOfficeAcronyms": [],
+  "finishLineVision": 2,
+  "papClass": "STO",
+  "majorFinalOutput": null,
+  "expectedOutput": "100% of required office budget proposals, PPAs, targets, cost estimates, supporting justifications, AIP, PPMP, APP, and related planning documents prepared, reviewed, consolidated, endorsed, or submitted in accordance with approved planning priorities, office mandate, budget preparation guidelines, and prescribed deadlines.",
+  "implementationStartMonth": 1,
+  "implementationStartYear": 2027,
+  "implementationEndMonth": 12,
+  "implementationEndYear": 2027,
+  "importWarnings": [],
+  "costMode": "DIRECT_COSTS",
+  "fundSources": [
+   "GF"
+  ],
+  "psProposedTotal": null,
+  "mooeProposedTotal": "30000.00",
+  "coProposedTotal": null,
+  "projectActivities": []
+ },
+ {
+  "name": "Performance Assessment, Review, Capacity Development, and Team Development Services",
+  "officeAcronym": "CENRO",
+  "supportingOfficeAcronyms": [],
+  "finishLineVision": 2,
+  "papClass": "STO",
+  "majorFinalOutput": null,
+  "expectedOutput": "100% of required performance planning, monitoring, assessment, and review activities completed within prescribed schedules; at least 90% of identified priority capacity-development needs addressed through appropriate learning and development interventions; and at least two (2) team development activities conducted annually, with complete documentation and post-activity evaluation.",
+  "implementationStartMonth": 1,
+  "implementationStartYear": 2027,
+  "implementationEndMonth": 12,
+  "implementationEndYear": 2027,
+  "importWarnings": [],
+  "costMode": "DIRECT_COSTS",
+  "fundSources": [
+   "GF"
+  ],
+  "psProposedTotal": null,
+  "mooeProposedTotal": "100000.00",
+  "coProposedTotal": null,
+  "projectActivities": []
+ },
+ {
+  "name": "Environmental Planning, Innovation, Urban Greening, and Climate Resilience Program",
+  "officeAcronym": "CENRO",
+  "supportingOfficeAcronyms": [],
+  "finishLineVision": 2,
+  "papClass": "OPERATIONS",
+  "majorFinalOutput": null,
+  "expectedOutput": null,
+  "implementationStartMonth": 1,
+  "implementationStartYear": 2027,
+  "implementationEndMonth": 12,
+  "implementationEndYear": 2027,
+  "importWarnings": [],
+  "costMode": "ACTIVITY_CHILDREN",
+  "fundSources": [],
+  "psProposedTotal": null,
+  "mooeProposedTotal": null,
+  "coProposedTotal": null,
+  "projectActivities": [
+   {
+    "name": "Urban Greening and Climate Resilience Project",
+    "expectedOutput": null,
+    "fundSources": [],
+    "implementationStartMonth": null,
+    "implementationStartYear": null,
+    "implementationEndMonth": null,
+    "implementationEndYear": null,
+    "type": "PROJECT",
+    "costMode": "ACTIVITY_CHILDREN",
+    "proposedBudget": null,
+    "psEstimate": null,
+    "mooeEstimate": null,
+    "coEstimate": null,
+    "children": [
+     {
+      "name": "Urban Forest and Carbon Sink Expansion Program – Forest in Our Midst",
+      "expectedOutput": "At least ___ trees/native planting materials established in identified urban greening sites, with 100% of planted sites geotagged and monitored and at least ___% survival rate maintained after the prescribed establishment period.",
+      "fundSources": [
+       "GF"
+      ],
+      "implementationStartMonth": 2,
+      "implementationStartYear": 2027,
+      "implementationEndMonth": 2,
+      "implementationEndYear": 2027,
+      "climate": {
+       "codes": [],
+       "rawCodes": "M1314-01",
+       "ccaAmount": null,
+       "ccmAmount": "500000.00"
+      },
+      "type": "ACTIVITY",
+      "costMode": "DIRECT_COSTS",
+      "proposedBudget": "500000.00",
+      "psEstimate": null,
+      "mooeEstimate": "500000.00",
+      "coEstimate": null,
+      "children": []
+     },
+     {
+      "name": "Nature-Based Flood Management and Urban Agroforestry Program",
+      "expectedOutput": "At least ___ hectares/sites in identified upland or flood-sensitive barangays developed or maintained through agroforestry, soil and water conservation, revegetation, or other nature-based interventions, with participating beneficiaries/communities documented and survival/maintenance monitoring conducted.",
+      "fundSources": [
+       "GF"
+      ],
+      "implementationStartMonth": 2,
+      "implementationStartYear": 2027,
+      "implementationEndMonth": 2,
+      "implementationEndYear": 2027,
+      "climate": {
+       "codes": [
+        "A314-08"
+       ],
+       "rawCodes": "A314-08",
+       "ccaAmount": "1000000.00",
+       "ccmAmount": null
+      },
+      "type": "ACTIVITY",
+      "costMode": "DIRECT_COSTS",
+      "proposedBudget": "1000000.00",
+      "psEstimate": null,
+      "mooeEstimate": "1000000.00",
+      "coEstimate": null,
+      "children": []
+     },
+     {
+      "name": "Urban Biodiversity, Native Plant Propagation, Seed Bank, and Tree Inventory Program",
+      "expectedOutput": "At least ___ native/endemic seedlings propagated and maintained; nursery and seed-bank operations sustained; and 100% of trees included in the approved CY 2027 inventory/geotagging program properly recorded, mapped, and updated in the environmental database.",
+      "fundSources": [
+       "GF"
+      ],
+      "implementationStartMonth": 2,
+      "implementationStartYear": 2027,
+      "implementationEndMonth": 2,
+      "implementationEndYear": 2027,
+      "climate": {
+       "codes": [
+        "M314-04"
+       ],
+       "rawCodes": "M314-04",
+       "ccaAmount": null,
+       "ccmAmount": "500000.00"
+      },
+      "type": "ACTIVITY",
+      "costMode": "DIRECT_COSTS",
+      "proposedBudget": "500000.00",
+      "psEstimate": null,
+      "mooeEstimate": "500000.00",
+      "coEstimate": null,
+      "children": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Wildlife Rescue, Monitoring, Conservation, and Protection Services",
+  "officeAcronym": "CENRO",
+  "supportingOfficeAcronyms": [],
+  "finishLineVision": 2,
+  "papClass": "OPERATIONS",
+  "majorFinalOutput": null,
+  "expectedOutput": "100% of validated wildlife rescue or displacement incidents referred to ENRO acted upon or properly coordinated with the competent wildlife authority, with rescued wildlife, disposition, mortality, release, and monitoring data systematically recorded.",
+  "implementationStartMonth": 2,
+  "implementationStartYear": 2027,
+  "implementationEndMonth": 2,
+  "implementationEndYear": 2027,
+  "importWarnings": [],
+  "costMode": "DIRECT_COSTS",
+  "fundSources": [
+   "GF"
+  ],
+  "psProposedTotal": null,
+  "mooeProposedTotal": "150000.00",
+  "coProposedTotal": null,
+  "climate": {
+   "codes": [
+    "A314-10"
+   ],
+   "rawCodes": "A314-10",
+   "ccaAmount": "150000.00",
+   "ccmAmount": null
+  },
+  "projectActivities": []
+ },
+ {
+  "name": "Urban Tree Care, Tree Surgery, and Vegetation Risk Management Services",
+  "officeAcronym": "CENRO",
+  "supportingOfficeAcronyms": [],
+  "finishLineVision": 2,
+  "papClass": "OPERATIONS",
+  "majorFinalOutput": null,
+  "expectedOutput": "100% of validated priority requests involving hazardous, diseased, damaged, or obstructive trees and vegetation assessed, with appropriate pruning, tree surgery, treatment, removal, or referral undertaken based on technical findings and public-safety requirements within prescribed periods.",
+  "implementationStartMonth": 2,
+  "implementationStartYear": 2027,
+  "implementationEndMonth": 2,
+  "implementationEndYear": 2027,
+  "importWarnings": [],
+  "costMode": "DIRECT_COSTS",
+  "fundSources": [
+   "GF"
+  ],
+  "psProposedTotal": null,
+  "mooeProposedTotal": "200000.00",
+  "coProposedTotal": "500000.00",
+  "climate": {
+   "codes": [
+    "M314-04"
+   ],
+   "rawCodes": "M314-04",
+   "ccaAmount": null,
+   "ccmAmount": "500000.00"
+  },
+  "projectActivities": []
+ },
+ {
+  "name": "Health Governance and Administrative Services Program",
+  "officeAcronym": "CHO",
+  "supportingOfficeAcronyms": [],
+  "finishLineVision": 4,
+  "papClass": "GAS",
+  "majorFinalOutput": null,
+  "expectedOutput": "Personnel compensation, benefits, attendance records, work deployment, HR requirements, and administrative support services processed and maintained",
+  "implementationStartMonth": 1,
+  "implementationStartYear": 2027,
+  "implementationEndMonth": 12,
+  "implementationEndYear": 2027,
+  "importWarnings": [],
+  "costMode": "DIRECT_COSTS",
+  "fundSources": [
+   "GF",
+   "SHF"
+  ],
+  "psProposedTotal": "224720000.00",
+  "mooeProposedTotal": "37869000.00",
+  "coProposedTotal": "2000000.00",
+  "fundAllocations": [
+   {
+    "fundSource": "GF",
+    "ps": "224720000.00",
+    "mooe": "18770000.00",
+    "co": "2000000.00"
+   },
+   {
+    "fundSource": "SHF",
+    "ps": "0.00",
+    "mooe": "19099000.00",
+    "co": "0.00"
+   }
+  ],
+  "projectActivities": []
+ },
+ {
+  "name": "Medical Equipment and Semi-Expendable Asset Maintenance",
+  "officeAcronym": "CHO",
+  "supportingOfficeAcronyms": [],
+  "finishLineVision": 4,
+  "papClass": "STO",
+  "majorFinalOutput": null,
+  "expectedOutput": "Medical equipment, devices, furniture, and semi-expendable assets maintained, repaired, or replaced as needed",
+  "implementationStartMonth": 1,
+  "implementationStartYear": 2027,
+  "implementationEndMonth": 12,
+  "implementationEndYear": 2027,
+  "importWarnings": [],
+  "costMode": "ACTIVITY_CHILDREN",
+  "fundSources": [
+   "GF"
+  ],
+  "psProposedTotal": null,
+  "mooeProposedTotal": null,
+  "coProposedTotal": null,
+  "projectActivities": [
+   {
+    "name": "Medical Equipment and Semi-Expendable Asset Maintenance",
+    "type": "ACTIVITY",
+    "costMode": "DIRECT_COSTS",
+    "expectedOutput": "Medical equipment, devices, furniture, and semi-expendable assets maintained, repaired, or replaced as needed",
+    "fundSources": [
+     "GF"
+    ],
+    "implementationStartMonth": 1,
+    "implementationStartYear": 2027,
+    "implementationEndMonth": 12,
+    "implementationEndYear": 2027,
+    "proposedBudget": "6000000.00",
+    "psEstimate": null,
+    "mooeEstimate": "2000000.00",
+    "coEstimate": "4000000.00",
+    "children": []
+   },
+   {
+    "name": "Inter-Agency Coordination and Liaison Services",
+    "expectedOutput": "100% of duly authorized inter-agency coordination activities, meetings, travel-related claims, notices, minutes, and related documents processed, prepared, circulated, or acted upon with complete documentation and within prescribed internal or post-activity deadlines.",
+    "fundSources": [
+     "GF"
+    ],
+    "implementationStartMonth": 1,
+    "implementationStartYear": 2027,
+    "implementationEndMonth": 12,
+    "implementationEndYear": 2027,
+    "type": "ACTIVITY",
+    "costMode": "DIRECT_COSTS",
+    "proposedBudget": "1100000.00",
+    "psEstimate": null,
+    "mooeEstimate": "1100000.00",
+    "coEstimate": null,
+    "children": []
+   },
+   {
+    "name": "Budget Planning, Investment Programming, and PPMP Preparation Services",
+    "expectedOutput": "100% of required office budget proposals, PPAs, targets, cost estimates, supporting justifications, AIP, PPMP, APP, and related planning documents prepared, reviewed, consolidated, endorsed, or submitted in accordance with approved planning priorities, office mandate, budget preparation guidelines, and prescribed deadlines.",
+    "fundSources": [
+     "GF"
+    ],
+    "implementationStartMonth": 1,
+    "implementationStartYear": 2027,
+    "implementationEndMonth": 12,
+    "implementationEndYear": 2027,
+    "type": "ACTIVITY",
+    "costMode": "DIRECT_COSTS",
+    "proposedBudget": "500000.00",
+    "psEstimate": null,
+    "mooeEstimate": "500000.00",
+    "coEstimate": null,
+    "children": []
+   },
+   {
+    "name": "Performance Assessment, Review, Capacity Development, and Team Development Services",
+    "expectedOutput": "100% of required performance planning, monitoring, assessment, and review activities completed within prescribed schedules; at least 90% of identified priority capacity-development needs addressed through appropriate learning and development interventions; and at least two (2) team development activities conducted annually, with complete documentation and post-activity evaluation.",
+    "fundSources": [
+     "GF"
+    ],
+    "implementationStartMonth": 1,
+    "implementationStartYear": 2027,
+    "implementationEndMonth": 12,
+    "implementationEndYear": 2027,
+    "type": "ACTIVITY",
+    "costMode": "DIRECT_COSTS",
+    "proposedBudget": "1500000.00",
+    "psEstimate": null,
+    "mooeEstimate": "1500000.00",
+    "coEstimate": null,
+    "children": []
+   },
+   {
+    "name": "Univesal Healthcare Integration",
+    "expectedOutput": "Designed to achieve improved health outcomes, responsive health systems, and equitable health financing",
+    "fundSources": [
+     "GF"
+    ],
+    "implementationStartMonth": 1,
+    "implementationStartYear": 2027,
+    "implementationEndMonth": 12,
+    "implementationEndYear": 2027,
+    "type": "ACTIVITY",
+    "costMode": "DIRECT_COSTS",
+    "proposedBudget": "10000000.00",
+    "psEstimate": null,
+    "mooeEstimate": "10000000.00",
+    "coEstimate": null,
+    "children": []
+   },
+   {
+    "name": "Digital Health and IT Infrastructure Program",
+    "expectedOutput": "Strengthened digital transformation and information systems supporting Universal Health Care implementation.",
+    "fundSources": [
+     "GF"
+    ],
+    "implementationStartMonth": 1,
+    "implementationStartYear": 2027,
+    "implementationEndMonth": 12,
+    "implementationEndYear": 2027,
+    "type": "ACTIVITY",
+    "costMode": "DIRECT_COSTS",
+    "proposedBudget": "4000000.00",
+    "psEstimate": null,
+    "mooeEstimate": "1000000.00",
+    "coEstimate": "3000000.00",
+    "children": []
+   }
+  ]
+ },
+ {
+  "name": "Family Health Services Program",
+  "officeAcronym": "CHO",
+  "supportingOfficeAcronyms": [],
+  "finishLineVision": 4,
+  "papClass": "OPERATIONS",
+  "majorFinalOutput": null,
+  "expectedOutput": "Provide comprehensive maternal, child, and adolescent healthcare, sustain high immunization coverage against vaccine-preventable diseases, deliver community oral health programs, expand clinical consultations and referral networks under HCPN, and enforce rational drug use aligned with the Philippine Medicines Policy.",
+  "implementationStartMonth": 1,
+  "implementationStartYear": 2027,
+  "implementationEndMonth": 12,
+  "implementationEndYear": 2027,
+  "importWarnings": [],
+  "costMode": "DIRECT_COSTS",
+  "fundSources": [
+   "GF",
+   "SHF"
+  ],
+  "psProposedTotal": null,
+  "mooeProposedTotal": "51406000.00",
+  "coProposedTotal": "1054000.00",
+  "fundAllocations": [
+   {
+    "fundSource": "GF",
+    "ps": "0.00",
+    "mooe": "31000000.00",
+    "co": "0.00"
+   },
+   {
+    "fundSource": "SHF",
+    "ps": "0.00",
+    "mooe": "20406000.00",
+    "co": "1054000.00"
+   }
+  ],
+  "projectActivities": []
+ },
+ {
+  "name": "Infectious Disease Prevention and Control Program",
+  "officeAcronym": "CHO",
+  "supportingOfficeAcronyms": [],
+  "finishLineVision": 4,
+  "papClass": "OPERATIONS",
+  "majorFinalOutput": null,
+  "expectedOutput": "Prevention, surveillance, and control of communicable diseases strengthened.",
+  "implementationStartMonth": 1,
+  "implementationStartYear": 2027,
+  "implementationEndMonth": 12,
+  "implementationEndYear": 2027,
+  "importWarnings": [],
+  "costMode": "ACTIVITY_CHILDREN",
+  "fundSources": [],
+  "psProposedTotal": null,
+  "mooeProposedTotal": null,
+  "coProposedTotal": null,
+  "projectActivities": [
+   {
+    "name": "Tuberculosis Prevention and Control Project",
+    "expectedOutput": null,
+    "fundSources": [],
+    "implementationStartMonth": null,
+    "implementationStartYear": null,
+    "implementationEndMonth": null,
+    "implementationEndYear": null,
+    "type": "PROJECT",
+    "costMode": "ACTIVITY_CHILDREN",
+    "proposedBudget": null,
+    "psEstimate": null,
+    "mooeEstimate": null,
+    "coEstimate": null,
+    "children": [
+     {
+      "name": "Tuberculosis Program",
+      "expectedOutput": "100% TB case detection and TB cure.",
+      "fundSources": [
+       "GF"
+      ],
+      "implementationStartMonth": 1,
+      "implementationStartYear": 2027,
+      "implementationEndMonth": 12,
+      "implementationEndYear": 2027,
+      "type": "ACTIVITY",
+      "costMode": "DIRECT_COSTS",
+      "proposedBudget": "1000000.00",
+      "psEstimate": null,
+      "mooeEstimate": "1000000.00",
+      "coEstimate": null,
+      "children": []
+     }
+    ]
+   },
+   {
+    "name": "HIV/STI Prevention and Control Project",
+    "expectedOutput": null,
+    "fundSources": [],
+    "implementationStartMonth": null,
+    "implementationStartYear": null,
+    "implementationEndMonth": null,
+    "implementationEndYear": null,
+    "type": "PROJECT",
+    "costMode": "ACTIVITY_CHILDREN",
+    "proposedBudget": null,
+    "psEstimate": null,
+    "mooeEstimate": null,
+    "coEstimate": null,
+    "children": [
+     {
+      "name": "HIV and STI Prevention Program",
+      "expectedOutput": "Increased number of case findings.",
+      "fundSources": [
+       "GF"
+      ],
+      "implementationStartMonth": 1,
+      "implementationStartYear": 2027,
+      "implementationEndMonth": 12,
+      "implementationEndYear": 2027,
+      "type": "ACTIVITY",
+      "costMode": "DIRECT_COSTS",
+      "proposedBudget": "2000000.00",
+      "psEstimate": null,
+      "mooeEstimate": "2000000.00",
+      "coEstimate": null,
+      "children": []
+     }
+    ]
+   },
+   {
+    "name": "Vector-Borne Disease Prevention Project",
+    "expectedOutput": null,
+    "fundSources": [],
+    "implementationStartMonth": null,
+    "implementationStartYear": null,
+    "implementationEndMonth": null,
+    "implementationEndYear": null,
+    "type": "PROJECT",
+    "costMode": "ACTIVITY_CHILDREN",
+    "proposedBudget": null,
+    "psEstimate": null,
+    "mooeEstimate": null,
+    "coEstimate": null,
+    "children": [
+     {
+      "name": "Dengue Prevention Program",
+      "expectedOutput": "Reduced dengue cases.",
+      "fundSources": [
+       "GF"
+      ],
+      "implementationStartMonth": 1,
+      "implementationStartYear": 2027,
+      "implementationEndMonth": 12,
+      "implementationEndYear": 2027,
+      "type": "ACTIVITY",
+      "costMode": "DIRECT_COSTS",
+      "proposedBudget": "2000000.00",
+      "psEstimate": null,
+      "mooeEstimate": "2000000.00",
+      "coEstimate": null,
+      "children": []
+     },
+     {
+      "name": "Rabies Prevention Program",
+      "expectedOutput": "Reduced rabies cases.",
+      "fundSources": [
+       "GF"
+      ],
+      "implementationStartMonth": 1,
+      "implementationStartYear": 2027,
+      "implementationEndMonth": 12,
+      "implementationEndYear": 2027,
+      "type": "ACTIVITY",
+      "costMode": "DIRECT_COSTS",
+      "proposedBudget": "1000000.00",
+      "psEstimate": null,
+      "mooeEstimate": "1000000.00",
+      "coEstimate": null,
+      "children": []
+     }
+    ]
+   },
+   {
+    "name": "Environmental Health and Sanitation Project",
+    "expectedOutput": null,
+    "fundSources": [],
+    "implementationStartMonth": null,
+    "implementationStartYear": null,
+    "implementationEndMonth": null,
+    "implementationEndYear": null,
+    "type": "PROJECT",
+    "costMode": "ACTIVITY_CHILDREN",
+    "proposedBudget": null,
+    "psEstimate": null,
+    "mooeEstimate": null,
+    "coEstimate": null,
+    "children": [
+     {
+      "name": "Environmental Health and Sanitation Services",
+      "expectedOutput": "In progress Sustainable Development Goal (SDG).",
+      "fundSources": [
+       "GF"
+      ],
+      "implementationStartMonth": 1,
+      "implementationStartYear": 2027,
+      "implementationEndMonth": 12,
+      "implementationEndYear": 2027,
+      "type": "ACTIVITY",
+      "costMode": "DIRECT_COSTS",
+      "proposedBudget": "1000000.00",
+      "psEstimate": null,
+      "mooeEstimate": "1000000.00",
+      "coEstimate": null,
+      "children": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Non-Communicable Disease Prevention and Control Program",
+  "officeAcronym": "CHO",
+  "supportingOfficeAcronyms": [],
+  "finishLineVision": 4,
+  "papClass": "OPERATIONS",
+  "majorFinalOutput": null,
+  "expectedOutput": "Improved prevention, detection, and management of non-communicable diseases.",
+  "implementationStartMonth": 1,
+  "implementationStartYear": 2027,
+  "implementationEndMonth": 12,
+  "implementationEndYear": 2027,
+  "importWarnings": [],
+  "costMode": "ACTIVITY_CHILDREN",
+  "fundSources": [],
+  "psProposedTotal": null,
+  "mooeProposedTotal": null,
+  "coProposedTotal": null,
+  "projectActivities": [
+   {
+    "name": "Lifestyle Disease Prevention Project",
+    "expectedOutput": null,
+    "fundSources": [],
+    "implementationStartMonth": null,
+    "implementationStartYear": null,
+    "implementationEndMonth": null,
+    "implementationEndYear": null,
+    "type": "PROJECT",
+    "costMode": "ACTIVITY_CHILDREN",
+    "proposedBudget": null,
+    "psEstimate": null,
+    "mooeEstimate": null,
+    "coEstimate": null,
+    "children": [
+     {
+      "name": "Lifestyle-Related Disease Program",
+      "expectedOutput": "Participants from the 17 catchment barangays will be able to avail of the services offered in the facility.",
+      "fundSources": [
+       "GF"
+      ],
+      "implementationStartMonth": 1,
+      "implementationStartYear": 2027,
+      "implementationEndMonth": 12,
+      "implementationEndYear": 2027,
+      "type": "ACTIVITY",
+      "costMode": "DIRECT_COSTS",
+      "proposedBudget": "1000000.00",
+      "psEstimate": null,
+      "mooeEstimate": "1000000.00",
+      "coEstimate": null,
+      "children": []
+     }
+    ]
+   },
+   {
+    "name": "Mental Health Services Project",
+    "expectedOutput": null,
+    "fundSources": [],
+    "implementationStartMonth": null,
+    "implementationStartYear": null,
+    "implementationEndMonth": null,
+    "implementationEndYear": null,
+    "type": "PROJECT",
+    "costMode": "ACTIVITY_CHILDREN",
+    "proposedBudget": null,
+    "psEstimate": null,
+    "mooeEstimate": null,
+    "coEstimate": null,
+    "children": [
+     {
+      "name": "Mental Health Program",
+      "expectedOutput": "Addresses burnout, compassion fatigue, and other psychological challenges that may arise from demanding roles.",
+      "fundSources": [
+       "GF"
+      ],
+      "implementationStartMonth": 1,
+      "implementationStartYear": 2027,
+      "implementationEndMonth": 12,
+      "implementationEndYear": 2027,
+      "type": "ACTIVITY",
+      "costMode": "DIRECT_COSTS",
+      "proposedBudget": "1000000.00",
+      "psEstimate": null,
+      "mooeEstimate": "1000000.00",
+      "coEstimate": null,
+      "children": []
+     }
+    ]
+   },
+   {
+    "name": "Healthy Aging Project",
+    "expectedOutput": null,
+    "fundSources": [],
+    "implementationStartMonth": null,
+    "implementationStartYear": null,
+    "implementationEndMonth": null,
+    "implementationEndYear": null,
+    "type": "PROJECT",
+    "costMode": "ACTIVITY_CHILDREN",
+    "proposedBudget": null,
+    "psEstimate": null,
+    "mooeEstimate": null,
+    "coEstimate": null,
+    "children": [
+     {
+      "name": "Health and Welfare of Senior Citizens",
+      "expectedOutput": "Increased program coverage for senior citizens.",
+      "fundSources": [
+       "GF"
+      ],
+      "implementationStartMonth": 1,
+      "implementationStartYear": 2027,
+      "implementationEndMonth": 12,
+      "implementationEndYear": 2027,
+      "type": "ACTIVITY",
+      "costMode": "DIRECT_COSTS",
+      "proposedBudget": "500000.00",
+      "psEstimate": null,
+      "mooeEstimate": "500000.00",
+      "coEstimate": null,
+      "children": []
+     },
+     {
+      "name": "Blindness Prevention Program",
+      "expectedOutput": "Empower communities to take proactive roles in the promotion of eye health and prevention of blindness.",
+      "fundSources": [
+       "GF"
+      ],
+      "implementationStartMonth": 1,
+      "implementationStartYear": 2027,
+      "implementationEndMonth": 12,
+      "implementationEndYear": 2027,
+      "type": "ACTIVITY",
+      "costMode": "DIRECT_COSTS",
+      "proposedBudget": "1000000.00",
+      "psEstimate": null,
+      "mooeEstimate": "1000000.00",
+      "coEstimate": null,
+      "children": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Health Promotion Program",
+  "officeAcronym": "CHO",
+  "supportingOfficeAcronyms": [],
+  "finishLineVision": 4,
+  "papClass": "OPERATIONS",
+  "majorFinalOutput": null,
+  "expectedOutput": "Strengthened health promotion, disease prevention, and public awareness initiatives.",
+  "implementationStartMonth": 1,
+  "implementationStartYear": 2027,
+  "implementationEndMonth": 12,
+  "implementationEndYear": 2027,
+  "importWarnings": [],
+  "costMode": "ACTIVITY_CHILDREN",
+  "fundSources": [],
+  "psProposedTotal": null,
+  "mooeProposedTotal": null,
+  "coProposedTotal": null,
+  "projectActivities": [
+   {
+    "name": "Health Education and Advocacy Project",
+    "expectedOutput": null,
+    "fundSources": [],
+    "implementationStartMonth": null,
+    "implementationStartYear": null,
+    "implementationEndMonth": null,
+    "implementationEndYear": null,
+    "type": "PROJECT",
+    "costMode": "ACTIVITY_CHILDREN",
+    "proposedBudget": null,
+    "psEstimate": null,
+    "mooeEstimate": null,
+    "coEstimate": null,
+    "children": [
+     {
+      "name": "Cancer Awareness Program",
+      "expectedOutput": "100% of all target areas screened and treated as part of cancer prevention.",
+      "fundSources": [
+       "GF"
+      ],
+      "implementationStartMonth": 1,
+      "implementationStartYear": 2027,
+      "implementationEndMonth": 12,
+      "implementationEndYear": 2027,
+      "type": "ACTIVITY",
+      "costMode": "DIRECT_COSTS",
+      "proposedBudget": "1000000.00",
+      "psEstimate": null,
+      "mooeEstimate": "1000000.00",
+      "coEstimate": null,
+      "children": []
+     },
+     {
+      "name": "Health Promotion Program",
+      "expectedOutput": "100% promote health education campaign.",
+      "fundSources": [
+       "GF"
+      ],
+      "implementationStartMonth": 1,
+      "implementationStartYear": 2027,
+      "implementationEndMonth": 12,
+      "implementationEndYear": 2027,
+      "type": "ACTIVITY",
+      "costMode": "DIRECT_COSTS",
+      "proposedBudget": "1000000.00",
+      "psEstimate": null,
+      "mooeEstimate": "1000000.00",
+      "coEstimate": null,
+      "children": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Disease Surveillance and Epidemiology Program",
+  "officeAcronym": "CHO",
+  "supportingOfficeAcronyms": [],
+  "finishLineVision": 4,
+  "papClass": "OPERATIONS",
+  "majorFinalOutput": null,
+  "expectedOutput": "Strengthened disease surveillance, outbreak response, and health information systems.",
+  "implementationStartMonth": 1,
+  "implementationStartYear": 2027,
+  "implementationEndMonth": 12,
+  "implementationEndYear": 2027,
+  "importWarnings": [],
+  "costMode": "ACTIVITY_CHILDREN",
+  "fundSources": [],
+  "psProposedTotal": null,
+  "mooeProposedTotal": null,
+  "coProposedTotal": null,
+  "projectActivities": [
+   {
+    "name": "Epidemiology and Disease Surveillance Project",
+    "expectedOutput": null,
+    "fundSources": [],
+    "implementationStartMonth": null,
+    "implementationStartYear": null,
+    "implementationEndMonth": null,
+    "implementationEndYear": null,
+    "type": "PROJECT",
+    "costMode": "ACTIVITY_CHILDREN",
+    "proposedBudget": null,
+    "psEstimate": null,
+    "mooeEstimate": null,
+    "coEstimate": null,
+    "children": [
+     {
+      "name": "Epidemiology and Surveillance of Emerging and Re-emerging Diseases",
+      "expectedOutput": "To provide early warning, facilitate rapid response, and guide public health policies to reduce morbidity and mortality.",
+      "fundSources": [
+       "GF"
+      ],
+      "implementationStartMonth": 1,
+      "implementationStartYear": 2027,
+      "implementationEndMonth": 12,
+      "implementationEndYear": 2027,
+      "type": "ACTIVITY",
+      "costMode": "DIRECT_COSTS",
+      "proposedBudget": "1000000.00",
+      "psEstimate": null,
+      "mooeEstimate": "1000000.00",
+      "coEstimate": null,
+      "children": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "CHO-Ems",
+  "officeAcronym": "CHO",
+  "supportingOfficeAcronyms": [],
+  "finishLineVision": 4,
+  "papClass": "OPERATIONS",
+  "majorFinalOutput": null,
+  "expectedOutput": "Structured, standardized, and aligned with local health emergency management guidelines, featuring clear incident summaries, triage levels, and resource coordination steps",
+  "implementationStartMonth": 1,
+  "implementationStartYear": 2027,
+  "implementationEndMonth": 12,
+  "implementationEndYear": 2027,
+  "importWarnings": [],
+  "costMode": "DIRECT_COSTS",
+  "fundSources": [
+   "GF"
+  ],
+  "psProposedTotal": "10280000.00",
+  "mooeProposedTotal": "2030000.00",
+  "coProposedTotal": null,
+  "projectActivities": []
+ },
+ {
+  "name": "CHO-Aids",
+  "officeAcronym": "CHO",
+  "supportingOfficeAcronyms": [],
+  "finishLineVision": 4,
+  "papClass": "OPERATIONS",
+  "majorFinalOutput": null,
+  "expectedOutput": "Guided by the Department of Health (DOH) and the Department of the Interior and Local Government (DILG) frameworks under Republic Act No. 11166—include localized ordinances, strategic action plans, budget allocations, and coordinated community testing programs.",
+  "implementationStartMonth": 1,
+  "implementationStartYear": 2027,
+  "implementationEndMonth": 12,
+  "implementationEndYear": 2027,
+  "importWarnings": [],
+  "costMode": "DIRECT_COSTS",
+  "fundSources": [
+   "GF"
+  ],
+  "psProposedTotal": null,
+  "mooeProposedTotal": "2000000.00",
+  "coProposedTotal": null,
+  "projectActivities": []
+ },
+ {
+  "name": "Blood-letting Program",
+  "officeAcronym": "CHO",
+  "supportingOfficeAcronyms": [],
+  "finishLineVision": 4,
+  "papClass": "OPERATIONS",
+  "majorFinalOutput": null,
+  "expectedOutput": "Core outputs include maintaining a safe and sufficient voluntary blood supply, processing components through accredited facilities, and screening for critical infections.",
+  "implementationStartMonth": 1,
+  "implementationStartYear": 2027,
+  "implementationEndMonth": 12,
+  "implementationEndYear": 2027,
+  "importWarnings": [],
+  "costMode": "DIRECT_COSTS",
+  "fundSources": [
+   "GF"
+  ],
+  "psProposedTotal": null,
+  "mooeProposedTotal": "1000000.00",
+  "coProposedTotal": null,
+  "projectActivities": []
+ },
+ {
+  "name": "Human Resource and Administrative Support Services",
+  "officeAcronym": "CSWDO",
+  "supportingOfficeAcronyms": [],
+  "finishLineVision": 4,
+  "papClass": "GAS",
+  "majorFinalOutput": null,
+  "expectedOutput": "Strengthened organizational capacity and administrative support for effective housing and settlements development services.",
+  "implementationStartMonth": 1,
+  "implementationStartYear": 2027,
+  "implementationEndMonth": 12,
+  "implementationEndYear": 2027,
+  "importWarnings": [],
+  "costMode": "DIRECT_COSTS",
+  "fundSources": [
+   "GF"
+  ],
+  "psProposedTotal": "36200000.00",
+  "mooeProposedTotal": "7815000.00",
+  "coProposedTotal": "440000.00",
+  "projectActivities": []
+ },
+ {
+  "name": "Inter-Agency Coordination and Liaison Services",
+  "officeAcronym": "CSWDO",
+  "supportingOfficeAcronyms": [],
+  "finishLineVision": 4,
+  "papClass": "STO",
+  "majorFinalOutput": null,
+  "expectedOutput": "100% of duly authorized inter-agency coordination activities, meetings, travel-related claims, notices, minutes, and related documents processed, prepared, circulated, or acted upon with complete documentation and within prescribed internal or post-activity deadlines.",
+  "implementationStartMonth": 1,
+  "implementationStartYear": 2027,
+  "implementationEndMonth": 12,
+  "implementationEndYear": 2027,
+  "importWarnings": [],
+  "costMode": "DIRECT_COSTS",
+  "fundSources": [
+   "GF"
+  ],
+  "psProposedTotal": null,
+  "mooeProposedTotal": "651000.00",
+  "coProposedTotal": null,
+  "projectActivities": []
+ },
+ {
+  "name": "Budget Planning, Investment Programming, and PPMP Preparation Services",
+  "officeAcronym": "CSWDO",
+  "supportingOfficeAcronyms": [],
+  "finishLineVision": 4,
+  "papClass": "STO",
+  "majorFinalOutput": null,
+  "expectedOutput": "100% of required office budget proposals, PPAs, targets, cost estimates, supporting justifications, AIP, PPMP, APP, and related planning documents prepared, reviewed, consolidated, endorsed, or submitted in accordance with approved planning priorities, office mandate, budget preparation guidelines, and prescribed deadlines.",
+  "implementationStartMonth": 1,
+  "implementationStartYear": 2027,
+  "implementationEndMonth": 12,
+  "implementationEndYear": 2027,
+  "importWarnings": [],
+  "costMode": "DIRECT_COSTS",
+  "fundSources": [
+   "GF"
+  ],
+  "psProposedTotal": null,
+  "mooeProposedTotal": "520000.00",
+  "coProposedTotal": null,
+  "projectActivities": []
+ },
+ {
+  "name": "Assistance to Individuals and Families in Crisis Situations (AICS) Program",
+  "officeAcronym": "CSWDO",
+  "supportingOfficeAcronyms": [],
+  "finishLineVision": 4,
+  "papClass": "OPERATIONS",
+  "majorFinalOutput": null,
+  "expectedOutput": "100% of eligible individuals and families in crisis who submit complete requirements assessed and provided with appropriate financial, material, psychosocial, referral, or other available assistance based on assessed need and within prescribed processing periods.",
+  "implementationStartMonth": 1,
+  "implementationStartYear": 2027,
+  "implementationEndMonth": 12,
+  "implementationEndYear": 2027,
+  "importWarnings": [],
+  "costMode": "ACTIVITY_CHILDREN",
+  "fundSources": [
+   "GF"
+  ],
+  "psProposedTotal": null,
+  "mooeProposedTotal": null,
+  "coProposedTotal": null,
+  "projectActivities": [
+   {
+    "name": "Assistance to Individuals and Families in Crisis Situations (AICS) Program",
+    "type": "ACTIVITY",
+    "costMode": "DIRECT_COSTS",
+    "expectedOutput": "100% of eligible individuals and families in crisis who submit complete requirements assessed and provided with appropriate financial, material, psychosocial, referral, or other available assistance based on assessed need and within prescribed processing periods.",
+    "fundSources": [
+     "GF"
+    ],
+    "implementationStartMonth": 1,
+    "implementationStartYear": 2027,
+    "implementationEndMonth": 12,
+    "implementationEndYear": 2027,
+    "proposedBudget": "13000000.00",
+    "psEstimate": null,
+    "mooeEstimate": "13000000.00",
+    "coEstimate": null,
+    "children": []
+   },
+   {
+    "name": "DSWD Transfer of Funds (TOF) – AICS Implementation",
+    "expectedOutput": "100% of funds transferred by DSWD for AICS utilized for qualified beneficiaries in accordance with approved guidelines, with required utilization, liquidation, and accomplishment reports submitted within prescribed periods.",
+    "fundSources": [
+     "NGA"
+    ],
+    "implementationStartMonth": 1,
+    "implementationStartYear": 2027,
+    "implementationEndMonth": 12,
+    "implementationEndYear": 2027,
+    "type": "ACTIVITY",
+    "costMode": "DIRECT_COSTS",
+    "proposedBudget": "20000000.00",
+    "psEstimate": null,
+    "mooeEstimate": "20000000.00",
+    "coEstimate": null,
+    "children": []
+   }
+  ]
+ },
+ {
+  "name": "Paskohan Food Assistance Program for Indigent Families",
+  "officeAcronym": "CSWDO",
+  "supportingOfficeAcronyms": [],
+  "finishLineVision": 4,
+  "papClass": "OPERATIONS",
+  "majorFinalOutput": null,
+  "expectedOutput": "100% of qualified families included in the approved CY 2027 Paskohan beneficiary masterlist provided with the prescribed food assistance within the approved distribution schedule, with complete distribution and acknowledgment records.",
+  "implementationStartMonth": 1,
+  "implementationStartYear": 2027,
+  "implementationEndMonth": 12,
+  "implementationEndYear": 2027,
+  "importWarnings": [],
+  "costMode": "DIRECT_COSTS",
+  "fundSources": [
+   "GF"
+  ],
+  "psProposedTotal": null,
+  "mooeProposedTotal": "37400000.00",
+  "coProposedTotal": null,
+  "projectActivities": []
+ },
+ {
+  "name": "Solo Parent Rights, Welfare, and Development Program",
+  "officeAcronym": "CSWDO",
+  "supportingOfficeAcronyms": [],
+  "finishLineVision": 4,
+  "papClass": "OPERATIONS",
+  "majorFinalOutput": null,
+  "expectedOutput": "100% of qualified solo parents applying for City-provided programs and benefits assessed and provided with applicable assistance, referrals, capacity-building, welfare, and development interventions in accordance with RA No. 11861, its IRR, and applicable local policies.",
+  "implementationStartMonth": 1,
+  "implementationStartYear": 2027,
+  "implementationEndMonth": 12,
+  "implementationEndYear": 2027,
+  "importWarnings": [],
+  "costMode": "ACTIVITY_CHILDREN",
+  "fundSources": [
+   "GF"
+  ],
+  "psProposedTotal": null,
+  "mooeProposedTotal": null,
+  "coProposedTotal": null,
+  "projectActivities": [
+   {
+    "name": "Solo Parent Rights, Welfare, and Development Program",
+    "type": "ACTIVITY",
+    "costMode": "DIRECT_COSTS",
+    "expectedOutput": "100% of qualified solo parents applying for City-provided programs and benefits assessed and provided with applicable assistance, referrals, capacity-building, welfare, and development interventions in accordance with RA No. 11861, its IRR, and applicable local policies.",
+    "fundSources": [
+     "GF"
+    ],
+    "implementationStartMonth": 1,
+    "implementationStartYear": 2027,
+    "implementationEndMonth": 12,
+    "implementationEndYear": 2027,
+    "proposedBudget": "1054000.00",
+    "psEstimate": null,
+    "mooeEstimate": "1054000.00",
+    "coEstimate": null,
+    "children": []
+   },
+   {
+    "name": "Solo Parent Cash Incentive/Local Benefit Program",
+    "expectedOutput": "100% of qualified and validated solo parents entitled to the statutory/local monthly cash subsidy provided with ₱1,000 per month through the approved cashless payment mechanism, subject to applicable eligibility requirements and availability of appropriated funds.",
+    "fundSources": [
+     "LDF"
+    ],
+    "implementationStartMonth": 1,
+    "implementationStartYear": 2027,
+    "implementationEndMonth": 12,
+    "implementationEndYear": 2027,
+    "type": "ACTIVITY",
+    "costMode": "DIRECT_COSTS",
+    "proposedBudget": "6000000.00",
+    "psEstimate": null,
+    "mooeEstimate": "6000000.00",
+    "coEstimate": null,
+    "children": []
+   }
+  ]
+ },
+ {
+  "name": "Pantawid Pamilyang Pilipino Program (4Ps) Support and Convergence Services",
+  "officeAcronym": "CSWDO",
+  "supportingOfficeAcronyms": [],
+  "finishLineVision": 4,
+  "papClass": "OPERATIONS",
+  "majorFinalOutput": null,
+  "expectedOutput": "100% of 4Ps-related requests, referrals, validations, case concerns, and LGU support requirements received and falling within CSWDO responsibility acted upon within prescribed periods, with required coordination and support activities undertaken with DSWD and concerned partners.",
+  "implementationStartMonth": 1,
+  "implementationStartYear": 2027,
+  "implementationEndMonth": 12,
+  "implementationEndYear": 2027,
+  "importWarnings": [],
+  "costMode": "DIRECT_COSTS",
+  "fundSources": [
+   "GF"
+  ],
+  "psProposedTotal": null,
+  "mooeProposedTotal": "100000.00",
+  "coProposedTotal": null,
+  "projectActivities": []
+ },
+ {
+  "name": "Welfare Goods and Emergency Assistance Services",
+  "officeAcronym": "CSWDO",
+  "supportingOfficeAcronyms": [],
+  "finishLineVision": 4,
+  "papClass": "OPERATIONS",
+  "majorFinalOutput": null,
+  "expectedOutput": "Enhance equitable access of vulnerable and eligible populations to timely, adequate, and responsive social protection, healthcare, education, and other essential services for all residents",
+  "implementationStartMonth": 1,
+  "implementationStartYear": 2027,
+  "implementationEndMonth": 12,
+  "implementationEndYear": 2027,
+  "importWarnings": [],
+  "costMode": "DIRECT_COSTS",
+  "fundSources": [
+   "GF",
+   "LDRRMF"
+  ],
+  "psProposedTotal": null,
+  "mooeProposedTotal": "750000.00",
+  "coProposedTotal": null,
+  "projectActivities": []
+ },
+ {
+  "name": "Women, Family, Children, Youth, and Other Social Welfare Sector Advocacy and Celebration Program",
+  "officeAcronym": "CSWDO",
+  "supportingOfficeAcronyms": [],
+  "finishLineVision": 4,
+  "papClass": "OPERATIONS",
+  "majorFinalOutput": null,
+  "expectedOutput": "100% of approved CY 2027 sectoral observances and advocacy activities implemented within their prescribed schedules, with targeted sectors represented and required activity documentation completed.",
+  "implementationStartMonth": 1,
+  "implementationStartYear": 2027,
+  "implementationEndMonth": 12,
+  "implementationEndYear": 2027,
+  "importWarnings": [],
+  "costMode": "DIRECT_COSTS",
+  "fundSources": [
+   "GF"
+  ],
+  "psProposedTotal": null,
+  "mooeProposedTotal": "300000.00",
+  "coProposedTotal": null,
+  "projectActivities": []
+ },
+ {
+  "name": "Local Committee on Anti-Trafficking and Violence Against Women and Their Children (LCAT-VAWC) Coordination and Protection Program",
+  "officeAcronym": "CSWDO",
+  "supportingOfficeAcronyms": [],
+  "finishLineVision": 4,
+  "papClass": "OPERATIONS",
+  "majorFinalOutput": null,
+  "expectedOutput": "LCAT-VAWC maintained functional during CY 2027 through the conduct of required meetings, implementation and monitoring of its approved work and financial plan, maintenance of required case/program databases, submission of reports, and implementation of prevention, protection, recovery, referral, and reintegration interventions in accordance with applicable DILG guidelines.",
+  "implementationStartMonth": 1,
+  "implementationStartYear": 2027,
+  "implementationEndMonth": 12,
+  "implementationEndYear": 2027,
+  "importWarnings": [],
+  "costMode": "DIRECT_COSTS",
+  "fundSources": [
+   "GF"
+  ],
+  "psProposedTotal": null,
+  "mooeProposedTotal": "200000.00",
+  "coProposedTotal": null,
+  "projectActivities": []
+ },
+ {
+  "name": "Aftercare, Recovery, and Social Reintegration Program for Recovering Persons Who Use Drugs (RPWUDs)",
+  "officeAcronym": "CSWDO",
+  "supportingOfficeAcronyms": [],
+  "finishLineVision": 4,
+  "papClass": "OPERATIONS",
+  "majorFinalOutput": null,
+  "expectedOutput": "100% of RPWUDs referred and assessed for aftercare services provided with appropriate case management, psychosocial support, family/community interventions, referrals, and recovery/reintegration services based on individual aftercare plans.",
+  "implementationStartMonth": 1,
+  "implementationStartYear": 2027,
+  "implementationEndMonth": 12,
+  "implementationEndYear": 2027,
+  "importWarnings": [],
+  "costMode": "DIRECT_COSTS",
+  "fundSources": [
+   "GF"
+  ],
+  "psProposedTotal": null,
+  "mooeProposedTotal": "300000.00",
+  "coProposedTotal": null,
+  "projectActivities": []
+ },
+ {
+  "name": "Local Social Pension Program for Indigent Senior Citizens",
+  "officeAcronym": "CSWDO",
+  "supportingOfficeAcronyms": [],
+  "finishLineVision": 4,
+  "papClass": "OPERATIONS",
+  "majorFinalOutput": null,
+  "expectedOutput": "1,200 qualified indigent senior citizens provided with the authorized local social pension within the prescribed release schedule, with 100% of releases supported by validated beneficiary records and complete payment documentation.",
+  "implementationStartMonth": 1,
+  "implementationStartYear": 2027,
+  "implementationEndMonth": 12,
+  "implementationEndYear": 2027,
+  "importWarnings": [],
+  "costMode": "DIRECT_COSTS",
+  "fundSources": [
+   "TRUST_FUND",
+   "LDF"
+  ],
+  "psProposedTotal": null,
+  "mooeProposedTotal": "7200000.00",
+  "coProposedTotal": null,
+  "projectActivities": []
+ }
+]

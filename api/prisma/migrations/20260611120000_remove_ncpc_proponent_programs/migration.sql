@@ -1,0 +1,13 @@
+-- Remove the NCPC proponent track (endorser pivot Phase 3, OD-1 = hard-delete).
+--
+-- Every program is now an LGU submission. NCPC-proponent programs are deleted
+-- outright — no export, no recovery (the product decision for OD-1). All child
+-- records are removed by the ON DELETE CASCADE foreign keys on the Program
+-- relations: project activities (and their line items + climate tags), program
+-- versions, comments (and replies), verdicts, endorsements, approvals,
+-- read-state rows, and supporting-office links. This is irreversible.
+--
+-- The `proponent_type` / `civil_society_organization_id` columns and the
+-- `ProponentType` enum are retained for now (no remaining NCPC rows) and dropped
+-- in Phase 4. Hand-reviewed destructive migration.
+DELETE FROM "programs" WHERE "proponent_type" = 'NCPC';

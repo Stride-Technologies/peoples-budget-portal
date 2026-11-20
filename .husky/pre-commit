@@ -1,0 +1,23 @@
+# ─── Doc freshness: keep generated docs in sync with the code ────────────────
+# Regenerate the API route table whenever a controller is staged, and re-stage
+# it so the commit always carries an up-to-date api/docs/api-routes.md.
+staged=$(git diff --cached --name-only --diff-filter=ACMR)
+
+if echo "$staged" | grep -q 'api/src/.*\.controller\.ts$'; then
+  echo "→ controller change detected — regenerating api/docs/api-routes.md"
+  node tools/generate-api-routes.mjs
+  git add api/docs/api-routes.md
+fi
+
+# Warn (do not block) if the Prisma schema changed without a new migration.
+if echo "$staged" | grep -q 'api/prisma/schema.prisma'; then
+  if ! echo "$staged" | grep -q 'api/prisma/migrations/.*/migration.sql'; then
+    echo "⚠  schema.prisma is staged but no migration.sql is — did you forget to create a migration?"
+  fi
+fi
+
+# ─── Quality gates (fast — <10s) ─────────────────────────────────────────────
+pnpm --filter api lint
+pnpm --filter client lint
+pnpm --filter api exec tsc --noEmit
+pnpm --filter client exec tsc --noEmit

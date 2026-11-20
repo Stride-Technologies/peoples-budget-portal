@@ -1,0 +1,134 @@
+# The production stack: the API, the client and nginx with TLS, with Redis and (optionally) Postgres.
+# Images are built on the server from this checkout: `docker compose build`.
+# Settings: copy .env.production.example to .env beside this file. SITE_HOST there is the one place
+# the site's address is set. For a database on your own machine to try things, use
+# docker-compose.dev.yml (docs/quick-start.md).
+services:
+  postgres:
+    image: postgres:17-alpine
+    # Started only with `--profile local-db`. Leave it out when DATABASE_URL points at a managed database.
+    profiles: ["local-db"]
+    environment:
+      POSTGRES_DB: portal
+      POSTGRES_USER: portal
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U portal"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+    restart: unless-stopped
+
+  redis:
+    image: redis:7-alpine
+    restart: unless-stopped
+
+  api:
+    build:
+      context: .
+      dockerfile: api/Dockerfile
+    image: budget-portal-api:${IMAGE_TAG:-local}
+    env_file: .env
+    environment:
+      # The JWKS issuer.
+      API_URL: https://${SITE_HOST}
+      REDIS_URL: redis://redis:6379
+    depends_on:
+      postgres:
+        condition: service_healthy
+        required: false
+      redis:
+        condition: service_started
+    networks: [default, inference]
+    restart: unless-stopped
+
+  # One-off runner for migrations and loading data. NOT part of the running stack — it uses the
+  # `build` stage of api/Dockerfile, which (unlike the slim runtime image) keeps the Prisma CLI,
+  # tsx and the generated client. Invoked via deploy/init-db.sh; never starts during `up`.
+  migrate:
+    profiles: ["tools"]
+    build:
+      context: .
+      dockerfile: api/Dockerfile
+      target: build
+    image: budget-portal-migrate:local
+    env_file: .env
+    working_dir: /app/api
+    command: pnpm exec prisma migrate deploy
+
+  client:
+    build:
+      context: .
+      dockerfile: client/Dockerfile
+      # NEXT_PUBLIC_* values are baked in when the image is built: rebuild after changing one.
+      args:
+        NEXT_PUBLIC_SITE_URL: https://${SITE_HOST}
+        NEXT_PUBLIC_SITE_ENV: ${NEXT_PUBLIC_SITE_ENV:-}
+        NEXT_PUBLIC_GA_MEASUREMENT_ID: ${NEXT_PUBLIC_GA_MEASUREMENT_ID:-}
+        NEXT_PUBLIC_RECAPTCHA_SITE_KEY: ${NEXT_PUBLIC_RECAPTCHA_SITE_KEY:-}
+        NEXT_PUBLIC_EXPLORER_ENABLED: ${NEXT_PUBLIC_EXPLORER_ENABLED:-}
+        NEXT_PUBLIC_GOAL_NAME: ${NEXT_PUBLIC_GOAL_NAME:-}
+        NEXT_PUBLIC_GOALS_NAME: ${NEXT_PUBLIC_GOALS_NAME:-}
+        NEXT_PUBLIC_SOURCE_PDF_PREFIX: ${NEXT_PUBLIC_SOURCE_PDF_PREFIX:-}
+        NEXT_PUBLIC_SOURCE_URL: ${NEXT_PUBLIC_SOURCE_URL:-}
+    image: budget-portal-client:${IMAGE_TAG:-local}
+    # The LGU_* identity variables reach the pages from here.
+    env_file: .env
+    environment:
+      API_URL: http://api:8000/api/v1
+      NODE_ENV: production
+      # .env sets PORT for the API (8000). Without this the client would listen there too,
+      # and nginx, which proxies to client:3000, would find nothing.
+      PORT: 3000
+    restart: unless-stopped
+
+  nginx:
+    image: nginx:alpine
+    ports:
+      - "80:80"
+      - "443:443"
+    environment:
+      SITE_HOST: ${SITE_HOST}
+      # Only ${SITE_HOST} is filled in; nginx's own $host, $scheme and the rest are left alone.
+      NGINX_ENVSUBST_FILTER: SITE_HOST
+    volumes:
+      # A template the image fills in and writes to conf.d/default.conf when the container starts.
+      # The file holds bare `server {}` blocks, valid only inside the stock image's `http {}`.
+      - ./nginx/nginx.conf:/etc/nginx/templates/default.conf.template:ro
+      - /etc/letsencrypt:/etc/letsencrypt:ro
+      - /var/www/certbot:/var/www/certbot:ro
+    depends_on:
+      - api
+      - client
+    restart: unless-stopped
+
+  # Open-model sidecar for the Data Explorer (docs/modules/inference-sidecar.md): typed decisions
+  # and open embeddings on CPU. Opt-in: not started by a plain `up`; run
+  # `docker compose --profile inference up -d inference`, then point the API at it with
+  # EXPLORER_INFERENCE_EMBED / _DECIDE=sidecar (SIDECAR_URL defaults to http://inference:8100).
+  # GPU: build with --build-arg DEVICE=cuda (see services/inference/Dockerfile).
+  inference:
+    profiles: ["inference"]
+    build:
+      context: services/inference
+    image: budget-portal-inference:${INFERENCE_TAG:-local}
+    environment:
+      DEVICE: cpu
+      EMBED_MODELS: intfloat/multilingual-e5-base
+      LAYA_MODEL: convaiinnovations/laya:multilingual
+    volumes:
+      - inference_models:/models
+    # Only the API can reach it: client and nginx are not on this network.
+    networks: [inference]
+    restart: unless-stopped
+
+volumes:
+  postgres_data:
+  inference_models:
+
+networks:
+  default:
+  inference:
+    internal: true

@@ -1,0 +1,1580 @@
+[
+  {
+    "code": "A111-01",
+    "pillar": "ADAPTATION",
+    "name": "Incorporate climate change and climate variability considerations in policies and Institutions",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.11"
+  },
+  {
+    "code": "A111-02",
+    "pillar": "ADAPTATION",
+    "name": "Regulate commodity shifting and agricultural land conversion*",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.11"
+  },
+  {
+    "code": "A111-03",
+    "pillar": "ADAPTATION",
+    "name": "Design and implement climate change risk transfer and social protection mechanisms in agriculture and fisheries*",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.11"
+  },
+  {
+    "code": "A111-04",
+    "pillar": "ADAPTATION",
+    "name": "Incorporate risks from climate change and climate variability in irrigation/water management planning",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.11"
+  },
+  {
+    "code": "A112-01",
+    "pillar": "ADAPTATION",
+    "name": "Conduct agricultural vulnerability and risk assessments, Impact assessments and simulation models on major crops and livestock *",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.11"
+  },
+  {
+    "code": "A112-02",
+    "pillar": "ADAPTATION",
+    "name": "Develop, test and popularize climate-resilient crop and livestock production systems and technologies*",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.11"
+  },
+  {
+    "code": "A112-03",
+    "pillar": "ADAPTATION",
+    "name": "Research on new threats to agriculture, fishing, and forestry from CC and CV",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.17"
+  },
+  {
+    "code": "A112-04",
+    "pillar": "ADAPTATION",
+    "name": "Produce and distribute climate resilient rice varieties",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.17"
+  },
+  {
+    "code": "A113-01",
+    "pillar": "ADAPTATION",
+    "name": "Awareness raising of risks from climate change, or/and benefits of adaptation’",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.17"
+  },
+  {
+    "code": "A113-02",
+    "pillar": "ADAPTATION",
+    "name": "Establish climate Information systems and database/resource network for agriculture and fisheries sectors*",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.18"
+  },
+  {
+    "code": "A113-03",
+    "pillar": "ADAPTATION",
+    "name": "Establish and/or popularize farmers’ field school/climate field school to demonstrate best adaptation practices’",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.18"
+  },
+  {
+    "code": "A113-04",
+    "pillar": "ADAPTATION",
+    "name": "Develop formal and non-formal training programs on climate change adaptation (CCA) and disaster risk reduction (DRR)",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.18"
+  },
+  {
+    "code": "A113-06",
+    "pillar": "ADAPTATION",
+    "name": "Conduct of non-farm entrepreneurial courses",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.18"
+  },
+  {
+    "code": "A113-07",
+    "pillar": "ADAPTATION",
+    "name": "(SALT) training and other soil conservation measures in sloping lands for farmers",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.18"
+  },
+  {
+    "code": "A113-08",
+    "pillar": "ADAPTATION",
+    "name": "Improve the adaptive capacity of farmers and fisher-folk through the provision of relevant technologies and information",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.18"
+  },
+  {
+    "code": "A114-01",
+    "pillar": "ADAPTATION",
+    "name": "Establish early warning systems for agriculture*",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.18"
+  },
+  {
+    "code": "A114-02",
+    "pillar": "ADAPTATION",
+    "name": "Introduce or expand use of crops or crop mix more suited to climate change and climate variability",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.18"
+  },
+  {
+    "code": "A114-03",
+    "pillar": "ADAPTATION",
+    "name": "Introduce or expand use of crops or crop mix more suited to climate change and climate variability",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.18"
+  },
+  {
+    "code": "A114-04",
+    "pillar": "ADAPTATION",
+    "name": "Reduce vulnerability of crop storage facilities and irrigation systems to climate change and climate variability*",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.18"
+  },
+  {
+    "code": "A114-05",
+    "pillar": "ADAPTATION",
+    "name": "Construct/Repair/Rehabilitate national and communal irrigation systems, dams and water storage systems to manage changes in the water cycle due to climate change and climate variability*",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.18"
+  },
+  {
+    "code": "A114-06",
+    "pillar": "ADAPTATION",
+    "name": "Introduce weather or climate indexed insurance program (e.g. crop insurance)",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.18"
+  },
+  {
+    "code": "A114-08",
+    "pillar": "ADAPTATION",
+    "name": "Change management practices or techniques to reduce vulnerability to climate change and climate variability in animal health service, pasture management, fodder production and storage practices",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.19"
+  },
+  {
+    "code": "A114-09",
+    "pillar": "ADAPTATION",
+    "name": "Develop innovative financing mechanisms to provide seed capital for the implementation of CCA among farmers and fisher-folk organization*",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.19"
+  },
+  {
+    "code": "A114-10",
+    "pillar": "ADAPTATION",
+    "name": "Construct water impounding dams, rainwater harvesting facilities for irrigation, and water storage systems to manage changes in the water cycle due to CC and CV",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.19"
+  },
+  {
+    "code": "A114-11",
+    "pillar": "ADAPTATION",
+    "name": "Construct crop storage facilities that consider climate change and variability",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.19"
+  },
+  {
+    "code": "A114-12",
+    "pillar": "ADAPTATION",
+    "name": "Promote agro-forestry such as cacao/ coffee/rubber production and seedling distribution",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.19"
+  },
+  {
+    "code": "A114-13",
+    "pillar": "ADAPTATION",
+    "name": "Establish Integrated Pests Management",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.19"
+  },
+  {
+    "code": "A114-14",
+    "pillar": "ADAPTATION",
+    "name": "Develop climate resilient livestock production system and technologies",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.19"
+  },
+  {
+    "code": "A121-02",
+    "pillar": "ADAPTATION",
+    "name": "1- Policy Development and Governance “Formulate/implement ordinances on reversion of abandoned fishponds back to mangroves*",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.19"
+  },
+  {
+    "code": "A121-03",
+    "pillar": "ADAPTATION",
+    "name": "Harmonize climate change adaptation plans in local resource management and local fisheries development*",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.19"
+  },
+  {
+    "code": "A122-01",
+    "pillar": "ADAPTATION",
+    "name": "Conduct of provincial-level vulnerability and risk assessments for fisheries*",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.19"
+  },
+  {
+    "code": "A122-02",
+    "pillar": "ADAPTATION",
+    "name": "Conduct researches on best practices in fisheries and coastal climate change adaptation, technologies and tools*",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.19"
+  },
+  {
+    "code": "A122-04",
+    "pillar": "ADAPTATION",
+    "name": "Develop and/or update climate change R&D agenda for fisheries sectors*",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.20"
+  },
+  {
+    "code": "A122-05",
+    "pillar": "ADAPTATION",
+    "name": "Promote fish farming and aquaculture practices or techniques to reduce vulnerability to CC&CV (i.e. due to changes in water quality or variation in fishing season).",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.20"
+  },
+  {
+    "code": "A122-06",
+    "pillar": "ADAPTATION",
+    "name": "Establish climate information systems and database for fisheries sector*",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.20"
+  },
+  {
+    "code": "A123-01",
+    "pillar": "ADAPTATION",
+    "name": "Establish a resource network / information system and database on Ornate change and fisheries*",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.20"
+  },
+  {
+    "code": "A124-02",
+    "pillar": "ADAPTATION",
+    "name": "4 - Service Delivery Establish early warning systems for fisheries.",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.20"
+  },
+  {
+    "code": "A211-01",
+    "pillar": "ADAPTATION",
+    "name": "1- Policy Development and Governance Develop ordinances, policies and guidelines for water conservation, allocation, recycling and reuse*",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.20"
+  },
+  {
+    "code": "A211-02",
+    "pillar": "ADAPTATION",
+    "name": "Review and streamline existing water resources management and institutional structure and policies*",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.20"
+  },
+  {
+    "code": "A211-03",
+    "pillar": "ADAPTATION",
+    "name": "Develop and implement a comprehensive ground water management program that includes vulnerability assessment*",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.20"
+  },
+  {
+    "code": "A211-04",
+    "pillar": "ADAPTATION",
+    "name": "Develop public financing mechanism far water supply infrastructures rehabilitation and development*",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.20"
+  },
+  {
+    "code": "A211-05",
+    "pillar": "ADAPTATION",
+    "name": "Incorporate risks from climate change and climate variability in water, sanitation and flood protection planning",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.20"
+  },
+  {
+    "code": "A211-06",
+    "pillar": "ADAPTATION",
+    "name": "Review financing, tariffs, and system of incentives to reflect the full cost of providing safe waters*",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.20"
+  },
+  {
+    "code": "A212-01",
+    "pillar": "ADAPTATION",
+    "name": "Study “low cost, no regrets” adaptation measures and technologies under various hydrologic conditions, supply-demand conditions, and policy scenarios for surface and groundwater systems*",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.21"
+  },
+  {
+    "code": "A212-02",
+    "pillar": "ADAPTATION",
+    "name": "Define areas not suitable for large water infrastructure development and settlements based on vulnerability assessment.",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.21"
+  },
+  {
+    "code": "A212-03",
+    "pillar": "ADAPTATION",
+    "name": "Conduct ground water resource vulnerability and recharge areas assessment in water stressed cities*",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.21"
+  },
+  {
+    "code": "A212-05",
+    "pillar": "ADAPTATION",
+    "name": "Identify alternative water sources and demand management especially for urbanized areas that rely on reservoirs and are prone to recurrent and severe drought events*",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.21"
+  },
+  {
+    "code": "A212-06",
+    "pillar": "ADAPTATION",
+    "name": "Study and adopt centralized wastewater treatment systems to improve quality in highly urbanized and densely populated areas",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.21"
+  },
+  {
+    "code": "A212-07",
+    "pillar": "ADAPTATION",
+    "name": "Conduct water resource supply and demand analysis under various hydrologic -conditions and climate scenarios*",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.21"
+  },
+  {
+    "code": "A212-08",
+    "pillar": "ADAPTATION",
+    "name": "Incorporate water cycles change from CC & CV into trans-boundary water basin planning",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.21"
+  },
+  {
+    "code": "A213-01",
+    "pillar": "ADAPTATION",
+    "name": "Training for community-based water associations to manage water supply infrastructures",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.21"
+  },
+  {
+    "code": "A213-02",
+    "pillar": "ADAPTATION",
+    "name": "Conduct Integrated Water Resource Management and CC adaptation and disaster risk reduction training for vulnerable communities*",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.21"
+  },
+  {
+    "code": "A213-03",
+    "pillar": "ADAPTATION",
+    "name": "Develop Rendered and accessible knowledge products and IEC materials that include local and indigenous knowledge on water resources management, CC impacts on water resources and adaptation best practices*",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.21"
+  },
+  {
+    "code": "A213-04",
+    "pillar": "ADAPTATION",
+    "name": "Develop and network government database on water resources and users*",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.21"
+  },
+  {
+    "code": "A214-01",
+    "pillar": "ADAPTATION",
+    "name": "Incorporate climate change and climate variability fn water supply infrastructure/ Rehabilitate water infrastructure with climate lens (use of climate projections arid other relevant climate data)*",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.22"
+  },
+  {
+    "code": "A214-02",
+    "pillar": "ADAPTATION",
+    "name": "Construct new and expand existing water supply infrastructures for waterless communities*",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.22"
+  },
+  {
+    "code": "A214-03",
+    "pillar": "ADAPTATION",
+    "name": "Treatment of wastewater for conservation/re-use purposes to respond to declines in water availability due to climate change and climate variability",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.22"
+  },
+  {
+    "code": "A214-04",
+    "pillar": "ADAPTATION",
+    "name": "Incorporate changes in design of sanitation systems, wastewater treatment and disposal system in response to extreme weather and flood events arising from climate change and climate variability",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.22"
+  },
+  {
+    "code": "A214-05",
+    "pillar": "ADAPTATION",
+    "name": "Implement/install water harvesting technologies* (e.g. small water impounding project)",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.22"
+  },
+  {
+    "code": "A221-01",
+    "pillar": "ADAPTATION",
+    "name": "Formulate and implement ordinances and policies for rain water collection, such small water impoundments, retarding basins, mini dams to address Water shortage and flooding*",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.22"
+  },
+  {
+    "code": "A221-02",
+    "pillar": "ADAPTATION",
+    "name": "Design guidelines, emergency protocols, and encourage preparedness and risk/contingency planning in communities that are at risk to present or future flooding",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.22"
+  },
+  {
+    "code": "A222-01",
+    "pillar": "ADAPTATION",
+    "name": "Conduct vulnerability assessments in communities, LGUs, and sectors that are at risk to present or future flooding",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.22"
+  },
+  {
+    "code": "A222-02",
+    "pillar": "ADAPTATION",
+    "name": "Improve hydromet infrastructure and monitoring systems for data collection and management and the development and delivery of information, products and services to increase flood resilience",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.23"
+  },
+  {
+    "code": "A222-03",
+    "pillar": "ADAPTATION",
+    "name": "Develop innovative technologies and methodologies to communicating flood emergency information and longer-term risks of flooding to relevant populations and communities",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.23"
+  },
+  {
+    "code": "A223-01",
+    "pillar": "ADAPTATION",
+    "name": "Build local capacity for the management of climate change and extreme flood risks, and increase capacity in conducting vulnerability assessments",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.23"
+  },
+  {
+    "code": "A223-02",
+    "pillar": "ADAPTATION",
+    "name": "Increase knowledge to consider climate change information and climate risk in water resources management",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.23"
+  },
+  {
+    "code": "A224-01",
+    "pillar": "ADAPTATION",
+    "name": "Incorporate climate change and climate variability in design standards for flood control and drainage systems",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.23"
+  },
+  {
+    "code": "A224-02",
+    "pillar": "ADAPTATION",
+    "name": "Improve resilience of infrastructure (bridges water supply, community infrastructure, water storage, coastal defense, etc) to account for climate change and climate variability related extreme weather and climate variability that could increase flood risks in infrastructure",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.23"
+  },
+  {
+    "code": "A224-03",
+    "pillar": "ADAPTATION",
+    "name": "Protect or re-establish mangrove forests, wetlands, and other ecosystems as protection against floods risks",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.23"
+  },
+  {
+    "code": "A224-05",
+    "pillar": "ADAPTATION",
+    "name": "Improve early warning information and alert systems to increase readiness to extreme flood risks",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.23"
+  },
+  {
+    "code": "A231-02",
+    "pillar": "ADAPTATION",
+    "name": "Design guidance for incorporating climate change risk into water sanitation and treatment planning, operation, and management (including accounting for increased construction and maintenance costs that account for climate risk)",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.24"
+  },
+  {
+    "code": "A231-03",
+    "pillar": "ADAPTATION",
+    "name": "Incorporate risk of sea level rise, storm surge, and saltwater intrusion on the design and upgrades of coastal water sanitation infrastructure",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.24"
+  },
+  {
+    "code": "A232-01",
+    "pillar": "ADAPTATION",
+    "name": "Study and adopt centralized wastewater treatment systems to improve quality in highly urbanized and densely populated areas with respect to Increased flooding, storm surge, and extreme precipitation events",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.24"
+  },
+  {
+    "code": "A232-02",
+    "pillar": "ADAPTATION",
+    "name": "Conduct vulnerability assessments for the sanitation and treatment of water supply",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.24"
+  },
+  {
+    "code": "A233-01",
+    "pillar": "ADAPTATION",
+    "name": "Increase local knowledge for how to consider climate change Information and climate risk in water quality and wastewater treatment",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.24"
+  },
+  {
+    "code": "A234-01",
+    "pillar": "ADAPTATION",
+    "name": "Expand the establishment of alternative micro-water purification systems especially to areas that cannot be reached by safe water supply*",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.24"
+  },
+  {
+    "code": "A234-02",
+    "pillar": "ADAPTATION",
+    "name": "Monitor impact of climate change and climate variability as part of water resource management",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.24"
+  },
+  {
+    "code": "A234-03",
+    "pillar": "ADAPTATION",
+    "name": "Incorporate changes in design of sanitation systems, wastewater treatment and disposal system in response to extreme weather and flood events arising from climate change and climate variability",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.24"
+  },
+  {
+    "code": "A311-01",
+    "pillar": "ADAPTATION",
+    "name": "Design and implement payments for environmental services and other innovative conservation financing mechanisms to support ecosystem- based adaptation and mitigation*",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.25"
+  },
+  {
+    "code": "A311-03",
+    "pillar": "ADAPTATION",
+    "name": "Design and implement payments for environmental services and other innovative conservation financing mechanisms to support ecosystem- based adaptation and mitigation*",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.25"
+  },
+  {
+    "code": "A311-05",
+    "pillar": "ADAPTATION",
+    "name": "Develop guidelines for implementing Integrated Water Resources Management (1WRM) and climate change adaptation at the local, watershed and river basin level*",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.25"
+  },
+  {
+    "code": "A311-06",
+    "pillar": "ADAPTATION",
+    "name": "Formulate ordinances/policies to reduce the human-related impacts to coral reefs to help lessen the reefs’ vulnerability to climate change",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.25"
+  },
+  {
+    "code": "A312-01",
+    "pillar": "ADAPTATION",
+    "name": "Conduct ecosystems vulnerability and risk assessment*",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.25"
+  },
+  {
+    "code": "A312-02",
+    "pillar": "ADAPTATION",
+    "name": "Study, design and implement financing mechanisms for IWRM and climate change adaptation implementation in critical watersheds and river basins*",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.25"
+  },
+  {
+    "code": "A313-01",
+    "pillar": "ADAPTATION",
+    "name": "3 - Knowledge Sharing and Capacity Building Training on vulnerability and risk assessments*",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.25"
+  },
+  {
+    "code": "A313-03",
+    "pillar": "ADAPTATION",
+    "name": "Establish management information system for different ecosystems that link various data sources*",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.25"
+  },
+  {
+    "code": "A313-04",
+    "pillar": "ADAPTATION",
+    "name": "Document and disseminate best practice; including climate change responsive indigenous practices’",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.25"
+  },
+  {
+    "code": "A313-05",
+    "pillar": "ADAPTATION",
+    "name": "Festivals and events which advocate the protection and preservation of nature",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.25"
+  },
+  {
+    "code": "A314-01",
+    "pillar": "ADAPTATION",
+    "name": "Delineate/Rehabilitate/Reforest degraded watersheds and forest areas",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.25"
+  },
+  {
+    "code": "A314-02",
+    "pillar": "ADAPTATION",
+    "name": "Conserve and protect existing watershed and protected areas",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.26"
+  },
+  {
+    "code": "A314-03",
+    "pillar": "ADAPTATION",
+    "name": "Delineate “ridge-to-reef” ecosystem- based management zones for the ecotowns through multi stakeholder process”",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.26"
+  },
+  {
+    "code": "A314-04",
+    "pillar": "ADAPTATION",
+    "name": "Update status of Protected Areas and Key Biodiversity Areas from results from the vulnerability and risk assessment*",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.26"
+  },
+  {
+    "code": "A314-06",
+    "pillar": "ADAPTATION",
+    "name": "Improve physical system performances river basins",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.26"
+  },
+  {
+    "code": "A314-07",
+    "pillar": "ADAPTATION",
+    "name": "Seedling production; management of mangrove nursery",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.26"
+  },
+  {
+    "code": "A314-08",
+    "pillar": "ADAPTATION",
+    "name": "Agro-Forestry to diversify farmers’ incomes and provide alternatives livelihood during extreme weather events (i.e. drought)",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.26"
+  },
+  {
+    "code": "A314-09",
+    "pillar": "ADAPTATION",
+    "name": "Integrated tree planting along riverbanks/river bank rehabilitation I that re-duce the risk of flooding",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.26"
+  },
+  {
+    "code": "A314-10",
+    "pillar": "ADAPTATION",
+    "name": "Establishment of database network on wildlife, genetic biodiversity and biosafety",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.26"
+  },
+  {
+    "code": "A321-01",
+    "pillar": "ADAPTATION",
+    "name": "Incorporate change in design of solid waste management systems in response to extreme weather and flood events arising from CC&CV",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.26"
+  },
+  {
+    "code": "A411-01",
+    "pillar": "ADAPTATION",
+    "name": "1-Policy Development and Governance Develop guidelines on treatment of health issues due to climate change and climate variability",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.27"
+  },
+  {
+    "code": "A411-02",
+    "pillar": "ADAPTATION",
+    "name": "Include climate related diseases in basic benefits of insurance policies",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.27"
+  },
+  {
+    "code": "A411-03",
+    "pillar": "ADAPTATION",
+    "name": "Develop policy requiring integration of climate change and disaster risk reduction concepts and approaches in medical and allied health training courses*",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.27"
+  },
+  {
+    "code": "A411-04",
+    "pillar": "ADAPTATION",
+    "name": "Develop and implement monitoring health infrastructure damage and rehabilitation plan*",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.27"
+  },
+  {
+    "code": "A411-05",
+    "pillar": "ADAPTATION",
+    "name": "Develop and implement post disaster epidemic outbreak management and disease surveillance system (ex. water-borne diseases and other health risks due to climate change)*",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.27"
+  },
+  {
+    "code": "A411-06",
+    "pillar": "ADAPTATION",
+    "name": "Planning for Climate Change Adaptation for health sector",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.27"
+  },
+  {
+    "code": "A414-04",
+    "pillar": "ADAPTATION",
+    "name": "Development of I/veld-load diversification strategies to reduce dependence of climate related income opportunities",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.29"
+  },
+  {
+    "code": "A414-05",
+    "pillar": "ADAPTATION",
+    "name": "Implement program for community health emergency preparedness and response*",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.29"
+  },
+  {
+    "code": "A414-06",
+    "pillar": "ADAPTATION",
+    "name": "Development of social protection strategies to respond to climate change and climate variability",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.29"
+  },
+  {
+    "code": "A421-01",
+    "pillar": "ADAPTATION",
+    "name": "Mainstreaming of CC-DRRM in local plans* (PDPFP, CLUP, CDP, ELA)",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.29"
+  },
+  {
+    "code": "A421-02",
+    "pillar": "ADAPTATION",
+    "name": "Incorporate vulnerability to CC and CV in housing design standards",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.29"
+  },
+  {
+    "code": "A421-03",
+    "pillar": "ADAPTATION",
+    "name": "Develop green building ordinance/ rating scheme, specifications and criteria*",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.29"
+  },
+  {
+    "code": "A421-04",
+    "pillar": "ADAPTATION",
+    "name": "Develop and implement programs and incentive system for CC proofing arid retrofitting water infrastructure at the household/ community level”",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.29"
+  },
+  {
+    "code": "A421-05",
+    "pillar": "ADAPTATION",
+    "name": "Regulate settlements in areas vulnerable to CC & CV",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.29"
+  },
+  {
+    "code": "A422-01",
+    "pillar": "ADAPTATION",
+    "name": "Identify, map and profile areas and communities highly prone to climate related disasters*",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.29"
+  },
+  {
+    "code": "A422-02",
+    "pillar": "ADAPTATION",
+    "name": "Conduct risk and vulnerability assessment*",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.29"
+  },
+  {
+    "code": "A422-03",
+    "pillar": "ADAPTATION",
+    "name": "Conduct a study on population carrying opacity of areas and CC adaptive capacity of various communities",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.29"
+  },
+  {
+    "code": "A422-04",
+    "pillar": "ADAPTATION",
+    "name": "Identify most CC vulnerable sectors and population*",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.29"
+  },
+  {
+    "code": "A422-05",
+    "pillar": "ADAPTATION",
+    "name": "Conduct of CBMS with DRRM/ CCA",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.29"
+  },
+  {
+    "code": "A423-01",
+    "pillar": "ADAPTATION",
+    "name": "Develop and implement knowledge management on climate change and disaster risks for local government units and communities*",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.30"
+  },
+  {
+    "code": "A423-02",
+    "pillar": "ADAPTATION",
+    "name": "Increase local capacity for Forecasting, early warning (including indigenous systems) and disaster risk communication*",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.30"
+  },
+  {
+    "code": "A423-03",
+    "pillar": "ADAPTATION",
+    "name": "Conduct training of trainers to respond to the needs of communities for CCA*",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.30"
+  },
+  {
+    "code": "A424-01",
+    "pillar": "ADAPTATION",
+    "name": "Identify and implement gender- responsive sustainable livelihood and social protection programs for resettled and vulnerable poor families”",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.30"
+  },
+  {
+    "code": "A424-02",
+    "pillar": "ADAPTATION",
+    "name": "Develop and implement post- disaster resettlement and counseling of displaced families and communities*",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.30"
+  },
+  {
+    "code": "A424-03",
+    "pillar": "ADAPTATION",
+    "name": "Implement mixed-use, medium- to-high density developments, integrated land use-transport plan in developing new urban communities or in expanding existing ones*",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.30"
+  },
+  {
+    "code": "A424-04",
+    "pillar": "ADAPTATION",
+    "name": "Expand the establishment of alternative micro-water purification systems especially to areas that cannot be reached by safe water supply*",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.30"
+  },
+  {
+    "code": "A424-05",
+    "pillar": "ADAPTATION",
+    "name": "Develop and implement a CC adaptation plan (r settlement/ resettlement in consultation with affected communities, private sector, and civil society organization",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.30"
+  },
+  {
+    "code": "A424-06",
+    "pillar": "ADAPTATION",
+    "name": "Construct new low-cost housing, relocation, and other mass dwellings to climate resilient design standards",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.30"
+  },
+  {
+    "code": "A424-07",
+    "pillar": "ADAPTATION",
+    "name": "Reconstruction of housing projects damaged by calamities (Building Back Better)",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.30"
+  },
+  {
+    "code": "A424-08",
+    "pillar": "ADAPTATION",
+    "name": "Relocating flood prone communities and commercial centers to safer areas",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.30"
+  },
+  {
+    "code": "A424-09",
+    "pillar": "ADAPTATION",
+    "name": "Disaster and Climate Risk Monitoring System",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.30"
+  },
+  {
+    "code": "A424-10",
+    "pillar": "ADAPTATION",
+    "name": "Install Early Warning Systems",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.30"
+  },
+  {
+    "code": "A511-01",
+    "pillar": "ADAPTATION",
+    "name": "Promote public-private partnership to increase investments in the development of climate smart technologies, products and services",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.32"
+  },
+  {
+    "code": "A511-02",
+    "pillar": "ADAPTATION",
+    "name": "Incorporate new CC&CV resilient design standards in new buildings",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.32"
+  },
+  {
+    "code": "A511-04",
+    "pillar": "ADAPTATION",
+    "name": "Formulate/enhance tourism plans, policies and strategies to promote green tourism*",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.32"
+  },
+  {
+    "code": "A511-05",
+    "pillar": "ADAPTATION",
+    "name": "Create an enabling ordinance/ policy for the development and implementation of climate-smart industries and services*",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.32"
+  },
+  {
+    "code": "A511-06",
+    "pillar": "ADAPTATION",
+    "name": "Introduce regulations and programs to support climate resilient investments",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.32"
+  },
+  {
+    "code": "A512-01",
+    "pillar": "ADAPTATION",
+    "name": "Identify the carrying capacity of tourism areas*",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.32"
+  },
+  {
+    "code": "A512-02",
+    "pillar": "ADAPTATION",
+    "name": "Aquasilviculture Demo Farm to rehabilitate mangroves and address climate change and provide Livelihood",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.32"
+  },
+  {
+    "code": "A514-01",
+    "pillar": "ADAPTATION",
+    "name": "Marketing and trade support for changing agricultural product mix in response to climate change and climate variability",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.32"
+  },
+  {
+    "code": "A514-02",
+    "pillar": "ADAPTATION",
+    "name": "Support new income generating opportunities and industries utilizing natural resource better adapted to climate change and climate variability",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.33"
+  },
+  {
+    "code": "A514-03",
+    "pillar": "ADAPTATION",
+    "name": "Retrofit assets and capital to protect against CC and CV",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.33"
+  },
+  {
+    "code": "A514-04",
+    "pillar": "ADAPTATION",
+    "name": "Support industries that are better adapted to CC and CV (e.g. Tiger- grass production for agri-business)",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.33"
+  },
+  {
+    "code": "A611-04",
+    "pillar": "ADAPTATION",
+    "name": "1-Policy Development and Governance Mandatory implementation of AO110 and A0126 directing the institutionalization of Government Energy Management Program*",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.33"
+  },
+  {
+    "code": "A613-01",
+    "pillar": "ADAPTATION",
+    "name": "Conduct sustainable and renewable energy resource assessments .(e.g. hydro, geothermal, biomass, wind, ocean and solar)*",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.33"
+  },
+  {
+    "code": "A613-02",
+    "pillar": "ADAPTATION",
+    "name": "Conduct capacity building of community- based renewable energy organizations on system maintenance, energy efficiency and conservation, organizational development, tariff setting and management systems*",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.34"
+  },
+  {
+    "code": "A614-01",
+    "pillar": "ADAPTATION",
+    "name": "Design and implement system of incentive for renewable energy for host communities and local government units that can be used for sustainable livelihood programs and climate change adaptation, measures*",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.34"
+  },
+  {
+    "code": "A624-02",
+    "pillar": "ADAPTATION",
+    "name": "Flood protection or Irrigation from construction of dams or water storage system that manage changes in the water cycle due to CC & CV",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.35"
+  },
+  {
+    "code": "A624-03",
+    "pillar": "ADAPTATION",
+    "name": "Improve design of solar panels to withstand higher intensity storms resulting from climate change and climate variability",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.35"
+  },
+  {
+    "code": "A624-04",
+    "pillar": "ADAPTATION",
+    "name": "Improve design of solar panels to withstand higher intensity storms resulting from climate change and climate variability",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.35"
+  },
+  {
+    "code": "A624-05",
+    "pillar": "ADAPTATION",
+    "name": "Secure access to water for crops used as bio-energy source",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.35"
+  },
+  {
+    "code": "A631-01",
+    "pillar": "ADAPTATION",
+    "name": "Incorporate risks from climate change and climate variability in transportation system planning",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.35"
+  },
+  {
+    "code": "A634-01",
+    "pillar": "ADAPTATION",
+    "name": "Protect transport infrastructure against extreme weather events (especially foods and storms) becoming more frequent and violent due to CC and CV",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.35"
+  },
+  {
+    "code": "A634-02",
+    "pillar": "ADAPTATION",
+    "name": "Establish emergency services designed to cope with climate change and climate variability related emergencies in the transport sector",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.36"
+  },
+  {
+    "code": "A634-03",
+    "pillar": "ADAPTATION",
+    "name": "Construct new roads, ports, airports and aviation infrastructure to climate resilient design standards",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.36"
+  },
+  {
+    "code": "A634-04",
+    "pillar": "ADAPTATION",
+    "name": "Upgrade existing roads, ports and aviation infrastructure to climate resilient design standards",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.36"
+  },
+  {
+    "code": "A634-05",
+    "pillar": "ADAPTATION",
+    "name": "Development of telecommunications infrastructure for use as part of an emergency response system during extreme weather events",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.36"
+  },
+  {
+    "code": "A634-06",
+    "pillar": "ADAPTATION",
+    "name": "Enhance road maintenance to respond to climate change and climate variability",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.36"
+  },
+  {
+    "code": "A634-07",
+    "pillar": "ADAPTATION",
+    "name": "Enhanced waterway maintenance to respond to climate change and climate variability",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.36"
+  },
+  {
+    "code": "A711-04",
+    "pillar": "ADAPTATION",
+    "name": "Creation of offices with a mandate for climate change adaptation and mitigation",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.36"
+  },
+  {
+    "code": "A713-01",
+    "pillar": "ADAPTATION",
+    "name": "Awareness raising programs on climate change and climate variability",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.36"
+  },
+  {
+    "code": "A713-02",
+    "pillar": "ADAPTATION",
+    "name": "Training for pre-elementary, elementary, high school and college teachers on integrating climate change in basic courses*",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.36"
+  },
+  {
+    "code": "A713-03",
+    "pillar": "ADAPTATION",
+    "name": "Upgrade personnel’s capacity and skills on climate change modeling and weather forecasting*",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.36"
+  },
+  {
+    "code": "A713-04",
+    "pillar": "ADAPTATION",
+    "name": "Capacity building to address vulnerability to climate change and climate variability",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.36"
+  },
+  {
+    "code": "A713-05",
+    "pillar": "ADAPTATION",
+    "name": "Climate Change 101 or Introductory Course on Climate Change",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.36"
+  },
+  {
+    "code": "A713-06",
+    "pillar": "ADAPTATION",
+    "name": "Support to international campaigns that promote climate change adaptation and mitigation (e.g. Earth month)",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.37"
+  },
+  {
+    "code": "A714-01",
+    "pillar": "ADAPTATION",
+    "name": "Review and development of curricula to take account of climate aspects in basic education, vocational training and other forms of follow-up training and education",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.37"
+  },
+  {
+    "code": "A714-02",
+    "pillar": "ADAPTATION",
+    "name": "Review and revise, current textbooks, modules and exemplars for pre-elementary, elementary, for climate change content and gender- sensitivity",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.37"
+  },
+  {
+    "code": "A714-03",
+    "pillar": "ADAPTATION",
+    "name": "Review and revise, current textbooks, modules and exemplars for high school and alternative learning system for climate change content and gender-sensitivity",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.37"
+  },
+  {
+    "code": "A714-05",
+    "pillar": "ADAPTATION",
+    "name": "Improve government systems and infrastructure required for climate change modeling and climate forecasting*",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.37"
+  },
+  {
+    "code": "A714-06",
+    "pillar": "ADAPTATION",
+    "name": "Establish centers on climate change adaptation/mitigation and best practices and innovations (e.g. Climate Change Academy)",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.37"
+  },
+  {
+    "code": "A811-01",
+    "pillar": "ADAPTATION",
+    "name": "Introduce ordinances and programs to support climate resilient Investments",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.37"
+  },
+  {
+    "code": "A811-02",
+    "pillar": "ADAPTATION",
+    "name": "Expand insurance eligibility populations vulnerable to climate related diseases",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.37"
+  },
+  {
+    "code": "A811-03",
+    "pillar": "ADAPTATION",
+    "name": "Regulate or provide incentives in housing finance to encourage upgrading of existing real estate that reduces vulnerability to CC and CV",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.37"
+  },
+  {
+    "code": "A811-04",
+    "pillar": "ADAPTATION",
+    "name": "Develop and introduce weather or climate indexed insurance programs (e.g. crop insurance)",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.37"
+  },
+  {
+    "code": "A812-04",
+    "pillar": "ADAPTATION",
+    "name": "Economic analysis of financial needs for adapting to climate change and climate variability (cost of adaptation)",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.38"
+  },
+  {
+    "code": "A814-02",
+    "pillar": "ADAPTATION",
+    "name": "Introduce green bonds or other securities specifically targeted at adaptation to climate change anti climate variability",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.38"
+  },
+  {
+    "code": "M111-01",
+    "pillar": "MITIGATION",
+    "name": "Enact/Implement ordinances and policies to reduce the emissions of greenhouse gases (GHGs) or absorption of GHGs in the agricultural sector",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.11"
+  },
+  {
+    "code": "M111-03",
+    "pillar": "MITIGATION",
+    "name": "Monitor carbon sequestration",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.11"
+  },
+  {
+    "code": "M112-01",
+    "pillar": "MITIGATION",
+    "name": "Develop, test and introduce practices or techniques that reduce GHG emissions and practices or techniques to sequester carbon dioxide (CO2) in crop production systems, animal husbandry systems, forest management systems and aquaculture management systems",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.11"
+  },
+  {
+    "code": "M112-02",
+    "pillar": "MITIGATION",
+    "name": "Sector studies, surveys, assessments on energy and water use efficiency in agriculture",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.11"
+  },
+  {
+    "code": "M113-01",
+    "pillar": "MITIGATION",
+    "name": "Establish or strengthen institutions, information systems and capacity building on energy and water use efficiency in agriculture sector",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.17"
+  },
+  {
+    "code": "M114-01",
+    "pillar": "MITIGATION",
+    "name": "Integrated organic and inorganic nutrient management",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.18"
+  },
+  {
+    "code": "M114-02",
+    "pillar": "MITIGATION",
+    "name": "Switch to soil management techniques that reduce GIG emissions or increase carbon sequestration",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.18"
+  },
+  {
+    "code": "M114-03",
+    "pillar": "MITIGATION",
+    "name": "Intensify or expand farm and fodder production using techniques that reduce GIG emissions or increase carbon sequestration",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.18"
+  },
+  {
+    "code": "M114-04",
+    "pillar": "MITIGATION",
+    "name": "Manure management and methane capture in animal husbandry",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.18"
+  },
+  {
+    "code": "M114-05",
+    "pillar": "MITIGATION",
+    "name": "Change forage systems to reduce ruminant methane emissions",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.18"
+  },
+  {
+    "code": "M114-06",
+    "pillar": "MITIGATION",
+    "name": "Introduce or expand water pumping for irrigation using renewable energy sources",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.18"
+  },
+  {
+    "code": "M114-07",
+    "pillar": "MITIGATION",
+    "name": "Replace existing water pumps with more energy efficient pumps",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.19"
+  },
+  {
+    "code": "M114-08",
+    "pillar": "MITIGATION",
+    "name": "Implement agricultural and fisheries waste recycling and composting*",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.19"
+  },
+  {
+    "code": "M114-09",
+    "pillar": "MITIGATION",
+    "name": "Switch to less water intensive crops",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.19"
+  },
+  {
+    "code": "M114-10",
+    "pillar": "MITIGATION",
+    "name": "Establish communal school gardens, and other community gardens for local consumption",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.19"
+  },
+  {
+    "code": "M121-01",
+    "pillar": "MITIGATION",
+    "name": "1- Policy Development and Governance Formulate/implement ordinances to reduce tine emissions of GHGs, or absorption of GHGs in the fishing sectors",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.19"
+  },
+  {
+    "code": "M121-02",
+    "pillar": "MITIGATION",
+    "name": "Develop ordinances to reduce municipal fishing boats/improve fuel efficiency of municipal fishing boats",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.19"
+  },
+  {
+    "code": "M123-01",
+    "pillar": "MITIGATION",
+    "name": "Establish or strengthen institutions, information systems and capacity building on energy/ and water use efficiency in fishing sector",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.20"
+  },
+  {
+    "code": "M211-01",
+    "pillar": "MITIGATION",
+    "name": "1- Policy Development and Governance Sector reform to improve water use efficiency to reduce energy use for pumping water (e.g. water pricing)",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.20"
+  },
+  {
+    "code": "M212-01",
+    "pillar": "MITIGATION",
+    "name": "Administration, sector studies, surveys, assessments, information systems and capacity building for energy and water use efficiency in water, sanitation and flood protection",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.21"
+  },
+  {
+    "code": "M214-01",
+    "pillar": "MITIGATION",
+    "name": "Reduce energy intensity of existing water supply systems (e.g. replacing pumps)",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.22"
+  },
+  {
+    "code": "M214-02",
+    "pillar": "MITIGATION",
+    "name": "Reduce or capture methane emission from ventilated improved pit latrines.",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.22"
+  },
+  {
+    "code": "M214-03",
+    "pillar": "MITIGATION",
+    "name": "Reduce per capita water consumption using demand-side interventions (e.g. household water, shower, toilet, and dishwasher)",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.22"
+  },
+  {
+    "code": "M214-04",
+    "pillar": "MITIGATION",
+    "name": "Reduce GHG emission {methane and nitrous oxide) from wastewater",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.22"
+  },
+  {
+    "code": "M214-05",
+    "pillar": "MITIGATION",
+    "name": "Reduce energy consumption during wastewater treatment (e- g_ from activated sludge to up flow anaerobic sludge).",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.22"
+  },
+  {
+    "code": "M312-01",
+    "pillar": "MITIGATION",
+    "name": "Greenhouse gas accounting and inventory",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.25"
+  },
+  {
+    "code": "M314-01",
+    "pillar": "MITIGATION",
+    "name": "Re-forestation and afforestation that increases vegetative cover or sequesters carbon",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.25"
+  },
+  {
+    "code": "M314-02",
+    "pillar": "MITIGATION",
+    "name": "Sustainable peat land/ wetland/ forest management and protection",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.26"
+  },
+  {
+    "code": "M314-03",
+    "pillar": "MITIGATION",
+    "name": "Avoided deforestation (e.g.. Bantay Gubat; Bantay Bakawan)",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.26"
+  },
+  {
+    "code": "M314-04",
+    "pillar": "MITIGATION",
+    "name": "Management and protection of Tree Parks/Provincial Forests and Nursery",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.26"
+  },
+  {
+    "code": "M314-05",
+    "pillar": "MITIGATION",
+    "name": "Oplan Sagip Kalikasan/Urban greening program",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.26"
+  },
+  {
+    "code": "M314-07",
+    "pillar": "MITIGATION",
+    "name": "Re-establish and protect mangroves, floodplains and seagrass beds with carbon sequestration properties",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.26"
+  },
+  {
+    "code": "M314-08",
+    "pillar": "MITIGATION",
+    "name": "Green charcoal briquetting facility that reduce deforestation",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.26"
+  },
+  {
+    "code": "M314-09",
+    "pillar": "MITIGATION",
+    "name": "Monitor illegal mining activities that emit greenhouse gases",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.26"
+  },
+  {
+    "code": "M321-01",
+    "pillar": "MITIGATION",
+    "name": "Develop and implement ordinances and policies that promote a system of incentives for the use of reusable bags and containers/ ban or impose a fee on the use of plastic bags*",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.26"
+  },
+  {
+    "code": "M322-01",
+    "pillar": "MITIGATION",
+    "name": "Conduct Waste Amount & Composition Study (WACS)",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.26"
+  },
+  {
+    "code": "M323-01",
+    "pillar": "MITIGATION",
+    "name": "3 - Knowledge Sharing and Capacity Building Conduct intensive IEC on waste reduction, segregation and composting",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.26"
+  },
+  {
+    "code": "M324-01",
+    "pillar": "MITIGATION",
+    "name": "Waste reduction and diversion program/Intensify waste segregation at source, discard recovery, composting and recycling’",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.27"
+  },
+  {
+    "code": "M324-02",
+    "pillar": "MITIGATION",
+    "name": "Construction and operation of Materials Composting and Recovery Facility (MRCF) Building; Buyback Center; Purchase of MRCF equipment",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.27"
+  },
+  {
+    "code": "M324-03",
+    "pillar": "MITIGATION",
+    "name": "Upgrade existing landfills to capture methane for energy generation or gas flaring for CO2 generation",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.27"
+  },
+  {
+    "code": "M324-04",
+    "pillar": "MITIGATION",
+    "name": "Establish and implement ecological solid waste management (ESW1v1) program in accordance with Republic Act 9003",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.27"
+  },
+  {
+    "code": "M324-05",
+    "pillar": "MITIGATION",
+    "name": "Close solid waste management sites In environmentally critical areas",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.27"
+  },
+  {
+    "code": "M424-01",
+    "pillar": "MITIGATION",
+    "name": "Retrofit/ install new heating and cooling systems using renewable energy",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.30"
+  },
+  {
+    "code": "M424-02",
+    "pillar": "MITIGATION",
+    "name": "Promote/Build energy efficient ‘housing",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.30"
+  },
+  {
+    "code": "M511-01",
+    "pillar": "MITIGATION",
+    "name": "Introduce rules and regulations to reduce GHG emissions or absorb of GHGs in industry and trade",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.32"
+  },
+  {
+    "code": "M511-03",
+    "pillar": "MITIGATION",
+    "name": "Introduce a system of incentives to encourage the use of climate- smart technologies and practices",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.32"
+  },
+  {
+    "code": "M511-04",
+    "pillar": "MITIGATION",
+    "name": "Integrate monitoring of existing and new- climate smart Industries and services within existing business registration system*",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.32"
+  },
+  {
+    "code": "M511-05",
+    "pillar": "MITIGATION",
+    "name": "Implement a system of collection, analysis and reporting of baseline and new data on green jobs and employments",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.32"
+  },
+  {
+    "code": "M512-01",
+    "pillar": "MITIGATION",
+    "name": "Conduct baseline inventory of climate-smart industries and services and good practices in the local government unit*",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.32"
+  },
+  {
+    "code": "M512-02",
+    "pillar": "MITIGATION",
+    "name": "Baseline data on GHG emissions from industry arid other sources",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.32"
+  },
+  {
+    "code": "M512-04",
+    "pillar": "MITIGATION",
+    "name": "Forge partnerships with industry, academe, and research organizations on R&D of climate-smart technologies and products in the locality",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.32"
+  },
+  {
+    "code": "M513-01",
+    "pillar": "MITIGATION",
+    "name": "Develop modules and conduct trainings to capacitate industries to conduct GHG emissions inventory and carbon footprint*",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.32"
+  },
+  {
+    "code": "M514-01",
+    "pillar": "MITIGATION",
+    "name": "Marketing and trade support for products that reduce GHG emissions per unit of output",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.32"
+  },
+  {
+    "code": "M514-02",
+    "pillar": "MITIGATION",
+    "name": "Marketing and trade support for agricultural products that use integrated organic and inorganic nutrient management",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.33"
+  },
+  {
+    "code": "M514-03",
+    "pillar": "MITIGATION",
+    "name": "Rehabilitate/reforest degraded tourism areas",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.33"
+  },
+  {
+    "code": "M611-01",
+    "pillar": "MITIGATION",
+    "name": "1-Policy Development and Governance Change operational procedures or techniques, or retrofit technologies to reduce GHG emissions in existing operations",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.33"
+  },
+  {
+    "code": "M611-03",
+    "pillar": "MITIGATION",
+    "name": "Develop/implement ordinances and policies to improve energy efficiency — in buildings, agriculture, industry and city/ municipal services (e.g. public building maintenance program to improve energy efficiency; use of more energy efficient street lighting such as LED).",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.33"
+  },
+  {
+    "code": "M611-04",
+    "pillar": "MITIGATION",
+    "name": "Develop a certification system/ incentives for voluntary adoption of energy efficiency labeling, green building rating, and ISO 50001 certification",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.33"
+  },
+  {
+    "code": "M611-05",
+    "pillar": "MITIGATION",
+    "name": "Develop a local renewable energy program*",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.33"
+  },
+  {
+    "code": "M612-02",
+    "pillar": "MITIGATION",
+    "name": "Sector studies, surveys, assessments and information systems on energy efficiency, efficient energy pricing, and promotion of renewable energy",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.33"
+  },
+  {
+    "code": "M613-01",
+    "pillar": "MITIGATION",
+    "name": "Sector reform and capacity building related to energy efficiency in energy sector, promotion of renewable energy and efficient energy pricing",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.34"
+  },
+  {
+    "code": "M613-02",
+    "pillar": "MITIGATION",
+    "name": "Strengthen regulatory and institutional framework to support expansion of renewable power generation",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.34"
+  },
+  {
+    "code": "M613-03",
+    "pillar": "MITIGATION",
+    "name": "Strengthening capacity of institutions to plan for low-carbon growth and environmentally sustainable energy supply",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.34"
+  },
+  {
+    "code": "M614-02",
+    "pillar": "MITIGATION",
+    "name": "Pilot programs on energy efficiency activities",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.34"
+  },
+  {
+    "code": "M621-04",
+    "pillar": "MITIGATION",
+    "name": "Develop RE project-based and service contracts-based portfolios to encourage potential investors in identified sites",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.34"
+  },
+  {
+    "code": "M622-02",
+    "pillar": "MITIGATION",
+    "name": "Conduct survey of RE potential in off-grid areas",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.34"
+  },
+  {
+    "code": "M623-01",
+    "pillar": "MITIGATION",
+    "name": "Conduct capacity building of community-based RE organizations on RE system maintenance, EE&C organizational development, tariff setting and management systems",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.34"
+  },
+  {
+    "code": "M624-06",
+    "pillar": "MITIGATION",
+    "name": "Development of renewable energy(i,e- Establishment of Solar Panels/ Installation of Wind Mill/Rio-Gas)",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.35"
+  },
+  {
+    "code": "M624-07",
+    "pillar": "MITIGATION",
+    "name": "Clean Cities initiatives or those that promote/increase uti4zation of alternative/clean Fuels for the transport sector (tricycle. jeepney, bus, private and government vehicles)",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.35"
+  },
+  {
+    "code": "M631-01",
+    "pillar": "MITIGATION",
+    "name": "Improve vehicle emission standards",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.35"
+  },
+  {
+    "code": "M631-02",
+    "pillar": "MITIGATION",
+    "name": "Improve Fuel efficiency standards",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.35"
+  },
+  {
+    "code": "M631-03",
+    "pillar": "MITIGATION",
+    "name": "Strengthen vehicle Inspection systems on emissions and fuel efficiency",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.35"
+  },
+  {
+    "code": "M631-04",
+    "pillar": "MITIGATION",
+    "name": "Develop ordinances/policies to encourage shift from higher carbon to lower carbon transport modes {i.e. pedestrianization, bicycle lanes, public transport}",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.35"
+  },
+  {
+    "code": "M633-01",
+    "pillar": "MITIGATION",
+    "name": "3 - Knowledge Sharing and Capacity Building Capacity building related to energy efficiency in the transport sector 4 - Service Delivery",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.35"
+  },
+  {
+    "code": "M634-01",
+    "pillar": "MITIGATION",
+    "name": "Urban traffic management (e.g. improve traffic flow) to reduce GHG emissions per unit transported",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.35"
+  },
+  {
+    "code": "M634-02",
+    "pillar": "MITIGATION",
+    "name": "Improved waterways, port and aviation facilities to reduce the carbon intensity per unit transported",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.36"
+  },
+  {
+    "code": "M634-03",
+    "pillar": "MITIGATION",
+    "name": "New railway lines for electricity based rail-cars",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.36"
+  },
+  {
+    "code": "M634-05",
+    "pillar": "MITIGATION",
+    "name": "Improve energy efficiency in telecommunications information technologies",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.36"
+  },
+  {
+    "code": "M714-01",
+    "pillar": "MITIGATION",
+    "name": "Development of curricula or programs focused on reducing GHG emissions, energy consumption or water consumption for elementary and high school",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.37"
+  },
+  {
+    "code": "M811-01",
+    "pillar": "MITIGATION",
+    "name": "Introduce ordinances, programs or financial instruments to support GHG reducing activities",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.37"
+  },
+  {
+    "code": "M811-02",
+    "pillar": "MITIGATION",
+    "name": "Strengthen Institution and policies to mobilize carbon finance",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.37"
+  },
+  {
+    "code": "M811-03",
+    "pillar": "MITIGATION",
+    "name": "Prepare for carbon markets or implement carbon finance market transactions",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.37"
+  },
+  {
+    "code": "M811-04",
+    "pillar": "MITIGATION",
+    "name": "Develop ordinances or provide incentives in housing finance to support energy saving designs and standards",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.37"
+  },
+  {
+    "code": "M812-03",
+    "pillar": "MITIGATION",
+    "name": "Reduce fossil-fuel consumption through taxes, levies or fees on energy or transport services",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.38"
+  },
+  {
+    "code": "M813-01",
+    "pillar": "MITIGATION",
+    "name": "Strengthen LGUs In developing policies to mobilize carbon finance",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.38"
+  },
+  {
+    "code": "M814-01",
+    "pillar": "MITIGATION",
+    "name": "Provide lines of credit far investments in reduction of GHG emissions and/or absorption of GHGs",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.38"
+  },
+  {
+    "code": "M814-02",
+    "pillar": "MITIGATION",
+    "name": "Support to access carbon markets",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.38"
+  },
+  {
+    "code": "M814-03",
+    "pillar": "MITIGATION",
+    "name": "Introduce green bonds or other securities specifically targeted at reducing GHG emission or sequestering G1465",
+    "description": "Local CCET typology — CCC, \"Climate Budgeting for Local Government Training Manual\", p.38"
+  }
+]

@@ -1,0 +1,19 @@
+[
+  { "code": "SDG-01", "name": "No Poverty" },
+  { "code": "SDG-02", "name": "Zero Hunger" },
+  { "code": "SDG-03", "name": "Good Health and Well-being" },
+  { "code": "SDG-04", "name": "Quality Education" },
+  { "code": "SDG-05", "name": "Gender Equality" },
+  { "code": "SDG-06", "name": "Clean Water and Sanitation" },
+  { "code": "SDG-07", "name": "Affordable and Clean Energy" },
+  { "code": "SDG-08", "name": "Decent Work and Economic Growth" },
+  { "code": "SDG-09", "name": "Industry, Innovation and Infrastructure" },
+  { "code": "SDG-10", "name": "Reduced Inequalities" },
+  { "code": "SDG-11", "name": "Sustainable Cities and Communities" },
+  { "code": "SDG-12", "name": "Responsible Consumption and Production" },
+  { "code": "SDG-13", "name": "Climate Action" },
+  { "code": "SDG-14", "name": "Life Below Water" },
+  { "code": "SDG-15", "name": "Life on Land" },
+  { "code": "SDG-16", "name": "Peace, Justice and Strong Institutions" },
+  { "code": "SDG-17", "name": "Partnerships for the Goals" }
+]

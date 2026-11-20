@@ -1,0 +1,1350 @@
+row_id,kind,office,text,proposed,picks,decision
+01a134e4-51ad-763c-94aa-09a4e023f209,aip-pa,"Agricultural and Biosystems Engineering Department","Activity: Acquisition of FARM C
+Part of: Naga City Agri-Mechanization & Farmer Empowerment
+Office: Agricultural and Biosystems Engineering Department","","[{""id"":""agriculture.farm-machinery"",""confidence"":0.97}]",
+01a134e4-5201-779c-8f7e-aa82542403ec,aip-pa,"Agricultural and Biosystems Engineering Department","Activity: Lowered Rental Rates for Agricultural Machineries and Post-harvest Services
+Part of: Naga City Agri-Mechanization & Farmer Empowerment
+Office: Agricultural and Biosystems Engineering Department","","[{""id"":""agriculture.farm-machinery"",""confidence"":0.9}]",
+ba7a2290-4a2a-43e0-b9ae-c3a707cc8e37,budget-item,"Arts, Culture and Tourism Office","Budget PPA: Capacity Development and Auivance Technical Trainingfor ENROpersonnel /Benchmarking with otherLGUs onbest practices on environmental management and monitoring
+Major final output: CareerGrowth andSkills Development forENRO personnelfor efficient deliveryof public services
+Part of: Capacity Development and Auivance Technical Trainingfor ENROpersonnel /Benchmarking with otherLGUs onbest practices on environmental management and monitoring
+Office: Arts, Culture and Tourism Office
+Money in: Maintenance and Other Operating Expenses","","[{""id"":""environment.natural-resources"",""confidence"":0.9},{""id"":""governance.administration"",""confidence"":0.72}]",
+01a1becd-43be-71f8-af3f-a4b4e63dcd6b,object-line,"Bicol Central Station","Budget account line: (5-01-02-150)
+Expense class: PS
+Office: Bicol Central Station","","[{""id"":""livelihood-jobs.markets"",""confidence"":0.78},{""id"":""governance.administration"",""confidence"":0.42}]",
+01a1bed2-9887-7143-92e1-6801ac02695a,object-line,"Bicol Central Station","Budget account line: Employees Compensation Insurance Premiums (5-01-03-040)
+Expense class: PS
+Office: Bicol Central Station","","[{""id"":""governance"",""confidence"":0.98},{""id"":""governance.administration"",""confidence"":0.92}]",
+01a1bed0-ceeb-74a9-9458-30cedea620c3,object-line,"Bicol Central Station","Budget account line: (5-01-04-990)
+Expense class: PS
+Office: Bicol Central Station","","[{""id"":""governance.administration"",""confidence"":0.9},{""id"":""livelihood-jobs.markets"",""confidence"":0.45}]",
+01a1becd-43be-71f8-af3f-7a399643f05b,object-line,"Bicol Central Station","Budget account line: (5-01-01-010)
+Expense class: PS
+Office: Bicol Central Station","","[{""id"":""governance.administration"",""confidence"":0.99},{""id"":""governance"",""confidence"":0.99}]",
+01a1bed0-ceeb-74a9-9457-eeb6ad7e1226,object-line,"Bicol Central Station","Budget account line: (5-01-02-010)
+Expense class: PS
+Office: Bicol Central Station","","[{""id"":""governance.administration"",""confidence"":0.95},{""id"":""livelihood-jobs.markets"",""confidence"":0.72}]",
+01a134e9-95ac-777f-986b-4d485fad4d85,aip-program,"Bicol Science and Technology Centrum","Program: Science Exhibit Development and Knowledge Management
+Office: Bicol Science and Technology Centrum
+Sector: Social Services Sector","","[{""id"":""tourism-culture.heritage-arts"",""confidence"":0.38}]",
+01a1becf-0836-74d4-bf52-5bd54bde2101,object-line,"Bicol Science and Technology Centrum","Budget account line: Personal EconomicReliefAllowance (5-01-02-010)
+Expense class: PS
+Office: Bicol Science and Technology Centrum","","[{""id"":""tourism-culture.heritage-arts"",""confidence"":0.95},{""id"":""tourism-culture"",""confidence"":0.95}]",
+01a1bed0-ceeb-74a9-9458-a855fd5fd317,object-line,"Bicol Science and Technology Centrum","Budget account line: (5-01-02-140)
+Expense class: PS
+Office: Bicol Science and Technology Centrum","","[{""id"":""education"",""confidence"":0.88},{""id"":""governance.administration"",""confidence"":0.35}]",
+01a1becf-0836-74d4-bf52-9cf83a7ac3d2,object-line,"Bicol Science and Technology Centrum","Budget account line: OfficeSuppliesExpenses (5-02-03-010)
+Expense class: MOOE
+Office: Bicol Science and Technology Centrum","","[{""id"":""governance.administration"",""confidence"":0.9},{""id"":""governance"",""confidence"":0.85}]",
+01a1bed0-ceeb-74a9-9458-c437030abbc1,object-line,"Bicol Science and Technology Centrum","Budget account line: Pag-IBIG Contributions (5-01-03-020)
+Expense class: PS
+Office: Bicol Science and Technology Centrum","","[{""id"":""education"",""confidence"":0.88},{""id"":""governance.administration"",""confidence"":0.35}]",
+01a134db-9a49-740e-9a2c-57a4b4ee2a77,aip-pa,"Building Maintenance and Energy Efficiency and Conservation Office","Activity: Replacement of Obsolete and Inefficient Air-Conditioning Units with Inverter Models
+Expected output: Reduced energy consumption and operational costs
+Part of: Energy Efficiency and Conservation Program › Energy Efficiency Improvement Project
+Office: Building Maintenance and Energy Efficiency and Conservation Office","","[{""id"":""infrastructure.water-power"",""confidence"":0.9},{""id"":""governance.administration"",""confidence"":0.55}]",
+01a134db-6049-76be-8c69-9a8e3fab10a8,aip-pa,"Building Maintenance and Energy Efficiency and Conservation Office","Project: General Administration Project
+Part of: Administrative and Organizational Support Program
+Office: Building Maintenance and Energy Efficiency and Conservation Office","","[{""id"":""governance.administration"",""confidence"":0.97}]",
+01a134db-76ab-735e-b5a9-24dbc80916f3,aip-pa,"Building Maintenance and Energy Efficiency and Conservation Office","Project: Mechanical Systems Maintenance Project
+Part of: Building Repair and Maintenance Services Program
+Office: Building Maintenance and Energy Efficiency and Conservation Office","","[{""id"":""infrastructure.buildings"",""confidence"":0.98},{""id"":""governance.administration"",""confidence"":0.6}]",
+01a1bed2-9887-7143-92e1-f680c9e23f5f,object-line,"City College of Naga","Budget account line: Other Bonus and allowances (Mid-Year Bonus) (5-01-02-990)
+Expense class: PS
+Office: City College of Naga","","[{""id"":""education.higher-education"",""confidence"":0.98},{""id"":""education"",""confidence"":0.98}]",
+01a1becd-43be-71f8-af42-cc77a49589b1,object-line,"City College of Naga","Budget account line: Salaries&Wages-Casual(4) (5-01-01-020)
+Expense class: PS
+Office: City College of Naga","","[{""id"":""education.higher-education"",""confidence"":0.99},{""id"":""education"",""confidence"":0.95}]",
+01a1becd-43be-71f8-af43-442cee17764f,object-line,"City College of Naga","Budget account line: ElectricityExpense (5-02-04-020)
+Expense class: MOOE
+Office: City College of Naga","","[{""id"":""education.higher-education"",""confidence"":0.98},{""id"":""governance.administration"",""confidence"":0.42}]",
+68540226-9cc1-46f6-adc9-2fcf64514a53,budget-item,"City College of Naga","Budget PPA: TESDA Evaluation -Giaugriering Training Center -Slaughtering Assessment Center
+Part of: Regional Quality Assessment Team (RQAT)Evaluation
+Office: City College of Naga
+Money in: Maintenance and Other Operating Expenses","","[{""id"":""education.higher-education"",""confidence"":0.88},{""id"":""livelihood-jobs.employment"",""confidence"":0.52}]",
+01a1becd-43be-71f8-af43-28862e6546bf,object-line,"City College of Naga","Budget account line: OfficeSuppliesExpenses (5-02-03-010)
+Expense class: MOOE
+Office: City College of Naga","","[{""id"":""education.higher-education"",""confidence"":0.99},{""id"":""education"",""confidence"":0.95}]",
+01a010a0-fd88-764b-8aba-e81b824f25ca,aip-pa,"City College of Naga","Activity: Library and Laboratory Services
+Expected output: Library and Laboratory Services provided to students
+Part of: Library and Laboratory Services
+Office: City College of Naga","","[{""id"":""education.higher-education"",""confidence"":0.98},{""id"":""education"",""confidence"":0.96}]",
+01a134e0-8482-73ad-a9ac-b027ed58442e,aip-pa,"City Disaster Risk Reduction Management Office","Project: Disaster Risk Research and Planning Project
+Part of: Disaster Prevention and Mitigation Program
+Office: City Disaster Risk Reduction Management Office","","[{""id"":""disaster-risk.mitigation"",""confidence"":0.97}]",
+46524836-15ea-4f3e-943b-444372d588cc,budget-item,"City Disaster Risk Reduction Management Office","Budget PPA: Conduct of trainings and simulation exercises
+Major final output: DRRM programs and services
+Office: City Disaster Risk Reduction Management Office
+Its sub-items: Conduct of trainings and simulation exercises","","[{""id"":""disaster-risk.preparedness"",""confidence"":0.97},{""id"":""disaster-risk.response-relief"",""confidence"":0.62}]",
+01a1becd-43bf-742d-aa22-8a1d0bf515ed,object-line,"City Disaster Risk Reduction Management Office","Budget account line: OtherMaint.&Oper.Expenses (5-02-99-990)
+Expense class: MOOE
+Office: City Disaster Risk Reduction Management Office","","[{""id"":""disaster-risk"",""confidence"":0.99},{""id"":""disaster-risk.preparedness"",""confidence"":0.4},{""id"":""governance.administration"",""confidence"":0.35},{""id"":""governance"",""confidence"":0.35}]",
+01a01097-a30a-75ba-bce4-a156100c717d,budget-item,"City Disaster Risk Reduction Management Office","Budget PPA: Conduct of trainings and simulation exercises
+Major final output: DRRM programs and services
+Office: City Disaster Risk Reduction Management Office
+Money in: Maintenance and Other Operating Expenses","","[{""id"":""disaster-risk.preparedness"",""confidence"":0.97}]",
+01a134e1-0f36-7679-839a-2556c3671c51,aip-pa,"City Disaster Risk Reduction Management Office","Project: Disaster Preparedness Training and Capacity Development Project
+Part of: Disaster Preparedness Program
+Office: City Disaster Risk Reduction Management Office","","[{""id"":""disaster-risk.preparedness"",""confidence"":0.98}]",
+01a01097-9180-729d-af61-d09d6db963e8,budget-item,"City Disaster Risk Reduction Management Office","Budget PPA: General Administrative Services
+Major final output: DRRM programs and services
+Office: City Disaster Risk Reduction Management Office
+Money in: Personnel Services, Maintenance and Other Operating Expenses, Capital Outlay","","[{""id"":""disaster-risk.preparedness"",""confidence"":0.97},{""id"":""governance.administration"",""confidence"":0.7}]",
+01a01097-9711-778b-b8de-5f9a0fdcf53e,budget-item,"City Disaster Risk Reduction Management Office","Budget PPA: Planning and Research
+Major final output: DRRM support services
+Office: City Disaster Risk Reduction Management Office
+Money in: Maintenance and Other Operating Expenses","","[{""id"":""disaster-risk.preparedness"",""confidence"":0.9},{""id"":""governance.planning-monitoring"",""confidence"":0.45}]",
+01a1becd-43bf-742d-aa1b-f728d26997cc,object-line,"City Health Office II","Budget account line: Rep.&Maint.-TransportationEquipment(MotorVehicle (5-02-13-060-01)
+Expense class: MOOE
+Office: City Health Office II","","[{""id"":""health"",""confidence"":0.9}]",
+01a134e6-f946-71c5-b540-cbafbcd792b0,aip-program,"City Health Office II","Program: Health Facility Licensing, Accreditation, and Quality Improvement Program
+Office: City Health Office II
+Sector: Social Services Sector","","[{""id"":""health"",""confidence"":0.97}]",
+01a1bed0-ceeb-74a9-945e-2f62967aecdc,object-line,"City Health Office II","Budget account line: (5-01-02060)
+Expense class: PS
+Office: City Health Office II","","[{""id"":""health"",""confidence"":0.98}]",
+01a1becd-43bf-742d-aa1b-5f979d0b5b19,object-line,"City Health Office II","Budget account line: Salaries&Wages-Regular(15) (5-01-01-010)
+Expense class: PS
+Office: City Health Office II","","[{""id"":""health"",""confidence"":0.99}]",
+01a134e6-ee9e-7795-a23c-d184ec7db302,aip-program,"City Health Office II","Program: Performance Management, Assessment, and Team Development Services
+Office: City Health Office II
+Sector: Social Services Sector","","[{""id"":""health"",""confidence"":0.96},{""id"":""governance.administration"",""confidence"":0.7}]",
+01a1bed2-9883-772c-9bc1-7003b864835c,object-line,"City Human Resource Management Office","Budget account line: Salaries & Wages-Casual (2) (5-01-01-020)
+Expense class: PS
+Office: City Human Resource Management Office","","[{""id"":""governance.administration"",""confidence"":0.98}]",
+01a1becd-43c0-7258-a1bd-91a0046e6def,object-line,"City Human Resource Management Office","Budget account line: OfficeSuppliesExpenses (5-02-03-010)
+Expense class: MOOE
+Office: City Human Resource Management Office","","[{""id"":""governance.administration"",""confidence"":0.9}]",
+01a1becd-43c0-7258-a1bd-366a4179d4ff,object-line,"City Human Resource Management Office","Budget account line: Salaries&Wages-Regular(12) (5-01-01-010)
+Expense class: PS
+Office: City Human Resource Management Office","","[{""id"":""governance"",""confidence"":0.98},{""id"":""governance.administration"",""confidence"":0.98}]",
+01a1becf-0837-702d-82ba-b30ca28bacb1,object-line,"City Human Resource Management Office","Budget account line: Training Expenses (5-02-02-010)
+Expense class: MOOE
+Office: City Human Resource Management Office","","[{""id"":""governance.administration"",""confidence"":0.98},{""id"":""governance"",""confidence"":0.9}]",
+01a1becf-0837-702d-82ba-6c53a1369731,object-line,"City Human Resource Management Office","Budget account line: TransportationAllowance (5-01-02-030)
+Expense class: PS
+Office: City Human Resource Management Office","","[{""id"":""governance.administration"",""confidence"":0.98}]",
+02f510a6-022c-4d3a-b97e-5bac08be0611,budget-item,"City Mayor's Office - Sports Development Division","Budget PPA: Sporis Development Program
+Major final output: Jmproved programsand senvices
+Office: City Mayor's Office - Sports Development Division
+Money in: Maintenance and Other Operating Expenses","","[{""id"":""sports.sports-development"",""confidence"":0.98},{""id"":""sports"",""confidence"":0.95}]",
+01a134fc-7e9d-711b-a6d4-f636594f5e77,aip-pa,"City Mayor's Office - Sports Development Division","Activity: School Sports Development Program
+Expected output: 50 public schools provided with sports development assistance, varsity training support, and technical coaching modules.
+Part of: Sports Development Program
+Office: City Mayor's Office - Sports Development Division","","[{""id"":""sports.sports-development"",""confidence"":0.95},{""id"":""education.schools"",""confidence"":0.9}]",
+236ee144-383c-4d68-92d7-7b82c765fb17,budget-item,"City Parks & Recreational Facilities Mgt Office","Budget PPA: Replacementofground cover(grass）at identified majorareas
+Major final output: CPRFMOservices
+Office: City Parks & Recreational Facilities Mgt Office
+Money in: Maintenance and Other Operating Expenses","","[{""id"":""environment.parks-greening"",""confidence"":0.95},{""id"":""governance.administration"",""confidence"":0.45}]",
+01a01098-4bf7-768e-8f4c-736a1fb44afc,aip-pa,"City Parks & Recreational Facilities Mgt Office","Activity: Propagation of commercial, ornamental plants, shrubs and grasses.
+Expected output: Percentage of ground cover at major areas replaced
+Part of: Propagation of commercial, ornamental plants, shrubs and grasses.
+Office: City Parks & Recreational Facilities Mgt Office","","[{""id"":""environment.parks-greening"",""confidence"":0.98}]",
+01a01096-be70-7239-91be-89f4e24e601e,aip-pa,"City Procurement Office","Activity: General Administrative Services
+Expected output: Timely, transparent, and compliant procurement processes in accordance with RA 12009
+Part of: General Administrative Services
+Office: City Procurement Office","","[{""id"":""governance.administration"",""confidence"":0.95}]",
+01a134e8-7037-702f-932c-3fa3ae05fc09,aip-pa,"Early Childhood Care and Development Division Office","Project: Human Resource and Administrative Support Project
+Part of: Institutional and Administrative Support Program
+Office: Early Childhood Care and Development Division Office","","[{""id"":""education.early-childhood"",""confidence"":0.99},{""id"":""governance.administration"",""confidence"":0.9}]",
+1ea55553-7ce6-423b-8dcd-d39912109622,budget-item,"Early Childhood Care and Development Division Office","Budget PPA: Feeding Program (mainstreamed from Children's Affairs Office)
+Major final output: ECCDD Services
+Part of: Feeding Program (mainstreamed from Children's Affairs Office)
+Office: Early Childhood Care and Development Division Office
+Money in: Maintenance and Other Operating Expenses","","[{""id"":""education.early-childhood"",""confidence"":0.98}]",
+01a0109c-b898-701a-bce9-3654a7ffe2ad,aip-pa,"Early Childhood Care and Development Division Office","Activity: Conduct of School Activities - SEED Montessori
+Expected output: Percentage of SEED teachers reporting increased student participation and improved holistic development through regular implementation of ECCD-aligned school-based activities
+Part of: Conduct of School Activities - SEED Montessori
+Office: Early Childhood Care and Development Division Office","","[{""id"":""education.early-childhood"",""confidence"":0.97},{""id"":""education.schools"",""confidence"":0.9}]",
+009e3dfb-717f-4c30-88a4-15d14fb5f535,budget-item,"Education, Scholarship and Sports Office","Budget PPA: General Administrative Services
+Office: Education, Scholarship and Sports Office
+Its sub-items: General Administrative Services","","[{""id"":""education"",""confidence"":0.97},{""id"":""governance.administration"",""confidence"":0.78}]",
+01a1bed2-9884-7208-bdc3-4a2ab51f1619,object-line,"Education, Scholarship and Sports Office","Budget account line: Other Personnel Benefits(Medical Allowance) (5-01-04-990-3)
+Expense class: PS
+Office: Education, Scholarship and Sports Office","","[{""id"":""education"",""confidence"":0.99}]",
+4b8b7d82-9641-4484-8636-bbe0d3354a91,budget-item,"Education, Scholarship and Sports Office","Budget PPA: Donation of Materiais and Equipment to Schoois
+Major final output: scholarships and sports development progrems and No. of materials and services eouipreni Gonated
+Office: Education, Scholarship and Sports Office
+Money in: Maintenance and Other Operating Expenses","","[{""id"":""education.schools"",""confidence"":0.9},{""id"":""sports.sports-development"",""confidence"":0.45}]",
+01a0109d-e045-765d-b14e-91a2e2453795,budget-item,"Education, Scholarship and Sports Office","Budget PPA: Medical Scholarship Program (*Ordinance No. 2023-052)
+Major final output: Improved Learning for Naga's Children and Youth
+Part of: OPERATIONS
+Office: Education, Scholarship and Sports Office
+Money in: Maintenance and Other Operating Expenses","","[{""id"":""education.scholarships"",""confidence"":0.96},{""id"":""health"",""confidence"":0.4}]",
+01a1becf-0838-7273-8543-7633c944ccb1,object-line,"Education, Scholarship and Sports Office","Budget account line: InternetSubscription Expenses (5-02-05-030)
+Expense class: MOOE
+Office: Education, Scholarship and Sports Office","","[{""id"":""education"",""confidence"":0.99},{""id"":""governance.digital-government"",""confidence"":0.72}]",
+01a1bed0-ceed-71d8-999f-f3a9515c16f1,object-line,"Education, Scholarship and Sports Office","Budget account line: (5-02-99-900)
+Expense class: MOOE
+Office: Education, Scholarship and Sports Office","","[{""id"":""education"",""confidence"":0.9},{""id"":""governance.administration"",""confidence"":0.4}]",
+01a134ea-1648-7018-ae35-4c82aa8579fe,aip-program,"Education, Scholarship and Sports Office","Program: Invitational Football Tournament (Fr. Cimmati Cup - Oct 2027)
+Major final output: Promotion of Sports Excellence and Community Participation
+Office: Education, Scholarship and Sports Office
+Sector: Social Services Sector","","[{""id"":""sports.sports-events"",""confidence"":0.99},{""id"":""sports"",""confidence"":0.96}]",
+01a1bed0-ceed-71d8-999f-89cbaa66f308,object-line,"Education, Scholarship and Sports Office","Budget account line: (5-01-02-120)
+Expense class: PS
+Office: Education, Scholarship and Sports Office","","[{""id"":""governance.administration"",""confidence"":0.95},{""id"":""education"",""confidence"":0.86},{""id"":""sports"",""confidence"":0.86}]",
+01a134da-44a8-76b3-9acc-1c16b92fa9ae,aip-pa,"GAD Office","Activity: Gender Database and Knowledge Management
+Expected output: Vision 8.1.1: Core gender statistics and sex-disaggregated data systems established to improve evidence-based GAD planning and budgeting.
+Part of: Gender Mainstreaming and Inclusive Governance Program › Gender Mainstreaming Project
+Office: GAD Office","","[{""id"":""women-gender"",""confidence"":0.98},{""id"":""governance.planning-monitoring"",""confidence"":0.88},{""id"":""governance.digital-government"",""confidence"":0.6}]",
+01a01096-d523-74f8-9489-9d1cbee3464a,aip-pa,"GAD Office","Activity: Aggrupation and Special Projects
+Expected output: No. of PPAs for the strengthening of GAD mechanism fully implemented within budget and schedule
+Part of: Aggrupation and Special Projects
+Office: GAD Office","","[{""id"":""women-gender"",""confidence"":0.99},{""id"":""governance.administration"",""confidence"":0.45}]",
+01a1bed2-9884-7208-bdc0-ca6c1cac5cc5,object-line,"Housing and Settlements Development Office","Budget account line: Other General Services (6) (5-02-12-990)
+Expense class: MOOE
+Office: Housing and Settlements Development Office","","[{""id"":""housing"",""confidence"":0.9},{""id"":""governance.administration"",""confidence"":0.6}]",
+01a1bed2-9884-7208-bdc0-6da3b811704f,object-line,"Housing and Settlements Development Office","Budget account line: Transportation Allowance (5-01-02-030)
+Expense class: PS
+Office: Housing and Settlements Development Office","","[{""id"":""housing"",""confidence"":0.97}]",
+01a1bed0-ceed-71d8-99a1-baf64a88ef87,object-line,"Housing and Settlements Development Office","Budget account line: OtherMaint.&Oper.Expenses (5-02-99-990)
+Expense class: MOOE
+Office: Housing and Settlements Development Office","","[{""id"":""governance.digital-government"",""confidence"":0.55},{""id"":""governance.administration"",""confidence"":0.45}]",
+01a1becd-43c0-7258-a1bc-d1d05520c351,object-line,"Housing and Settlements Development Office","Budget account line: OtherBonusesandAllowances(Mid-YearBonus) (5-01-02-990)
+Expense class: PS
+Office: Housing and Settlements Development Office","","[{""id"":""housing"",""confidence"":0.95},{""id"":""governance.administration"",""confidence"":0.72}]",
+01a1becf-0839-74e9-b4c8-2cc857dd15a0,object-line,"Housing and Settlements Development Office","Budget account line: (5-01-02-100)
+Expense class: PS
+Office: Housing and Settlements Development Office","","[{""id"":""housing.housing-land"",""confidence"":0.4}]",
+2da72089-cee9-42c1-95ed-17582406e4c6,budget-item,"Housing and Settlements Development Office","Budget PPA: Site/Lot Acquisition
+Major final output: 100% conclusion of the census on the total number of informal families, informal settlements and their number
+Office: Housing and Settlements Development Office
+Its sub-items: Continual Field verification and Monitoring of Informal Settlers as to the number, location of settlements ,living conditions and land tenure occupancy in areas under the program and also outside the coverage area of the program; Identification of land for PH project (Government and/or Private lands) and striking partnership with private landowners for a joint venture agreement for development; Acquisition of land (6 hectares ) for Socialized Housing (for backlog and current housing need) through direct negotiation or expropriation process; Acquisition of Access road & land development to Palmera Village 1 & 2 and Balatas (Rioville Subd.) through negotiated purchase or expropriation; Enrolment and take-off of 7 projects under community mortgage program (CMP) in cooperation with Social Housing finance Corporation (SHFC)","","[{""id"":""housing.housing-land"",""confidence"":0.98}]",
+01a1bed0-ceed-71d8-99a0-d2094b5539c5,object-line,"Housing and Settlements Development Office","Budget account line: Transportation Allowance (5-01-02-030)
+Expense class: PS
+Office: Housing and Settlements Development Office","","[{""id"":""housing"",""confidence"":0.98},{""id"":""housing.resettlement"",""confidence"":0.72}]",
+19307f4b-c022-4572-a6f1-f3dea56f8e5e,budget-item,"Housing and Settlements Development Office","Budget PPA: Enrolment and take-off of 7 projects under community mortgage program (CMP) in cooperation with Social Housing finance Corporation (SHFC)
+Major final output: 100% enrolment of the 7 project areas under CMP
+Part of: Site/Lot Acquisition
+Office: Housing and Settlements Development Office
+Money in: Maintenance and Other Operating Expenses","","[{""id"":""housing.housing-land"",""confidence"":0.96},{""id"":""housing.socialized-housing"",""confidence"":0.9}]",
+01a1bed0-ceed-71d8-99a0-d5315742385a,object-line,"Housing and Settlements Development Office","Budget account line: Clothing/UniformAllowance (5-01-02-040)
+Expense class: PS
+Office: Housing and Settlements Development Office","","[{""id"":""housing"",""confidence"":0.98},{""id"":""housing.resettlement"",""confidence"":0.72}]",
+01a1bed0-ceed-71d8-99a1-6c751ba16795,object-line,"Housing and Settlements Development Office","Budget account line: Honoraria (5-01-02-100)
+Expense class: PS
+Office: Housing and Settlements Development Office","","[{""id"":""housing"",""confidence"":0.9}]",
+01a1becf-0839-74e9-b4c8-60d190bd7647,object-line,"Housing and Settlements Development Office","Budget account line: Office Supplies Expenses (5-02-03-010)
+Expense class: MOOE
+Office: Housing and Settlements Development Office","","[{""id"":""governance.administration"",""confidence"":0.72},{""id"":""housing"",""confidence"":0.72}]",
+01a1bed0-ceed-71d8-99a1-e945980cbbce,object-line,"Information & Technology Office","Budget account line: Other Bonuses and Allowances（Mid-Year Bonus) (5-01-02-990)
+Expense class: PS
+Office: Information & Technology Office","","[{""id"":""governance.digital-government"",""confidence"":0.98},{""id"":""governance.administration"",""confidence"":0.9}]",
+01a1bed2-9883-772c-9bc1-fd5cddb0572f,object-line,"Information & Technology Office","Budget account line: Overtime & Night Time Pay (5-01-02-130)
+Expense class: PS
+Office: Information & Technology Office","","[{""id"":""governance.digital-government"",""confidence"":0.98},{""id"":""governance.administration"",""confidence"":0.65}]",
+01a134de-84b4-738b-be50-f92ecf7eeefe,aip-pa,"Information & Technology Office","Activity: ICT Equipment, Network, and End-User Technical Support Services
+Expected output: At least 90% of complete ICT repair, installation, connectivity, configuration, and technical-support requests received and within ITO responsibility responded to and resolved within applicable service-level targets, with service actions and unresolved/escalated cases properly recorded.
+Part of: ICT Equipment, Network, and End-User Technical Support Services
+Office: Information & Technology Office","","[{""id"":""governance.digital-government"",""confidence"":0.99}]",
+01a1becf-0839-74e9-b4c8-b46dc0881931,object-line,"Information & Technology Office","Budget account line: Salaries&Wages Casual(6) (5-01-01-020)
+Expense class: PS
+Office: Information & Technology Office","","[{""id"":""governance.digital-government"",""confidence"":0.99},{""id"":""governance"",""confidence"":0.99}]",
+01a1becd-43c0-7258-a1be-4fc7e8db6820,object-line,"Information & Technology Office","Budget account line: Other Bonuses and allowances(Anniv.Bonus) (5-01-02-990-2)
+Expense class: PS
+Office: Information & Technology Office","","[{""id"":""governance.digital-government"",""confidence"":0.98},{""id"":""governance.administration"",""confidence"":0.84}]",
+01a134de-5387-718d-9f0d-4df4895d13dc,aip-pa,"Information & Technology Office","Activity: GIS Data Sharing, Acceptable Use, and Data Governance Standards
+Part of: Network, Database, Geospatial, Cybersecurity, and Digital Infrastructure Administration › Enterprise Geospatial Information Infrastructure and Shared GIS Platform
+Office: Information & Technology Office","","[{""id"":""governance.digital-government"",""confidence"":0.98}]",
+01a1becd-43c0-7258-a1be-232dd3d4013f,object-line,"Information & Technology Office","Budget account line: Personal EconomicReliefAllowance (5-01-02-010)
+Expense class: PS
+Office: Information & Technology Office","","[{""id"":""governance.digital-government"",""confidence"":0.98},{""id"":""governance.administration"",""confidence"":0.88}]",
+01a1bed0-ceed-71d8-99a2-8976fb3cabea,object-line,"Investment and Trade Promotion Office","Budget account line: OtherPersonnel Benefits (5-01-04-990)
+Expense class: PS
+Office: Investment and Trade Promotion Office","","[{""id"":""livelihood-jobs.investment"",""confidence"":0.9}]",
+01a134e3-903e-71ef-8585-5759f8958f5b,aip-program,"Investment and Trade Promotion Office","Program: Marketing and Promotions
+Office: Investment and Trade Promotion Office
+Sector: Other Economic Services Sector
+Its projects and activities: Tourist Influx Generation; Tourist Influx Generation; Tourism Brand Implementation and Tourism Products Promotional Campaign; Tourism Brand Implementation and Tourism Products Promotional Campaign; Digital Marketing - website and social media b. Brand Activation Events c. Brochures and Printed Publications d. Out-of-Home Materials e. Merchandise; Onboarding of Travel Operators for Selling of Tourism Products a. Pitching of Tourism Products / Tourism Missions b. Familiarization Tour of Travel Operators c. Provision of Tools Kits and all other materials d. Promotions of Travel Operators and Packages II. MICE and Other Special Events a. Update Directory of Civic Organizations b. Email Marketing, Visits, etc. c. Provision of Bid Books d. Provision of Subsidy and Support","","[{""id"":""tourism-culture.tourism"",""confidence"":0.98},{""id"":""livelihood-jobs.investment"",""confidence"":0.72}]",
+4e2870a1-31a7-4d6f-9cf5-03420e0c79dc,budget-item,"Investment and Trade Promotion Office","Budget PPA: Support to Organizers of MICE and Other Special Events Bringing in Tourists from Outside Camarines Sur
+Major final output: partnerships established/support given to organizations hosting events bringing touristsfromoutside Camarines Sur
+Part of: Marketing and Promotions
+Office: Investment and Trade Promotion Office
+Money in: Maintenance and Other Operating Expenses","","[{""id"":""tourism-culture.tourism"",""confidence"":0.95},{""id"":""tourism-culture.festivals"",""confidence"":0.62}]",
+a2fcb8cd-560d-477d-a1fb-e2bde88746ed,budget-item,"Investment and Trade Promotion Office","Budget PPA: TOURISM
+Office: Investment and Trade Promotion Office
+Its sub-items: Product Development","","[{""id"":""tourism-culture.tourism"",""confidence"":0.98}]",
+01a1becf-0839-74e9-b4c9-505c177ce1f1,object-line,"Investment and Trade Promotion Office","Budget account line: Salaries&Wages-Regular (5-01-01-010)
+Expense class: PS
+Office: Investment and Trade Promotion Office","","[{""id"":""livelihood-jobs.investment"",""confidence"":0.98},{""id"":""governance.administration"",""confidence"":0.45}]",
+01a134e3-90f9-714e-927b-5eec28568bcd,aip-pa,"Investment and Trade Promotion Office","Activity: Digital Marketing - website and social media b. Brand Activation Events c. Brochures and Printed Publications d. Out-of-Home Materials e. Merchandise
+Part of: Marketing and Promotions › Tourism Brand Implementation and Tourism Products Promotional Campaign
+Office: Investment and Trade Promotion Office","","[{""id"":""tourism-culture.tourism"",""confidence"":0.97},{""id"":""livelihood-jobs.investment"",""confidence"":0.62}]",
+01a1bed0-ceed-71d8-99a2-7d49036c228b,object-line,"Investment and Trade Promotion Office","Budget account line: PhilHealth Contributions (5-01-03-030)
+Expense class: PS
+Office: Investment and Trade Promotion Office","","[{""id"":""livelihood-jobs.investment"",""confidence"":0.9}]",
+1cbf8e68-32e8-4b64-9a7f-670089f606e8,budget-item,"Jesse M. Robredo Center for Good Governance","Budget PPA: Comprehensive Assessments of LGU Best Practices
+Major final output: Governance Services
+Office: Jesse M. Robredo Center for Good Governance
+Its sub-items: Comprehensive Assessments of LGU Best Practices","","[{""id"":""governance.planning-monitoring"",""confidence"":0.9}]",
+9bf4419d-6962-4fde-a106-e7c8becaa977,budget-item,"Jesse M. Robredo Center for Good Governance","Budget PPA: Operation and Maintenance
+Major final output: Governance Services
+Office: Jesse M. Robredo Center for Good Governance
+Its sub-items: Operation and Maintenance","","[{""id"":""governance.administration"",""confidence"":0.93}]",
+01a01096-b914-7504-b104-ddec3c6c3dd2,aip-pa,"Liga ng mga Barangay","Activity: Liga ng mga Barangay
+Expected output: Number of barangay officials who attended and participated the conference
+Part of: Liga ng mga Barangay
+Office: Liga ng mga Barangay","","[{""id"":""governance.legislation"",""confidence"":0.95}]",
+d949a926-c23d-4e04-ae6c-439cf9ab6633,budget-item,"Lingkod Barangay Office","Budget PPA: Rapid Community Issue Response Program (RCIRP) / Quick Response Desk
+Major final output: Timely resolution of barangay concerns and complaints
+Office: Lingkod Barangay Office
+Its sub-items: Rapid Community Issue Response Program (RCIRP) / Quick Response Desk","","[{""id"":""governance.public-information"",""confidence"":0.62}]",
+01a0109d-b338-71c1-82b6-66f6b6c785d4,aip-pa,"Lingkod Barangay Office","Activity: Barangay Partnership and Linkages Program (BPLP) / Inter-Barangay–LGU Dialogue
+Expected output: % of barangays engaged in formal dialogues/partnerships Number of joint barangay–LGU initiatives implemented
+Part of: Barangay Partnership and Linkages Program (BPLP) / Inter-Barangay–LGU Dialogue
+Office: Lingkod Barangay Office","","[{""id"":""governance.public-information"",""confidence"":0.7}]",
+01a1bed0-ceed-71d8-99a3-380a86f20112,object-line,"Lingkod Barangay Office","Budget account line: Machinery&Equipment-Office Equipment (1-07-05-020)
+Expense class: CO
+Office: Lingkod Barangay Office","","[{""id"":""governance.digital-government"",""confidence"":0.9}]",
+4ca28e98-6371-4b24-8d81-040b5aae4769,budget-item,"Lingkod Barangay Office","Budget PPA: Rapid Community Issue Response Program (RCIRP) / Quick Response Desk
+Major final output: Timely resolution of barangay concerns and complaints
+Part of: Rapid Community Issue Response Program (RCIRP) / Quick Response Desk
+Office: Lingkod Barangay Office
+Money in: Maintenance and Other Operating Expenses","","[{""id"":""governance.public-information"",""confidence"":0.62}]",
+4fd2f008-1e6c-4e36-9f5c-1611270ee7ab,budget-item,"Lingkod Barangay Office","Budget PPA: Capabiity Bullding of Force Mutilfers iNega City (PBB/RANKAT)
+Office: Lingkod Barangay Office
+Money in: Maintenance and Other Operating Expenses","","[{""id"":""peace-order.public-safety"",""confidence"":0.78},{""id"":""governance.public-information"",""confidence"":0.36}]",
+b801792a-7a79-438e-807d-61e6b01740fd,budget-item,"Lingkod Barangay Office","Budget PPA: C.OPERATIONS
+Major final output: Public affairs management services
+Office: Lingkod Barangay Office
+Its sub-items: BantayKatail Program","","[{""id"":""governance.public-information"",""confidence"":0.72},{""id"":""peace-order.public-safety"",""confidence"":0.58}]",
+01a1bed0-ceed-71d8-99a4-405e70deb653,object-line,"Local Development Fund","Budget account line: ReablltationFlooringndMnrRrarstCityHetOce (1-07-4010)
+Expense class: CO
+Office: Local Development Fund","","[{""id"":""infrastructure.buildings"",""confidence"":0.84},{""id"":""health"",""confidence"":0.8}]",
+01a1bed2-9885-727c-8316-0aee4f3b4a1d,object-line,"Local Development Fund","Budget account line: l. Demolition/Relocation Expenses (5-02-08-010)
+Expense class: MOOE
+Office: Local Development Fund","","[{""id"":""housing.resettlement"",""confidence"":0.55}]",
+01a1becd-43c0-7258-a1c0-0b15fa61efff,object-line,"Local Development Fund","Budget account line: Infrastructure Assets-Road Networks (1-07-03-010)
+Expense class: CO
+Office: Local Development Fund","","[{""id"":""infrastructure.roads"",""confidence"":0.98}]",
+01a1bed0-ceed-71d8-99a4-2582006b94d9,object-line,"Local Development Fund","Budget account line: Repairof3classroomschollbuidingMacMarianoESBalatas (1-07-04-020)
+Expense class: CO
+Office: Local Development Fund","","[{""id"":""education.schools"",""confidence"":0.98},{""id"":""infrastructure.buildings"",""confidence"":0.92}]",
+01a1becd-43c0-7258-a1bf-a78383ce9f13,object-line,"Local Development Fund","Budget account line: InfrastructureAssets-RoadNetworks (1-07-03-010)
+Expense class: CO
+Office: Local Development Fund","","[{""id"":""infrastructure.roads"",""confidence"":0.98}]",
+01a1bed0-ceed-71d8-99a4-36be925b715b,object-line,"Local Development Fund","Budget account line: Pequena ()
+Expense class: MOOE
+Office: Local Development Fund","","[]",
+01a1bed0-ceed-71d8-99a4-a7ead6708d1a,object-line,"Local Disaster Risk Reduction and Management Fund","Budget account line: Office SuppllesExpenses (5-02-03-010)
+Expense class: MOOE
+Office: Local Disaster Risk Reduction and Management Fund","","[{""id"":""disaster-risk.preparedness"",""confidence"":0.8}]",
+01a1becd-43c0-7258-a1c0-56ceb7d1664a,object-line,"Local Disaster Risk Reduction and Management Fund","Budget account line: infrastructureAssets-Flood ControlSystems (1-07-03-020)
+Expense class: CO
+Office: Local Disaster Risk Reduction and Management Fund","","[{""id"":""infrastructure.drainage-flood"",""confidence"":0.99}]",
+01a1bed2-9885-727c-8315-6333793debcf,object-line,"Local Disaster Risk Reduction and Management Fund","Budget account line: Other Maint. & Oper. Expenses (5-02-99-990)
+Expense class: MOOE
+Office: Local Disaster Risk Reduction and Management Fund","","[{""id"":""governance.administration"",""confidence"":0.55}]",
+01a010a0-6024-7212-8470-4ad1147ccb89,aip-pa,"Market Enterprise and Promotions Office","Activity: New and innovative market policies and amendments to market ordinances and developmental initiatives are drafted and forwarded to the City Mayor or the Sangguniang Panlungsod whenever necessary
+Expected output: Number of market-related policy reforms drafted, ordinances adopted, and benchmarking/study tours completed
+Part of: New and innovative market policies and amendments to market ordinances and developmental initiatives are drafted and forwarded to the City Mayor or the Sangguniang Panlungsod whenever necessary
+Office: Market Enterprise and Promotions Office","","[{""id"":""livelihood-jobs.markets"",""confidence"":0.95},{""id"":""governance.legislation"",""confidence"":0.72}]",
+b945f467-be41-4bc0-b57d-14a7587a0103,budget-item,"Market Enterprise and Promotions Office","Budget PPA: General Administrative Services
+Major final output: Administrative and Support Services
+Office: Market Enterprise and Promotions Office
+Its sub-items: General Administrative Services","","[{""id"":""governance.administration"",""confidence"":0.9},{""id"":""livelihood-jobs.markets"",""confidence"":0.88}]",
+01a010a0-781a-768a-8b36-1e7a5381a6f0,aip-pa,"Market Enterprise and Promotions Office","Activity: Bi-annual inspection and monitoring of weighing and measuring devices of business establishment within NCPM, CBD 1-2, and in 27 Barangays of Naga
+Expected output: Percentage of businesses and consumers satisfied
+Part of: Bi-annual inspection and monitoring of weighing and measuring devices of business establishment within NCPM, CBD 1-2, and in 27 Barangays of Naga
+Office: Market Enterprise and Promotions Office","","[{""id"":""livelihood-jobs.markets"",""confidence"":0.95},{""id"":""social-welfare.protection"",""confidence"":0.4}]",
+01a134e2-c429-746d-bd15-69e81c4ee294,aip-program,"Market Enterprise and Promotions Office","Program: Revenue Collection and Remittance Services
+Office: Market Enterprise and Promotions Office
+Sector: Other Economic Services Sector","","[{""id"":""governance.finance-revenue"",""confidence"":0.97}]",
+01a134e2-aecb-72ff-9156-bd60dd3ae158,aip-pa,"Market Enterprise and Promotions Office","Activity: Maintenance of Signages, Ad Spaces: Acquisition, replacement, expansion, and maintenance of directional, traffic, and section signages, including leasable advertising space frames
+Expected output: At least 90% reduction in economic losses due to navigation-related stall inaccessibility, delivery delays, or foot traffic misdirection at NCPM after disruptions, compared to 2025 baseline
+Part of: Maintenance and Utilities Operations
+Office: Market Enterprise and Promotions Office","","[{""id"":""livelihood-jobs.markets"",""confidence"":0.98},{""id"":""infrastructure.buildings"",""confidence"":0.6}]",
+01a1becd-43c0-7258-a1c1-3e99ef3ae42c,object-line,"Market Enterprise and Promotions Office","Budget account line: Insurance Expenses (5-02-16-030)
+Expense class: MOOE
+Office: Market Enterprise and Promotions Office","","[{""id"":""livelihood-jobs.markets"",""confidence"":0.99},{""id"":""governance.administration"",""confidence"":0.7}]",
+01a1becd-43c0-7258-a1c0-b22147fb2f79,object-line,"Market Enterprise and Promotions Office","Budget account line: Other Bonuses and Allowances(Mid-YearBonus) (5-01-02-990)
+Expense class: PS
+Office: Market Enterprise and Promotions Office","","[{""id"":""livelihood-jobs.markets"",""confidence"":0.95},{""id"":""governance.administration"",""confidence"":0.72}]",
+99275fbf-325b-467a-b69e-2e0ad577acf9,budget-item,"Market Enterprise and Promotions Office","Budget PPA: Maintenance&minor repairofpasilyosopen spacesstaism offices.CR'ssewage& plumbingsystemwater system,pasilyo lights and otherelectrical system
+Office: Market Enterprise and Promotions Office
+Money in: Maintenance and Other Operating Expenses","","[{""id"":""livelihood-jobs.markets"",""confidence"":0.96},{""id"":""infrastructure.water-power"",""confidence"":0.52}]",
+01a1bed0-ceee-7468-bf95-9ecd936212b5,object-line,"Market Enterprise and Promotions Office","Budget account line: Rep.&Maint.-Machinery and Equipment(ICTEquipmer (5-02-13-050-03)
+Expense class: MOOE
+Office: Market Enterprise and Promotions Office","","[{""id"":""livelihood-jobs.markets"",""confidence"":0.98}]",
+25c6fed6-6117-4e6e-a9c0-00a1364b152a,budget-item,"Market Enterprise and Promotions Office","Budget PPA: Procurement of additional security equipment and gadgets (e.g., handheld radios, body cameras, batons, flashlights) to enhance the capability and efficiency of market security operations
+Major final output: MEPO services
+Part of: Procurement of additional security equipment and gadgets (e.g., handheld radios, body cameras, batons, flashlights) to enhance the capability and efficiency of market security operations
+Office: Market Enterprise and Promotions Office
+Money in: Maintenance and Other Operating Expenses","","[{""id"":""peace-order.public-safety"",""confidence"":0.86},{""id"":""livelihood-jobs.markets"",""confidence"":0.78}]",
+01a1bed0-ceee-7468-bf95-00c92bf35721,object-line,"Market Enterprise and Promotions Office","Budget account line: Cash Gift (5-01-02-150)
+Expense class: PS
+Office: Market Enterprise and Promotions Office","","[{""id"":""livelihood-jobs.markets"",""confidence"":0.99}]",
+6c457da8-4e30-47b6-ab4a-386e1552a953,budget-item,"Metro Naga Development Council","Budget PPA: Metro Naga Development Council (MNDC)
+Major final output: Governance support services
+Office: Metro Naga Development Council
+Fund: Special Purpose Appropriation
+Money in: Maintenance and Other Operating Expenses","","[{""id"":""governance.planning-monitoring"",""confidence"":0.84}]",
+01a1bed2-9885-727c-8314-271b50ea6488,object-line,"Metro Public Employment and Service Office","Budget account line: Other Maint. & Oper. Expenses (Ord.No. 2006-035) (5-02-99-990(4)a)
+Expense class: MOOE
+Office: Metro Public Employment and Service Office","","[{""id"":""livelihood-jobs.employment"",""confidence"":0.8},{""id"":""governance.administration"",""confidence"":0.5}]",
+5ed30440-cab0-4295-8779-182aa6b2a2f1,budget-item,"Metro Public Employment and Service Office","Budget PPA: B.OPERATIONS
+Major final output: Admin/Secret ariatservices
+Office: Metro Public Employment and Service Office
+Its sub-items: (untitled)","","[{""id"":""governance.administration"",""confidence"":0.95}]",
+c53fbed0-d596-46a9-9ea5-2a3def06b960,budget-item,"Metro Public Employment and Service Office","Budget PPA: Stimulus Tabang Tugang
+Major final output: 50 Displaced Workers
+Office: Metro Public Employment and Service Office
+Money in: Maintenance and Other Operating Expenses","","[{""id"":""livelihood-jobs.employment"",""confidence"":0.9}]",
+01a1becd-43c0-7258-a1c1-623972c8e4e2,object-line,"Metro Public Employment and Service Office","Budget account line: Clothing/UniformAllowance (5-01-02-040)
+Expense class: PS
+Office: Metro Public Employment and Service Office","","[{""id"":""livelihood-jobs.employment"",""confidence"":0.99},{""id"":""governance.administration"",""confidence"":0.7}]",
+01a134e1-d50b-7489-a479-359f389aa30d,aip-program,"Metro Public Employment and Service Office","Program: Self-Employment Facilitation Program (Enterprise Development Interventions)
+Office: Metro Public Employment and Service Office
+Sector: Other Economic Services Sector
+Its projects and activities: Angat Kabuhayan Program; Tabang Tugang Program (City Ordinance No. 2021-009); GrOW Negosyo","","[{""id"":""livelihood-jobs.livelihood"",""confidence"":0.98}]",
+01a1becd-43c0-7258-a1c1-81bb1f35c2ae,object-line,"Metro Public Employment and Service Office","Budget account line: Retirement&LifeInsurancePremiums (5-01-03-010)
+Expense class: PS
+Office: Metro Public Employment and Service Office","","[{""id"":""livelihood-jobs.employment"",""confidence"":0.99},{""id"":""governance.administration"",""confidence"":0.72}]",
+01a1bed0-ceee-7468-bf96-56debff106c1,object-line,"Metro Public Employment and Service Office","Budget account line: Printing andPublicationExpenses (5-02-99-020)
+Expense class: MOOE
+Office: Metro Public Employment and Service Office","","[{""id"":""livelihood-jobs.employment"",""confidence"":0.98},{""id"":""governance.public-information"",""confidence"":0.7}]",
+01a1bed0-ceee-7468-bf96-78bc2d8a53c0,object-line,"Metro Public Employment and Service Office","Budget account line: Machinery&Equipment-OfficeEquipment (1-07-05-020)
+Expense class: CO
+Office: Metro Public Employment and Service Office","","[{""id"":""livelihood-jobs.employment"",""confidence"":0.98},{""id"":""governance.administration"",""confidence"":0.4}]",
+01a1bed0-ceee-7468-bf96-166bb038295c,object-line,"Metro Public Employment and Service Office","Budget account line: Retirement&LifeInsurancePremiums (5-01-03-010)
+Expense class: PS
+Office: Metro Public Employment and Service Office","","[{""id"":""livelihood-jobs.employment"",""confidence"":0.99},{""id"":""governance.administration"",""confidence"":0.72}]",
+a3df96a5-3624-45f7-bd05-e32e8e6251c6,budget-item,"Naga City Bantay Familia Protection Center","Budget PPA: General Administrative Services
+Office: Naga City Bantay Familia Protection Center
+Money in: Personnel Services, Maintenance and Other Operating Expenses","","[{""id"":""social-welfare"",""confidence"":0.9},{""id"":""social-welfare.protection"",""confidence"":0.84}]",
+01a134df-4534-723b-87b1-d5b2a72fc993,aip-pa,"Naga City Center for Safety and Resilience","Activity: CESAR Facility Development and Fit-Out
+Expected output: 1 fully fit-out CESAR facility turned over and operational; occupancy/acceptance certificate issued.
+Part of: CESAR Systems Development and Capability Enhancement Program › CESAR Infrastructure Development Project
+Office: Naga City Center for Safety and Resilience","","[{""id"":""infrastructure.buildings"",""confidence"":0.98}]",
+01a134df-3a0e-711c-901a-369308c9c85e,aip-pa,"Naga City Center for Safety and Resilience","Activity: Composite Secretariat and Core Management Group Operations
+Expected output: 100% of Core Management Group meetings held and minuted; FY2027 annual work program and staffing recommendations submitted to City Mayor.
+Part of: CESAR Institutional Development and Governance Program › CESAR Governance and Management Project
+Office: Naga City Center for Safety and Resilience","","[{""id"":""governance.administration"",""confidence"":0.95},{""id"":""governance.planning-monitoring"",""confidence"":0.72}]",
+762cb0b2-fd85-48bd-b273-74cb66b560d0,budget-item,"Naga City Children's Affairs Office","Budget PPA: Improvement of recreational and Child-Friendly spaces and facilities
+Major final output: Children’s welfare and development services
+Part of: INSTITUTING TANGIBLE OUTREACH SERVICES AND EXTENSION PROGRAMS
+Office: Naga City Children's Affairs Office
+Money in: Maintenance and Other Operating Expenses","","[{""id"":""children"",""confidence"":0.99},{""id"":""infrastructure.buildings"",""confidence"":0.58}]",
+9ff8f5e8-4832-41bd-9c03-813743480d65,budget-item,"Naga City Children's Affairs Office","Budget PPA: Generai Administration and Support Services(GASS
+Major final output: Children's welfareand development services
+Office: Naga City Children's Affairs Office
+Money in: Personnel Services, Maintenance and Other Operating Expenses, Capital Outlay","","[{""id"":""children"",""confidence"":0.98},{""id"":""social-welfare.protection"",""confidence"":0.72},{""id"":""governance.administration"",""confidence"":0.55}]",
+e7d172b3-1f98-46dc-ab33-b01777ad9119,budget-item,"Naga City Cooperative Development Office","Budget PPA: Assistanceto CityProsecutors Office
+Office: Naga City Cooperative Development Office
+Money in: Maintenance and Other Operating Expenses","","[{""id"":""governance.administration"",""confidence"":0.62},{""id"":""peace-order.public-safety"",""confidence"":0.38}]",
+01a134e3-d04b-709b-9bec-e1a978f4396f,aip-pa,"Naga City Cooperative Development Office","Project: Supplemental / Enhancement Trainings
+Expected output: Additional training programs and skills enhancement activities for cooperative personnel, conducted to strengthen competencies beyond mandatory requirements, properly scheduled, implemented, and documented with allocation for unforeseen expenses and incidental requirements necessary for the implementation of repair, maintenance, logistics, and field support activities, subject to applicable government accounting and auditing rules.
+Part of: Naga City Cooperative Training and Enhancement Programs
+Office: Naga City Cooperative Development Office","","[{""id"":""livelihood-jobs.livelihood"",""confidence"":0.93}]",
+01a01097-3364-732c-a46b-7217615050c3,budget-item,"Naga City Cooperative Development Office","Budget PPA: Cooperative Governance & Management
+Major final output: 100% Naga City Cooperatives compliant rate, in order to remain/retain cooperative existence
+Part of: C.2.A. MANDATORY TRAININGS (CDA Requirement)
+Office: Naga City Cooperative Development Office
+Money in: Maintenance and Other Operating Expenses","","[{""id"":""livelihood-jobs.livelihood"",""confidence"":0.94}]",
+01a134e3-cf68-71ef-b1ca-79e3b1646eb2,aip-pa,"Naga City Cooperative Development Office","Activity: Financial Management
+Part of: Naga City Cooperative Training and Enhancement Programs › MANDATORY TRAININGS (CDA Requirement)
+Office: Naga City Cooperative Development Office","","[{""id"":""livelihood-jobs.livelihood"",""confidence"":0.93},{""id"":""livelihood-jobs.employment"",""confidence"":0.4}]",
+01a134df-8190-715b-9273-74c70dcb03a1,aip-program,"Naga City Dangerous Drugs Board","Program: Drug Supply Reduction Program
+Office: Naga City Dangerous Drugs Board
+Sector: General Public Services Sector
+Its projects and activities: Inter-Agency Coordination, Meetings, Training, and Capacity-Building Support; Intelligence, Enforcement, and Prosecution Support Project","","[{""id"":""peace-order.drugs"",""confidence"":0.98},{""id"":""peace-order.public-safety"",""confidence"":0.82}]",
+01a134df-88d0-7299-8e7a-b72c19e1b707,aip-program,"Naga City Dangerous Drugs Board","Program: Drug Demand Reduction Program
+Office: Naga City Dangerous Drugs Board
+Sector: General Public Services Sector
+Its projects and activities: Drug Prevention, Education, Advocacy, and Community Mobilization Project; IDADAIT and Drug Abuse Prevention and Control Week Observance; Strengthening of Anti-Drug Auxiliary and Community Organizations; Drug-Free Workplace, School, Institution, and Barangay Community Program","","[{""id"":""peace-order.drugs"",""confidence"":0.99},{""id"":""health.disease-control"",""confidence"":0.62}]",
+01a1becf-0839-74e9-b4cc-0042619a574a,object-line,"Naga City District Abattoir","Budget account line: Maclhinery&Equipment -OficeEquipment (1-07-05-020)
+Expense class: CO
+Office: Naga City District Abattoir","","[{""id"":""livelihood-jobs.markets"",""confidence"":0.95},{""id"":""governance.administration"",""confidence"":0.35}]",
+01a134e2-63eb-727e-80df-0673f4bfea56,aip-program,"Naga City District Abattoir","Program: Ear Tagging System for Livestock
+Office: Naga City District Abattoir
+Sector: Other Economic Services Sector","","[{""id"":""agriculture.livestock"",""confidence"":0.98},{""id"":""agriculture"",""confidence"":0.95}]",
+01a1becd-43c0-7258-a1c2-098060b838d3,object-line,"Naga City District Abattoir","Budget account line: Other Bonuses and allowances（Anniv.Bonus） (5-01-02-990-2)
+Expense class: PS
+Office: Naga City District Abattoir","","[{""id"":""livelihood-jobs.markets"",""confidence"":0.95},{""id"":""governance.administration"",""confidence"":0.68}]",
+d5e033a1-7974-4efc-84d3-538fe1367a26,budget-item,"Naga City District Abattoir","Budget PPA: C.3.Electricity Supply for Daily Abattoir Operations
+Major final output: Rellableand Adequate Electricity Supplyfor Continuous Abattoir Qoerations
+Office: Naga City District Abattoir
+Money in: Maintenance and Other Operating Expenses","","[{""id"":""livelihood-jobs.markets"",""confidence"":0.95}]",
+01a1bed0-ceee-7468-bf97-5fe474348f53,object-line,"Naga City District Abattoir","Budget account line: Office SuppliesExpenses (5-02-03-010)
+Expense class: MOOE
+Office: Naga City District Abattoir","","[{""id"":""agriculture.livestock"",""confidence"":0.9}]",
+28013b80-ad2a-4aed-9f6f-bbefa012901c,budget-item,"Naga City District Abattoir","Budget PPA: Renewable Energy Integration
+Major final output: Reduced Greenhouse gas emissions
+Office: Naga City District Abattoir
+Its sub-items: Renewable Energy Integration","","[{""id"":""agriculture.livestock"",""confidence"":0.9},{""id"":""infrastructure.water-power"",""confidence"":0.78}]",
+01a1becf-0839-74e9-b4cb-57bbc4d0b8bb,object-line,"Naga City District Abattoir","Budget account line: Salaries&Wages-Regular (33) (5-01-01-010)
+Expense class: PS
+Office: Naga City District Abattoir","","[{""id"":""livelihood-jobs.markets"",""confidence"":0.95},{""id"":""agriculture.livestock"",""confidence"":0.9}]",
+01a1bed2-9887-7143-92e0-fd5b0a144dbe,object-line,"Naga City District Abattoir","Budget account line: Rep. & Maint-Buildings and Other Structures (Slaughterhouses) (5-02-13-040-05)
+Expense class: MOOE
+Office: Naga City District Abattoir","","[{""id"":""livelihood-jobs.markets"",""confidence"":0.98},{""id"":""agriculture.livestock"",""confidence"":0.72}]",
+01a1becf-0839-74e9-b4cb-e23962b3e5d4,object-line,"Naga City District Abattoir","Budget account line: p.&MainL-Buildings and Other Structures（Buildings (5-02-13-040-01)
+Expense class: MOOE
+Office: Naga City District Abattoir","","[{""id"":""livelihood-jobs.markets"",""confidence"":0.95},{""id"":""infrastructure.buildings"",""confidence"":0.7}]",
+01a0109f-cbc5-7647-ac1f-c68f2f4fbbe3,aip-program,"Naga City General Hospital","Program: Ancillary Services
+Major final output: Timely and accurate laboratory results
+Office: Naga City General Hospital
+Sector: Other Economic Services Sector
+Its projects and activities: Ancillary Services","","[{""id"":""health.hospital-care"",""confidence"":0.98},{""id"":""health"",""confidence"":0.95}]",
+01a0109f-9e6c-73fa-a68d-73959c87fc49,aip-pa,"Naga City General Hospital","Activity: Quality Assurance / Hospital Accreditation Program
+Expected output: Percentage of DOH core standards met and documented.
+Part of: Quality Assurance / Hospital Accreditation Program
+Office: Naga City General Hospital","","[{""id"":""health.hospital-care"",""confidence"":0.9}]",
+01a1bed0-ceef-7469-a911-c59b12ab7d16,object-line,"Naga City General Hospital","Budget account line: C.Capital Outlay ()
+Expense class: CO
+Office: Naga City General Hospital","","[{""id"":""health"",""confidence"":0.99}]",
+01a0109f-bb89-736d-87ec-89bd417ef413,aip-pa,"Naga City General Hospital","Activity: Hospital Facility Enhancement Program
+Expected output: Compliance with DOH licensing standards for physical plant and safety
+Part of: Hospital Facility Enhancement Program
+Office: Naga City General Hospital","","[{""id"":""health"",""confidence"":0.98},{""id"":""infrastructure.buildings"",""confidence"":0.92},{""id"":""governance.administration"",""confidence"":0.4}]",
+01a1bed2-9885-727c-8317-037a8d61f6f2,object-line,"Naga City General Hospital","Budget account line: Fuel, Oil & Lubricants Expenses (5-02-03-090)
+Expense class: MOOE
+Office: Naga City General Hospital","","[{""id"":""health"",""confidence"":0.98},{""id"":""health.hospital-care"",""confidence"":0.9}]",
+01a1bed0-ceee-7468-bf98-50e67ead342b,object-line,"Naga City General Hospital","Budget account line: Drugs and Medicines Expenses ()
+Expense class: MOOE
+Office: Naga City General Hospital","","[{""id"":""health.medicines"",""confidence"":0.98}]",
+01a1bed2-9886-755c-bf0a-8b0b9c19edc5,object-line,"Naga City General Hospital","Budget account line: Rep. & Maint.-Machinery and Equipment (Medical Equip.) (5-02-13-050-11)
+Expense class: MOOE
+Office: Naga City General Hospital","","[{""id"":""health.hospital-care"",""confidence"":0.99},{""id"":""health"",""confidence"":0.99}]",
+01a134e7-3719-72db-b151-0b863971923a,aip-program,"Naga City General Hospital","Program: Pharmacy and Medicines Dispensing Services
+Office: Naga City General Hospital
+Sector: Other Economic Services Sector","","[{""id"":""health.medicines"",""confidence"":0.98},{""id"":""health"",""confidence"":0.9}]",
+01a1bed2-9884-7208-bdbe-2147943ea982,object-line,"Naga City Internal Audit Service Office","Budget account line: Salaries & Wages-Regular (6) (5-01-01-010)
+Expense class: PS
+Office: Naga City Internal Audit Service Office","","[{""id"":""governance.administration"",""confidence"":0.98},{""id"":""governance.finance-revenue"",""confidence"":0.72}]",
+01a1bed2-9884-7208-bdbe-36c23ea96364,object-line,"Naga City Internal Audit Service Office","Budget account line: Clothing/Uniform Allowance (5-01-02-040)
+Expense class: PS
+Office: Naga City Internal Audit Service Office","","[{""id"":""governance.administration"",""confidence"":0.98},{""id"":""governance.finance-revenue"",""confidence"":0.72}]",
+01a134da-12fb-75b6-bd04-43b821dfea18,aip-program,"Naga City Internal Audit Service Office","Program: Performance Assessment, Review, Capacity Development, and Team Development Services
+Office: Naga City Internal Audit Service Office
+Sector: General Public Services Sector","","[{""id"":""governance.administration"",""confidence"":0.9},{""id"":""governance.planning-monitoring"",""confidence"":0.72}]",
+b772d7a1-367e-4e2d-b700-c811e1acada0,budget-item,"Naga City Youth Development Office","Budget PPA: Communications and Publications (Intensification of Social Media Presence, IEC, Newsletters)
+Major final output: Strengthened public engagement and information dissemination
+Office: Naga City Youth Development Office
+Its sub-items: Communications and Publications (Intensification of Social Media Presence, IEC, Newsletters)","","[{""id"":""youth"",""confidence"":0.99},{""id"":""governance.public-information"",""confidence"":0.93}]",
+01a134da-b721-709e-a6e3-ce4260181ff4,aip-pa,"Naga City Youth Development Office","Activity: Katipunan ng Kabataan (KK) Profiling Activities (RA 10742, RA 11768, CON 2025-079)
+Expected output: Profiling of youth ages 15-30 years in each barangay
+Part of: Profiling, Archiving, Documentation and Report Consolidation
+Office: Naga City Youth Development Office","","[{""id"":""youth"",""confidence"":0.99},{""id"":""governance.planning-monitoring"",""confidence"":0.72}]",
+01a01096-f88b-741a-a8e1-146802f025ac,budget-item,"Naga City Youth Development Office","Budget PPA: City Youth Officials Program Implementation (Selection Process, Uniform and PPAs)
+Major final output: Transparent selection and implementation of CYO PPAs
+Part of: City Youth Officials Program (Operations - CON 2007-008)
+Office: Naga City Youth Development Office
+Money in: Maintenance and Other Operating Expenses","","[{""id"":""youth"",""confidence"":0.99},{""id"":""governance.public-information"",""confidence"":0.5}]",
+01a0109c-f794-72da-9ad9-660c8275d4de,aip-pa,"Office for Senior Citizens Affairs","Activity: LGU provision of 100% counterpart on BASCA members annual dues (mandated by an ordinance)
+Expected output: All BASCA claimed the 100% LGU Counterpart
+Part of: LGU provision of 100% counterpart on BASCA members annual dues (mandated by an ordinance)
+Office: Office for Senior Citizens Affairs","","[{""id"":""senior-citizens"",""confidence"":0.95}]",
+01a134e8-cdd2-7204-a4f7-58ee30abf256,aip-program,"Office for Senior Citizens Affairs","Program: Senior Citizen Food and Nutrition Assistance Program
+Office: Office for Senior Citizens Affairs
+Sector: General Public Services Sector
+Its projects and activities: Periodic Food Assistance for Indigent Senior Citizens; Senior Citizen Paskohan Food Assistance Program; Rice Assistance for Abandoned and Indigent Senior Citizens","","[{""id"":""senior-citizens"",""confidence"":0.99},{""id"":""social-welfare.cash-benefits"",""confidence"":0.78}]",
+1548c173-50f0-464b-a0ad-528951a29de3,budget-item,"Office for Senior Citizens Affairs","Budget PPA: LGU provision of 100% counterpart on BASCA members annual dues (mandated by an ordinance)
+Major final output: Required papers evaluated, processed and recommended for release
+Office: Office for Senior Citizens Affairs
+Its sub-items: LGU provision of 100% counterpart on BASCA members annual dues (mandated by an ordinance)","","[{""id"":""senior-citizens"",""confidence"":0.99},{""id"":""social-welfare.cash-benefits"",""confidence"":0.46}]",
+283c0939-27a5-400d-936f-0e87afdff62d,budget-item,"Office for Senior Citizens Affairs","Budget PPA: Provision of 100% counterpart to BA.SCA annual dues
+Major final output: Required papers evaluated, processed and recommended for release
+Office: Office for Senior Citizens Affairs
+Money in: Maintenance and Other Operating Expenses","","[{""id"":""senior-citizens"",""confidence"":0.9},{""id"":""social-welfare"",""confidence"":0.55}]",
+efb0c4d2-714a-41be-bb9d-bf40c1d9f2d9,budget-item,"Office of the City Accountant","Budget PPA: Installationof Naga PROMPTS（Procurement Management and PaymentTracking System)
+Major final output: Real-time monitoring of financial transactions
+Office: Office of the City Accountant
+Money in: Maintenance and Other Operating Expenses","","[{""id"":""governance.digital-government"",""confidence"":0.96}]",
+01a1becf-0836-74d4-bf52-e10447fae626,object-line,"Office of the City Accountant","Budget account line: Productivity Incentive Allowance (5-01-02-080)
+Expense class: PS
+Office: Office of the City Accountant","","[{""id"":""governance.finance-revenue"",""confidence"":0.98},{""id"":""governance.administration"",""confidence"":0.72}]",
+b508a0c3-6b64-4f39-a74b-7922e3e0e75e,budget-item,"Office of the City Accountant","Budget PPA: Capacity Development, Team Buiiding. Banohmarking and AccountancyWeek celebration
+Part of: Training on eNGAS andProcurement of IT Equipment
+Office: Office of the City Accountant
+Money in: Maintenance and Other Operating Expenses","","[{""id"":""governance.finance-revenue"",""confidence"":0.82},{""id"":""governance.administration"",""confidence"":0.5}]",
+01a1bed0-ceeb-74a9-9459-4b58acd3933f,object-line,"Office of the City Accountant","Budget account line: Other Bonuses and allowances(Anniv.Bonus) (5-01-02-99-2)
+Expense class: PS
+Office: Office of the City Accountant","","[{""id"":""governance.finance-revenue"",""confidence"":0.95},{""id"":""governance.administration"",""confidence"":0.7}]",
+01a134dd-6a3c-715b-be6d-65f4add694f4,aip-pa,"Office of the City Accountant","Activity: Refresher Training Course for eNGAS Users
+Expected output: Training course completed by June 2027.
+Part of: Accounting Systems Capacity Development Program › Professional Development and Training Project
+Office: Office of the City Accountant","","[{""id"":""governance.digital-government"",""confidence"":0.97},{""id"":""governance.administration"",""confidence"":0.9},{""id"":""governance"",""confidence"":0.88}]",
+01a1bed2-9883-772c-9bc0-4a43af70579d,object-line,"Office of the City Accountant","Budget account line: Transportation Equipment - Motor Vehicles (1-07-06-010)
+Expense class: CO
+Office: Office of the City Accountant","","[{""id"":""governance.administration"",""confidence"":0.98}]",
+01a134dd-6a8d-7391-8e2e-2a6c40a8bd6f,aip-pa,"Office of the City Accountant","Activity: Capacity Development, Team Building, Benchmarking and Accountancy Week Celebration
+Expected output: Improved service delivery performance as a result of learning and development interventions.
+Part of: Accounting Systems Capacity Development Program › Professional Development and Training Project
+Office: Office of the City Accountant","","[{""id"":""governance.administration"",""confidence"":0.9},{""id"":""governance"",""confidence"":0.82},{""id"":""governance.public-information"",""confidence"":0.4}]",
+01a1bed2-9883-772c-9bbc-e2837c4ed151,object-line,"Office of the City Administrator","Budget account line: Other General Services (32) (5-02-12-990)
+Expense class: MOOE
+Office: Office of the City Administrator","","[{""id"":""governance.administration"",""confidence"":0.9},{""id"":""governance"",""confidence"":0.8}]",
+01a1bed0-ceef-7469-a914-7d6ed9f1d0e2,object-line,"Office of the City Administrator","Budget account line: Other Supplies&Materials Expenses (5-02-03-990)
+Expense class: MOOE
+Office: Office of the City Administrator","","[{""id"":""governance.administration"",""confidence"":0.55}]",
+01a1bed0-ceef-7469-a912-d8a8e8317f99,object-line,"Office of the City Administrator","Budget account line: OtherMaint.&Oper.Expenses ()
+Expense class: MOOE
+Office: Office of the City Administrator","","[{""id"":""governance.administration"",""confidence"":0.45}]",
+01a1bed2-9883-772c-9bbc-fca7a6cb5e8f,object-line,"Office of the City Administrator","Budget account line: Rep. & Maint.-Machinery and Equipment (ICT Equipment) (5-02-13-050-03)
+Expense class: MOOE
+Office: Office of the City Administrator","","[{""id"":""governance.digital-government"",""confidence"":0.95},{""id"":""governance.administration"",""confidence"":0.85}]",
+01a1becd-43c1-72d9-8237-f82b3433f6c3,object-line,"Office of the City Administrator","Budget account line: YearEndBonus (5-01-02-140)
+Expense class: PS
+Office: Office of the City Administrator","","[{""id"":""governance.administration"",""confidence"":0.99}]",
+01a1becf-0839-74e9-b4ce-34ea151ded52,object-line,"Office of the City Administrator","Budget account line: TrainingExpenses (5-02-02-010)
+Expense class: MOOE
+Office: Office of the City Administrator","","[{""id"":""governance.administration"",""confidence"":0.98}]",
+01a1bed2-9883-772c-9bbc-b8daee147f75,object-line,"Office of the City Administrator","Budget account line: Travelling Expenses - Local (5-02-01-010)
+Expense class: MOOE
+Office: Office of the City Administrator","","[{""id"":""governance.administration"",""confidence"":0.95},{""id"":""governance"",""confidence"":0.9}]",
+01a1bed0-ceef-7469-a912-c5fe68a04cf7,object-line,"Office of the City Administrator","Budget account line: SurveyExpenses (5-02-07-0.0)
+Expense class: MOOE
+Office: Office of the City Administrator","","[{""id"":""governance.administration"",""confidence"":0.95}]",
+01a1bed2-9883-772c-9bbc-b436dfdd71bd,object-line,"Office of the City Administrator","Budget account line: Other Personnel Benefits-Loyalty Pay (5-01-04-990-4)
+Expense class: PS
+Office: Office of the City Administrator","","[{""id"":""governance.administration"",""confidence"":0.99},{""id"":""governance"",""confidence"":0.95}]",
+01a1becd-43c1-72d9-8239-1aebaff668e0,object-line,"Office of the City Administrator","Budget account line: OtherPersonnel Benefits (5-01-04-990)
+Expense class: PS
+Office: Office of the City Administrator","","[{""id"":""governance.administration"",""confidence"":0.98},{""id"":""governance"",""confidence"":0.9}]",
+01a1bed0-ceef-7469-a914-3c8b8b6be985,object-line,"Office of the City Administrator","Budget account line: PHILHEALTHContribution (5-01-03-030)
+Expense class: PS
+Office: Office of the City Administrator","","[{""id"":""governance.administration"",""confidence"":0.97},{""id"":""governance"",""confidence"":0.9}]",
+01a1becf-0839-74e9-b4cd-b29e6d84386c,object-line,"Office of the City Administrator","Budget account line: OtherPersonnel Benefits (5-01-04-990)
+Expense class: PS
+Office: Office of the City Administrator","","[{""id"":""governance.administration"",""confidence"":0.95}]",
+01a1becd-43c1-72d9-8239-a565a0cc1742,object-line,"Office of the City Administrator","Budget account line: Printing andPublicationExpenses (5-02-99-020)
+Expense class: MOOE
+Office: Office of the City Administrator","","[{""id"":""governance.public-information"",""confidence"":0.72},{""id"":""governance.administration"",""confidence"":0.65}]",
+01a1bed0-ceef-7469-a913-684ec2a30b8a,object-line,"Office of the City Administrator","Budget account line: InfrastructureAssets-PowerSupplySystems (1-07-03-050)
+Expense class: CO
+Office: Office of the City Administrator","","[{""id"":""infrastructure"",""confidence"":0.98},{""id"":""infrastructure.water-power"",""confidence"":0.98}]",
+01a1bed0-ceef-7469-a912-ce45b722a680,object-line,"Office of the City Administrator","Budget account line: Advertising Expenses (5-02-95-010)
+Expense class: MOOE
+Office: Office of the City Administrator","","[{""id"":""governance.public-information"",""confidence"":0.78},{""id"":""governance.administration"",""confidence"":0.55}]",
+01a1bed0-ceef-7469-a914-89b2203d0722,object-line,"Office of the City Administrator","Budget account line: OtherGeneral Services(1) (5-02-12-990)
+Expense class: MOOE
+Office: Office of the City Administrator","","[{""id"":""governance.administration"",""confidence"":0.9}]",
+01a0109e-ae48-700c-94c8-bebf0ff3f2a8,budget-item,"Office of the City Agriculturist","Budget PPA: AGRO-FORESTRY PROMOTION & TECHNICAL SUPPORT
+Major final output: Fruit bearing trees and Indigenous vegetable production
+Office: Office of the City Agriculturist
+Money in: Maintenance and Other Operating Expenses","","[{""id"":""agriculture.crops"",""confidence"":0.96},{""id"":""agriculture"",""confidence"":0.9},{""id"":""environment.natural-resources"",""confidence"":0.7}]",
+01a1bed0-ceeb-74a9-9459-d384b6f5e287,object-line,"Office of the City Agriculturist","Budget account line: CashGift (5-0102-150)
+Expense class: PS
+Office: Office of the City Agriculturist","","[{""id"":""agriculture"",""confidence"":0.99}]",
+01a0109e-6809-759e-affc-15cea3264ff4,budget-item,"Office of the City Agriculturist","Budget PPA: Construction, Improvement and Maintenance of Buildings and Other Structures
+Major final output: Buildings and other structures are functional 100% of the time. (Buildings and other structures are secure from the elements, properties are safe, clients experience convenience and comfort, and structures are utilized as intended.)
+Part of: FACILITY IMPROVEMENT AND MAINTENANCE PROGRAM
+Office: Office of the City Agriculturist
+Money in: Maintenance and Other Operating Expenses, Capital Outlay","","[{""id"":""infrastructure.buildings"",""confidence"":0.98}]",
+01a1bed0-ceeb-74a9-9459-aa259c19ef44,object-line,"Office of the City Agriculturist","Budget account line: (5-01-01-020)
+Expense class: PS
+Office: Office of the City Agriculturist","","[{""id"":""agriculture"",""confidence"":0.95}]",
+01a1bed2-9884-7208-bdc5-6776755bf6dc,object-line,"Office of the City Agriculturist","Budget account line: Rep. & Maint.-Infrastructure Assets (Water Supply Systems) (5-02-13-030-03)
+Expense class: MOOE
+Office: Office of the City Agriculturist","","[{""id"":""agriculture.farm-machinery"",""confidence"":0.97}]",
+01a1becf-0836-74d4-bf53-6bb69eb33630,object-line,"Office of the City Agriculturist","Budget account line: Office Supplies Expenses (5-02-03-010)
+Expense class: MOOE
+Office: Office of the City Agriculturist","","[{""id"":""agriculture"",""confidence"":0.98}]",
+01a0109e-6199-74ce-b9c3-d055d50ad5f4,budget-item,"Office of the City Agriculturist","Budget PPA: General Administrative Services
+Major final output: Administrative and Support Services
+Office: Office of the City Agriculturist
+Money in: Personnel Services, Maintenance and Other Operating Expenses, Capital Outlay","","[{""id"":""governance.administration"",""confidence"":0.98},{""id"":""agriculture"",""confidence"":0.97}]",
+2b4de55f-bb4a-4440-8263-c10bb0c1788d,budget-item,"Office of the City Agriculturist","Budget PPA: Credit Assistance extendinglow- costinput creditto farmerstofree m compradores
+Part of: C.OPERATIONS
+Office: Office of the City Agriculturist","","[{""id"":""agriculture.crops"",""confidence"":0.9},{""id"":""livelihood-jobs.livelihood"",""confidence"":0.7}]",
+01a1bed2-9884-7208-bdc5-6b18de8e10de,object-line,"Office of the City Agriculturist","Budget account line: Rep. & Maint.-Buildings and Other Structures (Buildings) (5-02-13-040-01)
+Expense class: MOOE
+Office: Office of the City Agriculturist","","[{""id"":""agriculture"",""confidence"":0.9}]",
+01a1bed2-9884-7208-bdc5-4445fac72162,object-line,"Office of the City Agriculturist","Budget account line: Semi-Expendable Machinery and Equipment Expenses-Office Equipment (5-02-03-210-02)
+Expense class: MOOE
+Office: Office of the City Agriculturist","","[{""id"":""agriculture"",""confidence"":0.95}]",
+63ed550d-013b-4cd8-8571-06cd3e9d0813,budget-item,"Office of the City Agriculturist","Budget PPA: TECHNOLOGY SUPPORT ACTIVITIES FOR HIGHER PRODUCTIVITY AND INCOME
+Major final output: Farmers are equipped with scientific and technological know-how on crop production
+Office: Office of the City Agriculturist
+Its sub-items: Direct Technical Assistance for Farmers; Farmers Field School","","[{""id"":""agriculture.crops"",""confidence"":0.96},{""id"":""agriculture"",""confidence"":0.9}]",
+01a1bed2-9883-772c-9bc0-a56604ce5a08,object-line,"Office of the City Assessor","Budget account line: Semi-Expendable Machinery and Equipment Expenses-Office Equipment (5-02-03-210-02)
+Expense class: MOOE
+Office: Office of the City Assessor","","[{""id"":""governance.administration"",""confidence"":0.96},{""id"":""governance.digital-government"",""confidence"":0.72}]",
+01a1becf-0836-74d4-bf54-93969c60bf5d,object-line,"Office of the City Assessor","Budget account line: TransporiationandDeliveryExpenses (5-02-99-040)
+Expense class: MOOE
+Office: Office of the City Assessor","","[{""id"":""governance.administration"",""confidence"":0.95}]",
+41c0b353-78c9-46e9-ad64-727221ac85bb,budget-item,"Office of the City Assessor","Budget PPA: Purchase of office equipment, furniture and fixtures
+Major final output: Administrative support and service
+Part of: Purchase of office equipment, furniture and fixtures
+Office: Office of the City Assessor
+Money in: Maintenance and Other Operating Expenses, Capital Outlay","","[{""id"":""governance.administration"",""confidence"":0.9}]",
+01a1bed2-9883-772c-9bc0-7b2d1e77954e,object-line,"Office of the City Assessor","Budget account line: Retirement & Life Insurance Premiums (5-01-03-010)
+Expense class: PS
+Office: Office of the City Assessor","","[{""id"":""governance.finance-revenue"",""confidence"":0.97}]",
+01a1bed0-ceeb-74a9-945a-872719b79c4e,object-line,"Office of the City Assessor","Budget account line: Other Bonuses andAllowances(Mid-YearBonus) (5-01-J2-990)
+Expense class: PS
+Office: Office of the City Assessor","","[{""id"":""governance.administration"",""confidence"":0.99}]",
+01a1bed2-9883-772c-9bc0-9b2da731c77a,object-line,"Office of the City Assessor","Budget account line: Travelling Expenses-Local (5-02-01-010)
+Expense class: MOOE
+Office: Office of the City Assessor","","[{""id"":""governance.administration"",""confidence"":0.97},{""id"":""governance.finance-revenue"",""confidence"":0.86}]",
+01a1becd-43be-71f8-af41-8213b923e177,object-line,"Office of the City Assessor","Budget account line: PhilHealthContributions (5-01-03-030)
+Expense class: PS
+Office: Office of the City Assessor","","[{""id"":""governance.administration"",""confidence"":0.98},{""id"":""governance"",""confidence"":0.9}]",
+e9a4e25c-ee2f-444a-becf-d6c6e81579f1,budget-item,"Office of the City Budget Officer","Budget PPA: Bottom-Up Budgeting (BUB)/Grassroots Participatory Budgeting
+Office: Office of the City Budget Officer
+Its sub-items: Bottom-Up Budgeting (BUB)/Grassroots Participatory Budgeting","","[{""id"":""governance.planning-monitoring"",""confidence"":0.82}]",
+01a1bed2-9883-772c-9bbe-e3aedc946222,object-line,"Office of the City Budget Officer","Budget account line: Terminal Leave Benefits (5-01-04-030)
+Expense class: PS
+Office: Office of the City Budget Officer","","[{""id"":""governance.administration"",""confidence"":0.99},{""id"":""governance.finance-revenue"",""confidence"":0.92}]",
+01a1bed0-ceeb-74a9-945a-ec224afb94e2,object-line,"Office of the City Budget Officer","Budget account line: Personal EconomicRelief Allowance ()
+Expense class: MOOE
+Office: Office of the City Budget Officer","","[{""id"":""governance.administration"",""confidence"":0.95}]",
+01a1becd-43be-71f8-af42-4fcdefb790b2,object-line,"Office of the City Budget Officer","Budget account line: MembershipDues andContributionstoOrganization (5-02-99-060)
+Expense class: MOOE
+Office: Office of the City Budget Officer","","[{""id"":""governance.administration"",""confidence"":0.9},{""id"":""governance"",""confidence"":0.8}]",
+01a1becf-0836-74d4-bf54-c47e50a275da,object-line,"Office of the City Budget Officer","Budget account line: Overtime&Night Time Pay (5-01-02-130)
+Expense class: PS
+Office: Office of the City Budget Officer","","[{""id"":""governance.administration"",""confidence"":0.98},{""id"":""governance.finance-revenue"",""confidence"":0.96}]",
+01a1becd-43be-71f8-af42-2bbe1ff30914,object-line,"Office of the City Budget Officer","Budget account line: TravellingExpenses-Local (5-02-01-010)
+Expense class: MOOE
+Office: Office of the City Budget Officer","","[{""id"":""governance.administration"",""confidence"":0.97},{""id"":""governance"",""confidence"":0.85}]",
+01a01098-d292-7587-b2a5-096fca5532c6,budget-item,"Office of the City Civil Registrar","Budget PPA: Mobile Civil Registration - Mobile Registration in the 27 Barangays in Naga City
+Major final output: Reduction of occurrence of unregistered children
+Office: Office of the City Civil Registrar
+Money in: Maintenance and Other Operating Expenses","","[{""id"":""children"",""confidence"":0.9},{""id"":""governance.public-information"",""confidence"":0.72}]",
+01a1bed2-9883-772c-9bbe-92bab8a11c48,object-line,"Office of the City Civil Registrar","Budget account line: Printing and Publication Expenses (5-02-99-020)
+Expense class: MOOE
+Office: Office of the City Civil Registrar","","[{""id"":""governance.public-information"",""confidence"":0.72}]",
+01a1bed2-9883-772c-9bbe-5b1a8c6b8475,object-line,"Office of the City Civil Registrar","Budget account line: Employees Compensation Insurance Premiums (5-01-03-040)
+Expense class: PS
+Office: Office of the City Civil Registrar","","[{""id"":""governance.administration"",""confidence"":0.95}]",
+f9d3c2de-31cb-491c-9bd9-35ebf64e60ee,budget-item,"Office of the City Civil Registrar","Budget PPA: CivilRegistrationServicesdeliveryofcivilregistry
+Major final output: Efficientand Effective services
+Office: Office of the City Civil Registrar
+Money in: Personnel Services, Maintenance and Other Operating Expenses, Capital Outlay","","[{""id"":""governance.administration"",""confidence"":0.9},{""id"":""governance.public-information"",""confidence"":0.62}]",
+01a1becd-43be-71f8-af42-c7c91a92dcdc,object-line,"Office of the City Civil Registrar","Budget account line: AccountableFormsExpenses (5-02-03-020)
+Expense class: MOOE
+Office: Office of the City Civil Registrar","","[{""id"":""governance.administration"",""confidence"":0.98},{""id"":""governance"",""confidence"":0.9}]",
+01a1becd-43be-71f8-af42-6656652a9fc5,object-line,"Office of the City Civil Registrar","Budget account line: TransportationAllowance (5-01-02-030)
+Expense class: PS
+Office: Office of the City Civil Registrar","","[{""id"":""governance.administration"",""confidence"":0.97}]",
+01a1becd-43be-71f8-af43-f4a2c99bb002,object-line,"Office of the City Engineer","Budget account line: Rep. &Maint-Machinery and Equpment Equipme: (050-03)
+Expense class: MOOE
+Office: Office of the City Engineer","","[{""id"":""infrastructure"",""confidence"":0.45}]",
+01a1becf-0837-702d-82b6-a2b32b0a4358,object-line,"Office of the City Engineer","Budget account line: Other BonusesandAllowances(PBB) (5-01-02-990-1)
+Expense class: PS
+Office: Office of the City Engineer","","[{""id"":""infrastructure"",""confidence"":0.95}]",
+01a134e6-16f0-7682-b913-4a30c135107d,aip-pa,"Office of the City Engineer","Activity: Drainage, Saggitarius St. VGS, Concepcion Grande
+Part of: Flood Mitigation and Control
+Office: Office of the City Engineer","","[{""id"":""infrastructure.drainage-flood"",""confidence"":0.99},{""id"":""disaster-risk.mitigation"",""confidence"":0.95}]",
+01a1becf-0837-702d-82b6-c3c4129c6cfa,object-line,"Office of the City Engineer","Budget account line: TravellingExpenses-Local (5-02-01-010)
+Expense class: MOOE
+Office: Office of the City Engineer","","[{""id"":""infrastructure"",""confidence"":0.9}]",
+01a1becd-43be-71f8-af43-dd5f5c8b81d7,object-line,"Office of the City Engineer","Budget account line: (040-01)
+Expense class: MOOE
+Office: Office of the City Engineer","","[{""id"":""infrastructure.buildings"",""confidence"":0.62}]",
+01a1becf-0837-702d-82b6-edd06280e753,object-line,"Office of the City Engineer","Budget account line: Rep.&Maint.-Buildings andOtherStructures(Buildings） (5-02-13-040-01)
+Expense class: MOOE
+Office: Office of the City Engineer","","[{""id"":""infrastructure.buildings"",""confidence"":0.99},{""id"":""infrastructure"",""confidence"":0.99}]",
+01a0109e-0842-77bc-88c0-23f77b5598c2,aip-pa,"Office of the City Engineer","Activity: Repair and maintenance of equipment and service vehicles.
+Expected output: Heavy equipment, service vehicle and other equipment are working.
+Part of: Repair and maintenance of equipment and service vehicles.
+Office: Office of the City Engineer","","[{""id"":""infrastructure"",""confidence"":0.95},{""id"":""governance.administration"",""confidence"":0.7}]",
+01a1becd-43be-71f8-af43-a032fe4ca474,object-line,"Office of the City Engineer","Budget account line: (1-04-990)
+Expense class: CO
+Office: Office of the City Engineer","","[{""id"":""governance.administration"",""confidence"":0.4},{""id"":""infrastructure"",""confidence"":0.38}]",
+01a134e6-1954-75b4-87c4-e4ce0cd3d50f,aip-pa,"Office of the City Engineer","Activity: Purchase of Lot and Installation of Three Detention Ponds
+Expected output: Three (3) areas purchased and developed for detention ponds
+Part of: Flood Mitigation and Control
+Office: Office of the City Engineer","","[{""id"":""disaster-risk.mitigation"",""confidence"":0.95},{""id"":""infrastructure.drainage-flood"",""confidence"":0.95},{""id"":""housing.housing-land"",""confidence"":0.7}]",
+01a134e6-169d-768e-8013-5d4eea4903cd,aip-pa,"Office of the City Engineer","Activity: Drainage Outfall, Sitio Copradia, San Felipe
+Part of: Flood Mitigation and Control
+Office: Office of the City Engineer","","[{""id"":""infrastructure.drainage-flood"",""confidence"":0.99},{""id"":""disaster-risk.mitigation"",""confidence"":0.95}]",
+01a134e4-bf86-7192-922f-326c0ab5c858,aip-pa,"Office of the City Environment and Natural Resources Officer","Activity: Regular Maintenance of Naga River and Other Natural Waterway
+Expected output: 100% of river and natural-waterway segments included in the approved CY 2027 maintenance program subjected to scheduled clearing, cleanup, vegetation management, obstruction removal, or other appropriate maintenance activities, with accomplishments and identified problem areas documented.
+Part of: Sustainable River Maintenance and Waterway Management
+Office: Office of the City Environment and Natural Resources Officer","","[{""id"":""environment.natural-resources"",""confidence"":0.98}]",
+01a1becf-0837-702d-82b5-c53ccd48ee41,object-line,"Office of the City Environment and Natural Resources Officer","Budget account line: Salaries&Wages-Casual (20) (5-01-01-020)
+Expense class: PS
+Office: Office of the City Environment and Natural Resources Officer","","[{""id"":""environment.natural-resources"",""confidence"":0.95},{""id"":""governance.administration"",""confidence"":0.35}]",
+a61e9ad1-86d0-404b-b7aa-02791056d32a,budget-item,"Office of the City Environment and Natural Resources Officer","Budget PPA: Noise Pollution Management
+Major final output: CENRO services
+Office: Office of the City Environment and Natural Resources Officer
+Its sub-items: Promotionofzero emission transportation system thru Naga CityBicycie Board","","[{""id"":""environment.natural-resources"",""confidence"":0.72}]",
+01a1becd-43bf-742d-aa1a-abaa221a88a7,object-line,"Office of the City Environment and Natural Resources Officer","Budget account line: Mat. ses ()
+Expense class: MOOE
+Office: Office of the City Environment and Natural Resources Officer","","[{""id"":""environment.natural-resources"",""confidence"":0.2}]",
+01a1bed2-9884-7208-bdc4-aa919316a15b,object-line,"Office of the City Environment and Natural Resources Officer","Budget account line: Other Supplies & Materials Expenses (5-02-03-990)
+Expense class: MOOE
+Office: Office of the City Environment and Natural Resources Officer","","[{""id"":""governance.administration"",""confidence"":0.75}]",
+01a1becf-0837-702d-82b5-dc8adf01bb92,object-line,"Office of the City Environment and Natural Resources Officer","Budget account line: LongevityPay (5-01-02-120)
+Expense class: PS
+Office: Office of the City Environment and Natural Resources Officer","","[{""id"":""environment.natural-resources"",""confidence"":0.95},{""id"":""governance.administration"",""confidence"":0.35}]",
+01a134e4-8b7d-7739-b51f-5cecae53b082,aip-program,"Office of the City Environment and Natural Resources Officer","Program: Inter-Agency Coordination and Liaison Services
+Office: Office of the City Environment and Natural Resources Officer
+Sector: Other Economic Services Sector","","[{""id"":""environment.natural-resources"",""confidence"":0.72},{""id"":""governance.administration"",""confidence"":0.55}]",
+01a1bed0-ceeb-74a9-945d-15947b827840,object-line,"Office of the City Environment and Natural Resources Officer","Budget account line: Terminal Leave Benefits (5-01-04-030)
+Expense class: PS
+Office: Office of the City Environment and Natural Resources Officer","","[{""id"":""environment.natural-resources"",""confidence"":0.99},{""id"":""governance.administration"",""confidence"":0.72}]",
+01a1bed2-9884-7208-bdc4-71bcfeb5e00b,object-line,"Office of the City Environment and Natural Resources Officer","Budget account line: Year End Bonus (5-01-02-140)
+Expense class: PS
+Office: Office of the City Environment and Natural Resources Officer","","[{""id"":""governance.administration"",""confidence"":0.95}]",
+01a1afdc-37de-7689-b3a8-1e1d295f0218,aip-program,"Office of the City General Services Officer","Program: Motor Vehicle Acquisition (Mobility Support) - 3 units
+Office: Office of the City General Services Officer
+Sector: General Public Services Sector","","[{""id"":""governance.administration"",""confidence"":0.9}]",
+01a134dd-cace-74db-894f-c30825af865b,aip-pa,"Office of the City General Services Officer","Activity: Government Property and Motor Vehicle Insurance Management Services
+Expected output: 100% of insurable city-owned properties and motor vehicles programmed for coverage during CY 2027 insured or renewed within prescribed periods, with policies, premiums, schedules of property, and supporting records properly maintained and updated.
+Part of: Government Asset, Transportation, and Facilities Management Program › Government Vehicle Regulatory and Insurance Management Project
+Office: Office of the City General Services Officer","","[{""id"":""governance.administration"",""confidence"":0.72},{""id"":""governance.finance-revenue"",""confidence"":0.4},{""id"":""infrastructure"",""confidence"":0}]",
+01a134dd-baf0-7656-ae70-eaf823f4238b,aip-pa,"Office of the City General Services Officer","Project: Inter-Agency Coordination Project
+Part of: General Support and Coordination Program
+Office: Office of the City General Services Officer","","[{""id"":""governance.administration"",""confidence"":0.95},{""id"":""governance.public-information"",""confidence"":0.62}]",
+01a1becd-43c0-7258-a1bc-5417d9f0be3d,object-line,"Office of the City General Services Officer","Budget account line: Rep.&Maint.-InfrastructureAssets（PowerSupplySyst (5-02-13-030-04)
+Expense class: MOOE
+Office: Office of the City General Services Officer","","[{""id"":""infrastructure.water-power"",""confidence"":0.92},{""id"":""infrastructure"",""confidence"":0.9}]",
+071725bd-a25e-47c9-b8d1-a67b73f30ca8,budget-item,"Office of the City General Services Officer","Budget PPA: Electrical materials services uoddns toschools
+Office: Office of the City General Services Officer
+Money in: Maintenance and Other Operating Expenses","","[{""id"":""infrastructure.water-power"",""confidence"":0.72},{""id"":""education.schools"",""confidence"":0.7}]",
+01a1bed0-ceed-71d8-99a0-806f41e4ec25,object-line,"Office of the City General Services Officer","Budget account line: OtherSupplies&MaterialsExpenses ()
+Expense class: MOOE
+Office: Office of the City General Services Officer","","[{""id"":""governance.administration"",""confidence"":0.92}]",
+01a1bed2-9883-772c-9bc1-3d43ef677603,object-line,"Office of the City General Services Officer","Budget account line: Travelling Expenses-Local (5-02-01-010)
+Expense class: MOOE
+Office: Office of the City General Services Officer","","[{""id"":""governance.administration"",""confidence"":0.95}]",
+01a134e6-d358-7584-bde1-5f761dd37005,aip-pa,"Office of the City Health Officer","Project: Epidemiology and Disease Surveillance Project
+Part of: Disease Surveillance and Epidemiology Program
+Office: Office of the City Health Officer","","[{""id"":""health.disease-control"",""confidence"":0.98}]",
+01a1becf-0837-702d-82b7-e4622290960b,object-line,"Office of the City Health Officer","Budget account line: Personal EconomicReliefAllowance (5-01-02-010)
+Expense class: PS
+Office: Office of the City Health Officer","","[{""id"":""health"",""confidence"":0.98},{""id"":""governance.administration"",""confidence"":0.65}]",
+1a980f5e-b8f3-4724-9192-d1c34dbcca1a,budget-item,"Office of the City Health Officer","Budget PPA: Blood Letting Program
+Major final output: Medical, nursing, laboratory, and monitoring services
+Part of: NON-COMMUNICABLE DISEASE CLUSTER
+Office: Office of the City Health Officer
+Money in: Maintenance and Other Operating Expenses","","[{""id"":""health.disease-control"",""confidence"":0.9},{""id"":""health"",""confidence"":0.72}]",
+01a1becd-43c0-7258-a1bb-6593b76e28fb,object-line,"Office of the City Health Officer","Budget account line: Medical,Dental &LaboratorySuppliesExpenses (5-02-03-080)
+Expense class: MOOE
+Office: Office of the City Health Officer","","[{""id"":""health.medicines"",""confidence"":0.98},{""id"":""health"",""confidence"":0.98}]",
+01a0109b-8266-74a0-8491-be8487fec06e,budget-item,"Office of the City Health Officer","Budget PPA: Blindness Prevention Program
+Major final output: Medical, nursing, laboratory, and monitoring services
+Part of: NON-COMMUNICABLE DISEASE CLUSTER
+Office: Office of the City Health Officer
+Money in: Maintenance and Other Operating Expenses","","[{""id"":""health.disease-control"",""confidence"":0.95},{""id"":""pwd"",""confidence"":0.4}]",
+1ca5949b-a92a-4607-9ec8-fde93cd7050c,budget-item,"Office of the City Health Officer","Budget PPA: Local Health Board
+Major final output: Monitoring services
+Office: Office of the City Health Officer
+Its sub-items: Local Health Board","","[{""id"":""health.primary-care"",""confidence"":0.78}]",
+01a1becd-43c0-7258-a1bb-39d76db8a0df,object-line,"Office of the City Health Officer","Budget account line: Other Bonuses and allowances(Anniv.Bonus） (5-01-02-990-2)
+Expense class: PS
+Office: Office of the City Health Officer","","[{""id"":""health"",""confidence"":0.99}]",
+01a1becf-0837-702d-82b9-c1ff4f7f46ad,object-line,"Office of the City Health Officer","Budget account line: Office SuppliesExpenses (5-02-03-010)
+Expense class: MOOE
+Office: Office of the City Health Officer","","[{""id"":""health"",""confidence"":0.99},{""id"":""governance.administration"",""confidence"":0.7}]",
+01a1becd-43c0-7258-a1bb-05b04a37ac0e,object-line,"Office of the City Health Officer","Budget account line: Salaries&Wages-Casual (13) (5-01-01-020)
+Expense class: PS
+Office: Office of the City Health Officer","","[{""id"":""health"",""confidence"":0.99}]",
+01a1becf-0837-702d-82b9-1648040bdd75,object-line,"Office of the City Health Officer","Budget account line: Rep.&Maint-Machinery and Equipment(Ofice E (5-02-13-050-02)
+Expense class: MOOE
+Office: Office of the City Health Officer","","[{""id"":""health"",""confidence"":0.93}]",
+5a4584b5-99f7-44b3-b5a2-d27f033f94cd,budget-item,"Office of the City Health Officer","Budget PPA: NagaCityBlood Program
+Major final output: Otherhealth services
+Office: Office of the City Health Officer
+Money in: Maintenance and Other Operating Expenses","","[{""id"":""health"",""confidence"":0.97},{""id"":""health.medicines"",""confidence"":0.58}]",
+01a1becd-43c0-7258-a1bb-6efab0c15fbe,object-line,"Office of the City Health Officer","Budget account line: Other General Services(3) (5-02-12-990)
+Expense class: MOOE
+Office: Office of the City Health Officer","","[{""id"":""health"",""confidence"":0.88},{""id"":""governance.administration"",""confidence"":0.5}]",
+85af96ec-c50d-4c8f-be81-78cf799e0b1b,budget-item,"Office of the City Health Officer","Budget PPA: General Administrative Services
+Major final output: Administrative and Support Services
+Part of: General Administrative Services
+Office: Office of the City Health Officer
+Money in: Personnel Services, Maintenance and Other Operating Expenses, Capital Outlay","","[{""id"":""health"",""confidence"":0.97},{""id"":""governance.administration"",""confidence"":0.6}]",
+01a1becf-0837-702d-82b8-be36240c699d,object-line,"Office of the City Health Officer","Budget account line: LongevityPay (5-01-02-120)
+Expense class: PS
+Office: Office of the City Health Officer","","[{""id"":""health"",""confidence"":0.99}]",
+01a1bed2-9884-7208-bdbf-b2d5a8eb9771,object-line,"Office of the City Health Officer","Budget account line: Machinery & Equipment - Information and Communication Tech. Equipment (1-07-05-030)
+Expense class: CO
+Office: Office of the City Health Officer","","[{""id"":""health"",""confidence"":0.95},{""id"":""governance.digital-government"",""confidence"":0.86}]",
+b55ce63b-22b5-4453-a65f-c6e21742b83a,budget-item,"Office of the City Information Officer- City Events, Protocol & Public Information Office","Budget PPA: General Administrative Services
+Office: Office of the City Information Officer- City Events, Protocol & Public Information Office
+Its sub-items: General Administrative Services","","[{""id"":""governance.administration"",""confidence"":0.98},{""id"":""governance.public-information"",""confidence"":0.95}]",
+52331ba1-95cd-4cb4-a1a5-f05eb0db2ea8,budget-item,"Office of the City Information Officer- City Events, Protocol & Public Information Office","Budget PPA: Events Assistance Services
+Part of: Events and Protocol Services
+Office: Office of the City Information Officer- City Events, Protocol & Public Information Office
+Its sub-items: Procurement of Mobile Sound System and Event Equipment for Off-Site Event Deployment; Procurement and Installation of Built-In LED Wall, Sound System, and Event Equipment for City-Owned Event Facilities","","[{""id"":""tourism-culture.festivals"",""confidence"":0.82},{""id"":""governance.public-information"",""confidence"":0.68}]",
+03991343-f87b-4049-9306-4fb1bd4456dc,budget-item,"Office of the City Information Officer- City Events, Protocol & Public Information Office","Budget PPA: Tagboan Arts, Music and Food Festival
+Major final output: Events and Protocol Services
+Part of: Events and Protocol Services › Planning, Coordination, and Conduct of Festivals and Events
+Office: Office of the City Information Officer- City Events, Protocol & Public Information Office
+Money in: Maintenance and Other Operating Expenses","","[{""id"":""tourism-culture.festivals"",""confidence"":0.99},{""id"":""tourism-culture.heritage-arts"",""confidence"":0.84},{""id"":""governance.public-information"",""confidence"":0.66}]",
+01a134df-ddc3-7051-ac20-0c037548dda1,aip-pa,"Office of the City Information Officer- City Events, Protocol & Public Information Office","Activity: Tagboan Arts Festival
+Part of: Cultural Education, Civic Identity, Public Participation, and Events Management Program › Festivals, Cultural Celebrations, and Special Events Project
+Office: Office of the City Information Officer- City Events, Protocol & Public Information Office","","[{""id"":""tourism-culture.festivals"",""confidence"":0.98}]",
+0359d1a4-ec6b-4046-9154-e92a28ca89ca,budget-item,"Office of the City Information Officer- City Events, Protocol & Public Information Office","Budget PPA: Training-Workshop for the restoration of monuments and heritage structures
+Major final output: Arts and Culture Services
+Part of: Arts and Culture Services › Heritage Preservation
+Office: Office of the City Information Officer- City Events, Protocol & Public Information Office
+Money in: Maintenance and Other Operating Expenses","","[{""id"":""tourism-culture.heritage-arts"",""confidence"":0.98}]",
+01a0109a-6c2f-7418-83a3-fe84ba139b5b,budget-item,"Office of the City Information Officer- City Events, Protocol & Public Information Office","Budget PPA: Procurement of Uniform
+Major final output: Events and Protocol Services
+Part of: Events and Protocol Services › Management of Naga City Hall Chorale
+Office: Office of the City Information Officer- City Events, Protocol & Public Information Office
+Money in: Maintenance and Other Operating Expenses","","[{""id"":""tourism-culture.festivals"",""confidence"":0.68}]",
+1515dd6a-6e76-43d2-875f-d12ca4c95d7a,budget-item,"Office of the City Information Officer- City Events, Protocol & Public Information Office","Budget PPA: City Hall Chorale
+Office: Office of the City Information Officer- City Events, Protocol & Public Information Office
+Money in: Maintenance and Other Operating Expenses","","[{""id"":""tourism-culture.heritage-arts"",""confidence"":0.9}]",
+105d8e10-f22b-4789-9637-ab25f2fec653,budget-item,"Office of the City Information Officer- City Events, Protocol & Public Information Office","Budget PPA: Content production in microblogsand social media platforms
+Office: Office of the City Information Officer- City Events, Protocol & Public Information Office
+Money in: Capital Outlay","","[{""id"":""governance.digital-government"",""confidence"":0.9}]",
+01a0109a-c2ae-76ed-8334-f8d64d6a64ac,budget-item,"Office of the City Information Officer- City Events, Protocol & Public Information Office","Budget PPA: Cultural Education and Development
+Part of: Arts and Culture Services
+Office: Office of the City Information Officer- City Events, Protocol & Public Information Office
+Its sub-items: Support to Museums; Cultural Publications; Flag and Heraldic Code Workshop","","[{""id"":""tourism-culture.heritage-arts"",""confidence"":0.97},{""id"":""education"",""confidence"":0.58}]",
+a52582b1-a79a-42a2-b709-920516f8205d,budget-item,"Office of the City Information Officer- City Events, Protocol & Public Information Office","Budget PPA: and Information Services
+Office: Office of the City Information Officer- City Events, Protocol & Public Information Office
+Its sub-items: and Information Services","","[{""id"":""governance.public-information"",""confidence"":0.98},{""id"":""governance.administration"",""confidence"":0.6}]",
+01a1bed2-9883-772c-9bc3-050a2c2b3121,object-line,"Office of the City Information Officer- City Events, Protocol & Public Information Office","Budget account line: Salaries & Wages-Regular (8) (5-01-01-010)
+Expense class: PS
+Office: Office of the City Information Officer- City Events, Protocol & Public Information Office","","[{""id"":""governance.public-information"",""confidence"":0.95},{""id"":""tourism-culture.festivals"",""confidence"":0.6}]",
+01a134e0-4b7f-776f-8304-b04f75cd6131,aip-pa,"Office of the City Information Officer- City Events, Protocol & Public Information Office","Project: Creative Industry and Workforce Development Project
+Part of: Arts, Creatives, Cultural Workers, and Cultural Organizations Development Program
+Office: Office of the City Information Officer- City Events, Protocol & Public Information Office","","[{""id"":""tourism-culture.heritage-arts"",""confidence"":0.96},{""id"":""livelihood-jobs.employment"",""confidence"":0.7},{""id"":""governance.public-information"",""confidence"":0.62}]",
+01a1bed2-9883-772c-9bbd-67424d0e5c05,object-line,"Office of the City Legal Officer","Budget account line: Employees Compensation Insurance Premiums (5-01-03-040)
+Expense class: PS
+Office: Office of the City Legal Officer","","[{""id"":""governance.administration"",""confidence"":0.97},{""id"":""governance"",""confidence"":0.9}]",
+01a1becf-0837-702d-82bb-2a837599a4ed,object-line,"Office of the City Legal Officer","Budget account line: Travelling Expenses-Local (5-02-01-010)
+Expense class: MOOE
+Office: Office of the City Legal Officer","","[{""id"":""governance.administration"",""confidence"":0.95}]",
+01a1becd-43bf-742d-aa1d-2ea22bd63a3c,object-line,"Office of the City Legal Officer","Budget account line: Taxes,DutiesandLicenses (5-02-16-010)
+Expense class: MOOE
+Office: Office of the City Legal Officer","","[{""id"":""governance.administration"",""confidence"":0.95},{""id"":""governance.finance-revenue"",""confidence"":0.7}]",
+01a1bed0-ceec-737e-a46a-cff2d25ce79e,object-line,"Office of the City Legal Officer","Budget account line: Telephone Expenses (5-02-05-020)
+Expense class: MOOE
+Office: Office of the City Legal Officer","","[{""id"":""governance.administration"",""confidence"":0.95},{""id"":""governance"",""confidence"":0.9}]",
+01a1becf-0837-702d-82ba-e9f466beaea2,object-line,"Office of the City Legal Officer","Budget account line: TransportationAllowance (5-01-02-030)
+Expense class: PS
+Office: Office of the City Legal Officer","","[{""id"":""governance.administration"",""confidence"":0.99}]",
+01a1bed2-9883-772c-9bbd-86d8db67ab86,object-line,"Office of the City Legal Officer","Budget account line: Other Supplies & Materials Expenses (5-02-03-990)
+Expense class: MOOE
+Office: Office of the City Legal Officer","","[{""id"":""governance.administration"",""confidence"":0.9}]",
+01a1becd-43bf-742d-aa1c-e5fb0be14c2d,object-line,"Office of the City Legal Officer","Budget account line: YearEndBonus (5-01-02-140)
+Expense class: PS
+Office: Office of the City Legal Officer","","[{""id"":""governance.administration"",""confidence"":0.98},{""id"":""governance"",""confidence"":0.98}]",
+d07ae5f3-13d2-440b-af39-c75a566b466d,budget-item,"Office of the City Mayor","Budget PPA: Metro Naga Developrment Council
+Part of: Metro Naga Developrment Council
+Office: Office of the City Mayor","","[{""id"":""governance.public-information"",""confidence"":0.42}]",
+01a1bed2-9882-7490-ba0c-576a2692ec58,object-line,"Office of the City Mayor","Budget account line: PHILHEALTH Contributions (5-01-03-030)
+Expense class: PS
+Office: Office of the City Mayor","","[{""id"":""health"",""confidence"":0.99},{""id"":""governance.administration"",""confidence"":0.9}]",
+01a1becd-43bf-742d-aa21-cf0fcedcb143,object-line,"Office of the City Mayor","Budget account line: OtherBonusesandAllowances(Mid-YearBonus) (5-01-02-990)
+Expense class: PS
+Office: Office of the City Mayor","","[{""id"":""governance.administration"",""confidence"":0.99}]",
+01a1becf-0837-702d-82bb-64e85d1a70ba,object-line,"Office of the City Mayor","Budget account line: [Printing andPublication Expenses (5-02-99-020)
+Expense class: MOOE
+Office: Office of the City Mayor","","[{""id"":""governance.public-information"",""confidence"":0.82},{""id"":""governance"",""confidence"":0.75}]",
+01a1bed2-9882-7490-ba0c-3c0b051421cc,object-line,"Office of the City Mayor","Budget account line: Overtime & Night Time Pay (5-01-02-130)
+Expense class: PS
+Office: Office of the City Mayor","","[{""id"":""governance.administration"",""confidence"":0.95}]",
+01a1becf-0837-702d-82bc-9639b093e025,object-line,"Office of the City Mayor","Budget account line: C.Capital Outiay (1-07-05-020)
+Expense class: CO
+Office: Office of the City Mayor","","[{""id"":""governance.administration"",""confidence"":0.9}]",
+01a1becd-43c1-72d9-8237-59e3e1b659e0,object-line,"Office of the City Mayor","Budget account line: OtherMaint.&Oper.Expenses（Ord.No.2024-06 (5-02-99-990(5))
+Expense class: MOOE
+Office: Office of the City Mayor","","[{""id"":""governance.administration"",""confidence"":0.55},{""id"":""governance"",""confidence"":0.5}]",
+01a1becf-0838-7273-853d-d013ee94aa0d,object-line,"Office of the City Mayor","Budget account line: ExtraordinaryandMiscellaneousExpenses (5-02-10-030)
+Expense class: MOOE
+Office: Office of the City Mayor","","[{""id"":""governance.administration"",""confidence"":0.55},{""id"":""governance"",""confidence"":0.5}]",
+01a1bed0-ceec-737e-a46c-89b0ed0bcac9,object-line,"Office of the City Mayor","Budget account line: Other Personnel Benefits ()
+Expense class: MOOE
+Office: Office of the City Mayor","","[{""id"":""governance.administration"",""confidence"":0.85}]",
+01a1becd-43bf-742d-aa22-f96e64a06670,object-line,"Office of the City Mayor","Budget account line: OtherGeneralServices(4) (5-02-12-990)
+Expense class: MOOE
+Office: Office of the City Mayor","","[{""id"":""governance.administration"",""confidence"":0.8}]",
+01a1becf-0838-7273-853d-6afb9e489c93,object-line,"Office of the City Mayor","Budget account line: (5-01-02-990-2)
+Expense class: PS
+Office: Office of the City Mayor","","[{""id"":""governance.administration"",""confidence"":0.4},{""id"":""governance"",""confidence"":0.35}]",
+01a1becd-43bf-742d-aa1d-e32033b2ee39,object-line,"Office of the City Mayor","Budget account line: TransportationEquipment-MotorVehicles (1-07-06-010)
+Expense class: CO
+Office: Office of the City Mayor","","[{""id"":""governance.administration"",""confidence"":0.8}]",
+5b693d53-d0fe-4f56-9963-563a4c907052,budget-item,"Office of the City Mayor","Budget PPA: Sports Development Program
+Major final output: improved sports programs and services
+Part of: Sports Development Program
+Office: Office of the City Mayor
+Money in: Maintenance and Other Operating Expenses","","[{""id"":""sports"",""confidence"":0.99}]",
+01a1becf-0837-702d-82bc-c3d1d1e5c8f4,object-line,"Office of the City Mayor","Budget account line: ProductivityincentiveAllowance (5-01-02-080)
+Expense class: PS
+Office: Office of the City Mayor","","[{""id"":""governance.administration"",""confidence"":0.95}]",
+01a134da-2adf-75bc-ab4d-5ce64f23dac3,aip-program,"Office of the City Mayor","Program: Liga ng mga Barangay
+Office: Office of the City Mayor
+Sector: General Public Services Sector","","[{""id"":""governance.public-information"",""confidence"":0.58}]",
+01a1becd-43bf-742d-aa22-0bb3753461c9,object-line,"Office of the City Mayor","Budget account line: Rep.&Maint.-Machinery and Equipment(OficeE5-02-13-050-02 ()
+Expense class: MOOE
+Office: Office of the City Mayor","","[{""id"":""governance.administration"",""confidence"":0.75}]",
+01a1becd-43bf-742d-aa22-fe13a9f9622f,object-line,"Office of the City Mayor","Budget account line: OtherMaint.&Oper.Expenses (5-02-99-990)
+Expense class: MOOE
+Office: Office of the City Mayor","","[{""id"":""governance.administration"",""confidence"":0.95},{""id"":""governance"",""confidence"":0.9}]",
+61530d65-01b2-4f39-8408-eadff8abece5,budget-item,"Office of the City Mayor","Budget PPA: Naga City Youth Development Office
+Office: Office of the City Mayor
+Its sub-items: Naga City Youth Development Office","","[{""id"":""youth"",""confidence"":0.98},{""id"":""governance.administration"",""confidence"":0.4}]",
+01a1bed2-9882-7490-ba0c-2b85869a1a5b,object-line,"Office of the City Mayor","Budget account line: Representation Allowance (5-01-02-020)
+Expense class: PS
+Office: Office of the City Mayor","","[{""id"":""governance.administration"",""confidence"":0.96}]",
+01a1bed0-ceec-737e-a46c-47f80f7720d1,object-line,"Office of the City Mayor","Budget account line: Personal Economic Relief Allowance ()
+Expense class: MOOE
+Office: Office of the City Mayor","","[{""id"":""governance.administration"",""confidence"":0.95},{""id"":""governance"",""confidence"":0.95}]",
+01a1becd-43c1-72d9-8237-2cb37dcdea8b,object-line,"Office of the City Mayor","Budget account line: OtherPersonnel Benefits-MedicalAllowance (5-01-04-990-3)
+Expense class: PS
+Office: Office of the City Mayor","","[{""id"":""governance.administration"",""confidence"":0.99},{""id"":""governance"",""confidence"":0.95}]",
+01a1becf-0838-7273-853e-0849a7fd291c,object-line,"Office of the City Mayor","Budget account line: Donations (5-02-99-080)
+Expense class: MOOE
+Office: Office of the City Mayor","","[{""id"":""social-welfare.crisis-aid"",""confidence"":0.4},{""id"":""governance.public-information"",""confidence"":0.35}]",
+01a1afdc-417e-7408-90f3-b39faf93dee0,aip-program,"Office of the City Mayor","Program: Debt Service: Development Bank of the Philippines (DBP)
+Office: Office of the City Mayor
+Sector: General Public Services Sector","","[{""id"":""governance.finance-revenue"",""confidence"":0.99},{""id"":""governance"",""confidence"":0.98}]",
+01a134dc-bed3-737d-b0b5-a4f13518645e,aip-program,"Office of the City Planning and Development Coordinator","Program: Secretariat Services
+Office: Office of the City Planning and Development Coordinator
+Sector: General Public Services Sector","","[{""id"":""governance.administration"",""confidence"":0.95},{""id"":""governance"",""confidence"":0.9}]",
+01a1bed0-ceec-737e-a46d-ed643d6c32f0,object-line,"Office of the City Planning and Development Coordinator","Budget account line: Fuel Oil&Lubricants Expenses (5-02-03-090)
+Expense class: MOOE
+Office: Office of the City Planning and Development Coordinator","","[{""id"":""governance.planning-monitoring"",""confidence"":0.96},{""id"":""governance.administration"",""confidence"":0.68}]",
+01a01098-92fc-71ec-accf-8e68dd1edc15,budget-item,"Office of the City Planning and Development Coordinator","Budget PPA: General Administrative Services
+Major final output: Administrative services delivered on time
+Office: Office of the City Planning and Development Coordinator
+Money in: Personnel Services, Maintenance and Other Operating Expenses, Capital Outlay","","[{""id"":""governance.administration"",""confidence"":0.97},{""id"":""governance.planning-monitoring"",""confidence"":0.9}]",
+b6ef605a-4944-4e12-9254-437c45108159,budget-item,"Office of the City Planning and Development Coordinator","Budget PPA: Research and Evaluation Services
+Major final output: R&D fund used effectively
+Office: Office of the City Planning and Development Coordinator
+Its sub-items: Research and Evaluation Services","","[{""id"":""governance.planning-monitoring"",""confidence"":0.9}]",
+01a1becd-43bf-742d-aa1e-3fc574fd08f3,object-line,"Office of the City Planning and Development Coordinator","Budget account line: OtherSupplies&MaterialsExpenses (5-02-03-990)
+Expense class: MOOE
+Office: Office of the City Planning and Development Coordinator","","[{""id"":""governance.administration"",""confidence"":0.99},{""id"":""governance.planning-monitoring"",""confidence"":0.98}]",
+01a1bed2-9883-772c-9bbd-ef5a02f83c2d,object-line,"Office of the City Planning and Development Coordinator","Budget account line: Office Supplies Expenses (5-02-03-010)
+Expense class: MOOE
+Office: Office of the City Planning and Development Coordinator","","[{""id"":""governance.planning-monitoring"",""confidence"":0.95},{""id"":""governance"",""confidence"":0.9}]",
+4532a2d3-cbb9-4b7f-9077-238364fcd94e,budget-item,"Office of the City Population Officer","Budget PPA: Training on complementary feeding- aims to improve the knowledge and skills of mothers in the preparation of nutritionally dense foods for 6-24 months infants
+Major final output: Nutrition services
+Part of: CAPACITY BUILDING
+Office: Office of the City Population Officer
+Money in: Maintenance and Other Operating Expenses","","[{""id"":""health.nutrition"",""confidence"":0.97},{""id"":""education"",""confidence"":0.35}]",
+01a134e7-7cd1-7153-8064-208b23a4be7e,aip-pa,"Office of the City Population Officer","Activity: Teen Helpline and Naga City Teen Center Services
+Expected output: Teen Helpline and Naga City Teen Center maintained operational throughout CY 2027, with 100% of adolescent inquiries, counseling requests, and appropriate referrals received through the facilities/platforms attended to confidentially within prescribed service standards.
+Part of: Adolescent and Youth Sexual and Reproductive Health and Development Program
+Office: Office of the City Population Officer","","[{""id"":""youth"",""confidence"":0.95},{""id"":""health.disease-control"",""confidence"":0.76},{""id"":""health"",""confidence"":0.72}]",
+9d2893da-aa9f-4336-9e30-cdc8d989743b,budget-item,"Office of the City Population Officer","Budget PPA: OPERATIONTIMBANG- conducted every year to measure and assess the weight,length and heignt of pre- school children aging 0-59 months and conduct monthly follow-up through theuse of weighing scale,height boardand MUACtape
+Part of: Training on complementary feeding aimstoimprovetheknowledge andskillsof mothersinthe preparation ofnutritionallydense foodsfcr6-24monthsinfants
+Office: Office of the City Population Officer
+Money in: Maintenance and Other Operating Expenses","","[{""id"":""children"",""confidence"":0.96},{""id"":""health.nutrition"",""confidence"":0.95}]",
+cc36333f-4a05-42ac-b9fb-24f3f48a3cec,budget-item,"Office of the City Population Officer","Budget PPA: (untitled)
+Major final output: Maintenance of zoning division
+Office: Office of the City Population Officer
+Its sub-items: (untitled)","","[{""id"":""governance.planning-monitoring"",""confidence"":0.72},{""id"":""governance"",""confidence"":0.6}]",
+01a134e7-ac74-77da-acff-0f5056af166f,aip-pa,"Office of the City Population Officer","Activity: Nutrition Month Celebration and Nutrition Recognition Program
+Expected output: 100% of approved Nutrition Month advocacy, education, community participation, and recognition activities implemented within the prescribed observance period, with qualified barangays, nutrition workers, volunteers, partners, and other awardees assessed and recognized in accordance with approved criteria.
+Part of: Special Nutrition Services, Innovation, and Promotion Program
+Office: Office of the City Population Officer","","[{""id"":""health.nutrition"",""confidence"":0.96},{""id"":""health"",""confidence"":0.9}]",
+a5a8982c-5780-4d6b-b5a4-0ca0fab75671,budget-item,"Office of the City Population Officer","Budget PPA: Nutri-Ataman Program
+Part of: Nutrition
+Office: Office of the City Population Officer
+Money in: Maintenance and Other Operating Expenses","","[{""id"":""health.nutrition"",""confidence"":0.97}]",
+108d372b-4e28-4453-bcc7-23d08810d41e,budget-item,"Office of the City Population Officer","Budget PPA: Parent-Teen Talk
+Part of: CelebrationofPopulation and DevelopmentWeek(Nov.23-29)
+Office: Office of the City Population Officer
+Money in: Maintenance and Other Operating Expenses","","[{""id"":""youth"",""confidence"":0.72},{""id"":""health"",""confidence"":0.4}]",
+196ba30a-ad9c-4eca-af1f-049b1f46b824,budget-item,"Office of the City Population Officer","Budget PPA: aimedtoprovideawarenesson health,utritionandweness amongindividualparticularly nutritional statusood habits,foodhygiene and sanitation through: a.Dietary Counselling b.Family Health Class c.One on one counseling d.Prov.OfIECmaterials e.Nutrisyon Mo,Aramon Mo f.Breastfeeding Class
+Major final output: Nutrition services
+Office: Office of the City Population Officer
+Money in: Maintenance and Other Operating Expenses","","[{""id"":""health.nutrition"",""confidence"":0.98},{""id"":""health"",""confidence"":0.9}]",
+49012db8-a96d-4efa-9603-e52905b8f3ef,budget-item,"Office of the City Population Officer","Budget PPA: Training on Maternal NutritioninfantandYoung ChildFeeding(MNIYCF) aims to develop theknowledge and skills of mother, infant and youndchildfeeding duning the first 10o0 days of life of the infant
+Part of: Training on complementary feeding aimstoimprovetheknowledge andskillsof mothersinthe preparation ofnutritionallydense foodsfcr6-24monthsinfants
+Office: Office of the City Population Officer
+Money in: Maintenance and Other Operating Expenses","","[{""id"":""health.nutrition"",""confidence"":0.95},{""id"":""children"",""confidence"":0.9},{""id"":""women-gender"",""confidence"":0.72}]",
+01a134e8-50c7-7609-b086-f9e18fa073d6,aip-program,"Office of the City Social Welfare and Development Officer","Program: Solo Parent Rights, Welfare, and Development Program
+Office: Office of the City Social Welfare and Development Officer
+Sector: Social Services Sector
+Its projects and activities: Solo Parent Rights, Welfare, and Development Program; Solo Parent Cash Incentive/Local Benefit Program","","[{""id"":""social-welfare.cash-benefits"",""confidence"":0.95},{""id"":""social-welfare"",""confidence"":0.9},{""id"":""senior-citizens"",""confidence"":0}]",
+01a1becf-0838-7273-853f-9d595abfec81,object-line,"Office of the City Social Welfare and Development Officer","Budget account line: Life&Retirement InsuranceContribution (5-01-03-010)
+Expense class: PS
+Office: Office of the City Social Welfare and Development Officer","","[{""id"":""governance.administration"",""confidence"":0.9}]",
+01a1becd-43bf-742d-aa1e-c1ecfccd5d4d,object-line,"Office of the City Social Welfare and Development Officer","Budget account line: Office Supplies Expenses ()
+Expense class: MOOE
+Office: Office of the City Social Welfare and Development Officer","","[{""id"":""social-welfare"",""confidence"":0.99},{""id"":""governance.administration"",""confidence"":0.7}]",
+01a1becf-0838-7273-853e-c09e014c38d1,object-line,"Office of the City Social Welfare and Development Officer","Budget account line: OtherMaint.&Oper.Expens (5-02-99-890)
+Expense class: MOOE
+Office: Office of the City Social Welfare and Development Officer","","[{""id"":""social-welfare"",""confidence"":0.95},{""id"":""governance.administration"",""confidence"":0.55}]",
+01a1becd-43bf-742d-aa1e-afffdafaa11b,object-line,"Office of the City Social Welfare and Development Officer","Budget account line: OtherPersonnel Benefits (5-01-04-990)
+Expense class: PS
+Office: Office of the City Social Welfare and Development Officer","","[{""id"":""social-welfare"",""confidence"":0.95},{""id"":""governance.administration"",""confidence"":0.6}]",
+01a1becd-43bf-742d-aa1f-68cbe594a274,object-line,"Office of the City Social Welfare and Development Officer","Budget account line: WelfareGoodsExpenses (5-02-03-060)
+Expense class: MOOE
+Office: Office of the City Social Welfare and Development Officer","","[{""id"":""social-welfare"",""confidence"":0.95}]",
+01a1becd-43bf-742d-aa1f-a1a8c1eccf23,object-line,"Office of the City Social Welfare and Development Officer","Budget account line: ProductivityEnhancement incentive (5-01-02-080)
+Expense class: PS
+Office: Office of the City Social Welfare and Development Officer","","[{""id"":""social-welfare"",""confidence"":0.99}]",
+01a1bed0-ceec-737e-a46f-bb8d91bd7e59,object-line,"Office of the City Social Welfare and Development Officer","Budget account line: FuelOil&Lubricants Expenses (5-02-03-00)
+Expense class: MOOE
+Office: Office of the City Social Welfare and Development Officer","","[{""id"":""social-welfare"",""confidence"":0.99}]",
+01a1becd-43bf-742d-aa1e-be73e11a5dbe,object-line,"Office of the City Social Welfare and Development Officer","Budget account line: (5-02-03-010)
+Expense class: MOOE
+Office: Office of the City Social Welfare and Development Officer","","[{""id"":""social-welfare"",""confidence"":0.55}]",
+01a1bed2-9884-7208-bdc0-f298a521078f,object-line,"Office of the City Social Welfare and Development Officer","Budget account line: Salaries & Wages-Casual (28) (5-01-01-020)
+Expense class: PS
+Office: Office of the City Social Welfare and Development Officer","","[{""id"":""social-welfare"",""confidence"":0.99},{""id"":""governance.administration"",""confidence"":0.7}]",
+390f462a-29d3-49cf-a1d9-1da5dc58b503,budget-item,"Office of the City Social Welfare and Development Officer","Budget PPA: Provision of timely assistance to individuals and families in crisis situation to improve their quality life. (AICS Program)
+Major final output: Social welfare and development services
+Office: Office of the City Social Welfare and Development Officer
+Its sub-items: Provision of timely assistance to individuals and families in crisis situation to improve their quality life. (AICS Program)","","[{""id"":""social-welfare.crisis-aid"",""confidence"":0.98}]",
+01a1becd-43c1-72d9-823a-a5d8e3b5a582,object-line,"Office of the City Social Welfare and Development Officer","Budget account line: PhilHealthContributions (5-01-03-030)
+Expense class: PS
+Office: Office of the City Social Welfare and Development Officer","","[{""id"":""social-welfare"",""confidence"":0.99},{""id"":""governance.administration"",""confidence"":0.7}]",
+01a1becf-0838-7273-8541-3e87aa5a421e,object-line,"Office of the City Social Welfare and Development Officer","Budget account line: Pag-IBIGContributions (5-01-03-020)
+Expense class: PS
+Office: Office of the City Social Welfare and Development Officer","","[{""id"":""social-welfare"",""confidence"":0.99}]",
+01a1bed0-ceec-737e-a470-cd3d12516539,object-line,"Office of the City Social Welfare and Development Officer","Budget account line: Donations (5-02-99-080)
+Expense class: MOOE
+Office: Office of the City Social Welfare and Development Officer","","[{""id"":""social-welfare"",""confidence"":0.98}]",
+c1fa451f-bef7-455a-b3e0-80399ff54cec,budget-item,"Office of the City Social Welfare and Development Officer","Budget PPA: SchoolforSpecial Children(HELP)
+Office: Office of the City Social Welfare and Development Officer
+Its sub-items: SchoolforSpecial Children(HELP)","","[{""id"":""pwd"",""confidence"":0.98},{""id"":""education.early-childhood"",""confidence"":0.52}]",
+01a1becd-43c1-72d9-823a-829e512b309b,object-line,"Office of the City Social Welfare and Development Officer","Budget account line: LongevilyPay (5-01-02-120)
+Expense class: PS
+Office: Office of the City Social Welfare and Development Officer","","[{""id"":""social-welfare"",""confidence"":0.99},{""id"":""governance.administration"",""confidence"":0.68}]",
+01a1becd-43c1-72d9-823a-e82bc7c3f962,object-line,"Office of the City Social Welfare and Development Officer","Budget account line: Printing and PublicationExpenses (5-02-99-020)
+Expense class: MOOE
+Office: Office of the City Social Welfare and Development Officer","","[{""id"":""social-welfare"",""confidence"":0.95},{""id"":""governance.public-information"",""confidence"":0.62}]",
+01a1becf-0838-7273-853e-fd73c72948ed,object-line,"Office of the City Social Welfare and Development Officer","Budget account line: CashGif ()
+Expense class: MOOE
+Office: Office of the City Social Welfare and Development Officer","","[{""id"":""social-welfare"",""confidence"":0.95},{""id"":""social-welfare.crisis-aid"",""confidence"":0.55}]",
+01a1becf-0838-7273-8541-8cbb9a1bc9e4,object-line,"Office of the City Social Welfare and Development Officer","Budget account line: Donations-B (5-02-99-080(1))
+Expense class: MOOE
+Office: Office of the City Social Welfare and Development Officer","","[{""id"":""social-welfare"",""confidence"":0.8}]",
+01a134dd-3346-7168-9bdd-44e6947a98ba,aip-pa,"Office of the City Treasurer","Project: Digital Treasury Services Project
+Part of: Revenue Administration and Digital Transformation Program
+Office: Office of the City Treasurer","","[{""id"":""governance.finance-revenue"",""confidence"":0.98},{""id"":""governance.digital-government"",""confidence"":0.9}]",
+9da81b22-544b-4640-9890-a052417b9b9f,budget-item,"Office of the City Treasurer","Budget PPA: (untitled)
+Part of: (untitled)
+Office: Office of the City Treasurer","","[{""id"":""governance.finance-revenue"",""confidence"":0.72}]",
+01a1becf-0838-7273-8541-c1849b949762,object-line,"Office of the City Treasurer","Budget account line: LongevityPay (5-01-02-120)
+Expense class: PS
+Office: Office of the City Treasurer","","[{""id"":""governance.finance-revenue"",""confidence"":0.99}]",
+4bf26729-e9ab-4603-a6d2-00bbd9ee8c49,budget-item,"Office of the City Treasurer","Budget PPA: Disbursementof Funds.
+Major final output: Local treasury operations services
+Part of: C.OPERATIONS
+Office: Office of the City Treasurer","","[{""id"":""governance.finance-revenue"",""confidence"":0.97}]",
+01a1bed2-9883-772c-9bbf-324f01beedf1,object-line,"Office of the City Treasurer","Budget account line: Personal Economic Relief Allowance (5-01-02-010)
+Expense class: PS
+Office: Office of the City Treasurer","","[{""id"":""governance.finance-revenue"",""confidence"":0.98}]",
+516a91f5-c6fa-457e-a7bd-98792a8dae91,budget-item,"Office of the City Treasurer","Budget PPA: Review of Proposed Revenue Code Ordinance of Twenty Seven (27) Barangays of the City of Naga in accordance with the Local Fees and Charges Toolkit of the Bureau of Local Government Finance.
+Major final output: GASS
+Part of: Review of Proposed Revenue Code Ordinance of Twenty Seven (27) Barangays of the City of Naga in accordance with the Local Fees and Charges Toolkit of the Bureau of Local Government Finance.
+Office: Office of the City Treasurer
+Money in: Maintenance and Other Operating Expenses","","[{""id"":""governance.finance-revenue"",""confidence"":0.95}]",
+01a1bed0-ceec-737e-a470-d7677775d8ee,object-line,"Office of the City Treasurer","Budget account line: Salaries&Wages-Regular(45) (5-01-01-010)
+Expense class: PS
+Office: Office of the City Treasurer","","[{""id"":""governance.finance-revenue"",""confidence"":0.99},{""id"":""governance.administration"",""confidence"":0.9}]",
+01a134dd-4cbf-751a-ad88-c5c33e959d5d,aip-pa,"Office of the City Treasurer","Project: Revenue Collection and Enforcement Project
+Part of: Treasury Operations and Revenue Generation Program
+Office: Office of the City Treasurer","","[{""id"":""governance.finance-revenue"",""confidence"":0.99}]",
+01a134e2-0171-751b-b955-2b5f7372c044,aip-program,"Office of the City Veterinarian","Program: Meat Inspection Services
+Office: Office of the City Veterinarian
+Sector: Other Economic Services Sector
+Its projects and activities: Ante-Mortem Inspection; Post-Mortem Inspection; Post-Abattoir Inspection; Implementation and Enforcement of Meat Inspection Code of the Philippines","","[{""id"":""agriculture.livestock"",""confidence"":0.98},{""id"":""health"",""confidence"":0.52}]",
+c8e0b359-347d-4440-992f-04457880ac18,budget-item,"Office of the City Veterinarian","Budget PPA: General Administrative Services
+Major final output: Administrative andSupport Services
+Office: Office of the City Veterinarian
+Its sub-items: General Administrative Services","","[{""id"":""agriculture.livestock"",""confidence"":0.95},{""id"":""governance.administration"",""confidence"":0.78}]",
+01a1becf-0838-7273-8542-6ece9ccb36b5,object-line,"Office of the City Veterinarian","Budget account line: (5-01-02-040)
+Expense class: PS
+Office: Office of the City Veterinarian","","[{""id"":""agriculture.livestock"",""confidence"":0.99}]",
+4bbf2d98-1aff-49fc-b4fc-20e131e3e797,budget-item,"Office of the City Veterinarian","Budget PPA: (untitled)
+Major final output: services
+Part of: C.OPERATIONS
+Office: Office of the City Veterinarian
+Money in: Maintenance and Other Operating Expenses","","[{""id"":""agriculture.livestock"",""confidence"":0.88},{""id"":""agriculture"",""confidence"":0.72}]",
+01a0109e-c09c-7608-a9b9-30e5cd236668,aip-program,"Office of the City Veterinarian","Program: General Administrative Services
+Major final output: Administrative and Support Services
+Office: Office of the City Veterinarian
+Sector: Other Economic Services Sector
+Its projects and activities: General Administrative Services","","[{""id"":""agriculture.livestock"",""confidence"":0.95},{""id"":""governance.administration"",""confidence"":0.7}]",
+01a1bed0-ceed-71d8-999e-dbe2b19df7ad,object-line,"Office of the City Veterinarian","Budget account line: Salaries&Wages-Casual (6) (5-01-01-020)
+Expense class: PS
+Office: Office of the City Veterinarian","","[{""id"":""agriculture.livestock"",""confidence"":0.99},{""id"":""governance.administration"",""confidence"":0.42}]",
+ca3fc618-daa5-462c-af1f-6bf704112d04,budget-item,"Office of the City Veterinarian","Budget PPA: ""Celebration of the following event (Meals for Employees and Volunteers - 50 pax):1. Rabies Awareness Month (March)2. World Veterinary Day (April 25)3. World Rabies Day (Sept. 28)4. Charter Anniversary (June 18)""
+Major final output: Veterinary services
+Office: Office of the City Veterinarian
+Its sub-items: ""Celebration of the following event (Meals for Employees and Volunteers - 50 pax):1. Rabies Awareness Month (March)2. World Veterinary Day (April 25)3. World Rabies Day (Sept. 28)4. Charter Anniversary (June 18)""","","[{""id"":""agriculture.livestock"",""confidence"":0.98},{""id"":""health.disease-control"",""confidence"":0.7}]",
+01a1bed2-9884-7208-bdc5-c7b5a24bdeef,object-line,"Office of the City Veterinarian","Budget account line: Laundry Allowance (5-01-02-060)
+Expense class: PS
+Office: Office of the City Veterinarian","","[{""id"":""agriculture.livestock"",""confidence"":0.99}]",
+d27ab6d5-72a1-465d-a79b-5ef8dcd1aaf8,budget-item,"Office of the Sangguniang Panlungsod Members","Budget PPA: Coordinating Council
+Office: Office of the Sangguniang Panlungsod Members
+Its sub-items: Coordinating Council","","[{""id"":""governance.legislation"",""confidence"":0.84}]",
+01a1bed2-9882-7490-ba0d-2c3ceb74b575,object-line,"Office of the Sangguniang Panlungsod Members","Budget account line: Salaries & Wages-Regular (44) (5-01-01-010)
+Expense class: PS
+Office: Office of the Sangguniang Panlungsod Members","","[{""id"":""governance.legislation"",""confidence"":0.98}]",
+01a1bed2-9883-772c-9bbc-40cf5fb2b91d,object-line,"Office of the Sangguniang Panlungsod Members","Budget account line: Rep. & Maint.-Machinery and Equipment (ICT Equipment) (5-02-13-050-03)
+Expense class: MOOE
+Office: Office of the Sangguniang Panlungsod Members","","[{""id"":""governance.legislation"",""confidence"":0.98},{""id"":""governance.digital-government"",""confidence"":0.66}]",
+01a1becf-083a-720a-931f-ec3dce874f7b,object-line,"Office of the Sangguniang Panlungsod Members","Budget account line: Salaries&Wages-Regular(44) (5-01-01-010)
+Expense class: PS
+Office: Office of the Sangguniang Panlungsod Members","","[{""id"":""governance.legislation"",""confidence"":0.98},{""id"":""governance.administration"",""confidence"":0.95}]",
+01a1bed2-9883-772c-9bbc-548eb7cd8865,object-line,"Office of the Sangguniang Panlungsod Members","Budget account line: Membership Dues & Cont. to Org. (5-02-99-060)
+Expense class: MOOE
+Office: Office of the Sangguniang Panlungsod Members","","[{""id"":""governance.legislation"",""confidence"":0.98},{""id"":""governance.administration"",""confidence"":0.5}]",
+01a1bed0-ceef-7469-a916-969d1d6d91b2,object-line,"Office of the Sangguniang Panlungsod Members","Budget account line: (1-07-05-020)
+Expense class: CO
+Office: Office of the Sangguniang Panlungsod Members","","[{""id"":""governance.legislation"",""confidence"":0.99},{""id"":""governance"",""confidence"":0.92}]",
+01a1becf-083a-720a-9320-4b28d756fbee,object-line,"Office of the Sangguniang Panlungsod Members","Budget account line: OtherSupplies&MaterialsExpenses (5-02-03-990)
+Expense class: MOOE
+Office: Office of the Sangguniang Panlungsod Members","","[{""id"":""governance.administration"",""confidence"":0.95},{""id"":""governance.legislation"",""confidence"":0.95}]",
+01a1bed2-9883-772c-9bbc-32074c575f9e,object-line,"Office of the Sangguniang Panlungsod Members","Budget account line: Telephone Expenses (5-02-05-020)
+Expense class: MOOE
+Office: Office of the Sangguniang Panlungsod Members","","[{""id"":""governance.legislation"",""confidence"":0.98},{""id"":""governance.administration"",""confidence"":0.72}]",
+01a01097-dc8c-7475-bd80-768c23a58446,budget-item,"Office of the Sangguniang Panlungsod Members","Budget PPA: #WeENGAGE: SP-SPP Culminating Activity
+Major final output: 4-Inclusive education and lifelong learning opportunities 5-equal participation in decision-making processes 8-access to decent employment and economic opportunities
+Office: Office of the Sangguniang Panlungsod Members
+Money in: Maintenance and Other Operating Expenses","","[{""id"":""governance.legislation"",""confidence"":0.95},{""id"":""women-gender"",""confidence"":0.4}]",
+01a1becf-0839-74e9-b4ce-757b159f1c45,object-line,"Our Lady of Lourdes Infirmary","Budget account line: Productivity IncentiveAllowance (5-01-02-080)
+Expense class: PS
+Office: Our Lady of Lourdes Infirmary","","[{""id"":""health.hospital-care"",""confidence"":0.98}]",
+01a1bed2-9887-7143-92e2-6a9f1689f134,object-line,"Our Lady of Lourdes Infirmary","Budget account line: Personal Economic Relief Allowance (5-01-02-010)
+Expense class: PS
+Office: Our Lady of Lourdes Infirmary","","[{""id"":""health"",""confidence"":0.98},{""id"":""health.hospital-care"",""confidence"":0.9}]",
+01a1bed2-9887-7143-92e2-bff702b66441,object-line,"Our Lady of Lourdes Infirmary","Budget account line: Training Expenses (5-02-02-010)
+Expense class: MOOE
+Office: Our Lady of Lourdes Infirmary","","[{""id"":""health.hospital-care"",""confidence"":0.98},{""id"":""health"",""confidence"":0.98}]",
+01a1becf-0839-74e9-b4ce-c833a744b4cf,object-line,"Our Lady of Lourdes Infirmary","Budget account line: Drugs and Medicines Expenses (5-02-03-070)
+Expense class: MOOE
+Office: Our Lady of Lourdes Infirmary","","[{""id"":""health.medicines"",""confidence"":0.99},{""id"":""health"",""confidence"":0.99}]",
+01a1bed2-9887-7143-92e3-0d3ef9d57ee3,object-line,"Our Lady of Lourdes Infirmary","Budget account line: Other Maint. & Oper. Expenses (Oral Health Program) (5-02-99-990(1))
+Expense class: MOOE
+Office: Our Lady of Lourdes Infirmary","","[{""id"":""health.primary-care"",""confidence"":0.92}]",
+01a1becf-0839-74e9-b4ce-fab25b239df9,object-line,"Our Lady of Lourdes Infirmary","Budget account line: insurance Expenses (5-02-16-030)
+Expense class: MOOE
+Office: Our Lady of Lourdes Infirmary","","[{""id"":""health"",""confidence"":0.9}]",
+01a1bed0-ceef-7469-a914-fd086a7d78a1,object-line,"Our Lady of Lourdes Infirmary","Budget account line: AccountableForms Expenses (5-02-03-020)
+Expense class: MOOE
+Office: Our Lady of Lourdes Infirmary","","[{""id"":""health"",""confidence"":0.99},{""id"":""health.hospital-care"",""confidence"":0.97}]",
+01a1bed2-9884-7208-bdc2-0feb2213204a,object-line,"Persons with Disability Affairs Office","Budget account line: Rep. & Maint.-Machinery and Equipment (Office Equipment) (5-02-13-050-02)
+Expense class: MOOE
+Office: Persons with Disability Affairs Office","","[{""id"":""pwd"",""confidence"":0.99},{""id"":""governance.administration"",""confidence"":0.66}]",
+01a0109d-5577-73cb-b85f-87123911b5dd,budget-item,"Persons with Disability Affairs Office","Budget PPA: Provision of Medical/Financial Assistance for Therapy and Physical Rehab of PWDs
+Major final output: Assisted PWDs in need of medical assistance
+Office: Persons with Disability Affairs Office
+Money in: Maintenance and Other Operating Expenses","","[{""id"":""pwd"",""confidence"":0.99},{""id"":""social-welfare.crisis-aid"",""confidence"":0.7}]",
+01a1bed2-9884-7208-bdc1-cd7d185b31e5,object-line,"Persons with Disability Affairs Office","Budget account line: Cash Gift (5-01-02-150)
+Expense class: PS
+Office: Persons with Disability Affairs Office","","[{""id"":""pwd"",""confidence"":0.99},{""id"":""governance.administration"",""confidence"":0.7}]",
+01a0109d-348b-778a-9855-6cb105c7a381,budget-item,"Persons with Disability Affairs Office","Budget PPA: Operationalization of Naga City Council on Disability Affairs
+Major final output: NCDDA is operating efficiently and effectively
+Office: Persons with Disability Affairs Office
+Money in: Maintenance and Other Operating Expenses","","[{""id"":""pwd"",""confidence"":0.99}]",
+01a0109d-7431-724d-9e35-97cc2aac20ab,budget-item,"Persons with Disability Affairs Office","Budget PPA: Awareness Campaigns/Activities on PWD Rights and Privileges
+Major final output: Campaigns on PWD Rights and Privileges are held
+Office: Persons with Disability Affairs Office
+Money in: Maintenance and Other Operating Expenses","","[{""id"":""pwd"",""confidence"":0.99},{""id"":""governance.public-information"",""confidence"":0.72},{""id"":""women-gender"",""confidence"":0}]",
+01a1bed2-9884-7208-bdc1-fdb8c7799f67,object-line,"Persons with Disability Affairs Office","Budget account line: Other Supplies & Materials Expenses (5-02-03-990)
+Expense class: MOOE
+Office: Persons with Disability Affairs Office","","[{""id"":""pwd"",""confidence"":0.99},{""id"":""governance.administration"",""confidence"":0.62}]",
+01a1becf-0839-74e9-b4cf-66c8ffc50977,object-line,"Persons with Disability Affairs Office","Budget account line: OtherSupplies&MaterialsExpenses (5-02-03-990)
+Expense class: MOOE
+Office: Persons with Disability Affairs Office","","[{""id"":""pwd"",""confidence"":0.99},{""id"":""governance.administration"",""confidence"":0.72}]",
+01a1becd-43c2-7587-bc6b-5a27a6604567,object-line,"Public Safety Office","Budget account line: Retirement&LifeInsurancePremiums (5-01-03-010)
+Expense class: PS
+Office: Public Safety Office","","[{""id"":""peace-order.public-safety"",""confidence"":0.99}]",
+01a1bed2-9883-772c-9bc2-ddd835d12ec5,object-line,"Public Safety Office","Budget account line: Other General Services (86) (5-02-12-990)
+Expense class: MOOE
+Office: Public Safety Office","","[{""id"":""peace-order.public-safety"",""confidence"":0.7}]",
+01a1becd-43c2-7587-bc6b-9ccc24c49f0b,object-line,"Public Safety Office","Budget account line: (5-02-13-050-07)
+Expense class: MOOE
+Office: Public Safety Office","","[{""id"":""peace-order.public-safety"",""confidence"":0.45}]",
+01a1becf-083a-720a-931e-1836f27c58f7,object-line,"Public Safety Office","Budget account line: Machinery&Equipment-OfficeEquipment (1-07-05-020)
+Expense class: CO
+Office: Public Safety Office","","[{""id"":""peace-order.public-safety"",""confidence"":0.95}]",
+01a01099-f154-76ba-9eb1-719f9eccde29,aip-pa,"Public Safety Office","Activity: General Administrative Services
+Expected output: % of GAS services delivered
+Part of: General Administrative Services
+Office: Public Safety Office","","[{""id"":""governance.administration"",""confidence"":0.96},{""id"":""peace-order.public-safety"",""confidence"":0.7}]",
+01a1becf-083a-720a-931f-36e9d7c8ff4e,object-line,"Public Safety Office","Budget account line: Printing endPublication Expenses (5-02-99-020)
+Expense class: MOOE
+Office: Public Safety Office","","[{""id"":""peace-order.public-safety"",""confidence"":0.95},{""id"":""governance.public-information"",""confidence"":0.45}]",
+01a1bed2-9883-772c-9bc2-63815101a0b5,object-line,"Public Safety Office","Budget account line: Salaries & Wages-Regular (37) (5-01-01-010)
+Expense class: PS
+Office: Public Safety Office","","[{""id"":""peace-order.public-safety"",""confidence"":0.98},{""id"":""governance.administration"",""confidence"":0.7}]",
+66afb57e-64cb-4a70-bf2c-85a5648f22c2,budget-item,"Public Safety Office","Budget PPA: Enforcement of the nationalandlocal statuteson safety andorder particularty transport ordinances of the City and managing the trafficflow, directionand conboi inthecity including fabrication of irafficregulatory signages. (Implementationof the CityOrdinance No.1993-049- Transportand Traffic Codle and otherordinances amenclingit).
+Major final output: Pubilc Gafety services
+Part of: TRAFFICENGINEERING
+Office: Public Safety Office
+Money in: Maintenance and Other Operating Expenses","","[{""id"":""peace-order.traffic"",""confidence"":0.99},{""id"":""peace-order.public-safety"",""confidence"":0.9}]",
+f4aebacc-95ae-4a97-a409-ff79f3327797,budget-item,"Public Safety Office","Budget PPA: (untitled)
+Major final output: Central Communicati onsServices
+Part of: C.OPERATIONS
+Office: Public Safety Office","","[{""id"":""governance.public-information"",""confidence"":0.72},{""id"":""peace-order.public-safety"",""confidence"":0.45}]",
+01a134de-d8d5-70a8-881a-21c458f0e463,aip-pa,"Public Safety Office","Activity: Traffic Engineering Support, Signage, and Road Furniture Coordination Services (incl. road marking installation/repainting; traffic signage installation, maintenance & replacement; road safety inspection and traffic engineering assessment)
+Expected output: Road markings, pedestrian crossings, and pavement markings installed/repainted in identified areas; traffic signs installed, repaired, and replaced; road safety inspections conducted with recommendations submitted.
+Part of: Traffic Management, Ordinance Enforcement, and Public Safety Operations Program › Traffic Management and Road Safety Project › Traffic Engineering Support, Signage, and Road Furniture Coordination Services (incl. road marking installation/repainting; traffic signage installation, maintenance & replacement; road safety inspection and traffic engineering assessment)
+Office: Public Safety Office","","[{""id"":""peace-order.traffic"",""confidence"":0.99},{""id"":""infrastructure.roads"",""confidence"":0.7}]",
+01a1becd-43c2-7587-bc6b-d164839fc7da,object-line,"Public Safety Office - People's Law Enforcement Board","Budget account line: OfficeSuppliesExpenses (5-02-03-010)
+Expense class: MOOE
+Office: Public Safety Office - People's Law Enforcement Board","","[{""id"":""peace-order.public-safety"",""confidence"":0.95}]",
+01a1becf-083a-720a-931e-9a949c544f0e,object-line,"Public Safety Office - People's Law Enforcement Board","Budget account line: Rep.&Maint.-Transportation Equipment(MotorVehicle (5-02-13-060-01)
+Expense class: MOOE
+Office: Public Safety Office - People's Law Enforcement Board","","[{""id"":""governance.administration"",""confidence"":0.9},{""id"":""peace-order.public-safety"",""confidence"":0.72}]",
+01a134e0-5e6f-7009-b5ff-ef16dff1834a,aip-pa,"Raul S. Roco Library","Activity: Administrative Support Project
+Part of: General Administration and Institutional Support Program
+Office: Raul S. Roco Library","","[{""id"":""governance.administration"",""confidence"":0.92}]",
+01a0109b-1ce7-743c-850e-97867e314c2f,aip-pa,"Raul S. Roco Library","Activity: Repair of Raul Roco Library Reading Areas
+Expected output: Percentage of RSRL readers reporting improved library services
+Part of: Repair of Raul Roco Library Reading Areas
+Office: Raul S. Roco Library","","[{""id"":""education"",""confidence"":0.95},{""id"":""governance.administration"",""confidence"":0.55}]",
+01a1becd-43c0-7258-a1be-d943bfd24985,object-line,"Raul S. Roco Library","Budget account line: Terminal LeaveBenefits (5-01-04-030)
+Expense class: PS
+Office: Raul S. Roco Library","","[{""id"":""governance.administration"",""confidence"":0.96},{""id"":""education"",""confidence"":0.72}]",
+01a1becf-083a-720a-931f-56ed3fa603ce,object-line,"Raul S. Roco Library","Budget account line: Salaries&Wages-Regular (6) (5-01-01-010)
+Expense class: PS
+Office: Raul S. Roco Library","","[{""id"":""governance.administration"",""confidence"":0.95},{""id"":""education"",""confidence"":0.7}]",
+01a1becf-083a-720a-931f-8dde1f8fd655,object-line,"Raul S. Roco Library","Budget account line: EmpioyeesCompensation InsurancePremiums (5-01-03-040)
+Expense class: PS
+Office: Raul S. Roco Library","","[{""id"":""governance.administration"",""confidence"":0.98},{""id"":""education"",""confidence"":0.72}]",
+1c7b9564-24aa-466b-b976-dca89be938d2,budget-item,"Raul S. Roco Library","Budget PPA: Upgrading of Library Reference Services: reorganization of online-public access catalog
+Major final output: Online services strengthened, allowing readers to access the catalog, file requests and engage with RSRL more efficiently
+Office: Raul S. Roco Library
+Its sub-items: Upgrading of Library Reference Services: reorganization of online-public access catalog","","[{""id"":""education"",""confidence"":0.88}]",
+01a1bed0-cef0-743c-a0e7-4a5df1cbdd53,object-line,"Solid Waste Management Office","Budget account line: Telephone Expenses (5-02-05-020)
+Expense class: MOOE
+Office: Solid Waste Management Office","","[{""id"":""environment.solid-waste"",""confidence"":0.95}]",
+01a1bed2-9885-727c-8314-c29312bbfb75,object-line,"Solid Waste Management Office","Budget account line: Retirement & Life Insurance Premiums (5-01-03-010)
+Expense class: PS
+Office: Solid Waste Management Office","","[{""id"":""environment.solid-waste"",""confidence"":0.99},{""id"":""governance.administration"",""confidence"":0.72}]",
+01a1bed2-9885-727c-8314-acb0a67c7d49,object-line,"Solid Waste Management Office","Budget account line: Longevity Pay (5-01-02-120)
+Expense class: PS
+Office: Solid Waste Management Office","","[{""id"":""environment.solid-waste"",""confidence"":0.99},{""id"":""governance.administration"",""confidence"":0.72}]",
+01a134e4-e992-760f-829e-8552a5fafede,aip-pa,"Solid Waste Management Office","Activity: Establishment of Citywide Electronic and Medical Waste processing facility
+Expected output: Total mechanization on garbage collection and disposal both on regular waste and electronic/special waste
+Part of: Sanitary Landfill Maintenance and Operation
+Office: Solid Waste Management Office","","[{""id"":""environment.solid-waste"",""confidence"":0.98}]",
+6c20e11d-552f-4d5c-8aa4-ad7008aace7f,budget-item,"Solid Waste Management Office","Budget PPA: Procurement of construction equipment for SCO projects implementation*.
+Major final output: 2.5 Flood-resilient Naga
+Part of: Procurement of construction equipment for SCO projects implementation*.
+Office: Solid Waste Management Office
+Money in: Maintenance and Other Operating Expenses","","[{""id"":""environment.solid-waste"",""confidence"":0.72},{""id"":""disaster-risk.mitigation"",""confidence"":0.6}]",
+01a1bed2-9885-727c-8314-d44454675be1,object-line,"Solid Waste Management Office","Budget account line: Other Personnel Benefits (5-01-04-990)
+Expense class: PS
+Office: Solid Waste Management Office","","[{""id"":""environment.solid-waste"",""confidence"":0.99},{""id"":""governance.administration"",""confidence"":0.55}]",
+01a1bed0-cef0-743c-a0e7-6bcc6910775c,object-line,"Solid Waste Management Office","Budget account line: Rep.&Maint,-Machineryand Equipment(Machinery) (5-02-13-050-01)
+Expense class: MOOE
+Office: Solid Waste Management Office","","[{""id"":""environment.solid-waste"",""confidence"":0.9}]",
+01a1becf-083a-720a-9320-ac8035f290c0,object-line,"Solid Waste Management Office","Budget account line: TransportationAllowance (5-01-02-030)
+Expense class: PS
+Office: Solid Waste Management Office","","[{""id"":""environment.solid-waste"",""confidence"":0.98},{""id"":""governance.administration"",""confidence"":0.8}]",
+01a1bed2-9885-727c-8314-98cd20d8e31a,object-line,"Solid Waste Management Office","Budget account line: Personal Economic Relief Allowance (5-01-02-010)
+Expense class: PS
+Office: Solid Waste Management Office","","[{""id"":""environment.solid-waste"",""confidence"":0.99}]",
+01a1bed2-9885-727c-8316-1b472fafde9a,object-line,"Special Purpose Appropriations Fund","Budget account line: 1. Barangay Support Fund (5-02-14-030)
+Expense class: MOOE
+Office: Special Purpose Appropriations Fund","","[{""id"":""social-welfare.crisis-aid"",""confidence"":0.45}]",
+01a1bed2-9885-727c-8316-4602ba013900,object-line,"Special Purpose Appropriations Fund","Budget account line: 4. Regional Trial Courts (5-02-14-020)
+Expense class: MOOE
+Office: Special Purpose Appropriations Fund","","[{""id"":""governance.legislation"",""confidence"":0.78},{""id"":""governance"",""confidence"":0.65}]",
+01a134da-cb4b-7698-b0fd-ad92ca29f982,aip-program,"Water Services Division","Program: Water Supply System Rehabilitation, Maintenance, and Technical Support Services
+Office: Water Services Division
+Sector: General Public Services Sector","","[{""id"":""infrastructure.water-power"",""confidence"":0.98},{""id"":""governance.administration"",""confidence"":0.62}]",
+2a1dfdea-63f4-4bc1-87a6-10b7c968f527,budget-item,"i-Governance Program","Budget PPA: (1) Conduct of monthly reporting/evaluation of satisfaction performance; (2) Recognition system to reward high-performing offices/personnel
+Major final output: iGov services
+Office: i-Governance Program
+Its sub-items: (1) Conduct of monthly reporting/evaluation of satisfaction performance; (2) Recognition system to reward high-performing offices/personnel","","[{""id"":""governance.planning-monitoring"",""confidence"":0.86},{""id"":""governance.administration"",""confidence"":0.6}]",
+01a134db-e125-7158-8b9a-ed2c373492ff,aip-pa,"i-Governance Program","Activity: Citizen Feedback and Service Experience Project
+Expected output: At least 90% average satisfaction rating and 100% complaint handling compliance.
+Part of: Open Government and Citizen Participation Program › Citizen Feedback and Service Experience Project
+Office: i-Governance Program","","[{""id"":""governance.public-information"",""confidence"":0.9},{""id"":""governance.planning-monitoring"",""confidence"":0.72}]",

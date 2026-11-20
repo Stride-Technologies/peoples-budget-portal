@@ -1,0 +1,9 @@
+[
+  { "code": "1000", "name": "General Public Services Sector" },
+  { "code": "3000", "name": "Social Services Sector" },
+  { "code": "4000", "name": "Education Sector" },
+  { "code": "5000", "name": "Health Sector" },
+  { "code": "6000", "name": "Economic Services Sector" },
+  { "code": "8000", "name": "Other Economic Services Sector" },
+  { "code": "9000", "name": "Other Services" }
+]

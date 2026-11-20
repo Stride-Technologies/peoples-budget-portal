@@ -1,0 +1,4054 @@
+{
+  "nav.home": {
+    "text": "Home",
+    "src": "Home"
+  },
+  "nav.aip": {
+    "text": "AIP",
+    "src": "AIP"
+  },
+  "nav.annual": {
+    "text": "Annual Budget",
+    "src": "Annual Budget"
+  },
+  "nav.ppmp": {
+    "text": "PPMP",
+    "src": "PPMP"
+  },
+  "nav.learn": {
+    "text": "Alamin",
+    "src": "Learn"
+  },
+  "nav.developers": {
+    "text": "Developers",
+    "src": "Developers"
+  },
+  "nav.openMenu": {
+    "text": "Buksan ang menu",
+    "src": "Open menu"
+  },
+  "nav.closeMenu": {
+    "text": "Isara ang menu",
+    "src": "Close menu"
+  },
+  "lang.label": {
+    "text": "Wika",
+    "src": "Language"
+  },
+  "lang.suggest": {
+    "text": "Magmungkahi ng mas magandang translation",
+    "src": "Suggest a better translation"
+  },
+  "footer.thePortal": {
+    "text": "Ang Portal",
+    "src": "The Portal"
+  },
+  "footer.budget101": {
+    "text": "Budget 101",
+    "src": "Budget 101"
+  },
+  "footer.aip": {
+    "text": "Annual Investment Program",
+    "src": "Annual Investment Program"
+  },
+  "footer.annual": {
+    "text": "Annual Budget",
+    "src": "Annual Budget"
+  },
+  "footer.learn": {
+    "text": "Alamin",
+    "src": "Learn"
+  },
+  "footer.ppmp": {
+    "text": "PPMP",
+    "src": "PPMP"
+  },
+  "footer.developers": {
+    "text": "Developers",
+    "src": "Developers"
+  },
+  "footer.license": {
+    "text": "Public License",
+    "src": "Public License"
+  },
+  "footer.skip": {
+    "text": "Skip to content",
+    "src": "Skip to content"
+  },
+  "footer.credits": {
+    "text": "Free and open-source software na pinangunahan ng {wesolve}, dinevelop ng {stride}, at sinusuportahan ng civic technology movement na {bettergov}.",
+    "src": "Free and open-source software led by {wesolve}, developed by {stride}, and supported by the civic technology movement {bettergov}."
+  },
+  "footer.contact": {
+    "text": "Makipag-ugnayan",
+    "src": "Contact"
+  },
+  "footer.privacy": {
+    "text": "Privacy Policy",
+    "src": "Privacy Policy"
+  },
+  "footer.terms": {
+    "text": "Terms of Service",
+    "src": "Terms of Service"
+  },
+  "footer.copyright": {
+    "text": "© {year} WeSolve Foundation Inc. & Stride Technologies Corp. Licensed under AGPL v3.",
+    "src": "© {year} WeSolve Foundation Inc. & Stride Technologies Corp. Licensed under AGPL v3."
+  },
+  "home.partner.wesolve": {
+    "text": "Social innovation, at ang nangunguna sa portal na ito",
+    "src": "Social innovation, and the lead on this portal"
+  },
+  "home.partner.stride": {
+    "text": "Software design and engineering",
+    "src": "Software design and engineering"
+  },
+  "home.stat.proposed": {
+    "text": "Tantiyang kabuuan, AIP {year}",
+    "src": "Estimated so far, AIP {year}"
+  },
+  "home.stat.enacted": {
+    "text": "Na-enact na, FY {year}",
+    "src": "Enacted, FY {year}"
+  },
+  "home.stat.programsPublished": {
+    "text": "Mga programang na-publish",
+    "src": "Programs published"
+  },
+  "home.stat.programs": {
+    "text": "Mga programa",
+    "src": "Programs"
+  },
+  "home.stat.officesPublished": {
+    "text": "Mga opisinang na-publish",
+    "src": "Offices published"
+  },
+  "home.stat.offices": {
+    "text": "Mga opisina",
+    "src": "Offices"
+  },
+  "home.stat.finishLines": {
+    "text": "{Goals}",
+    "src": "{Goals}"
+  },
+  "home.stat.aria": {
+    "text": "Budget at a glance",
+    "src": "Budget at a glance"
+  },
+  "home.hero.title": {
+    "text": "Saan napupunta ang pera ng {shortName},",
+    "src": "Where {shortName}’s money goes,"
+  },
+  "home.hero.titleTail": {
+    "text": " kitang-kita.",
+    "src": " in plain sight."
+  },
+  "home.hero.lede": {
+    "text": "Bawat programang pinaplano ng {lgu}, bawat pisong na-enact — para saan ito, sino ang nagpapatakbo, at magkano.",
+    "src": "Every program the {lgu} plans, every peso it enacted — what it is for, who runs it, and how much it costs."
+  },
+  "home.hero.ctaProposed": {
+    "text": "Ano ang nakapaloob para sa {year}",
+    "src": "What’s planned for {year}"
+  },
+  "home.hero.ctaBrowse": {
+    "text": "I-browse ang budget",
+    "src": "Browse the budget"
+  },
+  "home.hero.ctaEnacted": {
+    "text": "Saan napunta ang {year} budget",
+    "src": "Where the {year} budget went"
+  },
+  "home.process.kicker": {
+    "text": "Pag-unawa sa Local Budget Process",
+    "src": "Understanding the Local Budget Process"
+  },
+  "home.process.title": {
+    "text": "Nasaan na tayo —",
+    "src": "Where we are —"
+  },
+  "home.process.titleTail": {
+    "text": "at ano'ng susunod.",
+    "src": "and what comes next."
+  },
+  "home.process.now": {
+    "text": "Ngayon: {stage}",
+    "src": "Now: {stage}"
+  },
+  "home.process.stageOf": {
+    "text": "Stage {n} ng {total} para sa {year} budget.",
+    "src": "Stage {n} of {total} for the {year} budget."
+  },
+  "home.process.whatHappens": {
+    "text": "Ano'ng nangyayari sa stage na ito",
+    "src": "What happens at this stage"
+  },
+  "home.process.wholeCycle": {
+    "text": "Paano gumagana ang buong cycle",
+    "src": "How the whole cycle works"
+  },
+  "home.process.completed": {
+    "text": "Tapos na",
+    "src": "Completed"
+  },
+  "home.process.inProgress": {
+    "text": "Kasalukuyang ginagawa",
+    "src": "In progress"
+  },
+  "home.process.upcoming": {
+    "text": "Parating na",
+    "src": "Upcoming"
+  },
+  "home.fl.title": {
+    "text": "Ang {Goals} ng {placeName}",
+    "src": "{placeName}'s {Goals}"
+  },
+  "home.oss.title": {
+    "text": "Open source platform",
+    "src": "Open source platform"
+  },
+  "home.oss.kicker": {
+    "text": "Libre para sa lahat ng LGUs at ahensya",
+    "src": "Free for all LGUs & agencies"
+  },
+  "home.oss.body": {
+    "text": "Ginawa para gamitin sa ilalim ng free and open source principles, para pwedeng i-adopt ng ibang local governments at people's councils para i-promote ang transparency, participation at accountability sa public budgeting. Licensed sa ilalim ng GNU Affero General Public License version 3.",
+    "src": "Intended for use under free and open source principles, so other local governments and people's councils can adopt it to promote transparency, participation and accountability in public budgeting. Licensed under the GNU Affero General Public License version 3."
+  },
+  "home.oss.builtBy": {
+    "text": "Ginawa sa pakikipagtulungan ng",
+    "src": "Built in collaboration by"
+  },
+  "learn.meta.title": {
+    "text": "Alamin: ang budget cycle | {siteName}",
+    "src": "Learn: the budget cycle | {siteName}"
+  },
+  "learn.meta.description": {
+    "text": "Paano ginagawa ang budget ng {placeName}, stage by stage: sino ang involved, ano ang output ng bawat stage, at saan pwedeng makibahagi ang mga residente. Sa simpleng salita.",
+    "src": "How {placeName}'s budget is made, stage by stage: who is involved, what each stage produces, and where residents can take part. In plain language."
+  },
+  "learn.deeper.archive.gloss": {
+    "text": "Lahat ng approved {lguAdj} budget na na-publish ng {lgu}, bilang mga PDF. Ang mga taon bago magsimula ang portal na ito.",
+    "src": "Every approved {lguAdj} budget the {lgu} has published, as PDFs. The years before this portal begins."
+  },
+  "learn.deeper.dbm.label": {
+    "text": "DBM Budget Operations Manual para sa LGUs",
+    "src": "DBM Budget Operations Manual for LGUs"
+  },
+  "learn.deeper.dbm.gloss": {
+    "text": "Ang national rulebook na sinusunod ng bawat local budget, at ang source kung saan hinango ang karamihan ng glossary.",
+    "src": "The national rulebook every local budget follows, and the source most of the glossary is drawn from."
+  },
+  "learn.deeper.natin.label": {
+    "text": "Budget Natin Guidebook",
+    "src": "Budget Natin Guidebook"
+  },
+  "learn.deeper.natin.gloss": {
+    "text": "Isang citizens’ guide sa budget advocacy sa anim na modules, gawa ng WeSolve Foundation, na siyang nangunguna sa portal na ito.",
+    "src": "A citizens’ guide to budget advocacy in six modules, by WeSolve Foundation, who lead this portal."
+  },
+  "learn.overlap.adjust.when": {
+    "text": "Hul–Okt {prev}",
+    "src": "Jul–Oct {prev}"
+  },
+  "learn.overlap.adjust.title": {
+    "text": "Ang plano at ang budget ay ina-adjust para magtugma",
+    "src": "The plan and the budget are adjusted to match"
+  },
+  "learn.overlap.adjust.body": {
+    "text": "Habang tinatapos ng mga opisina ang kanilang mga plano, ini-fit na ito ng budget office sa perang inaasahang makokolekta ng {lgu}. Ang mga cut sa isa ay nagbabago sa isa pa, pabalik-balik, hanggang mag-agree ang mga ito. Para sa budget na {fy}, parehong natapos ng {lgu} ang dalawa noong Oktubre {prev}.",
+    "src": "While offices finish their plans, the budget office is already fitting them to the money the {lgu} expects to collect. Cuts in one change the other, back and forth, until they agree. For the {fy} budget the {lgu} finished both in October {prev}."
+  },
+  "learn.overlap.review.when": {
+    "text": "Ene–Mar {fy}",
+    "src": "Jan–Mar {fy}"
+  },
+  "learn.overlap.review.title": {
+    "text": "Nagsisimula ang spending habang tumatakbo ang national check",
+    "src": "Spending starts while the national check runs"
+  },
+  "learn.overlap.review.body": {
+    "text": "Pwedeng gumastos ang {lgu} mula Enero. Ang review ng national government sa budget ay nangyayari sa parehong mga buwan, at pwede pa ring i-strike out ang isang item na lumalabag sa patakaran.",
+    "src": "The {lgu} can spend from January. The national government’s review of the budget happens in the same months, and can still strike out an item that breaks the rules."
+  },
+  "learn.overlap.report.when": {
+    "text": "Sa buong {fy}",
+    "src": "Throughout {fy}"
+  },
+  "learn.overlap.report.title": {
+    "text": "Magkasabay na tumatakbo ang paggastos at pag-uulat",
+    "src": "Spending and reporting run together"
+  },
+  "learn.overlap.report.body": {
+    "text": "Nagre-report ang mga opisina kung ano ang nagastos nila sa buong taon, hindi lang sa dulo. Ang final audit ay ginagawa pagkatapos magsara ng taon.",
+    "src": "Offices report what they have spent through the year, not only at the end. The final audit comes after the year closes."
+  },
+  "learn.axis.jan": {
+    "text": "Enero {year}",
+    "src": "Jan {year}"
+  },
+  "learn.axis.mid": {
+    "text": "kalagitnaan ng {year}",
+    "src": "mid-{year}"
+  },
+  "learn.bar.spent": {
+    "text": "nagastos at nai-report na",
+    "src": "spent and reported"
+  },
+  "learn.bar.made": {
+    "text": "ginawa",
+    "src": "made"
+  },
+  "learn.alongside.one": {
+    "text": ", kung saan ang stage {stages} ay ongoing pa",
+    "src": ", with stage {stages} still under way"
+  },
+  "learn.alongside.many": {
+    "text": ", kung saan ang stages {stages} ay ongoing pa",
+    "src": ", with stages {stages} still under way"
+  },
+  "learn.and": {
+    "text": "at",
+    "src": "and"
+  },
+  "learn.hero.eyebrow": {
+    "text": "Alamin · Ang budget cycle",
+    "src": "Learn · The budget cycle"
+  },
+  "learn.hero.title": {
+    "text": "Paano ginagawa ang budget ng {shortName}",
+    "src": "How {shortName}’s budget is made"
+  },
+  "learn.hero.body": {
+    "text": "Halos dalawang taon ang binubuno para magawa at ma-account ang isang taong budget: mula sa unang usapan tungkol sa kailangan ng {lgu} hanggang sa final audit ng ginastos. Dumadaan ito sa {count} stages, at ang ilan ay sabay na nangyayari. Pumili ng kahit anong stage para makita kung ano ang mangyayari, sino ang involved, at saan ka pwedeng makisali.",
+    "src": "One year’s budget takes almost two years to make and account for: from the first conversation about what the {lgu} needs to the final audit of what was spent. It passes through {count} stages, and some happen at the same time. Choose any stage to see what happens, who is involved, and where you can take part."
+  },
+  "learn.s1.eyebrow": {
+    "text": "01 · Stage by stage",
+    "src": "01 · Stage by stage"
+  },
+  "learn.s1.title": {
+    "text": "Ang {fy} budget, mula simula hanggang dulo.",
+    "src": "The {fy} budget, from start to finish."
+  },
+  "learn.s2.eyebrow": {
+    "text": "02 · Sabay na nangyayari",
+    "src": "02 · At the same time"
+  },
+  "learn.s2.title": {
+    "text": "Ang stages ay hindi straight line.",
+    "src": "The stages are not a straight line."
+  },
+  "learn.s2.lede": {
+    "text": "Sa textbook ay plan muna, tapos budget. Sa aktwal, nag-o-overlap ang ilang stages, at bawat overlap ay pagkakataon na pwedeng gumalaw pa ang isang figure.",
+    "src": "The textbook order is plan first, then budget. In practice several stages overlap, and each overlap is a moment when a figure can still move."
+  },
+  "learn.s3.eyebrow": {
+    "text": "03 · Dalawang budget nang sabay",
+    "src": "03 · Two budgets at once"
+  },
+  "learn.s3.title": {
+    "text": "Habang ginagastos ang isang budget, ginagawa na ang susunod.",
+    "src": "While one budget is being spent, the next one is being made."
+  },
+  "learn.s3.lede": {
+    "text": "Kaya sa kahit anong sandali, dalawa ang kinaroroonan ng {lgu} sa cycle.",
+    "src": "So at any moment the {lgu} is in two places in the cycle."
+  },
+  "learn.s3.rightNow": {
+    "text": "Ngayon:",
+    "src": "Right now:"
+  },
+  "learn.s3.isAt": {
+    "text": "ang {year} budget ay nasa",
+    "src": "the {year} budget is at"
+  },
+  "learn.s3.stage": {
+    "text": "stage {n}, {title}",
+    "src": "stage {n}, {title}"
+  },
+  "learn.s3.aria": {
+    "text": "Timeline: ang {prev} budget ay ginagastos sa {prev} habang ang {fy} budget ay ginagawa; ang {fy} budget ay ginagastos sa {fy} habang ang {next} budget ay ginagawa.",
+    "src": "Timeline: the {prev} budget is spent in {prev} while the {fy} budget is made; the {fy} budget is spent in {fy} while the {next} budget is made."
+  },
+  "learn.deeper.title": {
+    "text": "Alamin pa",
+    "src": "Go deeper"
+  },
+  "learn.explorer.months.marJun": {
+    "text": "Mar–Hun",
+    "src": "Mar–Jun"
+  },
+  "learn.explorer.months.julOct": {
+    "text": "Hul–Okt",
+    "src": "Jul–Oct"
+  },
+  "learn.explorer.months.oct": {
+    "text": "Okt",
+    "src": "Oct"
+  },
+  "learn.explorer.months.octDec": {
+    "text": "Okt–Dis",
+    "src": "Oct–Dec"
+  },
+  "learn.explorer.months.dec": {
+    "text": "Dis",
+    "src": "Dec"
+  },
+  "learn.explorer.months.fyOn": {
+    "text": "{fy} →",
+    "src": "{fy} →"
+  },
+  "learn.explorer.months.midNext": {
+    "text": "kalagitnaan ng {next}",
+    "src": "mid-{next}"
+  },
+  "learn.explorer.note.sameTime1": {
+    "text": "← sabay na:",
+    "src": "← at the same time:"
+  },
+  "learn.explorer.note.sameTime2": {
+    "text": "ang plano at budget ay",
+    "src": "plan and budget are"
+  },
+  "learn.explorer.note.sameTime3": {
+    "text": "ina-adjust para magtugma",
+    "src": "adjusted to match"
+  },
+  "learn.explorer.note.sameTimeEnd": {
+    "text": "sabay na: paggastos, pag-check at pag-uulat",
+    "src": "at the same time: spending, checking and reporting"
+  },
+  "learn.explorer.edge.priorities": {
+    "text": "mga priority",
+    "src": "priorities"
+  },
+  "learn.explorer.edge.meet": {
+    "text": "nagtatagpo ang dalawang track",
+    "src": "both tracks meet"
+  },
+  "learn.explorer.edge.veto": {
+    "text": "veto",
+    "src": "veto"
+  },
+  "learn.explorer.edge.review": {
+    "text": "review",
+    "src": "review"
+  },
+  "learn.explorer.edge.january": {
+    "text": "mula Enero",
+    "src": "from January"
+  },
+  "learn.explorer.stageAria": {
+    "text": "Stage {n}: {title}, {when}",
+    "src": "Stage {n}: {title}, {when}"
+  },
+  "learn.explorer.stageOf": {
+    "text": "Stage {n} ng {total} · {when}",
+    "src": "Stage {n} of {total} · {when}"
+  },
+  "learn.explorer.officially": {
+    "text": "Opisyal: {name}",
+    "src": "Officially: {name}"
+  },
+  "learn.explorer.who": {
+    "text": "Sino ang involved",
+    "src": "Who is involved"
+  },
+  "learn.explorer.out": {
+    "text": "Ano ang lumalabas dito",
+    "src": "What comes out of it"
+  },
+  "learn.explorer.you": {
+    "text": "Saan ka pwedeng makisali",
+    "src": "Where you come in"
+  },
+  "learn.explorer.know": {
+    "text": "Good to know",
+    "src": "Good to know"
+  },
+  "learn.explorer.start": {
+    "text": "Simula",
+    "src": "Start"
+  },
+  "learn.explorer.end": {
+    "text": "Katapusan",
+    "src": "End"
+  },
+  "learn.explorer.review": {
+    "text": "Review build: ang mga naka-highlight na statement ay kinukumpirma pa sa {lgu}. Mas safe na wording ang nasa public site habang hindi pa final.",
+    "src": "Review build: highlighted statements are still being confirmed with the {lgu}. The public site shows safer wording in their place."
+  },
+  "learn.explorer.diagramAria": {
+    "text": "Diagram ng budget cycle. Bawat stage ay isang button na nagpapaliwanag dito.",
+    "src": "Budget cycle diagram. Each stage is a button that explains it."
+  },
+  "learn.explorer.hint": {
+    "text": "Pumili ng stage para mabasa ang detalye. Sa phone, i-swipe ang diagram patagilid.",
+    "src": "Choose a stage to read about it. On a phone, swipe the diagram sideways."
+  },
+  "learn.pages.cycle.label": {
+    "text": "Ang budget cycle",
+    "src": "The budget cycle"
+  },
+  "learn.pages.cycle.gloss": {
+    "text": "Lahat ng sampung stage, kung sino ang involved, at kung saan ka pwedeng makibahagi.",
+    "src": "All ten stages, who is involved, and where you can take part."
+  },
+  "learn.pages.aipVsAnnual.label": {
+    "text": "AIP vs Annual Budget",
+    "src": "AIP vs Annual Budget"
+  },
+  "learn.pages.aipVsAnnual.gloss": {
+    "text": "Bakit iba ang numbers sa plano at sa batas, at kung ano ang ibig sabihin ng budget figure.",
+    "src": "Why the plan and the law show different numbers, and what a budget figure means."
+  },
+  "learn.pages.entry.label": {
+    "text": "Paano basahin ang isang entry",
+    "src": "Reading an entry"
+  },
+  "learn.pages.entry.gloss": {
+    "text": "Programs, projects at activities, kung saan nakalagay ang pondo, at paano basahin ang reference code.",
+    "src": "Programs, projects and activities, where the money sits, and how to read a reference code."
+  },
+  "learn.pages.glossary.label": {
+    "text": "Glosaryo",
+    "src": "Glossary"
+  },
+  "learn.pages.glossary.gloss": {
+    "text": "Bawat termino na ginagamit ng site na ito, sa simpleng salita.",
+    "src": "Every term this site uses, in plain language."
+  },
+  "learn.nav.aria": {
+    "text": "Alamin",
+    "src": "Learn"
+  },
+  "learn.pager.aria": {
+    "text": "Mga page ng Alamin",
+    "src": "Learn pages"
+  },
+  "learn.pager.previous": {
+    "text": "Nakaraan",
+    "src": "Previous"
+  },
+  "learn.pager.next": {
+    "text": "Susunod · {n} ng {total}",
+    "src": "Next · {n} of {total}"
+  },
+  "aipvs.meta.title": {
+    "text": "AIP vs Annual Budget | Alamin | {siteName}",
+    "src": "AIP vs Annual Budget | Learn | {siteName}"
+  },
+  "aipvs.meta.ogTitle": {
+    "text": "AIP vs Annual Budget | {siteName}",
+    "src": "AIP vs Annual Budget | {siteName}"
+  },
+  "aipvs.meta.description": {
+    "text": "Ang pinagkaiba ng Annual Investment Program ng {shortName} at ng Annual Budget nito: kailan nagkakaroon ang bawat isa, bakit magkaiba ang mga numero ng mga ito, at kung ano ang ibig sabihin at hindi ibig sabihin ng isang budget figure.",
+    "src": "The difference between {shortName}'s Annual Investment Program and its Annual Budget: when each exists, why their numbers differ, and what a budget figure does and does not mean."
+  },
+  "aipvs.move.3": {
+    "text": "Binabawasan ang mga request ng mga opisina para magkasya sa inaasahang kita ng {lgu}. Dito nababago ang karamihan ng halaga ng AIP.",
+    "src": "Offices’ requests are cut to fit the income the {lgu} expects. This is where most AIP amounts change."
+  },
+  "aipvs.move.5": {
+    "text": "Pwedeng kwestyunin at bawasan ng {lguAdj} council ang mga item bago ito bumoto.",
+    "src": "The {lguAdj} council can question and cut items before it votes."
+  },
+  "aipvs.move.6": {
+    "text": "Pwedeng i-veto ng {Mayor} ang partikular na mga item. Pwedeng i-override ng council ang isang veto sa pamamagitan ng two-thirds vote.",
+    "src": "The {Mayor} can veto particular items. The council can override a veto with a two-thirds vote."
+  },
+  "aipvs.move.7": {
+    "text": "Pwedeng ideklara ng national budget department na walang bisa ang mga item na lumalabag sa patakaran.",
+    "src": "The national budget department can declare items that break the rules without effect."
+  },
+  "aipvs.move.8": {
+    "text": "Sa loob ng taon, ang isang supplemental budget, na mismong isang ordinance, ay pwedeng magdagdag o magbago ng budget.",
+    "src": "During the year, a supplemental budget, itself an ordinance, can add to or change the budget."
+  },
+  "aipvs.hero.eyebrow": {
+    "text": "Alamin · AIP vs Annual Budget",
+    "src": "Learn · AIP vs Annual Budget"
+  },
+  "aipvs.hero.title": {
+    "text": "Ang isang plano at isang batas ay hindi magkaparehong numero.",
+    "src": "A plan and a law are not the same number."
+  },
+  "aipvs.hero.body": {
+    "text": "Naglalathala ang site na ito ng dalawang dokumento mula sa magkabilang dulo ng {cycle}. Ang Annual Investment Program ay kung ano ang pinaplano ng {lgu}; ang Annual Budget ay kung ano ang maaari nitong gastusin. Ipinapaliwanag ng page na ito ang pagkakaiba, kung bakit magkaiba ang kanilang mga numero, at kung ano ang ibig sabihin at hindi ibig sabihin ng isang numero sa site na ito.",
+    "src": "This site publishes two documents from opposite ends of the {cycle}. The Annual Investment Program is what the {lgu} plans; the Annual Budget is what it may spend. This page explains the difference, why their figures differ, and what a figure on this site does and does not mean."
+  },
+  "aipvs.hero.cycleLink": {
+    "text": "budget cycle",
+    "src": "budget cycle"
+  },
+  "aipvs.s1.eyebrow": {
+    "text": "01 · Dalawang dokumento",
+    "src": "01 · Two documents"
+  },
+  "aipvs.s1.title": {
+    "text": "Ang isa ay request. Ang isa ay permiso.",
+    "src": "One is a request. The other is permission."
+  },
+  "aipvs.plan.kicker": {
+    "text": "Plano · mga stage na 1 at 2",
+    "src": "Plan · stages 1 and 2"
+  },
+  "aipvs.plan.title": {
+    "text": "Annual Investment Program",
+    "src": "Annual Investment Program"
+  },
+  "aipvs.plan.body": {
+    "text": "Kung ano ang pinaplanong {propose} ng mga opisina ng {lgu} para sa susunod na taon, at kung magkano sa tingin nila ang magagastos. Ito ay binubuo opisina bawat opisina sa loob ng maraming buwan, kaya ito ay hindi pa kumpleto habang isinusulat, at walang maaaring gastusin batay dito.",
+    "src": "What the {lgu}’s offices {propose} to do next year, and what they think it will cost. It is assembled office by office over months, so it is incomplete while it is being written, and nothing may be spent on the strength of it."
+  },
+  "aipvs.plan.propose": {
+    "text": "ipanukala",
+    "src": "propose"
+  },
+  "aipvs.plan.read": {
+    "text": "Basahin ang plano ng {year}",
+    "src": "Read the {year} plan"
+  },
+  "aipvs.law.kicker": {
+    "text": "Batas · mula sa stage na 6",
+    "src": "Law · from stage 6"
+  },
+  "aipvs.law.title": {
+    "text": "Annual Budget",
+    "src": "Annual Budget"
+  },
+  "aipvs.law.body": {
+    "text": "Ang budget kapag ang plano ay naiakma na sa inaasahang kita ng {lgu}, naipasa na ng Sanggunian, at nilagdaan na ng {Mayor}. Ito ay pinal na, at ito ay permiso para gumastos. Ang pagkumpara ng isa sa isa ay pagkumpara ng isang request sa isang kinalabasan.",
+    "src": "The budget once the plan has been fitted to the {lgu}’s expected income, passed by the Sanggunian, and signed by the {Mayor}. It is settled, and it is permission to spend. Comparing one to the other compares a request to an outcome."
+  },
+  "aipvs.law.read": {
+    "text": "Basahin ang enacted na budget ng {year}",
+    "src": "Read the enacted {year} budget"
+  },
+  "aipvs.s1.foot": {
+    "text": "Sa site na ito, ang isang taon ay nasa ilalim ng {aip} habang inihahanda ang budget nito, at lumilipat sa {annual} kapag ito ay enacted na.",
+    "src": "On this site a year sits under {aip} while its budget is being prepared, and moves to {annual} once it is enacted."
+  },
+  "aipvs.s2.eyebrow": {
+    "text": "02 · Bakit magkakaiba ang mga numero",
+    "src": "02 · Why the numbers differ"
+  },
+  "aipvs.s2.title": {
+    "text": "Limang punto kung saan pwedeng gumalaw ang isang halaga.",
+    "src": "Five points where an amount can move."
+  },
+  "aipvs.s2.lede": {
+    "text": "Sa pagitan ng plano at ng perang talagang nagastos, pwedeng magbago ang isang halaga sa mga yugtong ito ng cycle. Bawat isa ay naka-link sa yugto sa cycle page.",
+    "src": "Between the plan and the money actually spent, an amount can change at these stages of the cycle. Each links to the stage on the cycle page."
+  },
+  "aipvs.s2.stage": {
+    "text": "Yugto {n} · {title}",
+    "src": "Stage {n} · {title}"
+  },
+  "aipvs.s3.eyebrow": {
+    "text": "03 · Pahintulot, hindi paggastos",
+    "src": "03 · Permission, not spending"
+  },
+  "aipvs.s3.title": {
+    "text": "Ang budget line ay pahintulot. Ang paggastos ay apat na hakbang pa.",
+    "src": "A budget line is permission. Spending is four steps later."
+  },
+  "aipvs.s3.lede": {
+    "text": "Ito ang pinakakaraniwang paraan para ma-misread ang buong site. Ang isang appropriation ay nagbibigay-authorize ng halaga; hindi nito nirerekord na napunta na kung saan ang pera.",
+    "src": "This is the most common way to misread the whole site. An appropriation authorizes an amount; it does not record that the money went anywhere."
+  },
+  "entry.meta.title": {
+    "text": "Pagbabasa ng entry | Alamin | {siteName}",
+    "src": "Reading an entry | Learn | {siteName}"
+  },
+  "entry.meta.ogTitle": {
+    "text": "Pagbabasa ng entry | {siteName}",
+    "src": "Reading an entry | {siteName}"
+  },
+  "entry.meta.description": {
+    "text": "Paano basahin ang isang linya sa budget ng {placeName}: programs, projects at activities, kung saan nakalagay ang pera, at kung ano ang ibig sabihin ng reference code.",
+    "src": "How to read a line in {placeName}’s budget: programs, projects and activities, where the money sits, and what the reference code means."
+  },
+  "entry.hero.eyebrow": {
+    "text": "Alamin · Pagbabasa ng entry",
+    "src": "Learn · Reading an entry"
+  },
+  "entry.hero.title": {
+    "text": "Ano ang sinasabi sa iyo ng isang linya sa budget.",
+    "src": "What a line in the budget tells you."
+  },
+  "entry.hero.body": {
+    "text": "Ang bawat entry sa site na ito ay may pare-parehong bahagi: kung anong uri ng entry ito, magkano ang dala nito, sino ang may pananagutan dito, at isang reference code. Ipinapaliwanag ng page na ito ang bawat isa, gamit ang mga hugis na makikita mo sa {browse}.",
+    "src": "Every entry on this site has the same parts: what kind of entry it is, how much it carries, who is responsible for it, and a reference code. This page explains each, using the shapes you will meet in {browse}."
+  },
+  "entry.browse": {
+    "text": "Mag-browse",
+    "src": "Browse"
+  },
+  "entry.s1.eyebrow": {
+    "text": "01 · Kung saan nakalagay ang pera",
+    "src": "01 · Where the money sits"
+  },
+  "entry.s1.title": {
+    "text": "Ang mga entry ay nested, at ang isang halaga ay hindi kailanman binibilang nang dalawang beses.",
+    "src": "Entries nest, and an amount is never counted twice."
+  },
+  "entry.s1.p1": {
+    "text": "Ang mga budget entry ay nested. Ang isang {program} ay grupo ng magkakaugnay na trabaho, halimbawa, ang pagpapatakbo ng mga health center ng {lgu}. Sa loob nito pwedeng nakalagay ang mga {projects}, na may katapusan, at ang mga {activities}, na ongoing.",
+    "src": "Budget entries nest. A {program} is a group of related work, say, running the {lgu}’s health centers. Inside it can sit {projects}, which have an end, and {activities}, which are ongoing."
+  },
+  "entry.word.program": {
+    "text": "program",
+    "src": "program"
+  },
+  "entry.word.projects": {
+    "text": "projects",
+    "src": "projects"
+  },
+  "entry.word.activities": {
+    "text": "activities",
+    "src": "activities"
+  },
+  "entry.word.office": {
+    "text": "office",
+    "src": "office"
+  },
+  "entry.word.fund": {
+    "text": "fund",
+    "src": "fund"
+  },
+  "entry.word.finishLines": {
+    "text": "{goals}",
+    "src": "{goals}"
+  },
+  "entry.s1.p2": {
+    "text": "Ang halaga ng isang program ay maaaring nakasaad mismo sa program o, kapag naglista ito ng projects at activities, ang suma ng mga ito. Maraming program ang nagsasaad ng sarili nilang halaga at walang nililista sa ilalim nito. Kapag ang isang program ay naglista ng entries, ang pera ay nakarekord sa kanila: kung ang isang program at ang nag-iisang entry sa loob nito ay magkapareho ang halagang ipinapakita, iyon ay isang halagang dalawang beses na inilarawan, hindi dalawa.",
+    "src": "A program’s amount is either stated on the program itself or, when it lists projects and activities, the sum of theirs. Many programs state their own amount and list nothing beneath it. When a program does list entries, the money is recorded on them: if a program and the single entry inside it show the same amount, that is one amount described twice, not two."
+  },
+  "entry.s1.p3": {
+    "text": "Pinapangalanan din ng bawat entry ang {office} na may pananagutan dito, isa sa walong {finishLines} na pinagsisikapan nito, at ang {fund} kung saan nanggagaling ang pera.",
+    "src": "Each entry also names the {office} accountable for it, one of the eight {finishLines} it works toward, and the {fund} the money comes from."
+  },
+  "entry.s2.eyebrow": {
+    "text": "02 · Ang reference code",
+    "src": "02 · The reference code"
+  },
+  "entry.s2.title": {
+    "text": "Bawat entry ay may dalang code. Ito ay isang paglalarawan, hindi isang serial number.",
+    "src": "Every entry carries a code. It is a description, not a serial number."
+  },
+  "entry.s2.lede": {
+    "text": "May makikita kang tulad ng {code} sa tabi ng mga entry sa {browse}. Ang bawat grupo ng digits ay nagsasabi kung saan nakalagay ang entry: ang sector, ang office, ang section ng libro, at ang posisyon nito sa loob nito.",
+    "src": "You will see something like {code} beside entries in {browse}. Each group of digits says where the entry sits: the sector, the office, the section of the book, and its position inside it."
+  },
+  "code.sector.label": {
+    "text": "Sector",
+    "src": "Sector"
+  },
+  "code.sector.meaning": {
+    "text": "Kung saang national spending sector kabilang ang trabaho. Ang 8000 ay Other Economic Services.",
+    "src": "Which national spending sector the work belongs to. 8000 is Other Economic Services."
+  },
+  "code.level.label": {
+    "text": "Antas",
+    "src": "Level"
+  },
+  "code.officeType.label": {
+    "text": "Uri ng opisina",
+    "src": "Office type"
+  },
+  "code.officeType.meaning": {
+    "text": "Kung mandatory (01), optional (02) o iba pa (03) ang opisina ayon sa DBM manual.",
+    "src": "Whether the office is mandatory (01), optional (02) or other (03) under the DBM manual."
+  },
+  "code.office.label": {
+    "text": "Opisina",
+    "src": "Office"
+  },
+  "code.office.meaning": {
+    "text": "Sariling numero ng opisina sa coding sheet ng {lgu}. Ang 58 ay ang Agricultural and Biosystems Engineering Department.",
+    "src": "The office's own number in the {lgu}'s coding sheet. 58 is the Agricultural and Biosystems Engineering Department."
+  },
+  "code.section.label": {
+    "text": "Seksyon",
+    "src": "Section"
+  },
+  "code.section.meaning": {
+    "text": "Kung saang seksyon ng budget book ito nakalimbag: 001 General Administrative Services, 002 Support to Operations, 003 Operations.",
+    "src": "Which section of the budget book it prints under: 001 General Administrative Services, 002 Support to Operations, 003 Operations."
+  },
+  "code.program.label": {
+    "text": "Programa",
+    "src": "Program"
+  },
+  "code.program.meaning": {
+    "text": "Ang posisyon ng programa sa loob ng seksyong iyon. Nag-uumpisa ulit ang bilang sa bawat seksyon.",
+    "src": "The program's position within that section. Counting restarts in each section."
+  },
+  "code.entry.label": {
+    "text": "Entry",
+    "src": "Entry"
+  },
+  "code.entry.meaning": {
+    "text": "Aling proyekto o aktibidad sa loob ng programa. Ang 000 ay nangangahulugang ang row ay ang programa mismo.",
+    "src": "Which project or activity inside the program. 000 means the row is the program itself."
+  },
+  "code.caption": {
+    "text": "Ang AIP reference code na 8000-2-03-58-002-001-000 na hinati sa pitong segment nito, bawat isa ay ipinaliwanag sa listahan sa ibaba.",
+    "src": "The AIP reference code 8000-2-03-58-002-001-000 broken into its seven segments, each explained in the list below."
+  },
+  "code.not": {
+    "text": "Dalawang bagay na {not} ginagawa ng code. Hindi ito nag-a-add up — ang code ng isang programa ay label, hindi total ng mga entry sa ilalim nito. At wala itong dala na taon, kaya ang parehong code ay ini-issue ulit para sa susunod na budget.",
+    "src": "Two things the code does {not} do. It does not add up — a program’s code is a label, not a total of the entries beneath it. And it carries no year, so the same code is issued again for the next budget."
+  },
+  "code.notWord": {
+    "text": "hindi",
+    "src": "not"
+  },
+  "money.appropriation.step": {
+    "text": "Appropriation",
+    "src": "Appropriation"
+  },
+  "money.appropriation.what": {
+    "text": "Ang ordinance ay nag-a-approve ng amount para sa isang layunin. Ito ay permiso para gumastos.",
+    "src": "The ordinance authorizes an amount for a purpose. Permission to spend."
+  },
+  "money.allotment.step": {
+    "text": "Allotment",
+    "src": "Allotment"
+  },
+  "money.allotment.what": {
+    "text": "Ang opisina ay binibigyan na ng awtoridad na simulang i-commit ang perang iyon.",
+    "src": "The office is released the authority to start committing that money."
+  },
+  "money.obligation.step": {
+    "text": "Obligation",
+    "src": "Obligation"
+  },
+  "money.obligation.what": {
+    "text": "May pinirmahang kontrata o nag-run ng payroll. Ang {lgu} ay nakatali nang magbayad.",
+    "src": "A contract is signed or a payroll run. The {lgu} is now bound to pay."
+  },
+  "money.disbursement.step": {
+    "text": "Disbursement",
+    "src": "Disbursement"
+  },
+  "money.disbursement.what": {
+    "text": "Tuluyan nang lumabas ang pera sa treasury. Dito pa lang nagastos ang pera.",
+    "src": "Cash actually leaves the treasury. Only now has money been spent."
+  },
+  "money.thisSite": {
+    "text": "Ang site na ito",
+    "src": "This site"
+  },
+  "money.caption": {
+    "text": "Bawat figure sa site na ito ay unang hakbang. Kung ang pera ay na-commit o aktwal na nabayad ay sinasagot sa accountability reports ng {lgu}, hindi dito.",
+    "src": "Every figure on this site is step one. Whether the money was committed or actually paid is answered in the {lgu}’s accountability reports, not here."
+  },
+  "ppa.program": {
+    "text": "Programa",
+    "src": "Program"
+  },
+  "ppa.programNote": {
+    "text": "Ang halaga nito ay ang sum ng mga entry sa ibaba",
+    "src": "Its amount is the sum of the entries below"
+  },
+  "ppa.project": {
+    "text": "Proyekto",
+    "src": "Project"
+  },
+  "ppa.projectNote": {
+    "text": "May end date",
+    "src": "Has an end date"
+  },
+  "ppa.activity": {
+    "text": "Aktibidad",
+    "src": "Activity"
+  },
+  "ppa.activityNote": {
+    "text": "Patuloy na trabaho",
+    "src": "Ongoing work"
+  },
+  "ppa.recordedHere": {
+    "text": "{note} · dito nakatala ang pera",
+    "src": "{note} · the money is recorded here"
+  },
+  "ppa.caption": {
+    "text": "Kaya kung ang isang programa at ang nag-iisang entry sa loob nito ay nagpapakita ng parehong amount, iyon ay isang amount na inilalarawan sa dalawang antas — hindi dalawang amount. Maraming programa ang walang nakalistang proyekto o aktibidad; ang sarili nilang amount na lang ang nakasaad.",
+    "src": "So if a program and the one entry inside it show the same amount, that is one amount described at two levels — not two amounts. Many programs list no projects or activities at all; they state their own amount instead."
+  },
+  "glossary.meta.title": {
+    "text": "Glossary | Learn | {siteName}",
+    "src": "Glossary | Learn | {siteName}"
+  },
+  "glossary.meta.ogTitle": {
+    "text": "Glossary | {siteName}",
+    "src": "Glossary | {siteName}"
+  },
+  "glossary.meta.description": {
+    "text": "Lahat ng budget term na ginagamit sa {siteName}, sa simpleng pananalita: ang mga dokumento, paano gumagalaw ang pera, ang mga pondo, at kung sino ang nagdedesisyon.",
+    "src": "Every budget term the {siteName} uses, in plain language: the documents, how money moves, the funds, and who decides."
+  },
+  "glossary.hero.eyebrow": {
+    "text": "Learn · Glossary",
+    "src": "Learn · Glossary"
+  },
+  "glossary.hero.title": {
+    "text": "{count} term na ipinapalagay ng mga dokumento na alam mo na.",
+    "src": "{count} terms the documents assume you know."
+  },
+  "glossary.hero.body": {
+    "text": "Mga termino lang na talagang makikita mo sa site na ito. Bawat isa ay payak na pagpapakahulugan; para sa anumang babanggitin mo nang pormal, gamitin ang opisyal na dokumento.",
+    "src": "Only terms you will actually meet on this site. Each is a plain-language paraphrase; for anything you intend to cite, use the official document."
+  },
+  "glossary.outline": {
+    "text": "Mga seksyon ng Glossary",
+    "src": "Glossary sections"
+  },
+  "glossary.paraphrased": {
+    "text": "Halaw mula sa {source}.",
+    "src": "Paraphrased from {source}."
+  },
+  "glossary.termsNote": {
+    "text": "Ang mga budget term ay pinananatili sa English, gaya ng paglitaw ng mga ito sa mga dokumento ng {lgu}.",
+    "src": "Budget terms are kept in English, as they appear in the {lgu}’s documents."
+  },
+  "section.tab.overview": {
+    "text": "Overview",
+    "src": "Overview"
+  },
+  "section.tab.browse": {
+    "text": "Browse",
+    "src": "Browse"
+  },
+  "section.tab.receipts": {
+    "text": "Kita",
+    "src": "Income"
+  },
+  "section.tab.spending": {
+    "text": "Gastusin",
+    "src": "Spending"
+  },
+  "section.tab.methodology": {
+    "text": "Methodology",
+    "src": "Methodology"
+  },
+  "section.fiscalYear": {
+    "text": "Fiscal year",
+    "src": "Fiscal year"
+  },
+  "section.archivePdfs": {
+    "text": "{from}–{to} bilang mga PDF",
+    "src": "{from}–{to} as PDFs"
+  },
+  "section.other.enacted": {
+    "text": "Naipasa na ng {lgu} ang budget nito para sa {fy}. Ipinapakita ng page na ito ang planong pinagmulan nito.",
+    "src": "The {lgu} has enacted its {fy} budget. This page shows the plan it started from."
+  },
+  "section.other.enactedLink": {
+    "text": "Basahin ang naisabatas na budget para sa {fy}",
+    "src": "Read the enacted {fy} budget"
+  },
+  "section.other.isEnacted": {
+    "text": "Ito ang budget na ipinatupad ng {lgu} para sa {fy}.",
+    "src": "This is the budget the {lgu} enacted for {fy}."
+  },
+  "section.other.isEnactedLink": {
+    "text": "Basahin ang planong pinagmulan nito",
+    "src": "Read the plan it started from"
+  },
+  "handoff.eyebrow": {
+    "text": "Ngayon, simulan nang suriin",
+    "src": "Now dig in"
+  },
+  "handoff.title": {
+    "text": "Nagtatapos ang kuwento kung saan nagsisimula ang trabaho.",
+    "src": "The story ends where the work starts."
+  },
+  "handoff.browse": {
+    "text": "Browse",
+    "src": "Browse"
+  },
+  "handoff.browseGloss": {
+    "text": "lahat ng {count} {noun}, searchable, hanggang sa sentimo",
+    "src": "all {count} {noun}, searchable, to the centavo"
+  },
+  "handoff.methodology": {
+    "text": "Methodology",
+    "src": "Methodology"
+  },
+  "handoff.methodologyGloss": {
+    "text": "kung saan nanggaling ang mga numerong ito, at kung ano ang hindi nila sinasama",
+    "src": "where these figures come from, and what they leave out"
+  },
+  "handoff.learn": {
+    "text": "Learn",
+    "src": "Learn"
+  },
+  "handoff.learnGloss": {
+    "text": "paano ginagawa ang budget, at kung ano ang ibig sabihin ng mga termino",
+    "src": "how the budget is made, and what the words mean"
+  },
+  "handoff.noun.entries": {
+    "text": "mga entry",
+    "src": "entries"
+  },
+  "bar.name": {
+    "text": "Pangalan",
+    "src": "Name"
+  },
+  "bar.countHeading": {
+    "text": "Mga Programa",
+    "src": "Programs"
+  },
+  "bar.empty": {
+    "text": "Wala pang nailalathala",
+    "src": "Nothing published yet"
+  },
+  "bar.more": {
+    "text": "{count} pa, bawat isa ay mas maliit kaysa nauna.",
+    "src": "{count} more, each smaller than the last."
+  },
+  "bar.seeAll": {
+    "text": "Tingnan lahat",
+    "src": "See them all"
+  },
+  "stacked.class": {
+    "text": "Uri ng gastos",
+    "src": "Expense class"
+  },
+  "stacked.share": {
+    "text": "Bahagi",
+    "src": "Share"
+  },
+  "stacked.amount": {
+    "text": "Halaga",
+    "src": "Amount"
+  },
+  "outline.title": {
+    "text": "Sa pahinang ito",
+    "src": "On this page"
+  },
+  "outline.close": {
+    "text": "Isara ang outline",
+    "src": "Close outline"
+  },
+  "aipov.meta.description": {
+    "text": "Ano ang laman ng draft na Annual Investment Program ng {place} sa ngayon — ang mga programang nakalathala, mula sa aling mga opisina, at ano ang layunin ng mga ito.",
+    "src": "What {place}'s draft Annual Investment Program contains so far — the programs published, by which offices, and what they are meant to achieve."
+  },
+  "aipov.meta.title": {
+    "text": "Buod | Annual Investment Program {year} | {place}",
+    "src": "Overview | Annual Investment Program {year} | {place}"
+  },
+  "aipov.s.what-this-is": {
+    "text": "Ano ito",
+    "src": "What this is"
+  },
+  "aipov.s.whats-in-it": {
+    "text": "Ano ang laman nito",
+    "src": "What's in it"
+  },
+  "aipov.s.whos-asking": {
+    "text": "Sino ang humihingi",
+    "src": "Who's asking"
+  },
+  "aipov.s.what-it-buys": {
+    "text": "Ano ang binibili nito",
+    "src": "What it buys"
+  },
+  "aipov.s.where-it-comes-from": {
+    "text": "Saan ito nanggagaling",
+    "src": "Where it comes from"
+  },
+  "aipov.s.vs-last-year": {
+    "text": "Kumpara sa nakaraang taon",
+    "src": "Against last year"
+  },
+  "aipov.link.browseNote": {
+    "text": "bawat entry",
+    "src": "every entry"
+  },
+  "aipov.link.learnNote": {
+    "text": "simpleng pananalita",
+    "src": "plain language"
+  },
+  "aipov.plan.of": {
+    "text": "{n} ng {total}",
+    "src": "{n} of {total}"
+  },
+  "aipov.plan.lede1": {
+    "text": "Ang Annual Investment Program ay ang pinaplanong gawin ng mga opisina ng {lgu} sa susunod na taon. Bawat opisina ay naghahanda ng sarili nito at nagla-lathala kapag handa na, kaya ang pahinang ito ay napupuno sa loob ng ilang buwan — at hangga't hindi pa ito buo, ang mga numerong nasa ibaba ay naglalarawan ng {published}, hindi ng gagastusin ng {lgu}.",
+    "src": "The Annual Investment Program is what the {lgu}’s offices propose to do next year. Each office prepares its own and publishes when it is ready, so this page fills up over months — and until it is full, the figures below describe {published}, not what the {lgu} will spend."
+  },
+  "aipov.plan.published": {
+    "text": "kung ano ang na-publish na",
+    "src": "what has been published"
+  },
+  "aipov.plan.lede2": {
+    "text": "Ito ay nagiging Annual Budget lamang pagkatapos itong pagtibayin ng Sanggunian. Ang huling nakapagpatibay nito ay ang {link}.",
+    "src": "It becomes the Annual Budget only after the Sanggunian enacts it. The last one that did is {link}."
+  },
+  "aipov.plan.priorLink": {
+    "text": "ang naipasang budget ng {fy}",
+    "src": "the enacted {fy} budget"
+  },
+  "aipov.plan.noPrior": {
+    "text": "wala pa sa site na ito",
+    "src": "not yet on this site"
+  },
+  "aipov.stat.proposed": {
+    "text": "kabuuang tantiya para sa FY {fy} — gastos ng mga planong programa, hindi ito budget",
+    "src": "estimated so far for FY {fy} — the cost of planned programs, not a budget"
+  },
+  "aipov.stat.offices": {
+    "text": "mga opisina ng {lgu} ang nag-publish. May {left} pang darating, at bawat isa sa kanila ay magpapagalaw ng mga numerong ito.",
+    "src": "{lguAdj} offices have published. {left} still to come, and every one of them will move these figures."
+  },
+  "aipov.stat.programs": {
+    "text": "mga programang nai-publish, sa {n} ng {total} {goals}",
+    "src": "programmes published, across {n} of {total} {goals}"
+  },
+  "aipov.truncated": {
+    "text": "Ang cycle na ito ay may mas maraming programa kaysa sa kaya ng isang request, kaya bawat figure sa page na ito ay partial sum. Ang {browse} page ang authoritative.",
+    "src": "This cycle holds more programmes than one request returns, so every figure on this page is a partial sum. The {browse} page is authoritative."
+  },
+  "aipov.fl.all": {
+    "text": "Lahat ng {total} {goals} ay may proposal na laban sa mga ito.",
+    "src": "All {total} {goals} have something proposed against them."
+  },
+  "aipov.fl.some.one": {
+    "text": "{count} {goal} pa lang ang may nakalatag na proposal.",
+    "src": "{count} {goal} has anything proposed against it yet."
+  },
+  "aipov.fl.some.other": {
+    "text": "{count} {goals} pa lang ang may nakalatag na proposal.",
+    "src": "{count} {goals} have anything proposed against it yet."
+  },
+  "aipov.fl.lede": {
+    "text": "Bawat programa ay naka-file sa ilalim ng isa sa mga {link} ng {lgu}. Ang {goal} na walang nakalagay ay hindi ibig sabihin na tumigil na ang {lgu} sa pagtatrabaho dito — ibig sabihin lang na hindi pa nai-publish ng mga opisina na may hawak nito ang kanilang mga plano.",
+    "src": "Every programme is filed against one of the {lgu}’s {link}. A {goal} with nothing beside it does not mean the {lgu} has stopped working on it — it means the offices that own it have not published their plans yet."
+  },
+  "aipov.fl.caption": {
+    "text": "Estimated cost ayon sa {goal}, Annual Investment Program {fy}",
+    "src": "Estimated cost by {goal}, Annual Investment Program {fy}"
+  },
+  "aipov.programs.one": {
+    "text": "{count} programa",
+    "src": "{count} programme"
+  },
+  "aipov.programs.other": {
+    "text": "{count} mga programa",
+    "src": "{count} programmes"
+  },
+  "aipov.noneYet": {
+    "text": "wala pa",
+    "src": "none yet"
+  },
+  "aipov.who.one": {
+    "text": "Isang opisina, {office}, ang nag-a-account para sa {share} ng lahat ng nai-publish so far.",
+    "src": "One office, {office}, accounts for {share} of everything published so far."
+  },
+  "aipov.who.many": {
+    "text": "{count} mga opisina ang nagsumite ng plano.",
+    "src": "{count} offices have put forward a plan."
+  },
+  "aipov.who.lede": {
+    "text": "Ang mga opisina ay naka-grupo sa mga cluster na share ng isang {goal}. Maaga pa sa cycle, ang mga total na ito ay mas nagsasabi kung sino ang tapos na sa kanilang paperwork kaysa sa mga priority ng {lgu}.",
+    "src": "Offices are grouped into clusters that share a {goal}. Early in the cycle these totals say more about who has finished their paperwork than about the {lgu}’s priorities."
+  },
+  "aipov.who.byCluster": {
+    "text": "Ayon sa cluster",
+    "src": "By cluster"
+  },
+  "aipov.who.byOffice": {
+    "text": "Ayon sa implementing office",
+    "src": "By implementing office"
+  },
+  "aipov.who.clusterCaption": {
+    "text": "Estimated cost ayon sa cluster, Annual Investment Program {fy}",
+    "src": "Estimated cost by cluster, Annual Investment Program {fy}"
+  },
+  "aipov.who.officeCaption": {
+    "text": "Estimated cost ayon sa implementing office, Annual Investment Program {fy}",
+    "src": "Estimated cost by implementing office, Annual Investment Program {fy}"
+  },
+  "aipov.who.more": {
+    "text": "I-browse ang bawat opisina",
+    "src": "Browse every office"
+  },
+  "aipov.buys.none": {
+    "text": "Wala pang opisina na nag-breakdown ng plano ayon sa klasipikasyon ng gastos.",
+    "src": "No office has broken its plan down by kind of spending yet."
+  },
+  "aipov.buys.claim": {
+    "text": "Sa mga nacost out, {share} ay para sa isang bagay na pangmatagalan.",
+    "src": "Of what has been costed, {share} builds something that lasts."
+  },
+  "aipov.buys.lede": {
+    "text": "Bawat piso ay isa sa tatlong uri: pambayad sa tao, pagpapatakbo ng serbisyo, o pagbili ng isang bagay na tatagal nang lampas sa taon.",
+    "src": "Every peso is one of three kinds: paying people, running services, or buying something that outlives the year."
+  },
+  "aipov.buys.partial": {
+    "text": "{n} ng {total} na-publish na programa ang na-breakdown nang ganito kalayo; ang iba pa ay may dalang iisang figure na walang split.",
+    "src": "{n} of {total} published programmes have been broken down this far; the rest carry a single figure with no split."
+  },
+  "aipov.buys.caption": {
+    "text": "Estimated cost ayon sa expense class, Annual Investment Program {fy}",
+    "src": "Estimated cost by expense class, Annual Investment Program {fy}"
+  },
+  "aipov.buys.empty": {
+    "text": "Lalabas ang breakdown dito kapag nag-cost out na ang mga opisina ng kanilang mga plano. Sa ngayon, iisang tantiya pa lang ang dala ng bawat programa.",
+    "src": "The breakdown appears here as offices cost their plans out. Until then each programme carries only a single estimated figure."
+  },
+  "expense.ps": {
+    "text": "Personnel",
+    "src": "Personnel"
+  },
+  "expense.psGloss": {
+    "text": "mga sahod, allowance at benepisyo",
+    "src": "salaries, allowances and benefits"
+  },
+  "expense.mooe": {
+    "text": "Operating",
+    "src": "Operating"
+  },
+  "expense.mooeGloss": {
+    "text": "ang gastos ng pagpapatakbo ng mga serbisyo sa araw-araw",
+    "src": "the cost of running services day to day"
+  },
+  "expense.fe": {
+    "text": "Financial charges",
+    "src": "Financial charges"
+  },
+  "expense.feGloss": {
+    "text": "bank charges, interes at iba pang financial costs",
+    "src": "bank charges, interest and other financial costs"
+  },
+  "expense.co": {
+    "text": "Capital",
+    "src": "Capital"
+  },
+  "expense.coGloss": {
+    "text": "mga gusali, equipment at iba pang pangmatagalang asset",
+    "src": "buildings, equipment and other lasting assets"
+  },
+  "aipov.fund.claim": {
+    "text": "Karamihan dito ay dapat manggaling sa {fund}.",
+    "src": "Most of it is meant to come from the {fund}."
+  },
+  "aipov.fund.none": {
+    "text": "Wala pang nakalaang pondo para sa mga planong ito.",
+    "src": "No fund has been named against these plans yet."
+  },
+  "aipov.fund.lede": {
+    "text": "Ang isang {lgu} ay kumukuha sa higit sa iisang pitaka — ang general fund, ang school fund, ang disaster fund, at pera mula sa national agencies. Bawat entry ay pinapangalanan ang mga pondong pagkukunan nito pero hindi kung magkano ang manggagaling sa bawat isa, kaya ang isang entry na nagbabanggit ng ilan ay binibilang nang isang beses at ipinapakitang hiwalay imbes na hinahati.",
+    "src": "A {lgu} draws on more than one purse — the general fund, the school fund, the disaster fund, money from national agencies. Each entry names the funds it draws on but not how much comes from each, so an entry naming several is counted once and shown separately rather than split."
+  },
+  "aipov.fund.caption": {
+    "text": "Estimated cost ayon sa fund source, Annual Investment Program {fy}",
+    "src": "Estimated cost by fund source, Annual Investment Program {fy}"
+  },
+  "entries.one": {
+    "text": "{count} entry",
+    "src": "{count} entry"
+  },
+  "entries.other": {
+    "text": "{count} entries",
+    "src": "{count} entries"
+  },
+  "entries.heading": {
+    "text": "Mga Entry",
+    "src": "Entries"
+  },
+  "aipov.vs.eyebrow": {
+    "text": "Laban sa {prior}",
+    "src": "Against {prior}"
+  },
+  "aipov.vs.measured": {
+    "text": "Sinusukat laban sa enacted na {prior} budget.",
+    "src": "Measured against the enacted {prior} budget."
+  },
+  "aipov.vs.above": {
+    "text": "Mas mataas ang estimated cost sa ngayon kumpara sa kabuuang budget ng {prior}, ng {pct}.",
+    "src": "The estimated cost so far is above the whole {prior} budget, by {pct}."
+  },
+  "aipov.vs.below": {
+    "text": "Mas mababa ang estimated cost sa ngayon kumpara sa kabuuang budget ng {prior}, ng {pct}.",
+    "src": "The estimated cost so far is below the whole {prior} budget, by {pct}."
+  },
+  "aipov.vs.lede": {
+    "text": "Ang plano at ang batas ay hindi pareho ng uri ng numero, kaya basahin lamang ito bilang general na direksyon at hindi bilang pinal na hatol — at tandaan na {n} sa {total} opisina pa lang ang naglathala, kaya hindi pa tapos ang plano. Nasa site na ito ang buong {link}.",
+    "src": "A plan and a law are not the same kind of number, so read this as a direction of travel rather than a verdict — and note that {n} of {total} offices have published, so the plan is not finished. {link} is on this site in full."
+  },
+  "aipov.vs.link": {
+    "text": "Ang {prior} budget",
+    "src": "The {prior} budget"
+  },
+  "aipov.vs.caption": {
+    "text": "Tantiyang {fy} kumpara sa enacted na {prior}",
+    "src": "Estimated {fy} against enacted {prior}"
+  },
+  "aipov.vs.proposed": {
+    "text": "Tantiya para sa {fy}",
+    "src": "Estimated for {fy}"
+  },
+  "aipov.vs.proposedSub": {
+    "text": "sa ngayon, at sinusulat pa",
+    "src": "so far, and still being written"
+  },
+  "aipov.vs.enacted": {
+    "text": "Enacted para sa {prior}",
+    "src": "Enacted for {prior}"
+  },
+  "aipov.vs.enactedSub": {
+    "text": "kumpleto at may bisa",
+    "src": "complete and in force"
+  },
+  "aipov.plan.claimLead": {
+    "text": "Isang planong sinusulat, hindi isang budget.",
+    "src": "A plan being written, not a budget."
+  },
+  "aipov.plan.claimRest": {
+    "text": "{count} opisina ang nag-publish sa ngayon.",
+    "src": "{count} offices have published so far."
+  },
+  "annov.meta.description": {
+    "text": "Kung saan napupunta ang enacted Annual Budget ng {place} — ayon sa layunin, opisina, expense class at pondo.",
+    "src": "Where {place}'s enacted Annual Budget goes — by purpose, by office, by expense class and by fund."
+  },
+  "annov.meta.title": {
+    "text": "Overview | Annual Budget {year} | {place}",
+    "src": "Overview | Annual Budget {year} | {place}"
+  },
+  "annov.s.this-is-law": {
+    "text": "Ano ito",
+    "src": "What this is"
+  },
+  "annov.s.what-its-for": {
+    "text": "Para saan ito",
+    "src": "What it's for"
+  },
+  "annov.s.who-spends-it": {
+    "text": "Sino ang gumagastos nito",
+    "src": "Who spends it"
+  },
+  "annov.s.three-sections": {
+    "text": "Ang tatlong seksyon",
+    "src": "The three sections"
+  },
+  "annov.s.what-it-buys": {
+    "text": "Ano ang binibili nito",
+    "src": "What it buys"
+  },
+  "annov.s.where-it-comes-from": {
+    "text": "Saan ito nanggagaling",
+    "src": "Where it comes from"
+  },
+  "annov.law.lead": {
+    "text": "Ito ay batas.",
+    "src": "This one is law."
+  },
+  "annov.law.rest": {
+    "text": "Ang budget na ipinasa ng Sanggunian para sa {fy}, nang buo.",
+    "src": "The budget the Sanggunian enacted for {fy}, in full."
+  },
+  "annov.law.lede1": {
+    "text": "Lahat ng numero sa pahinang ito ay pinal na. Hindi ito proposal o forecast — ito ang appropriation ordinance na ipinasa ng {lguAdj} council, nakatala rito nang eksakto ayon sa nakalimbag na libro, hanggang sa huling sentimo.",
+    "src": "Every figure on this page is settled. This is not a proposal or a forecast — it is the appropriation ordinance the {lguAdj} council passed, recorded here exactly as the printed book states it, down to the centavo."
+  },
+  "annov.law.lede2": {
+    "text": "Ang appropriation ay permiso para gumastos, hindi ang aktwal na paggastos. Kung magkano talaga ang ibinayad ay ibang usapan, na sinasagot sa sariling accountability reports ng {lgu} at hindi rito.",
+    "src": "An appropriation is permission to spend, not spending. What was actually paid out is a separate question, answered in the {lgu}’s own accountability reports rather than here."
+  },
+  "annov.law.next": {
+    "text": "Ang plano para sa susunod na taon ay {link}, kasalukuyan pang sinusulat.",
+    "src": "The plan for next year is {link}, still being written."
+  },
+  "annov.law.nextLink": {
+    "text": "ang {fy} Annual Investment Program",
+    "src": "the {fy} Annual Investment Program"
+  },
+  "annov.stat.stated": {
+    "text": "ipinasa para sa FY {fy}: {office} para sa mga {lguAdj} office at {special} sa special purpose appropriations",
+    "src": "enacted for FY {fy}: {office} for {lguAdj} offices and {special} in special purpose appropriations"
+  },
+  "annov.stat.statedBy": {
+    "text": "ipinasa para sa FY {fy} ng {source}: {office} para sa mga {lguAdj} office at {special} sa special purpose appropriations",
+    "src": "enacted for FY {fy} by {source}: {office} for {lguAdj} offices and {special} in special purpose appropriations"
+  },
+  "annov.stat.enacted": {
+    "text": "ipinasa para sa FY {fy}",
+    "src": "enacted for FY {fy}"
+  },
+  "annov.stat.entries": {
+    "text": "mga programa, proyekto at aktibidad, sa kabuuan ng {count} {lguAdj} offices",
+    "src": "programmes, projects and activities, across {count} {lguAdj} offices"
+  },
+  "annov.stat.capital": {
+    "text": "pumupunta sa capital outlay — mga gusali, equipment, kahit anong bagay na tatagal nang higit sa isang taon",
+    "src": "goes to capital outlay — buildings, equipment, anything that outlives the year"
+  },
+  "annov.for.claim": {
+    "text": "{share} nito ay nakatutok sa iisang {goal}: {line}.",
+    "src": "{share} of it is aimed at one {goal}: {line}."
+  },
+  "annov.for.none": {
+    "text": "Kung saan nakatutok ang budget.",
+    "src": "What the budget is aimed at."
+  },
+  "annov.for.lede": {
+    "text": "Bawat entry ay naka-file laban sa isa sa mga {link} ng {lgu}. Ang enacted book mismo ay hindi nagsasaad ng {goal}, kaya ang mga ito ay assigned mula sa opisina na nagpapatupad ng bawat entry — isang magandang guide sa intent, hindi isang claim na ginagawa ng ordinance.",
+    "src": "Each entry is filed against one of the {lgu}’s {link}. The enacted book does not state a {goal} itself, so these are assigned from the office that implements each entry — a good guide to intent, not a claim the ordinance makes."
+  },
+  "annov.for.caption": {
+    "text": "Ipinasang halaga ayon sa {goal}, Annual Budget {fy}",
+    "src": "Enacted amount by {goal}, Annual Budget {fy}"
+  },
+  "annov.none": {
+    "text": "wala",
+    "src": "none"
+  },
+  "annov.who.three": {
+    "text": "Tatlong opisina ang gumagastos ng {share} nito sa pagitan nila.",
+    "src": "Three offices spend {share} of it between them."
+  },
+  "annov.who.many": {
+    "text": "{count} na opisina ang may hawak ng budget.",
+    "src": "{count} offices hold the budget."
+  },
+  "annov.who.largest": {
+    "text": "Ang pinakamalaki ay {office}, na nagkakahalaga ng {amount}. Ang mga opisina ay nakapangkat sa mga cluster na may iisang {goal}.",
+    "src": "The largest is {office}, at {amount}. Offices are grouped into clusters that share a {goal}."
+  },
+  "annov.who.lede": {
+    "text": "Ang malaking budget ay hindi katulad ng malaking staff o malaking mandato — ang mga ospital at public works ay may dalang gastos na hindi kailanman dadalhin ng isang advisory office.",
+    "src": "A large budget is not the same as a large staff or a large mandate — hospitals and public works carry costs that an advisory office never will."
+  },
+  "annov.who.clusterCaption": {
+    "text": "Ipinasang halaga ayon sa cluster, Annual Budget {fy}",
+    "src": "Enacted amount by cluster, Annual Budget {fy}"
+  },
+  "annov.who.officeCaption": {
+    "text": "Ipinasang halaga ayon sa implementing office, Annual Budget {fy}",
+    "src": "Enacted amount by implementing office, Annual Budget {fy}"
+  },
+  "annov.sec.claim": {
+    "text": "{share} ng budget ay nakalimbag sa ilalim ng {gas}.",
+    "src": "{share} of the budget prints under {gas}."
+  },
+  "annov.sec.none": {
+    "text": "Kung paano hinahati ng libro ang sarili nito.",
+    "src": "How the book divides itself."
+  },
+  "annov.sec.lede1": {
+    "text": "Bawat appropriation ay nasa isa sa tatlong bahagi ng nakalimbag na libro. Ang {ops} ay ang serbisyong nandiyan ang isang opisina para ihatid. Ang {sto} ay kung ano ang nagpapagawa niyan mula sa likod — mga rekord, sasakyan, IT. Ang {gas} ay ang gastos ng opisina mismo: mga tao nito, lugar nito, mga running cost nito.",
+    "src": "Every appropriation sits in one of three sections of the printed book. {ops} is the service an office exists to deliver. {sto} is what makes that possible from behind — records, vehicles, IT. {gas} is the cost of the office itself: its people, its premises, its running costs."
+  },
+  "annov.sec.lede2": {
+    "text": "Karamihan ng opisina ay halos lahat ng bagay ay finafile sa ilalim ng ikatlo, kaya ito ang nangingibabaw. Basahin ito bilang isang katotohanan kung paano inorganisa ang libro sa halip na bilang sukat kung gaano kalaki ang ginagastos ng {lgu} sa administrasyon.",
+    "src": "Most offices file nearly everything under the third, which is why it dominates. Read it as a fact about how the book is organised rather than as a measure of how much the {lgu} spends on administration."
+  },
+  "annov.sec.caption": {
+    "text": "Ipinasang halaga ayon sa bahagi ng libro, Annual Budget {fy}",
+    "src": "Enacted amount by section of the book, Annual Budget {fy}"
+  },
+  "annov.buys.claim": {
+    "text": "Halos wala nito ang nagtatayo ng kahit ano — {share} ay capital outlay.",
+    "src": "Almost none of this builds anything — {share} is capital outlay."
+  },
+  "annov.buys.none": {
+    "text": "Kung ano ang binibili ng pera.",
+    "src": "What the money buys."
+  },
+  "annov.buys.lede": {
+    "text": "Ang budget ng isang {lgu} ay karamihan ay tao at ang gastos para mapanatiling tumatakbo ang mga serbisyo. Hindi ito pamumuna: ang sweldo ang paraan para makapaghatid ng kalusugan ang isang health office. Pero ibig sabihin nito, ang budget ng isang taon ay mas kaunti ang naitatayo kaysa sa ipinapahiwatig ng laki nito, at ang bagong konstruksyon ay maliit na bahagi lang na nakikipagkumpitensya sa lahat ng iba pa.",
+    "src": "A {lguAdj} budget is mostly people and the cost of keeping services running. That is not a criticism: salaries are how a health office delivers health. But it does mean a year’s budget builds far less than its size suggests, and that new construction is a small slice competing with everything else."
+  },
+  "annov.buys.caption": {
+    "text": "Naipasang halaga ayon sa expense class, Annual Budget {fy}",
+    "src": "Enacted amount by expense class, Annual Budget {fy}"
+  },
+  "annov.buys.empty": {
+    "text": "Walang naitalang expense-class breakdown para sa taong ito.",
+    "src": "No expense-class breakdown was recorded for this year."
+  },
+  "annov.fund.claim": {
+    "text": "Karamihan nito ay galing sa {fund}.",
+    "src": "Most of it comes from the {fund}."
+  },
+  "annov.fund.lede": {
+    "text": "Ang isang {lgu} ay kumukuha sa higit sa isang pitaka — ang general fund, ang school fund, ang disaster fund, pera mula sa mga national agency.",
+    "src": "A {lgu} draws on more than one purse — the general fund, the school fund, the disaster fund, money from national agencies."
+  },
+  "section.lepTag": {
+    "text": "Local Expenditure Program: ang budget na iminungkahi ng {Mayor}. Hindi pa ipinapaskil ng {lgu} ang enacted na ordinance para sa taong ito, kaya ang mga figure na ito ay mula sa proposal, hindi sa aprubadong budget.",
+    "src": "Local Expenditure Program: the budget the {Mayor} proposed. The {lgu} has not yet posted the enacted ordinance for this year, so these figures are what was proposed, not what was appropriated."
+  },
+  "annov.fund.special": {
+    "text": "May mga pondo na may panuntunang itinakda ng batas. Basahin kung para saan ang bawat isa:",
+    "src": "Some funds come with rules set by law. Read what each pays for:"
+  },
+  "annov.fund.caption": {
+    "text": "Naipasang halaga ayon sa pinagmulang fund, Annual Budget {fy}",
+    "src": "Enacted amount by fund source, Annual Budget {fy}"
+  },
+  "ppmpov.meta.description": {
+    "text": "Ano ang planong bilhin ng mga opisina ng {placeName} ngayong taon — magkano, anong uri, paano ito bibilhin, kailan, at sino ang bibili — mula sa kanilang mga inilathalang procurement plan.",
+    "src": "What {placeName}'s offices plan to buy this year — how much, what kind, how it will be bought, when, and by whom — from their published procurement plans."
+  },
+  "ppmpov.meta.title": {
+    "text": "Overview | Project Procurement Management Plan {year} | {placeName}",
+    "src": "Overview | Project Procurement Management Plan {year} | {placeName}"
+  },
+  "ppmpov.s.what-this-is": {
+    "text": "Ano ito",
+    "src": "What this is"
+  },
+  "ppmpov.s.what-it-buys": {
+    "text": "Ano ang binibili nito",
+    "src": "What it buys"
+  },
+  "ppmpov.s.how-its-bought": {
+    "text": "Paano ito binibili",
+    "src": "How it is bought"
+  },
+  "ppmpov.s.when": {
+    "text": "Kailan",
+    "src": "When"
+  },
+  "ppmpov.s.whos-buying": {
+    "text": "Sino ang bumibili",
+    "src": "Who is buying"
+  },
+  "ppmpov.mode.SMALL_VALUE_PROCUREMENT": {
+    "text": "mas maliliit na pagbili, sa pamamagitan ng price quotation imbes na bidding",
+    "src": "smaller purchases, by price quotation instead of bidding"
+  },
+  "ppmpov.mode.COMPETITIVE_BIDDING": {
+    "text": "bukas, pampublikong bidding — ang default na inaasahan ng batas",
+    "src": "open, public bidding — the default the law expects"
+  },
+  "ppmpov.mode.NEGOTIATED_PROCUREMENT": {
+    "text": "direktang negosasyon, pinapayagan lang sa mga partikular na kaso",
+    "src": "direct negotiation, allowed only in specific cases"
+  },
+  "ppmpov.mode.HIGHLY_TECHNICAL_CONSULTANTS": {
+    "text": "mga specialist consultant na direktang kinuha",
+    "src": "specialist consultants hired directly"
+  },
+  "ppmpov.mode.notStated": {
+    "text": "hindi pa pinipili ng opisina kung paano",
+    "src": "the office has not chosen how yet"
+  },
+  "ppmpov.link.browseNote": {
+    "text": "bawat plano",
+    "src": "every plan"
+  },
+  "ppmpov.empty": {
+    "text": "Wala pang opisina na naglathala ng procurement plan para sa {fy}.",
+    "src": "No office has published a procurement plan for {fy} yet."
+  },
+  "ppmpov.claimLead": {
+    "text": "Ano ang planong bilhin ng {lgu}.",
+    "src": "What the {lgu} plans to buy."
+  },
+  "ppmpov.lede1": {
+    "text": "Ang isang Project Procurement Management Plan ay naglilista kung ano ang balak bilhin ng isang opisina sa isang taon — bawat item, ilan, sa anong halaga, at kailan — para ang pagbili ay maberipika laban sa budget na nagbabayad para dito. Isa-isang inilalathala ng mga opisina ang kanilang mga plano, kaya {published}, hindi lahat ng bibilhin ng {lgu}.",
+    "src": "A Project Procurement Management Plan lists what one office means to buy in a year — each item, how many, at what cost, and when — so the purchase can be checked against the budget that pays for it. Offices publish their plans one at a time, so {published}, not everything the {lgu} will buy."
+  },
+  "ppmpov.published": {
+    "text": "ang mga numero dito ay sumasaklaw sa kung ano ang nai-publish na",
+    "src": "the figures here cover what has been published"
+  },
+  "ppmpov.lede2": {
+    "text": "Ang pera mismo ay itinakda ng {link}.",
+    "src": "The money itself is set by {link}."
+  },
+  "ppmpov.budgetLink": {
+    "text": "ang {fy} {document}",
+    "src": "the {fy} {document}"
+  },
+  "ppmpov.stat.planned": {
+    "text": "plano pa lang ito para sa FY {fy} — running total, hindi ang buong plano ng {lgu}",
+    "src": "planned so far for FY {fy} — a running total, not the {lgu}’s whole plan"
+  },
+  "ppmpov.stat.offices": {
+    "text": "may mga published plan na ang mga {lguAdj} office",
+    "src": "{lguAdj} offices have published a plan"
+  },
+  "ppmpov.stat.items.one": {
+    "text": "mga item na bibilhin, sa kabuuan ng {count} plano",
+    "src": "items to buy, across {count} plan"
+  },
+  "ppmpov.stat.items.other": {
+    "text": "mga item na bibilhin, sa kabuuan ng {count} plano",
+    "src": "items to buy, across {count} plans"
+  },
+  "ppmpov.type.most": {
+    "text": "Karamihan nito ay {type}.",
+    "src": "Most of it is {type}."
+  },
+  "ppmpov.type.largest": {
+    "text": "Ang pinakamalaking bahagi ay {type}.",
+    "src": "The largest share is {type}."
+  },
+  "ppmpov.type.none": {
+    "text": "Wala pang opisina ang nagsabi kung anong klaseng purchase ang mga item nila.",
+    "src": "No office has said what kind of purchase its items are yet."
+  },
+  "ppmpov.type.lede": {
+    "text": "Ang bawat item ay isa sa apat na uri: goods na ide-deliver sa {lgu}, services na ginagawa ng tao, expertise ng consultant, o infrastructure na itinatayo.",
+    "src": "Every item is one of four kinds: goods the {lgu} takes delivery of, services someone performs, consultants’ expertise, or infrastructure that gets built."
+  },
+  "ppmpov.type.caption": {
+    "text": "Nakaplanong halaga ayon sa uri ng purchase, PPMP {fy}",
+    "src": "Planned amount by type of purchase, PPMP {fy}"
+  },
+  "items.heading": {
+    "text": "Mga Item",
+    "src": "Items"
+  },
+  "items.one": {
+    "text": "{count} item",
+    "src": "{count} item"
+  },
+  "items.other": {
+    "text": "{count} items",
+    "src": "{count} items"
+  },
+  "ppmpov.how.claim": {
+    "text": "{share} nito ay plano para sa open, competitive bidding.",
+    "src": "{share} of it is planned for open, competitive bidding."
+  },
+  "ppmpov.how.none": {
+    "text": "Wala pang opisina ang nagsabi kung paano ito bibilhin.",
+    "src": "No office has said how it will buy yet."
+  },
+  "ppmpov.how.lede": {
+    "text": "Public bidding ang panuntunan; ang ibang mode ay exceptions na pinapayagan ng batas para sa maliliit na purchases, urgent o specialized na pangangailangan. Ang share na napupunta sa bidding ay dapat bantayan.",
+    "src": "Public bidding is the rule; the other modes are exceptions the law allows for small purchases, urgent or specialized needs. The share that goes to bidding is worth watching."
+  },
+  "ppmpov.how.caption": {
+    "text": "Nakaplanong halaga ayon sa mode of procurement, PPMP {fy}",
+    "src": "Planned amount by mode of procurement, PPMP {fy}"
+  },
+  "ppmpov.when.claim": {
+    "text": "Ang pinakamalaking buwan para sa pagsisimula ng purchases ay {month}.",
+    "src": "The biggest month for starting purchases is {month}."
+  },
+  "ppmpov.when.none": {
+    "text": "Wala pang purchase na may start month.",
+    "src": "No purchase has a start month yet."
+  },
+  "ppmpov.when.lede": {
+    "text": "Bawat item ay nagsasaad kung anong buwan dapat magsimula ang procurement nito. Ang mga buwan na walang plano ay ipinapakita rin: ang gap ay bahagi ng schedule.",
+    "src": "Each item says the month its procurement is meant to begin. Months with nothing planned are shown too: a gap is part of the schedule."
+  },
+  "ppmpov.when.caption": {
+    "text": "Nakaplanong halaga ayon sa buwan ng pagsisimula ng procurement, PPMP {fy}",
+    "src": "Planned amount by procurement start month, PPMP {fy}"
+  },
+  "ppmpov.when.empty": {
+    "text": "walang plano",
+    "src": "nothing planned"
+  },
+  "ppmpov.who.one": {
+    "text": "Isang opisina, {office}, ang nagplano ng {share} sa lahat ng na-publish so far.",
+    "src": "One office, {office}, plans {share} of everything published so far."
+  },
+  "ppmpov.who.many.one": {
+    "text": "{count} office ang may published na plano.",
+    "src": "{count} office has published a plan."
+  },
+  "ppmpov.who.many.other": {
+    "text": "{count} offices ang may published na plano.",
+    "src": "{count} offices have published a plan."
+  },
+  "ppmpov.who.lede": {
+    "text": "Sa early part ng taon, ang mga total na ito ay mas nagpapakita kung aling mga opisina ang tapos na sa kanilang plano kaysa kung saan talaga mapupunta ang purchases ng {lgu}.",
+    "src": "Early in the year these totals say more about which offices have finished their plans than about where the {lgu}’s purchases will be concentrated."
+  },
+  "ppmpov.who.caption": {
+    "text": "Nakaplanong halaga ayon sa opisina, PPMP {fy}",
+    "src": "Planned amount by office, PPMP {fy}"
+  },
+  "plans.heading": {
+    "text": "Mga Plano",
+    "src": "Plans"
+  },
+  "plans.one": {
+    "text": "{count} plano",
+    "src": "{count} plan"
+  },
+  "plans.other": {
+    "text": "{count} plano",
+    "src": "{count} plans"
+  },
+  "plans.noun.one": {
+    "text": "plano",
+    "src": "plan"
+  },
+  "plans.noun.other": {
+    "text": "mga plano",
+    "src": "plans"
+  },
+  "ppmpov.also.gloss": {
+    "text": "ang {fy} pera na pagkukunan ng mga pagbiling ito",
+    "src": "the {fy} money these purchases are drawn from"
+  },
+  "lang.suggestPlaceholder": {
+    "text": "Aling mga salita ang mali, at ano ang gusto mong sabihin sa halip?",
+    "src": "Which words read wrong, and what would you say instead?"
+  },
+  "outline.elsewhere": {
+    "text": "Iba pang lugar",
+    "src": "Elsewhere"
+  },
+  "fund.multiple": {
+    "text": "Mahigit sa isang pondo",
+    "src": "More than one fund"
+  },
+  "fund.multipleSub": {
+    "text": "Binabanggit ng entry ang ilang pondo nang hindi hinahati ang halaga",
+    "src": "The entry names several funds without splitting the amount"
+  },
+  "fund.notStated": {
+    "text": "Hindi pa nakasaad ang pondo",
+    "src": "Fund not yet stated"
+  },
+  "bar.amount": {
+    "text": "Halaga",
+    "src": "Amount"
+  },
+  "bar.estimated": {
+    "text": "Estimated cost",
+    "src": "Estimated cost"
+  },
+  "bar.appropriation": {
+    "text": "Appropriation",
+    "src": "Appropriation"
+  },
+  "bar.planned": {
+    "text": "Plano",
+    "src": "Planned"
+  },
+  "nav.explore": {
+    "text": "I-explore",
+    "src": "Explore"
+  },
+  "footer.explore": {
+    "text": "I-explore ang data",
+    "src": "Explore the data"
+  },
+  "explore.meta.title": {
+    "text": "I-explore ang budget | People's Budget Portal",
+    "src": "Explore the budget | People's Budget Portal"
+  },
+  "explore.meta.description": {
+    "text": "Gumawa ng sarili mong chart mula sa bawat pampublikong taon ng investment plan ng {placeName} at annual budget, at i-share ito.",
+    "src": "Build your own chart from every public year of {placeName}'s investment plan and annual budget, and share it."
+  },
+  "explore.kicker": {
+    "text": "I-explore",
+    "src": "Explore"
+  },
+  "explore.title": {
+    "text": "Gumawa ng sarili mong chart",
+    "src": "Make your own chart"
+  },
+  "explore.lede": {
+    "text": "Piliin kung ano ang ipapakita at kung paano ito i-break down. Bawat figure ay mula sa mga published documents, at sine-save ng link sa page na ito ang iyong chart.",
+    "src": "Pick what to show and how to break it down. Every figure comes from the published documents, and the link to this page saves your chart."
+  },
+  "explore.showing": {
+    "text": "Ipinapakita",
+    "src": "Showing"
+  },
+  "explore.of": {
+    "text": "ng",
+    "src": "of"
+  },
+  "explore.by": {
+    "text": "ayon sa",
+    "src": "by"
+  },
+  "explore.as": {
+    "text": "bilang",
+    "src": "as"
+  },
+  "explore.compare": {
+    "text": "Ikumpara sa",
+    "src": "Compare with"
+  },
+  "explore.compareNone": {
+    "text": "Wala",
+    "src": "Nothing"
+  },
+  "explore.measure.money": {
+    "text": "Halaga",
+    "src": "Amount"
+  },
+  "explore.measure.count": {
+    "text": "Bilang ng mga programa",
+    "src": "Number of programs"
+  },
+  "explore.dim.office": {
+    "text": "Opisina",
+    "src": "Office"
+  },
+  "explore.dim.sector": {
+    "text": "Sektor",
+    "src": "Sector"
+  },
+  "explore.dim.fund": {
+    "text": "Pondo",
+    "src": "Fund"
+  },
+  "explore.dim.finishLine": {
+    "text": "{Goal}",
+    "src": "{Goal}"
+  },
+  "explore.dim.subFinishLine": {
+    "text": "Sub-{goal}",
+    "src": "Sub-{goal}"
+  },
+  "explore.dim.cluster": {
+    "text": "Cluster",
+    "src": "Cluster"
+  },
+  "explore.dim.theme": {
+    "text": "Tema",
+    "src": "Theme"
+  },
+  "explore.dim.topic": {
+    "text": "Paksa",
+    "src": "Topic"
+  },
+  "explore.dim.expenseClass": {
+    "text": "Expense class",
+    "src": "Expense class"
+  },
+  "explore.dim.year": {
+    "text": "Taon",
+    "src": "Year"
+  },
+  "explore.chart.bar": {
+    "text": "Bars",
+    "src": "Bars"
+  },
+  "explore.chart.stackedBar": {
+    "text": "Stacked bars",
+    "src": "Stacked bars"
+  },
+  "explore.chart.line": {
+    "text": "Line sa paglipas ng mga taon",
+    "src": "Line over years"
+  },
+  "explore.chart.table": {
+    "text": "Table lamang",
+    "src": "Table only"
+  },
+  "explore.filters": {
+    "text": "Mga filter",
+    "src": "Filters"
+  },
+  "explore.filtersCount": {
+    "text": "Mga Filter ({n})",
+    "src": "Filters ({n})"
+  },
+  "explore.filtersTitle": {
+    "text": "I-filter ang chart",
+    "src": "Narrow the chart"
+  },
+  "explore.search": {
+    "text": "Maghanap ng {dimension}",
+    "src": "Search {dimension}"
+  },
+  "explore.apply": {
+    "text": "Ipakita ang chart",
+    "src": "Show chart"
+  },
+  "explore.this": {
+    "text": "Tingnan ito",
+    "src": "Explore this"
+  },
+  "explore.applyCount": {
+    "text": "Ipakita ang {n} items · {total}",
+    "src": "Show {n} items · {total}"
+  },
+  "explore.applyCountOnly": {
+    "text": "Ipakita ang {n} items",
+    "src": "Show {n} items"
+  },
+  "explore.clearAll": {
+    "text": "I-clear lahat",
+    "src": "Clear all"
+  },
+  "explore.removeFilter": {
+    "text": "Tanggalin ang {value}",
+    "src": "Remove {value}"
+  },
+  "explore.ask.label": {
+    "text": "Magtanong tungkol sa budget",
+    "src": "Ask a question about the budget"
+  },
+  "explore.ask.placeholder": {
+    "text": "Magkano ang napupunta sa health sa 2027?",
+    "src": "How much goes to health in 2027?"
+  },
+  "explore.ask.submit": {
+    "text": "Itanong",
+    "src": "Ask"
+  },
+  "explore.ask.hint": {
+    "text": "Pwede in English, Filipino o Bikol. Pwede ring gamitin ang voice typing ng phone mo. Ang tanong mo ay hindi naka-share sa link.",
+    "src": "In English, Filipino or Bikol. You can also use your phone's voice typing. Your question is not shared in the link."
+  },
+  "explore.ask.working": {
+    "text": "Ginagawa ang iyong chart…",
+    "src": "Working out your chart…"
+  },
+  "explore.ask.understood": {
+    "text": "Ang pagkakaintindi: {understood}",
+    "src": "Understood as: {understood}"
+  },
+  "explore.ask.matched": {
+    "text": "Tumutugma ito sa isang tanong na madalas itanong. Ipinapakita ito ng chart sa baba.",
+    "src": "This matches a question people often ask. The chart below shows it."
+  },
+  "explore.ask.nearest": {
+    "text": "Medyo mahirap intindihin yun, kaya ito ang pinakamalapit na chart na mayroon kami. Baguhin ang menus sa baba kung hindi ito tama.",
+    "src": "That one was hard to work out, so here is the closest chart we have. Change the menus below if it is not right."
+  },
+  "explore.ask.notUnderstood": {
+    "text": "Hindi yun magawang chart. Subukan ang isa sa mga ito, o magtanong sa ibang paraan.",
+    "src": "That could not be turned into a chart. Try one of these, or ask in a different way."
+  },
+  "explore.ask.resting": {
+    "text": "Ang mga bagong tanong ay nagpapahinga muna ngayong araw. Subukan ang isa sa mga tanong na madalas itanong:",
+    "src": "New questions are resting for today. Try one of these questions people often ask:"
+  },
+  "explore.ask.guessedLine": {
+    "text": "Ang hula: {fields}. Baguhin ang mga ito sa menus sa baba kung mali.",
+    "src": "Guessed: {fields}. Change them in the menus below if they are wrong."
+  },
+  "explore.ask.guessed.year": {
+    "text": "ang taon",
+    "src": "the year"
+  },
+  "explore.ask.guessed.document": {
+    "text": "ang dokumento",
+    "src": "the document"
+  },
+  "explore.ask.guessed.groupBy": {
+    "text": "ang breakdown",
+    "src": "the breakdown"
+  },
+  "explore.ask.guessed.measure": {
+    "text": "halaga o bilang",
+    "src": "amount or count"
+  },
+  "explore.ask.guessed.filters": {
+    "text": "ang mga filter",
+    "src": "the filters"
+  },
+  "explore.ask.guessed.chart": {
+    "text": "ang uri ng chart",
+    "src": "the chart type"
+  },
+  "explore.ask.notWhatYouMeant": {
+    "text": "Hindi ito ang gusto mong sabihin? I-edit ang tanong mo",
+    "src": "Not what you meant? Edit your question"
+  },
+  "explore.ask.feedback": {
+    "text": "Nasagot ba nito ang tanong mo?",
+    "src": "Did this answer your question?"
+  },
+  "explore.ask.limit": {
+    "text": "Marami ka nang naitanong sa maikling panahon. Pakihintay nang kaunti at subukan ulit.",
+    "src": "You have asked a lot of questions in a short time. Please wait a little and try again."
+  },
+  "explore.ask.failed": {
+    "text": "Hindi gumana iyon. Pakisubukan ulit mamaya.",
+    "src": "That did not work. Please try again later."
+  },
+  "explore.mic.speak": {
+    "text": "Magsalita",
+    "src": "Speak"
+  },
+  "explore.mic.stop": {
+    "text": "Tumigil ({seconds} s ang natitira)",
+    "src": "Stop ({seconds} s left)"
+  },
+  "explore.mic.listening": {
+    "text": "Nakikinig. Sabihin ang tanong mo, tapos pindutin ang Stop.",
+    "src": "Listening. Say your question, then press Stop."
+  },
+  "explore.mic.hearing": {
+    "text": "Sinusulat ang sinabi mo…",
+    "src": "Writing down what you said…"
+  },
+  "explore.mic.heard": {
+    "text": "Ito ang narinig namin. I-check at iwasto ang mga salita, tapos pindutin ang Ask.",
+    "src": "Here is what we heard. Check it and fix any words, then press Ask."
+  },
+  "explore.mic.error.denied": {
+    "text": "Hindi allowed ang microphone. I-allow ito sa browser mo, o i-type ang tanong mo.",
+    "src": "The microphone is not allowed. Allow it in your browser, or type your question."
+  },
+  "explore.mic.error.empty": {
+    "text": "Walang narinig. Subukan ulit nang medyo malapit sa phone, o i-type ang tanong mo.",
+    "src": "Nothing was heard. Try again a little closer to the phone, or type your question."
+  },
+  "explore.mic.error.limit": {
+    "text": "Masyado mong nagamit ang microphone sa maikling panahon. Paki-type na lang ang tanong mo, o subukan ulit mamaya.",
+    "src": "You have used the microphone a lot in a short time. Please type your question, or try again later."
+  },
+  "explore.mic.error.failed": {
+    "text": "Hindi 'yan gumana. Paki-type ang tanong mo, o subukan ulit mamaya.",
+    "src": "That did not work. Please type your question, or try again later."
+  },
+  "explore.cards.heading": {
+    "text": "Mga madalas itanong",
+    "src": "Questions people ask"
+  },
+  "explore.total": {
+    "text": "Total",
+    "src": "Total"
+  },
+  "explore.other": {
+    "text": "Iba pa ({n} pang item)",
+    "src": "Other ({n} more)"
+  },
+  "explore.notes": {
+    "text": "Basahin muna ito",
+    "src": "Read this first"
+  },
+  "explore.invalid": {
+    "text": "Hindi maipakita ang link na 'yan kaya ito muna ang starting chart.",
+    "src": "That link could not be shown as it was, so here is the starting chart instead."
+  },
+  "explore.source": {
+    "text": "Source: {documents}. People's Budget Portal, {government}.",
+    "src": "Source: {documents}. People's Budget Portal, {government}."
+  },
+  "explore.empty": {
+    "text": "Walang tugma sa mga filter na ito. Mag-alis ng isa para makakita ng iba.",
+    "src": "Nothing matches these filters. Remove one to see more."
+  },
+  "explore.tableCaption": {
+    "text": "{title}, bilang table",
+    "src": "{title}, as a table"
+  },
+  "explore.share": {
+    "text": "I-share o i-download",
+    "src": "Share or download"
+  },
+  "explore.share.note": {
+    "text": "Kahit sino na may link na ito ay makikita ang eksaktong chart na ito.",
+    "src": "Anyone with this link sees this exact chart."
+  },
+  "explore.share.copy": {
+    "text": "Kopyahin ang link",
+    "src": "Copy link"
+  },
+  "explore.share.copied": {
+    "text": "Nakopya",
+    "src": "Copied"
+  },
+  "explore.share.facebook": {
+    "text": "Facebook",
+    "src": "Facebook"
+  },
+  "explore.share.messenger": {
+    "text": "Messenger",
+    "src": "Messenger"
+  },
+  "explore.share.png": {
+    "text": "Larawan (PNG)",
+    "src": "Picture (PNG)"
+  },
+  "explore.share.svg": {
+    "text": "Larawan (SVG)",
+    "src": "Picture (SVG)"
+  },
+  "explore.share.csv": {
+    "text": "Spreadsheet (CSV)",
+    "src": "Spreadsheet (CSV)"
+  },
+  "explore.share.xlsx": {
+    "text": "Excel (XLSX)",
+    "src": "Excel (XLSX)"
+  },
+  "explore.programs": {
+    "text": "Mga programa ng {n}",
+    "src": "{n} programs"
+  },
+  "explore.announce": {
+    "text": "Ipinapakita ngayon ang {title}. Kabuuan: {totals}.",
+    "src": "Now showing {title}. Total: {totals}."
+  },
+  "explore.announceLatest": {
+    "text": "Ipinapakita ngayon: {title}. Pinakabagong taon: {totals}.",
+    "src": "Now showing {title}. Latest year: {totals}."
+  },
+  "explore.explain.button": {
+    "text": "Ipaliwanag ang chart na ito",
+    "src": "Explain this chart"
+  },
+  "explore.explain.headline": {
+    "text": "{series}: {total} lahat-lahat, sa kabuuang {n} {countWord}.",
+    "src": "{series}: {total} in all, across {n} {countWord}."
+  },
+  "explore.explain.headlineCount": {
+    "text": "{series}: {total} lahat-lahat.",
+    "src": "{series}: {total} in all."
+  },
+  "explore.explain.latestYear": {
+    "text": "{series}: {value} sa {year}.",
+    "src": "{series}: {value} in {year}."
+  },
+  "explore.explain.largest": {
+    "text": "Ang pinakamalaki ay ang {row}, sa halagang {value} ({pct}% ng total).",
+    "src": "The largest is {row}, at {value} ({pct}% of the total)."
+  },
+  "explore.explain.largestIn": {
+    "text": "Sa {series}, ang pinakamalaki ay ang {row}, sa halagang {value} ({pct}% ng total).",
+    "src": "In {series}, the largest is {row}, at {value} ({pct}% of the total)."
+  },
+  "explore.explain.topThree": {
+    "text": "Ang tatlong pinakamalaki, silang tatlo pa lang, {pct}% na ng total.",
+    "src": "The three largest together make up {pct}% of the total."
+  },
+  "explore.explain.smallest": {
+    "text": "Ang pinakamaliit na nakalagay ay {row}, nasa {value}.",
+    "src": "The smallest shown is {row}, at {value}."
+  },
+  "explore.explain.changeUp": {
+    "text": "Ang pinakamalaking pagbabago ay ang {period}: tumaas ng {delta}{pct}.",
+    "src": "The biggest change is {period}: up by {delta}{pct}."
+  },
+  "explore.explain.changeDown": {
+    "text": "Ang pinakamalaking pagbabago ay ang {period}: bumaba ng {delta}{pct}.",
+    "src": "The biggest change is {period}: down by {delta}{pct}."
+  },
+  "explore.explain.limitsHeading": {
+    "text": "Ang hindi sinasabi nito",
+    "src": "What this does not tell you"
+  },
+  "explore.explain.limit.estimated-cost-not-spent": {
+    "text": "Ito ay mga estimated costs ng planned programs. Hindi nito ipinapakita kung magkano ang nagastos o kung ano ang natapos.",
+    "src": "These are estimated costs of planned programs. They do not show what was spent or what was done."
+  },
+  "explore.explain.limit.kinds-differ": {
+    "text": "Ang plan, ang proposed budget at ang enacted budget ay magkakaibang dokumento. Magkatabi silang ipinapakita, hindi pinagsasama-sama ang amounts.",
+    "src": "The plan, the proposed budget and the enacted budget are different documents. They are shown side by side, never added together."
+  },
+  "explore.explain.limit.tags-overlap": {
+    "text": "Puwedeng mabilang ang isang program sa ilalim ng higit sa isang theme, kaya hindi nag-a-add up sa total ang mga theme.",
+    "src": "A program can count under more than one theme, so the themes do not add up to the total."
+  },
+  "explore.explain.limit.count-of-ppas": {
+    "text": "Sa isang Annual Budget, ang bilang ay ng mga programs, projects at activities ayon sa pagkakalista ng ordinance.",
+    "src": "On an Annual Budget the count is of programs, projects and activities as the ordinance lists them."
+  },
+  "explore.explain.limit.default": {
+    "text": "Budget figures ito. Hindi nito ipinapakita kung magkano ang nagastos o kung ano ang nagawa.",
+    "src": "These are budget figures. They do not show what was spent or what was done."
+  },
+  "explore.explain.sources": {
+    "text": "Mga Source",
+    "src": "Sources"
+  },
+  "explore.explain.footer": {
+    "text": "Sinulat base sa figures sa table, gamit ang mga fixed sentence, hindi ng AI. I-tap ang isang figure para makita ang row nito.",
+    "src": "Written from the figures in the table, with fixed sentences, not by AI. Tap a figure to see its row."
+  },
+  "explore.feedback.question": {
+    "text": "Tama ba ang paliwanag na ito?",
+    "src": "Was this explanation right?"
+  },
+  "explore.feedback.correct": {
+    "text": "Oo",
+    "src": "Yes"
+  },
+  "explore.feedback.wrong": {
+    "text": "Hindi",
+    "src": "No"
+  },
+  "explore.feedback.unsure": {
+    "text": "Hindi sigurado",
+    "src": "Not sure"
+  },
+  "explore.feedback.why": {
+    "text": "Ano ang mali?",
+    "src": "What was wrong?"
+  },
+  "explore.feedback.reason.wrong-year": {
+    "text": "Maling taon",
+    "src": "Wrong year"
+  },
+  "explore.feedback.reason.wrong-office": {
+    "text": "Maling office",
+    "src": "Wrong office"
+  },
+  "explore.feedback.reason.wrong-number": {
+    "text": "Maling number",
+    "src": "Wrong number"
+  },
+  "explore.feedback.reason.wrong-language": {
+    "text": "Maling language",
+    "src": "Wrong language"
+  },
+  "explore.feedback.reason.not-understood": {
+    "text": "Mahirap intindihin",
+    "src": "Hard to understand"
+  },
+  "explore.feedback.reason.other": {
+    "text": "Iba pa",
+    "src": "Something else"
+  },
+  "explore.feedback.thanks": {
+    "text": "Salamat. Nakakatulong ito para ma-improve namin ang mga paliwanag.",
+    "src": "Thank you. This helps us improve the explanations."
+  },
+  "explore.feedback.failed": {
+    "text": "Hindi 'yun na-send. Paki-try ulit mamaya.",
+    "src": "That did not send. Please try again later."
+  },
+  "explore.noYears": {
+    "text": "Wala pang budget na na-publish, kaya wala pang pwedeng i-chart. Balikan ito kapag nag-publish na ang {lgu}.",
+    "src": "No budget has been published yet, so there is nothing to chart. Check back once the {lgu} publishes one."
+  },
+  "explore.unavailable": {
+    "text": "Hindi available ang explorer ngayon. Paki-try ulit in a few minutes.",
+    "src": "The explorer is not available right now. Please try again in a few minutes."
+  },
+  "explore.ws.brand": {
+    "text": "Data Explorer",
+    "src": "Data Explorer"
+  },
+  "explore.ws.workbookName": {
+    "text": "Pangalan ng workbook",
+    "src": "Workbook name"
+  },
+  "explore.ws.defaultWorkbook": {
+    "text": "Ang workbook ko",
+    "src": "My workbook"
+  },
+  "explore.ws.sheet": {
+    "text": "Sheet {n}",
+    "src": "Sheet {n}"
+  },
+  "explore.ws.sheets": {
+    "text": "Mga sheet",
+    "src": "Sheets"
+  },
+  "explore.ws.sheetName": {
+    "text": "Pangalan ng sheet",
+    "src": "Sheet name"
+  },
+  "explore.ws.addSheet": {
+    "text": "Bagong sheet",
+    "src": "New sheet"
+  },
+  "explore.ws.closeSheet": {
+    "text": "Isara ang {sheet}",
+    "src": "Close {sheet}"
+  },
+  "explore.ws.renameHint": {
+    "text": "I-double-click para palitan ang pangalan",
+    "src": "Double-click to rename"
+  },
+  "explore.ws.fromLink": {
+    "text": "Mula sa isang link",
+    "src": "From a link"
+  },
+  "explore.ws.saved": {
+    "text": "Naka-save sa browser na ito",
+    "src": "Saved in this browser"
+  },
+  "explore.ws.notSaved": {
+    "text": "Hindi naka-save: walang iniingatan ang browser na ito",
+    "src": "Not saved: this browser keeps nothing"
+  },
+  "explore.ws.undo": {
+    "text": "I-undo",
+    "src": "Undo"
+  },
+  "explore.ws.redo": {
+    "text": "I-redo",
+    "src": "Redo"
+  },
+  "explore.ws.undone": {
+    "text": "Na-undo",
+    "src": "Undone"
+  },
+  "explore.ws.newWorkbook": {
+    "text": "Bagong workbook",
+    "src": "New workbook"
+  },
+  "explore.ws.share": {
+    "text": "I-share",
+    "src": "Share"
+  },
+  "explore.ws.copyLink": {
+    "text": "Kopyahin ang isang link sa workbook na ito",
+    "src": "Copy a link to this workbook"
+  },
+  "explore.ws.linkCopied": {
+    "text": "Nakopya ang link. Magbubukas ito ng kopya ng workbook na ito.",
+    "src": "Link copied. It opens a copy of this workbook."
+  },
+  "explore.ws.linkFailed": {
+    "text": "Hindi makagawa ng link. Paki-subok ulit.",
+    "src": "Could not make a link. Please try again."
+  },
+  "explore.ws.replaceConfirm": {
+    "text": "Buksan ang naka-share na workbook? Papalitan nito ang naka-save sa browser na ito. Pwede mo itong i-undo.",
+    "src": "Open the shared workbook? It replaces the one saved in this browser. You can undo this."
+  },
+  "explore.ws.help": {
+    "text": "Gabay",
+    "src": "Guide"
+  },
+  "explore.ws.themeDark": {
+    "text": "Lumipat sa dark theme",
+    "src": "Switch to dark theme"
+  },
+  "explore.ws.themeLight": {
+    "text": "Lumipat sa light theme",
+    "src": "Switch to light theme"
+  },
+  "explore.ws.data": {
+    "text": "Data",
+    "src": "Data"
+  },
+  "explore.ws.source": {
+    "text": "Source",
+    "src": "Source"
+  },
+  "explore.ws.documents": {
+    "text": "Documents",
+    "src": "Documents"
+  },
+  "explore.ws.breakdowns": {
+    "text": "Breakdown",
+    "src": "Breakdowns"
+  },
+  "explore.ws.amounts": {
+    "text": "Halaga",
+    "src": "Amounts"
+  },
+  "explore.ws.count": {
+    "text": "Bilang ng rows",
+    "src": "Number of rows"
+  },
+  "explore.ws.marks": {
+    "text": "Marka",
+    "src": "Marks"
+  },
+  "explore.ws.mark.auto": {
+    "text": "Automatic",
+    "src": "Automatic"
+  },
+  "explore.ws.mark.bar": {
+    "text": "Bar",
+    "src": "Bar"
+  },
+  "explore.ws.mark.stacked": {
+    "text": "Stacked bar",
+    "src": "Stacked bar"
+  },
+  "explore.ws.mark.line": {
+    "text": "Line",
+    "src": "Line"
+  },
+  "explore.ws.mark.area": {
+    "text": "Area",
+    "src": "Area"
+  },
+  "explore.ws.mark.scatter": {
+    "text": "Scatter",
+    "src": "Scatter"
+  },
+  "explore.ws.mark.heatmap": {
+    "text": "Heat map",
+    "src": "Heat map"
+  },
+  "explore.ws.mark.treemap": {
+    "text": "Treemap",
+    "src": "Treemap"
+  },
+  "explore.ws.mark.table": {
+    "text": "Table",
+    "src": "Table"
+  },
+  "explore.ws.mark.kpi": {
+    "text": "Malaking numero",
+    "src": "Big number"
+  },
+  "explore.ws.rec.expand": {
+    "text": "Ipakita ang mga proyekto at aktibidad ng {n}",
+    "src": "Show its {n} projects and activities"
+  },
+  "explore.ws.rec.collapse": {
+    "text": "Itago ang mga proyekto at aktibidad ng {n}",
+    "src": "Hide its {n} projects and activities"
+  },
+  "explore.ws.rec.details": {
+    "text": "Mga Detalye",
+    "src": "Details"
+  },
+  "explore.ws.rec.childOf": {
+    "text": "Isang proyekto o aktibidad ng {program}",
+    "src": "A project or activity of {program}"
+  },
+  "explore.ws.rec.open": {
+    "text": "Buksan ang pahina nito",
+    "src": "Open its page"
+  },
+  "explore.ws.rec.children": {
+    "text": "Mga proyekto at aktibidad",
+    "src": "Projects and activities"
+  },
+  "explore.ws.rec.derived": {
+    "text": "Paano ito binabasa ng explorer",
+    "src": "How the explorer reads it"
+  },
+  "explore.ws.rec.derivedNote": {
+    "text": "Sariling basa ng explorer sa row na ito, mula sa pangalan at tags nito, para matulungan kang maghanap. Hindi ito itinakda ng {lgu}.",
+    "src": "The explorer's own reading of this row, from its name and tags, to help you search. The {lgu} did not set these."
+  },
+  "explore.ws.mark.map": {
+    "text": "Mapa",
+    "src": "Map"
+  },
+  "explore.ws.mark.words": {
+    "text": "Word map",
+    "src": "Word map"
+  },
+  "explore.ws.unit.money": {
+    "text": "sa piso",
+    "src": "in pesos"
+  },
+  "explore.ws.unit.ratio": {
+    "text": "sa porsyento",
+    "src": "in percent"
+  },
+  "explore.ws.unit.count": {
+    "text": "mga bilang",
+    "src": "counts"
+  },
+  "explore.ws.unit.rank": {
+    "text": "mga ranggo",
+    "src": "ranks"
+  },
+  "explore.lint.shownAsTable": {
+    "text": "Ipinapakita bilang table: {reason}",
+    "src": "Shown as a table: {reason}"
+  },
+  "explore.lint.empty": {
+    "text": "bawat value ay zero, kaya walang puwedeng i-draw.",
+    "src": "every value is zero, so there is nothing to draw."
+  },
+  "explore.lint.tooManyCategories": {
+    "text": "napakaraming kategorya para basahin bilang chart. I-set ang Top N para i-group ang iba bilang Other.",
+    "src": "too many categories to read as a chart. Set Top N to group the rest as Other."
+  },
+  "explore.lint.tooManySeries": {
+    "text": "higit sa walong series ay mauulit ang mga kulay. Magtanggal ng breakdown o filter.",
+    "src": "more than eight series would repeat colours. Remove a breakdown or filter."
+  },
+  "explore.lint.mixedUnits": {
+    "text": "ang mga amount ay nasa magkakaibang unit at hindi puwedeng mag-share ng isang axis.",
+    "src": "the amounts are in different units and cannot share one axis."
+  },
+  "explore.lint.ratioStacked": {
+    "text": "ang mga porsyento ng magkakaibang kabuuan ay hindi nag-a-add up, kaya hindi sila puwedeng i-stack.",
+    "src": "percentages of different wholes do not add up, so they cannot be stacked."
+  },
+  "explore.lint.negativeArea": {
+    "text": "ang negative na amount ay walang sukat sa part-to-whole chart.",
+    "src": "a negative amount has no size in a part-to-whole chart."
+  },
+  "explore.lint.rankAsLength": {
+    "text": "ang ranggo ay posisyon, hindi amount, kaya hindi ito dino-drawing bilang haba.",
+    "src": "a rank is a position, not an amount, so it is not drawn as a length."
+  },
+  "explore.lint.lineUnordered": {
+    "text": "ang linya ay nagdudugtong ng mga value ayon sa pagkakasunod-sunod, at ang breakdown na ito ay walang order. Subukan ang bar.",
+    "src": "a line joins values in order, and this breakdown has no order. Try a bar."
+  },
+  "explore.lint.onePoint": {
+    "text": "ang isang value ay hindi trend. Pumili ng mas maraming taon.",
+    "src": "one value is not a trend. Pick more years."
+  },
+  "explore.lint.fewPoints": {
+    "text": "ang scatter ay nangangailangan ng hindi bababa sa tatlong punto.",
+    "src": "a scatter needs at least three points."
+  },
+  "explore.lint.heatmapThin": {
+    "text": "ang heat map ay nangangailangan ng hindi bababa sa dalawang row at dalawang column.",
+    "src": "a heat map needs at least two rows and two columns."
+  },
+  "explore.lint.kpiMany": {
+    "text": "higit sa labindalawang malalaking numero ay mas magandang basahin bilang table.",
+    "src": "more than twelve big numbers read better as a table."
+  },
+  "explore.lint.otherDominates": {
+    "text": "Ang Other ay mas malaki kaysa sa lahat ng ipinapakita. Itaas ang Top N.",
+    "src": "Other is bigger than everything shown. Raise Top N."
+  },
+  "explore.ws.export.mark": {
+    "text": "{placeName} People's Budget Portal",
+    "src": "{placeName} People's Budget Portal"
+  },
+  "explore.ws.export.sources": {
+    "text": "Sources: {docs}",
+    "src": "Sources: {docs}"
+  },
+  "explore.ws.export.made": {
+    "text": "Made {date}",
+    "src": "Made {date}"
+  },
+  "explore.ws.export.query": {
+    "text": "query {hash}",
+    "src": "query {hash}"
+  },
+  "explore.ws.shelves": {
+    "text": "Ano ang ipinapakita ng chart",
+    "src": "What the chart shows"
+  },
+  "explore.ws.show": {
+    "text": "Ipakita",
+    "src": "Show"
+  },
+  "explore.ws.forEach": {
+    "text": "para sa bawat isa",
+    "src": "for each"
+  },
+  "explore.ws.colouredBy": {
+    "text": "kinulayan ayon sa",
+    "src": "coloured by"
+  },
+  "explore.ws.where": {
+    "text": "kung saan",
+    "src": "where"
+  },
+  "explore.ws.slot.columns": {
+    "text": "Columns",
+    "src": "Columns"
+  },
+  "explore.ws.slot.rows": {
+    "text": "Rows",
+    "src": "Rows"
+  },
+  "explore.ws.slot.colour": {
+    "text": "Kulay",
+    "src": "Colour"
+  },
+  "explore.ws.slot.detail": {
+    "text": "Detalye",
+    "src": "Detail"
+  },
+  "explore.ws.slot.filters": {
+    "text": "Filters",
+    "src": "Filters"
+  },
+  "explore.ws.none": {
+    "text": "Wala",
+    "src": "None"
+  },
+  "explore.ws.remove": {
+    "text": "Tanggalin",
+    "src": "Remove"
+  },
+  "explore.ws.rowsShown": {
+    "text": "Rows na ipinapakita",
+    "src": "Rows shown"
+  },
+  "explore.ws.topN": {
+    "text": "top {n}",
+    "src": "top {n}"
+  },
+  "explore.ws.all": {
+    "text": "Lahat",
+    "src": "All"
+  },
+  "explore.ws.aggregate": {
+    "text": "Total bilang",
+    "src": "Add up as"
+  },
+  "explore.ws.agg.sum": {
+    "text": "Sum",
+    "src": "Sum"
+  },
+  "explore.ws.agg.avg": {
+    "text": "Average",
+    "src": "Average"
+  },
+  "explore.ws.agg.min": {
+    "text": "Pinakamaliit",
+    "src": "Smallest"
+  },
+  "explore.ws.agg.max": {
+    "text": "Pinakamalaki",
+    "src": "Largest"
+  },
+  "explore.ws.agg.perCapita": {
+    "text": "Per resident",
+    "src": "Per resident"
+  },
+  "explore.ws.perResident": {
+    "text": "{measure} per resident",
+    "src": "{measure} per resident"
+  },
+  "explore.ws.unit.perCapita": {
+    "text": "pesos per resident (PSA 2020 population)",
+    "src": "pesos per resident (PSA 2020 population)"
+  },
+  "explore.lint.mapTotals": {
+    "text": "Ang mapa ng totals kadalasan ay nagpapakita lang kung saan nakatira ang mga tao. Piliin ang Per resident.",
+    "src": "a map of totals mostly shows where people live. Choose Per resident."
+  },
+  "explore.guide.starter.places.name": {
+    "text": "Saan sa {lgu} napupunta ang FY{year} AIP",
+    "src": "Where in the {lgu} the FY{year} AIP goes"
+  },
+  "explore.guide.starter.places.blurb": {
+    "text": "Ang mga proyekto at aktibidad ng plano ayon sa barangay, per resident (PSA 2020 population), base sa kung saan nakalagay ang lokasyon ng bawat isa. Ang pera na walang nakalagay na barangay ay pinapakita nang mag-isa. Ang isang proyekto sa dalawang barangay ay counted sa pareho, kaya hindi pinagsasama-sama ang mga barangay.",
+    "src": "The plan's projects and activities by barangay, per resident (PSA 2020 population), read from where each one says it is. Money that names no barangay is shown on its own. A project in two barangays counts in both, so barangays are never added up."
+  },
+  "explore.guide.starter.places.sheet1": {
+    "text": "Per resident, sa mapa",
+    "src": "Per resident, on a map"
+  },
+  "explore.guide.starter.places.sheet2": {
+    "text": "By barangay",
+    "src": "By barangay"
+  },
+  "explore.guide.starter.words.name": {
+    "text": "Ang mga salitang ginagastusan ng FY{year} AIP",
+    "src": "The words the FY{year} AIP spends on"
+  },
+  "explore.guide.starter.words.blurb": {
+    "text": "Mga salita mula sa program names, bawat isa ay kalaki ng pera ng mga programang gumagamit nito, kinulayan ayon sa label na pinaka-typical dito. Isang programa ay gumagamit ng ilang salita, kaya hindi pinagsasama-sama ang mga salita. I-click ang isang salita para makita ang mga programang gumagamit nito.",
+    "src": "Words from program names, each as big as the money of the programs that use it, coloured by the label it is most typical of. A program uses several words, so the words are never added up. Click a word to see the programs that use it."
+  },
+  "explore.guide.starter.words.sheet1": {
+    "text": "Word map",
+    "src": "Word map"
+  },
+  "explore.ws.showAs": {
+    "text": "Ipakita bilang",
+    "src": "Show as"
+  },
+  "explore.ws.calc.value": {
+    "text": "Halaga",
+    "src": "Amount"
+  },
+  "explore.ws.calc.percentOfTotal": {
+    "text": "Bahagi ng kabuuan",
+    "src": "Share of total"
+  },
+  "explore.ws.calc.differenceFromPrevious": {
+    "text": "Pagbabago mula noong nakaraang taon",
+    "src": "Change from the year before"
+  },
+  "explore.ws.calc.percentDifferenceFromPrevious": {
+    "text": "% na pagbabago mula noong nakaraang taon",
+    "src": "% change from the year before"
+  },
+  "explore.ws.calc.rank": {
+    "text": "Ranggo",
+    "src": "Rank"
+  },
+  "explore.ws.calc.runningTotal": {
+    "text": "Running total",
+    "src": "Running total"
+  },
+  "explore.ws.is": {
+    "text": "ay",
+    "src": "is"
+  },
+  "explore.ws.isNot": {
+    "text": "ay hindi",
+    "src": "is not"
+  },
+  "explore.ws.contains": {
+    "text": "naglalaman",
+    "src": "contains"
+  },
+  "explore.ws.addFilter": {
+    "text": "Magdagdag ng filter",
+    "src": "Add a filter"
+  },
+  "explore.ws.filterField": {
+    "text": "Field",
+    "src": "Field"
+  },
+  "explore.ws.filterSearch": {
+    "text": "Maghanap ng value",
+    "src": "Find a value"
+  },
+  "explore.ws.containsPlaceholder": {
+    "text": "Mga salita sa pangalan",
+    "src": "Words in the name"
+  },
+  "explore.ws.apply": {
+    "text": "I-apply",
+    "src": "Apply"
+  },
+  "explore.ws.title": {
+    "text": "{measure} ayon sa {dim}",
+    "src": "{measure} by {dim}"
+  },
+  "explore.ws.and": {
+    "text": " at ",
+    "src": " and "
+  },
+  "explore.ws.records": {
+    "text": "{n} records",
+    "src": "{n} records"
+  },
+  "explore.ws.topOther": {
+    "text": "top {n} at Iba pa",
+    "src": "top {n} and Other"
+  },
+  "explore.ws.viewAs": {
+    "text": "Tingnan bilang",
+    "src": "View as"
+  },
+  "explore.ws.chartView": {
+    "text": "Chart",
+    "src": "Chart"
+  },
+  "explore.ws.tableView": {
+    "text": "Table",
+    "src": "Table"
+  },
+  "explore.ws.legend": {
+    "text": "Legend",
+    "src": "Legend"
+  },
+  "explore.ws.pictureSource": {
+    "text": "Source: ang mga published budget documents · {placeName} Data Explorer, {url}",
+    "src": "Source: the published budget documents · {placeName} Data Explorer, {url}"
+  },
+  "explore.ws.draft": {
+    "text": "Draft",
+    "src": "Draft"
+  },
+  "explore.ws.loading": {
+    "text": "Sinasama-sama ang datos…",
+    "src": "Adding it up…"
+  },
+  "explore.ws.invalid": {
+    "text": "Hindi ma-drawing ang sheet na ito. {reasons}",
+    "src": "This sheet cannot be drawn. {reasons}"
+  },
+  "explore.ws.empty": {
+    "text": "Walang tumutugma sa mga filter na ito.",
+    "src": "Nothing matches these filters."
+  },
+  "explore.ws.neverAdded": {
+    "text": "Magkaibang dokumento at taon ang pinapakita nang magkatabi, hindi pinagsasama-sama. Ang AIP ay isang plano; tanging ang ordinance lamang ang nag-a-appropriate.",
+    "src": "Different documents and years are shown side by side, never added together. An AIP is a plan; only the ordinance appropriates."
+  },
+  "explore.ws.chat": {
+    "text": "Magtanong tungkol sa budget",
+    "src": "Ask about the budget"
+  },
+  "explore.ws.chatNote": {
+    "text": "Ang bawat figure ay checked laban sa data",
+    "src": "Every figure is checked against the data"
+  },
+  "explore.ws.hideChat": {
+    "text": "Itago ang chat",
+    "src": "Hide chat"
+  },
+  "explore.ws.showChat": {
+    "text": "Magtanong",
+    "src": "Ask"
+  },
+  "explore.ws.welcome": {
+    "text": "Magtanong, o pumili ng fields sa kaliwa.",
+    "src": "Ask a question, or pick fields on the left."
+  },
+  "explore.ws.welcomeNote": {
+    "text": "Ang chart at ang controls ay iisa: baguhin ang isa at susunod ang isa pa.",
+    "src": "The chart and the controls are one: change either and the other follows."
+  },
+  "explore.ws.askPlaceholder": {
+    "text": "Humiling ng chart, gaya ng “health spending sa 2027”",
+    "src": "Ask for a chart, like “health spending in 2027”"
+  },
+  "explore.ws.languages": {
+    "text": "English · Filipino · Bikol",
+    "src": "English · Filipino · Bikol"
+  },
+  "explore.ws.guessed": {
+    "text": "Hula: {fields}. Baguhin ang mga ito sa itaas ng chart kung mali.",
+    "src": "Guessed: {fields}. Change them above the chart if they are wrong."
+  },
+  "explore.ws.changed": {
+    "text": "Binago ang “{sheet}”",
+    "src": "Changed “{sheet}”"
+  },
+  "explore.ws.matched": {
+    "text": "Tumutugma ito sa tanong na madalas itanong ng mga tao. Ipinapakita ito ng chart.",
+    "src": "This matches a question people often ask. The chart shows it."
+  },
+  "explore.ws.nearest": {
+    "text": "Medyo mahirap i-work out ang isang iyon, kaya ito ang pinakamalapit na chart na mayroon kami. Baguhin ang mga shelves sa itaas ng chart kung hindi ito tama.",
+    "src": "That one was hard to work out, so here is the closest chart we have. Change the shelves above the chart if it is not right."
+  },
+  "explore.ws.desktopOnly": {
+    "text": "Ang mga shared workbook ay nagbubukas sa isang computer o malapad na screen.",
+    "src": "Shared workbooks open on a computer or a wide screen."
+  },
+  "explore.ws.openExplorer": {
+    "text": "Buksan ang explorer",
+    "src": "Open the explorer"
+  },
+  "explore.ws.sharedTitle": {
+    "text": "Isang shared Data Explorer workbook",
+    "src": "A shared Data Explorer workbook"
+  },
+  "explore.ws.recordsView": {
+    "text": "Mga record",
+    "src": "Records"
+  },
+  "explore.ws.recordsOf": {
+    "text": "{from}–{to} ng {total} na record",
+    "src": "{from}–{to} of {total} records"
+  },
+  "explore.ws.previous": {
+    "text": "Nakaraan",
+    "src": "Previous"
+  },
+  "explore.ws.next": {
+    "text": "Susunod",
+    "src": "Next"
+  },
+  "explore.ws.pick.hint": {
+    "text": "I-keep, i-exclude, i-drill down o i-list ang mga record",
+    "src": "Keep, exclude, drill down or list the records"
+  },
+  "explore.ws.pick.keep": {
+    "text": "I-keep lang ito",
+    "src": "Keep only this"
+  },
+  "explore.ws.pick.exclude": {
+    "text": "I-exclude ito",
+    "src": "Exclude this"
+  },
+  "explore.ws.pick.drill": {
+    "text": "I-drill down sa {field}",
+    "src": "Drill down to {field}"
+  },
+  "explore.ws.pick.records": {
+    "text": "Ipakita ang mga record nito",
+    "src": "Show its records"
+  },
+  "explore.ws.board.add": {
+    "text": "Bagong dashboard",
+    "src": "New dashboard"
+  },
+  "explore.ws.board.name": {
+    "text": "Dashboard {n}",
+    "src": "Dashboard {n}"
+  },
+  "explore.ws.board.sheets": {
+    "text": "Sheets {n}/{max}",
+    "src": "Sheets {n}/{max}"
+  },
+  "explore.ws.board.hint": {
+    "text": "I-click ang isang bar, point o box para i-filter dito ang ibang sheets. I-click ito ulit para i-clear.",
+    "src": "Click a bar, point or box to filter the other sheets to it. Click it again to clear."
+  },
+  "explore.ws.board.selected": {
+    "text": "Naka-select: {value}",
+    "src": "Selected: {value}"
+  },
+  "explore.ws.board.clear": {
+    "text": "I-clear ang selection",
+    "src": "Clear selection"
+  },
+  "explore.ws.board.open": {
+    "text": "Buksan ang sheet na ito",
+    "src": "Open this sheet"
+  },
+  "explore.ws.board.filteredBy": {
+    "text": "Na-filter sa {value}",
+    "src": "Filtered to {value}"
+  },
+  "explore.ws.board.notLinked": {
+    "text": "Hindi linked: walang ganoong field",
+    "src": "Not linked: no such field"
+  },
+  "explore.ws.tileInvalid": {
+    "text": "Hindi maipapakita ang sheet na ito gamit ang selection na iyan.",
+    "src": "This sheet cannot be shown with that selection."
+  },
+  "explore.chat.welcome": {
+    "text": "Magtanong tungkol sa budget sa English, Filipino o Bikol.",
+    "src": "Ask about the budget in English, Filipino or Bikol."
+  },
+  "explore.chat.welcomeNote": {
+    "text": "Ang mga tema tulad ng “flood control” o “para sa senior citizens” ay binibilang base sa kung ano ang bawat PPA, hindi kung anong opisina ang nagpapatakbo nito. Lahat ng numero ay galing sa data.",
+    "src": "Themes like “flood control” or “for senior citizens” are counted from what each PPA is, not which office runs it. Every figure comes from the data."
+  },
+  "explore.consent.label": {
+    "text": "Tulungan kaming pagandahin ang explorer: panatilihin ang tanong na ito, pero tanggalin ang mga pangalan at contact details, para maturuan ang modelo ng {lgu}.",
+    "src": "Help improve the explorer: keep this question, with names and contacts removed, to teach the {lgu}'s model."
+  },
+  "explore.consent.privacy": {
+    "text": "Privacy Policy",
+    "src": "Privacy Policy"
+  },
+  "explore.chat.placeholder": {
+    "text": "Magtanong, gaya ng “magkano ang para sa flood control?”",
+    "src": "Ask, like “how much is for flood control?”"
+  },
+  "explore.chat.counted": {
+    "text": "Binibilang base sa kung ano ang bawat PPA, hindi kung anong opisina ang nagpapatakbo nito.",
+    "src": "Counted from what each PPA is, not which office runs it."
+  },
+  "explore.chat.unclassified": {
+    "text": "{count} rows ({amount}) ang hindi ma-classify.",
+    "src": "{count} rows ({amount}) could not be classified."
+  },
+  "explore.chat.review": {
+    "text": "Ang mga label na hindi sigurado ang classifier ay iniiwan muna hanggang ma-review.",
+    "src": "Labels the classifier was unsure of are left out until reviewed."
+  },
+  "explore.chat.draft": {
+    "text": "May kasamang draft na dokumento, na hindi pa public.",
+    "src": "Includes a draft document, not yet public."
+  },
+  "explore.chat.machine": {
+    "text": "Sagot na gawa ng machine",
+    "src": "Machine-written reply"
+  },
+  "explore.chat.ppas": {
+    "text": "PPAs ang nabilang",
+    "src": "PPAs counted"
+  },
+  "explore.chat.newTab": {
+    "text": " (bubukas sa bagong tab)",
+    "src": " (opens in a new tab)"
+  },
+  "explore.chat.seeAll": {
+    "text": "Tingnan lahat ng {n}",
+    "src": "See all {n}"
+  },
+  "explore.chat.step.office": {
+    "text": "Ayon sa opisina",
+    "src": "By office"
+  },
+  "explore.chat.step.subLabel": {
+    "text": "Ayon sa uri ng trabaho",
+    "src": "By kind of work"
+  },
+  "explore.chat.step.fund": {
+    "text": "Ayon sa pondo",
+    "src": "By fund"
+  },
+  "explore.chat.step.years": {
+    "text": "Sa paglipas ng mga taon",
+    "src": "Over the years"
+  },
+  "explore.chat.other": {
+    "text": "Iba pang readings",
+    "src": "Other readings"
+  },
+  "explore.chat.notUnderstood": {
+    "text": "Hindi ko ito nagawang gawing chart. Subukan mong magbanggit ng isang tema, opisina o taon.",
+    "src": "I could not turn that into a chart. Try naming a theme, an office or a year."
+  },
+  "explore.chat.noData": {
+    "text": "Ang data ay walang dokumento para sa taon o uri na iyan. Ito ang mga available:",
+    "src": "The data has no document for that year or kind. These exist:"
+  },
+  "explore.chat.empty": {
+    "text": "Walang tugma sa data para diyan.",
+    "src": "Nothing in the data matches that."
+  },
+  "explore.chat.wider": {
+    "text": "Kung wala ang name search",
+    "src": "Without the name search"
+  },
+  "explore.chat.resting": {
+    "text": "Ang chat ay nagpapahinga para sa araw na ito. Pwede ka pa ring bumuo ng charts gamit ang mga field sa kaliwa.",
+    "src": "The chat is resting for today. You can still build charts with the fields on the left."
+  },
+  "explore.chat.term": {
+    "text": "Budget term",
+    "src": "Budget term"
+  },
+  "explore.guide.title": {
+    "text": "Guide",
+    "src": "Guide"
+  },
+  "explore.guide.description": {
+    "text": "Paano gamitin ang explorer, starter workbooks, at kung ano ang laman ng data.",
+    "src": "How to use the explorer, starter workbooks, and what the data holds."
+  },
+  "explore.guide.tab.guide": {
+    "text": "Paano ito gamitin",
+    "src": "How to use it"
+  },
+  "explore.guide.tab.about": {
+    "text": "Tungkol sa data",
+    "src": "About the data"
+  },
+  "explore.guide.startHead": {
+    "text": "Tatlong paraan para mag-umpisa",
+    "src": "Three ways to start"
+  },
+  "explore.guide.start.askTitle": {
+    "text": "Magtanong.",
+    "src": "Ask."
+  },
+  "explore.guide.start.ask": {
+    "text": "Mag-type ng tanong sa chat, tulad ng “health spending sa 2027”. Ang iyong sheet ay magbabago para sagutin ito, at ibinabalik ito ng Undo sa dati.",
+    "src": "Type a question in the chat, like “health spending in 2027”. Your sheet changes to answer it, and Undo puts it back."
+  },
+  "explore.guide.start.dragTitle": {
+    "text": "Mag-drag ng field.",
+    "src": "Drag a field."
+  },
+  "explore.guide.start.drag": {
+    "text": "I-drag ang isang breakdown, gaya ng Office, mula sa listahan sa kaliwa papunta sa Rows, o i-click lang ito. Agad na dina-drawing ang chart.",
+    "src": "Drag a breakdown, such as Office, from the list on the left onto Rows, or just click it. The chart draws at once."
+  },
+  "explore.guide.start.starterTitle": {
+    "text": "Magbukas ng starter.",
+    "src": "Open a starter."
+  },
+  "explore.guide.start.starter": {
+    "text": "Buksan ang isang finished workbook sa ibaba at himayin ito. Pinapalitan nito ang iyong workbook; ibinabalik ng Undo ang sa iyo.",
+    "src": "Open a finished workbook below and pick it apart. It replaces your workbook; Undo brings yours back."
+  },
+  "explore.guide.startersHead": {
+    "text": "Starter workbooks",
+    "src": "Starter workbooks"
+  },
+  "explore.guide.starter.board": {
+    "text": "Dashboard",
+    "src": "Dashboard"
+  },
+  "explore.guide.starter.aip.name": {
+    "text": "Saan napupunta ang FY{year} AIP",
+    "src": "Where the FY{year} AIP goes"
+  },
+  "explore.guide.starter.aip.blurb": {
+    "text": "Ang estimated cost ng plano ayon sa office, sa {goal} at sa type of expense, magkakatabi.",
+    "src": "The plan's estimated cost by office, by {goal} and by type of expense, side by side."
+  },
+  "explore.guide.starter.aip.sheet1": {
+    "text": "Ayon sa opisina",
+    "src": "By office"
+  },
+  "explore.guide.starter.aip.sheet2": {
+    "text": "Ayon sa {goal}",
+    "src": "By {goal}"
+  },
+  "explore.guide.starter.aip.sheet3": {
+    "text": "Ayon sa uri ng gastos",
+    "src": "By type of expense"
+  },
+  "explore.guide.starter.climate.name": {
+    "text": "Gastos para sa climate change sa FY{year}",
+    "src": "FY{year} climate change spending"
+  },
+  "explore.guide.starter.climate.blurb": {
+    "text": "Pondo sa plano na nakalaan para sa pag-adapt at pagpapabagal ng climate change, ayon sa uri at opisina.",
+    "src": "Plan money tagged for adapting to and slowing climate change, by type and by office."
+  },
+  "explore.guide.starter.climate.sheet1": {
+    "text": "Ayon sa uri",
+    "src": "By type"
+  },
+  "explore.guide.starter.climate.sheet2": {
+    "text": "Ayon sa opisina",
+    "src": "By office"
+  },
+  "explore.guide.starter.income.name": {
+    "text": "Saan nanggagaling ang pera para sa FY{year}",
+    "src": "Where the FY{year} money comes from"
+  },
+  "explore.guide.starter.income.blurb": {
+    "text": "Ang inaasahang kita ng {lgu}, ayon sa klase at sa sampung pinakamalalaking source nito. Ang kita ay hindi kailanman idinaragdag sa gastos.",
+    "src": "The income the {lgu} expects, by class and its ten largest sources. Income is never added to spending."
+  },
+  "explore.guide.starter.income.sheet1": {
+    "text": "Ayon sa klase",
+    "src": "By class"
+  },
+  "explore.guide.starter.income.sheet2": {
+    "text": "Sampung pinakamalalaking source",
+    "src": "Ten largest sources"
+  },
+  "explore.guide.starter.overTime.name": {
+    "text": "Ang budget sa paglipas ng mga taon",
+    "src": "The budget over the years"
+  },
+  "explore.guide.starter.overTime.blurb": {
+    "text": "Bawat dokumento sa site na ito, tig-iisang linya. Ang mga plano, proposal, at enacted budgets ay magkakaibang pera, kaya hindi sila kailanman pinagsasama-sama.",
+    "src": "Every document on this site, one line each. Plans, proposals and enacted budgets are different money, so they are never added together."
+  },
+  "explore.guide.starter.overTime.sheet1": {
+    "text": "Sa paglipas ng mga taon",
+    "src": "Over the years"
+  },
+  "explore.guide.howtoHead": {
+    "text": "Paano…",
+    "src": "How to…"
+  },
+  "explore.guide.howto.chartTitle": {
+    "text": "Gumawa ng chart.",
+    "src": "Make a chart."
+  },
+  "explore.guide.howto.chart": {
+    "text": "Pumili ng amount para sa Columns at breakdown para sa Rows. Ang Marks, sa kaliwa, ang nagpapalit ng klase ng chart.",
+    "src": "Choose an amount for Columns and a breakdown for Rows. Marks, on the left, changes the kind of chart."
+  },
+  "explore.guide.howto.compareTitle": {
+    "text": "Ikumpara ang mga taon o dokumento.",
+    "src": "Compare years or documents."
+  },
+  "explore.guide.howto.compare": {
+    "text": "Lagyan ng check ang higit sa isa sa ilalim ng Documents. Ipinapakita ang mga ito nang magkatabi, at hindi kailanman pinagsasama-sama.",
+    "src": "Tick more than one under Documents. They are shown side by side, never added together."
+  },
+  "explore.guide.howto.filterTitle": {
+    "text": "I-filter ito.",
+    "src": "Narrow it down."
+  },
+  "explore.guide.howto.filter": {
+    "text": "Pindutin ang + pagkatapos ng “where”, o i-drag ang isang field papunta sa Filters.",
+    "src": "Press + after “where”, or drag a field onto Filters."
+  },
+  "explore.guide.howto.drillTitle": {
+    "text": "Tingnan nang mas malapitan.",
+    "src": "Look closer."
+  },
+  "explore.guide.howto.drill": {
+    "text": "I-click ang isang bar, point, o box (o isang pangalan sa Table view) para ito lang ang panatilihin, alisin ito, i-drill down sa kung ano ang nasa loob nito, o ilista ang kanyang mga record.",
+    "src": "Click a bar, point or box (or a name in the Table view) to keep only it, leave it out, drill down to what is inside it, or list its records."
+  },
+  "explore.guide.howto.recordsTitle": {
+    "text": "Tingnan ang mga hilera sa likod ng isang chart.",
+    "src": "See the rows behind a chart."
+  },
+  "explore.guide.howto.records": {
+    "text": "Inililista ng Records ang mga programa, PPAs o account lines, 50 bawat beses. I-click ang pangalan ng column para i-sort.",
+    "src": "Records lists the programs, PPAs or account lines, 50 at a time. Click a column name to sort."
+  },
+  "explore.guide.howto.boardTitle": {
+    "text": "Pagtabihin ang mga chart.",
+    "src": "Put charts side by side."
+  },
+  "explore.guide.howto.board": {
+    "text": "Ang New dashboard, sa ibaba, ay nagpapakita ng hanggang apat na sheet. Ang isang click sa isa ay nagfi-filter sa iba.",
+    "src": "New dashboard, at the bottom, shows up to four sheets. A click in one filters the others."
+  },
+  "explore.guide.howto.shareTitle": {
+    "text": "Itago o i-share ito.",
+    "src": "Keep or share it."
+  },
+  "explore.guide.howto.share": {
+    "text": "Ang iyong workbook ay naka-save lang sa browser na ito. Ang Share ay gumagawa ng link na nagbubukas ng kopya para sa kahit sino, o nagda-download ng larawan o ng mga figures.",
+    "src": "Your workbook is saved in this browser only. Share makes a link that opens a copy for anyone, or downloads a picture or the figures."
+  },
+  "explore.guide.sourcesHead": {
+    "text": "Ano ang laman ng bawat source",
+    "src": "What each source holds"
+  },
+  "explore.guide.sourceRow": {
+    "text": "Isang record ang {grain}.",
+    "src": "One record is {grain}."
+  },
+  "explore.guide.keysHead": {
+    "text": "Keyboard",
+    "src": "Keyboard"
+  },
+  "explore.guide.key.help": {
+    "text": "Buksan o isara ang gabay na ito",
+    "src": "Open or close this guide"
+  },
+  "explore.guide.key.tab": {
+    "text": "Mag-navigate sa pagitan ng controls",
+    "src": "Move between controls"
+  },
+  "explore.guide.key.enter": {
+    "text": "Magdagdag ng field, magbukas ng menu, o buksan ang menu ng pangalan sa Table view",
+    "src": "Add a field, open a menu, or open a name's menu in the Table view"
+  },
+  "explore.guide.key.esc": {
+    "text": "Isara ang isang menu o ang gabay na ito",
+    "src": "Close a menu or this guide"
+  },
+  "explore.guide.about.docsHead": {
+    "text": "Mga dokumento sa site na ito",
+    "src": "Documents on this site"
+  },
+  "explore.guide.about.docsNote": {
+    "text": "Ang isang taon ay pwedeng magkaroon ng hanggang tatlong dokumento. Mga hakbang ito ng iisang budget, hindi tatlong magkakahiwalay na budget.",
+    "src": "A year can have up to three documents. They are steps of one budget, not three budgets."
+  },
+  "explore.guide.about.kind.aip": {
+    "text": "Annual Investment Program (AIP), ang plano",
+    "src": "Annual Investment Program (AIP), the plan"
+  },
+  "explore.guide.about.kind.lep": {
+    "text": "Local Expenditure Program (LEP), ang proposal ng {Mayor}",
+    "src": "Local Expenditure Program (LEP), the {Mayor}'s proposal"
+  },
+  "explore.guide.about.kind.ordinance": {
+    "text": "Appropriation ordinance, ang enacted budget",
+    "src": "Appropriation ordinance, the enacted budget"
+  },
+  "explore.guide.about.yearDraft": {
+    "text": "FY{year} (draft)",
+    "src": "FY{year} (draft)"
+  },
+  "explore.guide.about.none": {
+    "text": "Wala pa",
+    "src": "None yet"
+  },
+  "explore.guide.about.moneyHead": {
+    "text": "Tatlong termino para sa pera",
+    "src": "Three words for money"
+  },
+  "explore.guide.about.money.aipTerm": {
+    "text": "Estimated cost (AIP)",
+    "src": "Estimated cost (AIP)"
+  },
+  "explore.guide.about.money.aip": {
+    "text": "Ang inaasahang gagastusin para sa isang nakaplanong programa kung ito ay matutuloy. Mas marami ang nasa plano kaysa sa kaya ng {lgu}, kaya ang estimated cost ay hindi isang budget at hindi ito nangangako ng pera.",
+    "src": "What a planned program is expected to cost if it is carried out. The plan lists more than the {lgu} can afford, so an estimated cost is not a budget and promises no money."
+  },
+  "explore.guide.about.money.lepTerm": {
+    "text": "Proposed budget (LEP)",
+    "src": "Proposed budget (LEP)"
+  },
+  "explore.guide.about.money.lep": {
+    "text": "Ang hinihiling ng {Mayor} na aprubahan ng {council} para sa susunod na taon, binawasan mula sa plano para umakma sa inaasahang kita ng {lgu}. Pwede pa itong magbago.",
+    "src": "What the {Mayor} asks the {council} to approve for next year, cut down from the plan to fit the income the {lgu} expects. It can still change."
+  },
+  "explore.guide.about.money.ordinanceTerm": {
+    "text": "Appropriation (ordinance)",
+    "src": "Appropriation (ordinance)"
+  },
+  "explore.guide.about.money.ordinance": {
+    "text": "Ang ipinapasa ng {council} bilang batas. Ito lang ang nagbibigay-daan para gumastos ang {lgu}, at hanggang sa amount lang na ito. Ito ay permiso para gumastos, hindi record ng perang nagastos na.",
+    "src": "What the {council} passes into law. Only this lets the {lgu} spend, and only up to that amount. It is permission to spend, not a record of money spent."
+  },
+  "explore.guide.about.never": {
+    "text": "Dahil magkakaibang pera ang mga ito, pinapakita sila ng explorer nang magkatabi at hindi kailanman pinagsasama-sama. Hindi rin kailanman pinagsasama-sama ang mga taon.",
+    "src": "Because these are different money, the explorer shows them side by side and never adds them together. Years are never added together either."
+  },
+  "explore.guide.about.draftHead": {
+    "text": "Ano ang draft",
+    "src": "What a draft is"
+  },
+  "explore.guide.about.draft": {
+    "text": "Ang draft ay isang dokumento na hindi pa na-publish ng {lgu} sa site na ito. Ang mga draft ay lumalabas lang sa mga test copy ng site, para ma-check ng team, at bawat figure sa draft ay may label at stripes na Draft. Pwede pang magbago ang mga figures nito.",
+    "src": "A draft is a document the {lgu} has not published on this site yet. Drafts show only on test copies of the site, so the team can check them, and every draft figure carries a Draft label and stripes. Its figures may still change."
+  },
+  "explore.guide.about.draftHere": {
+    "text": "Ang kopyang ito ng site ay nagpapakita ng mga draft.",
+    "src": "This copy of the site shows drafts."
+  },
+  "explore.guide.about.draftNone": {
+    "text": "Walang draft na ipinapakita ang site na ito.",
+    "src": "This site shows no drafts."
+  },
+  "explore.guide.about.caveatsHead": {
+    "text": "Mabuting malaman",
+    "src": "Good to know"
+  },
+  "explore.guide.about.caveat.published": {
+    "text": "Tanging ang na-publish na ng {lgu} ang nandito. Ang isang taon na walang na-publish ay hindi nakalista.",
+    "src": "Only what the {lgu} has published is here. A year with nothing published is not listed."
+  },
+  "explore.guide.about.caveat.lep": {
+    "text": "Para sa ilang nakaraang taon, ang proposal lang ng {Mayor} (LEP) ang pinost ng {lgu}, kaya walang enacted budget ang mga taong iyon dito.",
+    "src": "For some past years the {lgu} posted only the {Mayor}'s proposal (LEP), so those years have no enacted budget here."
+  },
+  "explore.guide.about.caveat.themes": {
+    "text": "Ang isang programa ay pwedeng magkaroon ng ilang tema o paksa, kaya ang mga tema at paksa ay hindi bumubuo sa kabuuang total.",
+    "src": "A program can have several themes or topics, so themes and topics do not add up to the total."
+  },
+  "explore.guide.about.caveat.income": {
+    "text": "Ang income ay ang perang inaasahang matatanggap ng {lgu}. Hindi ito kailanman idinadagdag sa spending.",
+    "src": "Income is the money the {lgu} expects to receive. It is never added to spending."
+  },
+  "explore.guide.about.caveat.funds": {
+    "text": "Ang special funds, gaya ng 20% Development Fund at disaster fund, ay mga uri ng pera, hindi opisina. Hanapin ito sa ilalim ng Fund.",
+    "src": "Special funds, such as the 20% Development Fund and the disaster fund, are kinds of money, not offices. Find them under Fund."
+  },
+  "explore.guide.about.linksHead": {
+    "text": "Magbasa pa",
+    "src": "Read more"
+  },
+  "explore.guide.about.link.aipVsAnnual": {
+    "text": "Ang AIP at ang Annual Budget: kung paano sila nagkakaiba",
+    "src": "The AIP and the Annual Budget: how they differ"
+  },
+  "explore.guide.about.link.glossary": {
+    "text": "Mga termino sa budget, ipinaliwanag",
+    "src": "Budget words, explained"
+  },
+  "explore.guide.about.link.openData": {
+    "text": "I-download ang data (open data)",
+    "src": "Download the data (open data)"
+  },
+  "explore.teach.blankTitle": {
+    "text": "Blangko ang sheet na ito",
+    "src": "This sheet is blank"
+  },
+  "explore.teach.total": {
+    "text": "{measure} sa {document}: {total} sa lahat. I-break down para makita kung saan ito napupunta.",
+    "src": "{measure} in the {document}: {total} in all. Break it down to see where it goes."
+  },
+  "explore.teach.ask": {
+    "text": "Magtanong sa chat, tulad ng “health spending sa 2027”.",
+    "src": "Ask a question in the chat, like “health spending in 2027”."
+  },
+  "explore.teach.drag": {
+    "text": "I-drag ang isang breakdown, gaya ng Office, mula sa kaliwa papunta sa Rows, o i-click ito.",
+    "src": "Drag a breakdown, such as Office, from the left onto Rows, or click it."
+  },
+  "explore.teach.starter": {
+    "text": "O magbukas ng starter workbook at himayin ito:",
+    "src": "Or open a starter workbook and pick it apart:"
+  },
+  "explore.teach.guide": {
+    "text": "Buksan ang guide",
+    "src": "Open the guide"
+  },
+  "explore.teach.about": {
+    "text": "Tungkol sa data",
+    "src": "About the data"
+  },
+  "explore.teach.dropRows": {
+    "text": "Maglagay o pumili ng field",
+    "src": "Drop or pick a field"
+  },
+  "explore.teach.dropFilters": {
+    "text": "Maglagay ng field para i-filter",
+    "src": "Drop a field to filter"
+  },
+  "explore.teach.empty": {
+    "text": "Walang tugma sa sheet na ito. Alisin ang filter sa itaas, o lagyan ng check ang ibang dokumento sa kaliwa.",
+    "src": "Nothing matches this sheet. Remove a filter above, or tick another document on the left."
+  },
+  "explore.chat.clear": {
+    "text": "I-clear ang chat ng sheet na ito",
+    "src": "Clear this sheet's chat"
+  },
+  "explore.chat.forSheet": {
+    "text": "Ang chat na ito ay para sa “{sheet}”. Bawat sheet ay may kanya-kanyang chat.",
+    "src": "This chat belongs to “{sheet}”. Each sheet keeps its own."
+  },
+  "cycle.stage.0.title": {
+    "text": "Nakikinig sa {lgu}",
+    "src": "Listening to the {lgu}"
+  },
+  "cycle.stage.0.short": {
+    "text": "mga konsultasyon",
+    "src": "consultations"
+  },
+  "cycle.stage.0.when": {
+    "text": "Marso hanggang Hunyo {prev}",
+    "src": "March to June {prev}"
+  },
+  "cycle.stage.0.who.0.role": {
+    "text": "nagpapatakbo ng planning side at nagtatago ng record",
+    "src": "runs the planning side and keeps the record"
+  },
+  "cycle.stage.0.you.0": {
+    "text": "Ito ang pinakamadaling sandali para baguhin ang pinaplano ng {lgu}.",
+    "src": "This is the easiest moment to change what the {lgu} plans. "
+  },
+  "cycle.stage.1.title": {
+    "text": "Ang mga opisina ay sumusulat ng plano",
+    "src": "Offices write plans"
+  },
+  "cycle.stage.1.short": {
+    "text": "may mga price tag",
+    "src": "with price tags"
+  },
+  "cycle.stage.1.when": {
+    "text": "Abril hanggang Oktubre {prev}",
+    "src": "April to October {prev}"
+  },
+  "cycle.stage.1.summary": {
+    "text": "Bawat opisina ng {lgu} ay naglilista ng plano nilang gawin sa susunod na taon at kung magkano ito.",
+    "src": "Every {lguAdj} office lists what it plans to do next year and what it would cost."
+  },
+  "cycle.stage.1.what": {
+    "text": "Bawat opisina ng {lgu} ay naglilista ng mga programa, proyekto at aktibidad na gusto nilang isagawa sa susunod na taon, at tinatantiya kung magkano ang bawat isa. Pinagsasama-sama ito ng planning office sa isang dokumento, ang Annual Investment Program.",
+    "src": "Every {lguAdj} office lists the programs, projects and activities it wants to carry out next year, and estimates what each would cost. The planning office puts them together into one document, the Annual Investment Program."
+  },
+  "cycle.stage.1.who.0.role": {
+    "text": "nagmumungkahi ng sarili nitong programa at gastos",
+    "src": "proposes its own programs and costs"
+  },
+  "cycle.stage.1.who.1.role": {
+    "text": "pinagsasama at sinusuri ang mga ito",
+    "src": "combines and checks them"
+  },
+  "cycle.stage.1.out.0.meaning": {
+    "text": "bawat panukalang programa, sino ang magpapatakbo nito, kailan, at magkano ang gagastusin",
+    "src": "every proposed program, who runs it, when, and what it would cost"
+  },
+  "cycle.stage.1.you": {
+    "text": "Basahin ang mga proposal sa site na ito at magpadala ng feedback sa anumang programa. Bawat pahina ng programa ay may form para sa feedback.",
+    "src": "Read the proposals on this site and send feedback on any program. Every program page has a feedback form."
+  },
+  "cycle.stage.1.know": {
+    "text": "Ang AIP ay isang planong may mga price tag, hindi pa pera. Ito ang ipinapakita ng mga pahina ng AIP sa site na ito.",
+    "src": "The AIP is a plan with price tags, not money yet. This is what the AIP pages on this site show."
+  },
+  "cycle.stage.2.title": {
+    "text": "Ang plano ay aprubado na",
+    "src": "The plan is approved"
+  },
+  "cycle.stage.2.short": {
+    "text": "development council",
+    "src": "development council"
+  },
+  "cycle.stage.2.when": {
+    "text": "Oktubre {prev}, para sa {fy} budget",
+    "src": "October {prev}, for the {fy} budget"
+  },
+  "cycle.stage.2.summary": {
+    "text": "Ina-approve ng {LguAdj} Development Council ang plano.",
+    "src": "The {LguAdj} Development Council approves the plan."
+  },
+  "cycle.stage.2.what.0": {
+    "text": "Nirereview ng {LguAdj} Development Council ang plano at ina-approve ito.",
+    "src": "The {LguAdj} Development Council reviews the plan and approves it. "
+  },
+  "cycle.stage.2.what.2": {
+    "text": "Mula rito, ang isang programa ay kailangan nasa AIP para makatanggap ng pera sa budget.",
+    "src": "From here on, a program generally has to be in the AIP to receive money in the budget."
+  },
+  "cycle.stage.2.who.0.role": {
+    "text": "pinamumunuan ng {Mayor}, kasama ang mga kapitan ng barangay at mga representative ng CSO",
+    "src": "chaired by the {Mayor}, with barangay captains and CSO representatives"
+  },
+  "cycle.stage.2.out.0.meaning": {
+    "text": "ang listahan ng mga programang pwedeng pondohan ng budget",
+    "src": "the list of programs the budget may fund"
+  },
+  "cycle.stage.3.title": {
+    "text": "Pinagkakasya ang mga plano sa pera",
+    "src": "Fitting plans to the money"
+  },
+  "cycle.stage.3.short": {
+    "text": "budget call, proposals, hearings",
+    "src": "budget call, proposals, hearings"
+  },
+  "cycle.stage.3.when": {
+    "text": "Hulyo hanggang Oktubre {prev}",
+    "src": "July to October {prev}"
+  },
+  "cycle.stage.3.summary": {
+    "text": "Ang mga request ng mga opisina ay pinuputol hanggang magkasya ito sa perang inaasahang makokolekta ng {lgu}.",
+    "src": "Offices’ requests are cut until they fit the money the {lgu} expects to collect."
+  },
+  "cycle.stage.3.what": {
+    "text": "Tinatantya ng Treasurer at Assessor kung magkano ang kokolektahin ng {lgu} sa susunod na taon. Pagkatapos, pinapadalhan ng {Mayor} ang bawat opisina ng Budget Call: kung magkano ang pwedeng hingin nito, at kung paano. Isinusumite ng mga opisina ang kanilang budget proposals, at ang Local Finance Committee ay nagdaraos ng hearing sa bawat opisina para putulin ang mga request hanggang magkasya ang mga ito.",
+    "src": "The Treasurer and Assessor estimate how much the {lgu} will collect next year. The {Mayor} then sends every office a Budget Call: how much it may ask for, and how. Offices submit their budget proposals, and the Local Finance Committee holds a hearing with each office to cut the requests until they fit."
+  },
+  "cycle.stage.3.who.0.role": {
+    "text": "ang mga pinuno ng planning, budget at treasury",
+    "src": "the heads of planning, budget and treasury"
+  },
+  "cycle.stage.3.who.1.role": {
+    "text": "nag-iisyu ng Budget Call at pinagsasama-sama ang mga proposal",
+    "src": "issues the Budget Call and combines the proposals"
+  },
+  "cycle.stage.3.who.2.role": {
+    "text": "tinatantya ang kita ng {lgu}",
+    "src": "estimate the {lgu}’s income"
+  },
+  "cycle.stage.3.who.3.role": {
+    "text": "nagsusumite ng proposal at dinedepensahan ito",
+    "src": "submits a proposal and defends it"
+  },
+  "cycle.stage.3.out.0.meaning": {
+    "text": "ang mga instruksyon at limitasyon sa paggastos na ipinapadala sa bawat opisina",
+    "src": "the instructions and spending limits sent to every office"
+  },
+  "cycle.stage.3.out.1.meaning": {
+    "text": "ang request ng bawat opisina para sa pera",
+    "src": "each office’s request for money"
+  },
+  "cycle.stage.3.out.2.meaning": {
+    "text": "kung ano ang inaasahang bibilhin ng bawat opisina, inihanda kasama ng proposal nito",
+    "src": "what each office expects to buy, prepared with its proposal"
+  },
+  "cycle.stage.3.you": {
+    "text": "Ang mga hearing na ito ay internal sa {lgu} hall. Ang pinakamainam na paraan para makapasok ay mas maaga, sa pamamagitan ng plano, o sa susunod, sa mga hearing ng {lguAdj} council.",
+    "src": "These hearings are internal to the {lguAdj} government. The best way in is earlier, through the plan, or later, at the {lguAdj} council’s hearings."
+  },
+  "cycle.stage.3.know": {
+    "text": "Dito maraming halaga ng AIP ang nababago. Nangyayari ito kasabay ng stages 1 at 2: ang plano at ang budget ay paulit-ulit na ina-adjust hanggang magtugma ang mga ito.",
+    "src": "This is where many AIP amounts change. It happens at the same time as stages 1 and 2: the plan and the budget are adjusted back and forth until they agree."
+  },
+  "cycle.stage.4.title": {
+    "text": "Budget ay pumupunta sa council",
+    "src": "Budget goes to council"
+  },
+  "cycle.stage.4.short": {
+    "text": "legal deadline sa Oktubre",
+    "src": "legal deadline in October"
+  },
+  "cycle.stage.4.when": {
+    "text": "Oktubre {prev}",
+    "src": "October {prev}"
+  },
+  "cycle.stage.4.summary": {
+    "text": "Ipinapadala ng {Mayor} ang proposed budget sa {lguAdj} council.",
+    "src": "The {Mayor} sends the proposed budget to the {lguAdj} council."
+  },
+  "cycle.stage.4.what": {
+    "text": "Isinusumite ng {Mayor} ang proposed budget sa {lguAdj} council, kalakip ang Budget Message na nagpapaliwanag ng mga prioridad nito. Ang batas ay nagtatakda ng deadline sa Oktubre para dito kada taon.",
+    "src": "The {Mayor} submits the proposed budget to the {lguAdj} council, with a Budget Message explaining its priorities. The law sets an October deadline for this every year."
+  },
+  "cycle.stage.4.who.0.role": {
+    "text": "isinusumite ang budget at ang Budget Message",
+    "src": "submits the budget and the Budget Message"
+  },
+  "cycle.stage.4.who.1.role": {
+    "text": "ihanda ito",
+    "src": "prepare it"
+  },
+  "cycle.stage.4.out.0.meaning": {
+    "text": "ang proposed budget ng {Mayor}, nakaayos ayon sa opisina at uri ng gastusin",
+    "src": "the {Mayor}’s proposed budget, organized by office and type of expense"
+  },
+  "cycle.stage.4.out.1.meaning": {
+    "text": "ang paliwanag ng {Mayor} kung para saan ang budget",
+    "src": "the {Mayor}’s explanation of what the budget is for"
+  },
+  "cycle.stage.4.you": {
+    "text": "Kapag naisumite na, ang proposed budget ay maaari nang basahin at pag-usapan sa publiko. Ipapakita ng site na ito kung paano nagbago ang bawat item mula sa plano at sa proposal na ito.",
+    "src": "Once submitted, the proposed budget can be read and discussed in public. This site will show how each item changed between the plan and this proposal."
+  },
+  "cycle.stage.4.know": {
+    "text": "Ang LEP ay nakaayos ayon sa opisina at uri ng gastusin (mga sahod, supplies, equipment), hindi ayon sa program, kaya iba ang itsura nito sa AIP kahit pareho lang ang pera.",
+    "src": "The LEP is arranged by office and type of expense (salaries, supplies, equipment), not by program, so it looks different from the AIP even where the money is the same."
+  },
+  "cycle.stage.5.title": {
+    "text": "Ang council ay nagdedebate",
+    "src": "The council debates"
+  },
+  "cycle.stage.5.short": {
+    "text": "mga hearing, tapos ang botohan",
+    "src": "hearings, then a vote"
+  },
+  "cycle.stage.5.when": {
+    "text": "Oktubre hanggang Disyembre {prev}",
+    "src": "October to December {prev}"
+  },
+  "cycle.stage.5.summary": {
+    "text": "Ang {lguAdj} council ay nagsasagawa ng mga hearing sa budget, saka ito iboboto.",
+    "src": "The {lguAdj} council holds hearings on the budget, then votes on it."
+  },
+  "cycle.stage.5.what": {
+    "text": "Ang komite ng {lguAdj} council ay nagdaraos ng mga hearing kung saan ipinapaliwanag at idinedepensa ng bawat opisina ang budget nila. Kinukuwestiyon ng mga miyembro ng council ang mga request at pwedeng magbawas ng items. Ang council ay boboto para ipasa ang budget bilang isang Appropriation Ordinance at ipapadala ito sa {Mayor}.",
+    "src": "The {lguAdj} council’s committee holds hearings where each office explains and defends its budget. Council members question the requests and can cut items. The council then votes to pass the budget as an Appropriation Ordinance and sends it to the {Mayor}."
+  },
+  "cycle.stage.5.who.0.role": {
+    "text": "nagdaraos ng mga hearing at bumoboto sa budget",
+    "src": "holds the hearings and votes on the budget"
+  },
+  "cycle.stage.5.who.1.role": {
+    "text": "ipaliwanag at idepensa ang kanilang mga budget sa mga hearing",
+    "src": "explain and defend their budgets at the hearings"
+  },
+  "cycle.stage.5.out.0.meaning": {
+    "text": "ang budget na inaprubahan ng council, ipinadala sa {Mayor} para pirmahan",
+    "src": "the budget the council approved, sent to the {Mayor} to sign"
+  },
+  "cycle.stage.5.you.0.fallback": {
+    "text": "Tanungin ang secretariat ng {lguAdj} council kung kailan gaganapin ang mga budget hearing at kung paano dadalo.",
+    "src": "Ask the {lguAdj} council’s secretariat when the budget hearings are held and how to attend. "
+  },
+  "cycle.stage.5.you.1": {
+    "text": "Ito na ang huling pagkakataong magsalita bago maging batas ang mga numerong ito.",
+    "src": "This is the last chance to speak before the figures become law."
+  },
+  "cycle.stage.5.know": {
+    "text": "Hinihiling ng batas sa council na bigyang prioridad ang budget, para maipasa ito bago magsimula ang taon.",
+    "src": "The law asks the council to give the budget priority, so that it is passed before the year starts."
+  },
+  "cycle.stage.6.title": {
+    "text": "Pinipirmahan ng {Mayor}",
+    "src": "The {Mayor} signs"
+  },
+  "cycle.stage.6.short": {
+    "text": "o nagba-veto ng mga item",
+    "src": "or vetoes items"
+  },
+  "cycle.stage.6.when": {
+    "text": "Disyembre {prev}, bago magsimula ang taon",
+    "src": "December {prev}, before the year starts"
+  },
+  "cycle.stage.6.summary": {
+    "text": "Pinipirmahan ng {Mayor} ang budget, o vine-veto ang mga item dito. Kapag napirmahan, ito na ang Annual Budget.",
+    "src": "The {Mayor} signs the budget, or vetoes items in it. Signed, it is the Annual Budget."
+  },
+  "cycle.stage.6.what": {
+    "text": "Pinipirmahan ng {Mayor} ang budget na ipinasa ng council, o vine-veto ang partikular na mga item dito. Kung hindi umaksyon ang {Mayor} sa loob ng sampung araw, magkakabisa ito na parang pinirmahan. Kapag napirmahan na, ang plano ay magiging Annual Budget: permiso para gumastos, ayon sa batas.",
+    "src": "The {Mayor} signs the budget the council passed, or vetoes particular items in it. If the {Mayor} does not act within ten days, it takes effect as if signed. Once signed, the plan becomes the Annual Budget: permission to spend, in law."
+  },
+  "cycle.stage.6.who.0.role": {
+    "text": "pinipirmahan ang ordinance, o vine-veto ang mga partikular na item",
+    "src": "signs the ordinance, or vetoes specific items"
+  },
+  "cycle.stage.6.who.1.role": {
+    "text": "puwede pa ring ipasa ang na-veto na item kung dalawang-katlo ng mga miyembro nito ang boboto para i-override",
+    "src": "can still pass a vetoed item if two-thirds of its members vote to override"
+  },
+  "cycle.stage.6.out.0.meaning": {
+    "text": "ang Annual Budget: kung magkano ang puwedeng gastusin ng {lgu} sa susunod na taon, ayon sa batas",
+    "src": "the Annual Budget: what the {lgu} may spend next year, by law"
+  },
+  "cycle.stage.6.out.1.meaning": {
+    "text": "alin mga item ang ni-reject ng {Mayor}, at bakit",
+    "src": "which items the {Mayor} rejected, and why"
+  },
+  "cycle.stage.6.you": {
+    "text": "Walang public step dito, pero ang pinirmahang budget ay isang public record. Makikita ito sa site na ito sa Annual Budget pages.",
+    "src": "There is no public step here, but the signed budget is a public record. This site shows it in the Annual Budget pages."
+  },
+  "cycle.stage.6.know": {
+    "text": "Kung walang budget na umiral pagsapit ng Enero, ang {lgu} ay tatakbo gamit ang budget ng nakaraang taon, para lang sa essential costs, hanggang sa umiral ang bago.",
+    "src": "If no budget takes effect by January, the {lgu} runs on last year’s budget, for essential costs only, until the new one does."
+  },
+  "cycle.stage.7.title": {
+    "text": "Isang national check",
+    "src": "A national check"
+  },
+  "cycle.stage.7.short": {
+    "text": "sa loob ng 90 araw",
+    "src": "within 90 days"
+  },
+  "cycle.stage.7.when": {
+    "text": "Enero hanggang Marso {fy}",
+    "src": "January to March {fy}"
+  },
+  "cycle.stage.7.summary": {
+    "text": "Sinusuri ng national budget department kung ang budget ay sumusunod sa mga patakaran.",
+    "src": "The national budget department checks the budget follows the rules."
+  },
+  "cycle.stage.7.what": {
+    "text": "Sinusuri ng regional office ng Department of Budget and Management kung ang budget ay sumusunod sa national rules, gaya ng limit sa gastos para sa mga suweldo at ang required shares para sa development at disaster funds. Mayroon itong 90 araw.",
+    "src": "The Department of Budget and Management’s regional office checks that the budget follows national rules, such as the limit on spending for salaries and the required shares for development and disaster funds. It has 90 days."
+  },
+  "cycle.stage.7.who.1.role": {
+    "text": "sinasagot ang mga tanong nito",
+    "src": "answers its questions"
+  },
+  "cycle.stage.7.out.0.meaning": {
+    "text": "anumang item na lumabag sa patakaran ay puwedeng ideklarang walang bisa",
+    "src": "any item that breaks the rules can be declared without effect"
+  },
+  "cycle.stage.7.you": {
+    "text": "Walang public step dito. Ang resulta ng review ay bahagi ng budget record ng {lgu}.",
+    "src": "There is no public step here. The review result is part of the {lgu}’s budget record."
+  },
+  "cycle.stage.8.title": {
+    "text": "Paggastos ng pera",
+    "src": "Spending the money"
+  },
+  "cycle.stage.8.short": {
+    "text": "pagbili at pagpapatayo",
+    "src": "buying and building"
+  },
+  "cycle.stage.8.when": {
+    "text": "Enero hanggang Disyembre {fy}",
+    "src": "January to December {fy}"
+  },
+  "cycle.stage.8.summary": {
+    "text": "Isinasagawa ng mga opisina ang kanilang mga programa, binibili ang kailangan nila, at binabayaran ito.",
+    "src": "Offices carry out their programs, buy what they need, and pay for it."
+  },
+  "cycle.stage.8.what": {
+    "text": "Isinasagawa ng mga opisina ang kanilang mga programa. Pinapapinalize ng bawat isa kung ano ang bibilhin nito, pinagsasama-sama ito ng Bids and Awards Committee sa procurement plan ng {lgu} at nagpapatakbo ng public bidding, at ang pera ay nire-release habang tinatapos ang trabaho.",
+    "src": "Offices carry out their programs. Each finalizes what it will buy, the Bids and Awards Committee combines these into the {lgu}’s procurement plan and runs public bidding, and money is released as work is done."
+  },
+  "cycle.stage.8.who.0.role": {
+    "text": "isinasagawa ang mga programa",
+    "src": "carry out the programs"
+  },
+  "cycle.stage.8.who.1.role": {
+    "text": "nagpapatakbo ng public bidding para sa mga binibili ng {lgu}",
+    "src": "runs public bidding for what the {lgu} buys"
+  },
+  "cycle.stage.8.who.2.role": {
+    "text": "nire-release at nire-record ang pera",
+    "src": "release and record the money"
+  },
+  "cycle.stage.8.out.0.meaning": {
+    "text": "kung ano talaga ang bibilhin ng bawat opisina",
+    "src": "what each office will actually buy"
+  },
+  "cycle.stage.8.out.1.meaning": {
+    "text": "bawat planadong pagbili ng {lgu}, sa iisang listahan",
+    "src": "every planned purchase of the {lgu}, in one list"
+  },
+  "cycle.stage.8.out.2.meaning": {
+    "text": "mga bagong ordinances na nagbabago sa budget sa loob ng taon",
+    "src": "new ordinances that change the budget during the year"
+  },
+  "cycle.stage.8.you": {
+    "text": "Ang mga Observer mula sa CSOs ay puwedeng umupo sa public bidding. Ang Projects pages sa site na ito ay nagpapakita kung ano ang planong bilhin ng mga opisina.",
+    "src": "Observers from CSOs can sit in on public bidding. The Projects pages on this site show what offices plan to buy."
+  },
+  "cycle.stage.8.know": {
+    "text": "Ang budget line ay permiso, hindi gastos. At ang budget ay pwedeng magbago pa sa loob ng taon, pero sa pamamagitan lang ng isa pang ordinance na ipinasa ng council.",
+    "src": "A budget line is permission, not spending. And the budget can still change during the year, but only through another ordinance passed by the council."
+  },
+  "cycle.stage.9.title": {
+    "text": "Ipinapakita ang receipts",
+    "src": "Showing the receipts"
+  },
+  "cycle.stage.9.short": {
+    "text": "reports at ang audit",
+    "src": "reports and the audit"
+  },
+  "cycle.stage.9.when": {
+    "text": "{fy} hanggang kalagitnaan ng {next}",
+    "src": "{fy} to mid-{next}"
+  },
+  "cycle.stage.9.summary": {
+    "text": "Ini-report ng {lgu} kung magkano ang nagastos, at ito ay chine-check ng Commission on Audit.",
+    "src": "The {lgu} reports what it spent, and the Commission on Audit checks it."
+  },
+  "cycle.stage.9.what": {
+    "text": "Ini-report ng {lgu} ang nagastos laban sa na-aprubahan, chine-check ng planning office ang progreso ng mga proyekto, at ang Commission on Audit ay nag-eeksamin ng accounts at nagpo-post ng audit report pagkatapos ng taon.",
+    "src": "The {lgu} reports what it spent against what was approved, the planning office checks how projects are progressing, and the Commission on Audit examines the accounts and publishes an audit report after the year ends."
+  },
+  "cycle.stage.9.who.0.role": {
+    "text": "i-report kung magkano ang nagastos",
+    "src": "report what was spent"
+  },
+  "cycle.stage.9.who.1.role": {
+    "text": "mino-monitor ang mga proyekto",
+    "src": "monitors projects"
+  },
+  "cycle.stage.9.who.2.role": {
+    "text": "ina-audit ang accounts",
+    "src": "audits the accounts"
+  },
+  "cycle.stage.9.out.0.meaning": {
+    "text": "ang nagastos laban sa na-aprubahan",
+    "src": "what was spent against what was approved"
+  },
+  "cycle.stage.9.out.1.meaning": {
+    "text": "mga findings ng COA sa accounts ng {lgu}, naka-post online",
+    "src": "COA’s findings on the {lgu}’s accounts, published online"
+  },
+  "cycle.stage.9.you": {
+    "text": "Basahin ang audit report ng {lgu} sa website ng COA, at i-compare ito sa mga plano sa site na ito.",
+    "src": "Read the {lgu}’s audit report on the COA website, and compare it with what was planned on this site."
+  },
+  "cycle.stage.9.know": {
+    "text": "Dito mo pwedeng i-check kung ang permiso ay naging isang bagay na nakikita mo.",
+    "src": "This is where you can check whether permission became something you can see."
+  },
+  "cycle.phase.0.title": {
+    "text": "Capacity Workshops at Sectoral Consultations",
+    "src": "Capacity Workshops and Sectoral Consultations"
+  },
+  "cycle.phase.0.when": {
+    "text": "Marso hanggang Hunyo {prev}",
+    "src": "March to June {prev}"
+  },
+  "cycle.phase.1.title": {
+    "text": "Paghahanda ng Annual Investment Program (AIP)",
+    "src": "Preparation of the Annual Investment Program (AIP)"
+  },
+  "cycle.phase.1.when": {
+    "text": "Abril hanggang Oktubre {prev}",
+    "src": "April to October {prev}"
+  },
+  "cycle.phase.2.title": {
+    "text": "Paghahanda ng Local Expenditure Program (LEP)",
+    "src": "Local Expenditure Program (LEP) Preparation"
+  },
+  "cycle.phase.2.when": {
+    "text": "Hulyo hanggang Oktubre {prev}",
+    "src": "July to October {prev}"
+  },
+  "cycle.phase.3.title": {
+    "text": "Budget Hearings at Legislative Authorization",
+    "src": "Budget Hearings and Legislative Authorization"
+  },
+  "cycle.phase.3.when": {
+    "text": "Oktubre hanggang Disyembre {prev}",
+    "src": "October to December {prev}"
+  },
+  "cycle.phase.4.title": {
+    "text": "Budget Review at Allotment",
+    "src": "Budget Review and Allotment"
+  },
+  "cycle.phase.4.when": {
+    "text": "Enero hanggang Marso {fy}",
+    "src": "January to March {fy}"
+  },
+  "cycle.phase.5.title": {
+    "text": "Budget Execution at Monitoring",
+    "src": "Budget Execution and Monitoring"
+  },
+  "cycle.phase.5.when": {
+    "text": "{fy} hanggang kalagitnaan ng {next}",
+    "src": "{fy} to mid-{next}"
+  },
+  "cycle.lane.plan": {
+    "text": "Pagpaplano",
+    "src": "Planning"
+  },
+  "cycle.lane.budget": {
+    "text": "Budget at spending",
+    "src": "Budget & spending"
+  },
+  "cycle.lane.decide": {
+    "text": "Pagdedesisyon at pagche-check",
+    "src": "Deciding & checking"
+  },
+  "cycle.lanePeople.budget": {
+    "text": "budget office, finance committee, {lguAdj} offices",
+    "src": "budget office, finance committee, {lguAdj} offices"
+  },
+  "cycle.lanePeople.decide": {
+    "text": "{Mayor}, {lguAdj} council, national government",
+    "src": "{Mayor}, {lguAdj} council, national government"
+  },
+  "glossary.0.heading": {
+    "text": "Ang dalawang dokumento",
+    "src": "The two documents"
+  },
+  "glossary.0.blurb": {
+    "text": "Ito ang pinagbasehan ng buong site na ito.",
+    "src": "The distinction this whole site is organized around."
+  },
+  "glossary.0.entries.0.definition": {
+    "text": "Ang plano ng {lgu} para sa isang taon: lahat ng balak gawin ng mga opisina nito, at ang inaasahang gastos para doon. Ito ang taunang bahagi ng mas mahabang development plan. Plano lamang ito — walang pwedeng gastusin base pa lang dito.",
+    "src": "The {lgu}'s plan for one year: everything its offices propose to do, and what they expect it to cost. It is the year's slice of a longer development plan. A plan only — nothing may be spent on the strength of it."
+  },
+  "glossary.0.entries.1.definition": {
+    "text": "Ang financial plan para sa isang fiscal year, kapag naipasa na ito ng Sanggunian at napirmahan na ng {Mayor}. Ito ang dokumentong nagbibigay ng awtorisadong paggastos, at ito ang dahilan kung bakit ang enacted year sa site na ito ay tinutukoy bilang batas imbes na proposal.",
+    "src": "The financial plan for one fiscal year, once the Sanggunian has passed it and the {Mayor} has signed it. This is the document that authorizes spending, and the reason the enacted year on this site is described as law rather than proposal."
+  },
+  "glossary.0.entries.2.definition": {
+    "text": "Permiso para gumastos ng isang nakasaad na amount para sa isang nakasaad na layunin, na iginagawad ng ordinance. Bawat piso sa site na ito ay isang appropriation — permiso, hindi record ng perang lumabas na sa treasury.",
+    "src": "Permission to spend a stated amount for a stated purpose, granted by ordinance. Every peso on this site is an appropriation — permission, not a record of money that has left the treasury."
+  },
+  "glossary.0.entries.3.definition": {
+    "text": "Ang lokal na batas na nagpapatibay sa budget. Pinapasa ito ng Sanggunian at pinipirmahan ng {Mayor}; ang pirma ang sandali na ang plano ay nagiging isang budget.",
+    "src": "The local law that enacts the budget. The Sanggunian passes it and the {Mayor} signs it; the signature is the moment a plan becomes a budget."
+  },
+  "glossary.0.entries.4.definition": {
+    "text": "Isang budget na ipinatupad pagkatapos ng Annual Budget, para baguhin ito. Ito ang paraan ng {lgu} para tumugon sa mga bagay na hindi nakita sa orihinal na budget.",
+    "src": "A budget enacted after the Annual Budget, to change it. It is how a {lgu} responds to something the original budget did not foresee."
+  },
+  "glossary.0.entries.5.definition": {
+    "text": "Ang proposed budget ng {Mayor} para sa susunod na taon, tinatawag ding Executive Budget, na ipinapadala sa Sanggunian tuwing Oktubre. Nakaayos ito ayon sa opisina at uri ng gastos imbes na ayon sa programa, at dito nababawasan ang plano para magkasya sa inaasahang kita ng {lgu}.",
+    "src": "The {Mayor}'s proposed budget for next year, also called the Executive Budget, sent to the Sanggunian in October. It is arranged by office and type of expense rather than by program, and it is where the plan has been cut to fit the income the {lgu} expects."
+  },
+  "glossary.0.entries.6.definition": {
+    "text": "Ang tagubilin ng {Mayor} sa bawat opisina sa simula ng paghahanda ng budget: kung magkano ang pwedeng hilingin nito, at kung paano ito hihilingin.",
+    "src": "The {Mayor}'s instructions to every office at the start of budget preparation: how much it may ask for, and how to ask."
+  },
+  "glossary.0.entries.7.definition": {
+    "text": "Ang kapangyarihan ng {Mayor} na i-veto ang partikular na mga item sa budget na ipinasa ng Sanggunian. Ang isang na-veto na item ay maaari pa ring makapasa kung dalawang-katlo ng Sanggunian ang boboto para i-override ito.",
+    "src": "The {Mayor}’s power to reject particular items in the budget the Sanggunian passed. A vetoed item can still pass if two-thirds of the Sanggunian vote to override."
+  },
+  "glossary.1.heading": {
+    "text": "Paano gumagalaw ang pera",
+    "src": "How money moves"
+  },
+  "glossary.1.blurb": {
+    "text": "Ang isang appropriation ay nagiging gastos nang hakbang-hakbang, at bawat isa ay may kanya-kanyang termino.",
+    "src": "An appropriation becomes spending in steps, and each has its own word."
+  },
+  "glossary.1.entries.0.definition": {
+    "text": "Ang authority na ibinigay sa isang opisina para simulang i-commit ang perang in-appropriate ng ordinance. Sa pagitan ng pagkakaroon ng permiso at ng kakayahan ng isang opisina na gamitin ito.",
+    "src": "The authority given to an office to start committing money that the ordinance has appropriated. Between permission existing and an office being able to use it."
+  },
+  "glossary.1.entries.1.definition": {
+    "text": "Isang commitment na ngayon ay obligado nang bayaran ng {lgu} — isang pinirmahang kontrata, isang purchase order, isang payroll. Hindi pa nawawala ang pera, pero hindi na ito libre.",
+    "src": "A commitment the {lgu} is now bound to pay — a signed contract, a purchase order, a payroll. The money is not gone, but it is no longer free."
+  },
+  "glossary.1.entries.2.definition": {
+    "text": "Cash na aktuwal na lumabas sa treasury. Ito lang sa apat ang nangangahulugang nagastos na ang pera, at hindi ito ang nirerekord ng site na ito.",
+    "src": "Cash actually leaving the treasury. This is the only one of the four that means money has been spent, and it is not what this site records."
+  },
+  "glossary.1.entries.3.definition": {
+    "text": "Isang appropriation na nananatiling available lagpas sa katapusan ng budget year, para sa mga bagay tulad ng konstruksyon na hindi kayang tapusin sa loob ng labindalawang buwan.",
+    "src": "An appropriation that stays available past the end of the budget year, for things like construction that cannot finish inside twelve months."
+  },
+  "glossary.2.heading": {
+    "text": "Pagbili ng mga bagay na pinopondohan ng budget",
+    "src": "Buying what the budget pays for"
+  },
+  "glossary.2.blurb": {
+    "text": "Paano pinaplano ng {lgu} ang mga pagbili nito kapag alam na nito kung magkano ang pwedeng gastusin.",
+    "src": "How the {lgu} plans its purchases once it knows what it may spend."
+  },
+  "glossary.2.entries.0.definition": {
+    "text": "Ang pinaplanong bilhin ng isang opisina para sa mga programa nito, at kung kailan. Ang draft ay ginagawa kasabay ng budget proposal; ang pinal ay pagkatapos maipatupad ang budget. Sa site na ito, ito ang mga pahina ng Projects.",
+    "src": "What one office plans to buy for its programs, and when. A draft is made with the budget proposal; the final one after the budget is enacted. On this site these are the Projects pages."
+  },
+  "glossary.2.entries.1.definition": {
+    "text": "Bawat pagbili na pinaplano ng {lgu} para sa taon, na pinagsama-sama mula sa lahat ng PPMP ng mga opisina ng Bids and Awards Committee.",
+    "src": "Every purchase the {lgu} plans for the year, combined from all the offices' PPMPs by the Bids and Awards Committee."
+  },
+  "glossary.2.entries.2.definition": {
+    "text": "Ang komite na nangangasiwa ng public bidding para sa mga binibili ng {lgu}. Ang mga observer mula sa CSOs ay maaaring umupo rito.",
+    "src": "The committee that runs public bidding for what the {lgu} buys. Observers from CSOs may sit in."
+  },
+  "glossary.3.heading": {
+    "text": "Para saan ang pera",
+    "src": "What the money is for"
+  },
+  "glossary.3.blurb": {
+    "text": "Bawat piso ay naka-classify sa dalawang paraan: ayon sa kung ano ang binibili nito, at ayon sa kung saan ito nakalagay sa libro.",
+    "src": "Every peso is classified two ways: by what it buys, and by where it sits in the book."
+  },
+  "glossary.3.entries.0.definition": {
+    "text": "Sahod at benepisyo para sa mga taong gumagawa ng trabaho — suweldo, allowances, retirement at leave benefits, at ang gastos sa pag-fill ng mga posisyon.",
+    "src": "Pay and benefits for the people who do the work — salaries, allowances, retirement and leave benefits, and the cost of filling posts."
+  },
+  "glossary.3.entries.1.definition": {
+    "text": "Ang gastos sa pang-araw-araw na pagpapatakbo ng mga serbisyo: supplies, gasolina at travel, kuryente at tubig, repairs.",
+    "src": "The cost of running services day to day: supplies, fuel and travel, electricity and water, repairs."
+  },
+  "glossary.3.entries.2.definition": {
+    "text": "Bank charges, interes sa mga loan at iba pang financial charges. Ipinapakita bilang sarili nitong halaga simula noong 2023 budget manual; sa mga naunang budget, ito ay kasama sa ilalim ng MOOE.",
+    "src": "Bank charges, interest on loans and other financial charges. Shown as its own amount since the 2023 budget manual; earlier budgets counted it under MOOE."
+  },
+  "glossary.3.entries.3.definition": {
+    "text": "Paggastos sa mga bagay na ang benepisyo ay lampas sa taon at pag-aari na ng {lgu} pagkatapos — mga gusali, kagamitan, daan, public markets.",
+    "src": "Spending on things whose benefit outlasts the year and which the {lgu} then owns — buildings, equipment, roads, public markets."
+  },
+  "glossary.3.entries.4.definition": {
+    "text": "Ang seksyon ng budget na sumasaklaw sa gastos para umiral ang isang opisina: ang staff nito, ang lugar nito, ang mga gastusin sa operasyon. Karamihan ng mga opisina ay naglalagay ng malaking bahagi ng kanilang budget dito, kaya ito ang nangingibabaw sa kabuuang halaga.",
+    "src": "The section of the budget covering the cost of an office existing at all: its staff, its premises, its running costs. Most offices file the bulk of their budget here, which is why it dominates the totals."
+  },
+  "glossary.3.entries.5.definition": {
+    "text": "Ang section na sumasaklaw sa kung ano ang nagpapagana ng front-line service mula sa likod — records, transport, information systems.",
+    "src": "The section covering what makes front-line service possible from behind — records, transport, information systems."
+  },
+  "glossary.3.entries.6.definition": {
+    "text": "Ang section na sumasaklaw sa serbisyong dapat ihatid ng isang opisina: ang clinic, ang school feeding, ang road repair.",
+    "src": "The section covering the service an office exists to deliver: the clinic, the school feeding, the road repair."
+  },
+  "glossary.4.heading": {
+    "text": "Paano naka-organisa ang mga entry",
+    "src": "How entries are organized"
+  },
+  "glossary.4.blurb": {
+    "text": "Ang itsura ng isang budget entry, at ang mga tawag sa mga bahagi nito.",
+    "src": "The shape of a budget entry, and the words for its parts."
+  },
+  "glossary.4.entries.0.definition": {
+    "text": "Ang tatlong lebel na puwedeng maging isang budget entry. Ang program ay grupo ng magkakaugnay na trabaho; ang project ay isang partikular na undertaking na may end date; ang activity ay ongoing na trabaho na nag-aambag sa isa sa mga ito. Ang isang program ay nagpapakita ng sarili nitong amount, o ng sum ng mga project at activity sa ilalim nito.",
+    "src": "The three levels a budget entry can be. A program is a group of related work; a project is a specific undertaking with an end date; an activity is ongoing work that contributes to one. A program either states its own amount, or shows the sum of the projects and activities under it."
+  },
+  "glossary.4.entries.1.definition": {
+    "text": "Ang {lguAdj} office na responsable sa paghahatid ng isang entry at accountable sa pera nito. Hindi ito ang opisina na nakikinabang dito.",
+    "src": "The {lguAdj} office responsible for delivering an entry and accountable for its money. Not necessarily the office that benefits from it."
+  },
+  "glossary.4.entries.2.definition": {
+    "text": "Ang sariling numbering ng {lgu} para sa bawat entry — sector, lebel ng gobyerno, uri ng opisina, ang opisina, ang section ng libro, tapos ang program at ang entry sa loob nito. Nagla-label ito ng mga row; hindi nito ina-add up ang mga ito, at wala itong dalang taon.",
+    "src": "The {lgu}'s own numbering for each entry — sector, level of government, type of office, the office, the section of the book, then the program and the entry within it. It labels rows; it does not add them up, and it carries no year."
+  },
+  "glossary.4.entries.4.definition": {
+    "text": "Isang pagpapangkat ng mga {lguAdj} office na nagtatrabaho para sa iisang {goal}.",
+    "src": "A grouping of {lguAdj} offices that work towards the same {goal}."
+  },
+  "glossary.4.entries.5.definition": {
+    "text": "Ang inaasahang gagastusin para sa isang entry ng AIP kung ito ay matutuloy. Ang AIP ay listahan ng mga planong programa, mas marami sa abot-kaya ng {lgu}, kaya ang estimated cost ay hindi budget at hindi nangangako ng pondo.",
+    "src": "What an AIP entry is expected to cost if it is carried out. The AIP is a list of planned programs, more than the {lgu} can afford, so an estimated cost is not a budget and promises no funding."
+  },
+  "glossary.4.entries.6.definition": {
+    "text": "Ang isinumiteng budget ng {Mayor} sa Sanggunian para sa susunod na taon: ang Local Expenditure Program (LEP), mula sa AIP pero nilimitahan sa abot-kayang pondohan ng {lgu}. Ang AIP figures sa site ay estimated costs; ang enacted figures ay appropriations.",
+    "src": "The budget the {Mayor} submits to the Sanggunian for next year: the Local Expenditure Program (LEP), drawn from the AIP but limited to what the {lgu} expects to afford. AIP figures on this site are estimated costs; enacted figures are appropriations."
+  },
+  "glossary.5.heading": {
+    "text": "Ang mga pondo",
+    "src": "The funds"
+  },
+  "glossary.5.blurb": {
+    "text": "Ang isang {lgu} ay walang iisang pitaka. Ito ang mga lumalabas sa site na ito.",
+    "src": "A {lgu} does not have one purse. These are the ones that appear on this site."
+  },
+  "glossary.5.entries.0.definition": {
+    "text": "Ang main account ng {lgu}, na nagho-hold ng ordinary income nito. Nandito ang karamihan ng budget.",
+    "src": "The {lgu}'s main account, holding its ordinary income. Most of the budget is here."
+  },
+  "glossary.5.entries.1.definition": {
+    "text": "Isang share ng real property tax na puwedeng gastusin lamang para sa public schools at edukasyon.",
+    "src": "A share of real property tax that may only be spent on public schools and education."
+  },
+  "glossary.5.entries.2.definition": {
+    "text": "Ang 20% ng national tax revenue na dapat itabi ng isang {lgu} para sa development projects imbes na running costs.",
+    "src": "The 20% of national tax revenue a {lgu} must set aside for development projects rather than running costs."
+  },
+  "glossary.5.entries.3.definition": {
+    "text": "5% ng estimated revenue, na nakalaan para sa paghahanda at pagresponde sa mga disaster.",
+    "src": "5% of estimated revenue, reserved for preparing for and responding to disasters."
+  },
+  "glossary.5.entries.4.definition": {
+    "text": "Pera na hawak ng {lgu} para sa isang partikular na layunin sa ngalan ng iba, na hindi pwedeng i-redirect.",
+    "src": "Money the {lgu} holds for a specific purpose on behalf of someone else, which it may not redirect."
+  },
+  "glossary.5.entries.5.definition": {
+    "text": "Pera na galing sa isang national department para sa trabahong isinasagawa locally.",
+    "src": "Money coming from a national department for work carried out locally."
+  },
+  "glossary.6.heading": {
+    "text": "Sino ang nagdedesisyon",
+    "src": "Who decides"
+  },
+  "glossary.6.blurb": {
+    "text": "Ang mga katawan na pinangalanan sa site na ito, at kung ano ang ginagawa ng bawat isa.",
+    "src": "The bodies named on this site, and what each one does."
+  },
+  "glossary.6.entries.0.definition": {
+    "text": "Ang inihalal na {lguAdj} council ({council}). Ito ang nagho-hold ng budget hearings at pumapasa sa appropriation ordinance, na pinipirmahan ng {Mayor}.",
+    "src": "The elected {lguAdj} council ({council}). It holds the budget hearings and passes the appropriation ordinance, which the {Mayor} then signs."
+  },
+  "glossary.6.entries.1.definition": {
+    "text": "Ang {lguAdj} budget, planning at treasury officers, na nag-a-assess kung ano ang kaya ng {lgu} at nagrerekomenda kung paano ito hahatiin.",
+    "src": "The {lgu}'s budget, planning and treasury officers, who assess what the {lgu} can afford and recommend how to divide it."
+  },
+  "glossary.6.entries.2.definition": {
+    "text": "Ang katawan na nag-a-approve ng development plans ng {lgu} at ng Annual Investment Program nito, na pinamumunuan ng {Mayor}, kasama ang mga barangay captain at CSO representatives. Ang tawag dito ng batas ay Local Development Council (LDC).",
+    "src": "The body that approves the {lgu}'s development plans and its Annual Investment Program, chaired by the {Mayor}, with barangay captains and CSO representatives. The law calls it the Local Development Council (LDC)."
+  },
+  "glossary.6.entries.5.definition": {
+    "text": "Ang national agency na ang regional office ay nire-review ang budget ng {lgu} pagkatapos itong pirmahan, at pwedeng mag-strike ng mga item na lumalabag sa national rules.",
+    "src": "The national agency whose regional office reviews the {lgu}'s budget after it is signed, and can strike items that break national rules."
+  },
+  "glossary.6.entries.6.definition": {
+    "text": "Ang national agency na nag-aaudit kung paano ginastos ang public money at pini-publish ang findings nito taon-taon.",
+    "src": "The national agency that audits how public money was spent and publishes its findings every year."
+  }
+}

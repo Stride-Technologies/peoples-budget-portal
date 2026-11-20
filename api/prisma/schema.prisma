@@ -1,0 +1,2781 @@
+generator client {
+  provider = "prisma-client-js"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+// ---------------------------------------------------------------------------
+// Enums
+// ---------------------------------------------------------------------------
+
+enum Role {
+  STAFF
+  HEAD
+  SUPER_ADMIN
+}
+
+enum IdentityType {
+  LGU // Local Government Unit
+  NCPC // Naga City People's Council
+  LFC // Local Finance Committee
+  DEVELOPER // Developer — no office or org; access is its role, permissions and office scope
+}
+
+enum OfficeType {
+  MANDATORY // DBM BOM Annex D type "1"
+  OPTIONAL // DBM BOM Annex D type "2"
+  OTHERS // DBM BOM Annex D type "3"
+}
+
+/// Which sheet an office prints on in the complete-AIP workbook.
+///
+/// Editorial, not derived: the budget office's four-way split cuts across both
+/// `PAPSector` (only three are in use) and `Cluster` (eight), so neither can
+/// produce it. See `Office.aipSectorGroup`.
+enum AipSectorGroup {
+  GENERAL_PUBLIC
+  ECONOMIC
+  ENVI_INFRA
+  SOCIAL
+}
+
+/// Administrative actions recorded against a user account (control panel → Users).
+enum UserAuditAction {
+  ROLE_CHANGED
+  OFFICE_CHANGED
+  ACTIVATED
+  DEACTIVATED
+  PROFILE_UPDATED // first/last name edits
+  LOGIN // successful authentication
+  LOGIN_FAILED // failed authentication against an existing account
+  PASSWORD_CHANGED // self-service change while logged in
+  PASSWORD_RESET_REQUESTED // forgot-password link requested
+  PASSWORD_RESET // password set via reset link
+  PERMISSIONS_CHANGED // permission grants added or removed (Phase 1 D11)
+  OFFICE_SCOPE_CHANGED // office scope grants or the all-offices flag changed (D2)
+}
+
+enum ExpenseClass {
+  PS // Personnel Services
+  MOOE // Maintenance and Other Operating Expenses
+  FE // Financial Expenses (2023 Budget Operations Manual's fourth class)
+  CO // Capital Outlay
+}
+
+/// The LBP Form 7 column an office's money prints in (FY2026 ordinance's
+/// sector summary). Independent of `officeType`, which is an AIP code segment.
+enum Form7Column {
+  GENERAL_PUBLIC
+  SOCIAL
+  ECONOMIC
+  ECONOMIC_ENTERPRISE
+}
+
+/// Closed set (spec: PPMP Creation). No admin CRUD — unlike UACSObject/FinishLine,
+/// this taxonomy is fixed for the feature, not a reference table.
+enum PPMPProjectType {
+  GOODS
+  SERVICES
+  CONSULTING_SERVICES
+  INFRASTRUCTURE_PROJECTS
+}
+
+/// Closed set (spec: PPMP Creation). Deliberately simplified relative to the
+/// full GPPB alternative-methods taxonomy — see specs/001-ppmp-creation/spec.md
+/// Assumptions.
+enum PPMPProcurementMode {
+  SMALL_VALUE_PROCUREMENT
+  COMPETITIVE_BIDDING
+  NEGOTIATED_PROCUREMENT
+  HIGHLY_TECHNICAL_CONSULTANTS
+}
+
+/// A Project's own categorization, picked at creation — modeled on
+/// `PapClass` (same first three labels) but a separate enum, not a reuse:
+/// Digitalization has no AIP-code-segment equivalent, and this never feeds
+/// the AIP code format the way PapClass does.
+enum PpmpClassification {
+  GENERAL_ADMINISTRATIVE_SERVICES
+  SUPPORT_TO_OPERATIONS
+  OPERATIONS
+  DIGITALIZATION
+}
+
+/// specs/012 D9: Indicative before the budget is enacted, Final after.
+enum PpmpKind {
+  INDICATIVE
+  FINAL
+}
+
+/// A simple two-state approval gate, deliberately not a Program-style
+/// multi-stage workflow (no SUBMITTED/HEAD_REVIEWED/PENDING_APPROVAL, no
+/// committee sequencing). DRAFT is the only state a new Project starts in;
+/// APPROVED is required before Publish is allowed. Any content edit while
+/// APPROVED reverts the Project to DRAFT so it must be re-approved before it
+/// can be (re)published — see PpmpService.revertToDraftIfApproved.
+enum PpmpStatus {
+  DRAFT
+  APPROVED
+  /// Reached only from APPROVED, only if the Project was already published —
+  /// editing it then unpublishes it (see PpmpService.draftRevertPatch) and
+  /// marks it REVISION rather than plain DRAFT, so the registry can tell
+  /// "never published" apart from "was live, now under review" and offer
+  /// "Republish" instead of "Publish" once it's re-approved.
+  REVISION
+}
+
+enum ClimatePillar {
+  ADAPTATION
+  MITIGATION
+  CROSSCUTTING
+}
+
+/// LOCKED is the pre-012 name for ADOPTED. Both are read as "adopted"; new
+/// transitions write ADOPTED, and LOCKED is removed by the specs/012 contract
+/// migration (P8) once no row and no running build uses it.
+enum AIPCycleStatus {
+  PLANNING
+  OPEN
+  CLOSED
+  LOCKED
+  ADOPTED
+}
+
+enum ProgramStatus {
+  DRAFT
+  FOR_REVISION // retained: legacy + Phase 2
+  SUBMITTED // retained: legacy + Phase 2
+  HEAD_REVIEWED // retained: legacy + Phase 2
+  PENDING_APPROVAL // retained: legacy + Phase 2
+  APPROVED // retained: legacy + Phase 2
+  REJECTED // retained: legacy only
+  PUBLISHED // NEW (Phase 1) — published, no pending edits
+  PUBLISHED_REVISION // NEW (Phase 1) — published, with an unpublished draft on top
+  ARCHIVED // specs/013 — was PUBLISHED; superseded, read-only, in no total
+}
+
+/// The AIP form's three appropriation sections, in the order they are printed.
+/// Nullable on Program: pre-existing rows have no value and export under
+/// OPERATIONS, which is where they already appeared.
+enum PapClass {
+  GAS // I. General Administration and Support
+  STO // II. Support to Operations
+  OPERATIONS // III. Operations
+}
+
+/// Where a PPA's money comes from. Multi-valued and amount-less by design: the
+/// budget office lists the funds a PPA draws on, it does not split the estimate
+/// across them — so this is an enum array, not a join table with amounts.
+enum FundSource {
+  GF // General Fund
+  SEF // Special Education Fund
+  LDF // Local Development Fund
+  LDRRMF // Local Disaster Risk Reduction and Management Fund
+  SPA // Special Purpose Appropriation
+  PPP // Public-Private Partnership
+  NGA // National Government Agency
+  DONATIONS_GRANTS
+  GAD // Gender and Development
+  TRUST_FUND
+  SHF // Special Health Fund (Universal Health Care Act)
+  EDF // Economic Development Fund
+  CCN // City College of Naga
+  JOINT_VENTURE
+  BORROWINGS
+}
+
+enum PPAType {
+  PROJECT
+  ACTIVITY
+}
+
+enum PPACostMode {
+  DIRECT_COSTS
+  ACTIVITY_CHILDREN
+}
+
+enum VerdictType {
+  APPROVE
+}
+
+/// Who recorded an advisory endorsement (NCPC endorser pivot Phase 2).
+/// LGU  → a canEndorse city office's HEAD  (endorserOfficeId set, endorserCsoId null)
+/// NCPC → the NCPC umbrella head           (endorserOfficeId null, endorserCsoId null)
+///        or a CSO representative          (endorserOfficeId null, endorserCsoId set)
+enum EndorserType {
+  LGU
+  NCPC
+}
+
+/// An LFC member office's decision on a ProgramVersion.
+/// RETURNED = recoverable bounce (program → FOR_REVISION); the proponent revises.
+/// REJECTED = terminal rejection (program → REJECTED); no final code is ever issued.
+enum ApprovalStatus {
+  PENDING
+  APPROVED
+  RETURNED
+  REJECTED
+}
+
+enum CommentStage {
+  SECTOR_FEEDBACK
+  HEAD_REVIEW
+  ENDORSEMENT
+  APPROVAL
+  GENERAL
+  PUBLIC_FEEDBACK
+}
+
+enum CommentTarget {
+  PROGRAM
+  PROJECT_ACTIVITY
+  LINE_ITEM
+}
+
+enum RegistryFeedbackCategory {
+  GENERAL
+  SPECIFIC_PPA
+  BUDGET_TRANSPARENCY
+  FINISH_LINE_PROGRESS
+  OTHER
+  PROGRAM_SUGGESTION
+}
+
+enum ProgramFeedbackCategory {
+  GENERAL
+  CONCERN
+  SUGGESTION
+  QUESTION
+  OTHER
+}
+
+enum ProgramCommentSentiment {
+  POSITIVE
+  NEGATIVE
+  NEUTRAL
+}
+
+/// Actions recorded against a program in the append-only edit history.
+/// Distinct from ProgramVersion, which snapshots published *content*.
+enum ProgramAuditAction {
+  PROGRAM_CREATED
+  PROGRAM_UPDATED // field-level edit; `changes` carries before/after
+  PA_ADDED
+  PA_UPDATED
+  PA_REMOVED
+  ESTIMATE_UPDATED // PS/MOOE/CO change, called out separately from PA_UPDATED
+  REVISION_OPENED
+  DRAFT_SAVED
+  DRAFT_DISCARDED
+  PUBLISHED
+  REPUBLISHED
+  COMMENT_POSTED
+  COMMENT_REPLIED
+  COMMENT_RESOLVED
+  COMMENT_UNRESOLVED
+  COMMENT_DELETED
+  COMMENT_RESTORED
+  PUBLIC_REPLY_POSTED
+  PUBLIC_FEEDBACK_REVIEWED
+  EXPORTED
+  IMPORT_REVIEWED // the office confirmed the 2027 import's decisions on a program
+  TAG_ADDED // thematic tag applied directly to a Program or PA
+  TAG_REMOVED // thematic tag removed directly from a Program or PA
+  ARCHIVED // specs/013; `changes` carries { reason }
+  UNARCHIVED
+}
+
+enum AuditTargetType {
+  PROGRAM
+  PROJECT_ACTIVITY
+  COMMENT
+  LINE_ITEM // reserved — Phase 2
+}
+
+enum ExportType {
+  CLUSTER
+  /// One office's "Mandate, Vision/Mission, Major Final Output, Performance
+  /// Indicators and Targets" sheet, as the city prints it.
+  AB_OFFICE
+  /// Every office's sheet in one document — the Annual Budget book.
+  AB_BOOK
+  /// The whole city's AIP in one workbook: a sheet per `AipSectorGroup`, then a
+  /// funding-source breakdown.
+  COMPLETE_AIP
+  LBP4_OFFICE // LBP Form 4, one office (xlsx)
+  LBP4_BOOK // LBP Form 4, every office in scope (xlsx)
+  LBP7 // LBP Form 7, city-wide (xlsx)
+}
+
+enum ExportStatus {
+  PENDING
+  GENERATED
+  FAILED
+}
+
+// ---------------------------------------------------------------------------
+// Models
+// ---------------------------------------------------------------------------
+
+/// A Naga city office — the single office catalog. `officeCode` and
+/// `officeType` were a separate `DBMOffice` table until the AIP coding system
+/// was reissued as one flat list; there is no longer a DBM/city distinction.
+///
+/// `officeCode` is free text (`"01"`, and `"11 (1)"` for the second office
+/// sharing base code 11) and deliberately **not unique**: several offices
+/// legitimately share a code, and the parenthetical suffix is the city's own
+/// disambiguator. Two offices on the same code+type emit identical AIP
+/// reference codes — the control panel warns, it does not block.
+model Office {
+  id        String   @id @default(uuid(7))
+  name      String
+  acronym   String
+  isActive  Boolean  @default(true) @map("is_active")
+  createdAt DateTime @default(now()) @map("created_at")
+  updatedAt DateTime @updatedAt @map("updated_at")
+
+  canEndorse Boolean @default(false) @map("can_endorse")
+
+  /// AIP code segment 3. Always 2 (City) here — every office is a Naga city
+  /// office — but stored rather than hardcoded so the segment has one source.
+  lguLevel Int @default(2) @map("lgu_level")
+
+  /// AIP code segments 3 and 4. Nullable: offices predating the reissued
+  /// coding system may not be coded yet, and AIPCodesService rejects those at
+  /// program-create time rather than emitting a malformed code.
+  ///
+  /// `officeCode` is stored the way the city's coding sheet writes it, spaces
+  /// and all ("11 (1)"). The code segment strips the whitespace on emit — the
+  /// sheet prints the office column with the space and the code without it.
+  officeType OfficeType? @map("office_type")
+  officeCode String?     @map("office_code")
+
+  /// The office's header block on the printed AB sheet ("Mandate,
+  /// Vision/Mission, Major Final Output, Performance Indicators and Targets").
+  /// All optional — the city leaves Vision and Mission blank on several sheets,
+  /// and an office with no profile still has programs.
+  mandateLegalBasis String? @map("mandate_legal_basis")
+  vision            String?
+  mission           String?
+
+  /// One row per outcome on the printed sheet. The blank template shows 1..n
+  /// rows; AB 2026 crams them into a single cell, so the importer splits and
+  /// the import report lists every split for review.
+  organizationalOutcomes String[] @map("organizational_outcomes")
+
+  cluster   Cluster @relation(fields: [clusterId], references: [id])
+  clusterId String  @map("cluster_id")
+
+  /// specs/018: the office whose line this office continues in year-over-year
+  /// charts. Null = itself. A renamed or merged office points at the surviving
+  /// row, so the explorer plots one line across years. Seeded from
+  /// prisma/data/office-lineage.json (CPDO's map); never derived from names.
+  lineageId String? @map("lineage_id")
+
+  /// The office's usual PAP sector, used to pre-select the sector field on the
+  /// new-program form.
+  ///
+  /// Advisory only — **not** an AIP code segment. The code's sector segment
+  /// comes from `Program.papSectorId`, so editing this never restates a code
+  /// (unlike `officeCode` / `officeType`, which do).
+  papSector   PAPSector? @relation(fields: [papSectorId], references: [id])
+  papSectorId String?    @map("pap_sector_id")
+
+  /// Which sheet this office prints on in the complete-AIP workbook.
+  ///
+  /// Nullable and normally left null: `resolveSectorGroup` derives the group
+  /// from `papSector` (1000/9000 → GENERAL_PUBLIC, 3000/4000/5000 → SOCIAL,
+  /// 6000/8000 → ECONOMIC), so a newly added office is never dropped from the
+  /// workbook. Set it only for the offices the budget office files somewhere
+  /// else than their sector implies — nine of them, seeded from offices.json.
+  aipSectorGroup AipSectorGroup? @map("aip_sector_group")
+
+  /// LBP Form 7 column. Null = unassigned: Form 7 leaves the office out of the
+  /// columns and lists it on its notes sheet. A special fund has none — its
+  /// money prints as a lump sum instead.
+  form7Column   Form7Column? @map("form7_column")
+  /// Deprecated (specs/016): special funds are funds, not offices. Read by
+  /// nothing; dropped in phase 6.
+  isSpecialFund Boolean      @default(false) @map("is_special_fund")
+
+  lguusers                 LGUUser[]
+  programs                 Program[]                 @relation("ImplementingOffice")
+  /// Programs proposed by another office that print inside this office's AB
+  /// sheet, under its COMPONENT PROGRAMS band. See `Program.hostOfficeId`.
+  hostedComponentPrograms  Program[]                 @relation("ComponentHost")
+  endorsements             ProgramEndorsement[]
+  committeeMemberships     CommitteeMembership[]
+  programApprovals         ProgramApproval[]
+  programSupportingOffices ProgramSupportingOffice[]
+  approvalBatches          ProgramApprovalBatch[]
+  userOfficeScopes         UserOfficeScope[]
+  programAuditLogs         ProgramAuditLog[]
+  ppmps                    PPMP[]
+  specialFundAmounts       SpecialFundAmount[]
+
+  budgetItems        BudgetItem[]         @relation("BudgetItemOffice")
+  hostedBudgetItems  BudgetItem[]         @relation("BudgetItemHostOffice")
+  budgetHeaders      BudgetOfficeHeader[]
+  budgetObjectLines  BudgetObjectLine[]
+  budgetReceiptLines BudgetReceiptLine[]
+
+  @@index([lineageId])
+  @@map("offices")
+}
+
+model User {
+  id              String        @id @default(uuid(7))
+  firstName       String        @map("first_name")
+  lastName        String        @map("last_name")
+  email           String        @unique
+  password        String?
+  role            Role          @default(STAFF)
+  identityType    IdentityType? @map("identity_type")
+  isEmailVerified Boolean       @default(false) @map("is_email_verified")
+  isActive        Boolean       @default(true) @map("is_active")
+  lastVerifiedAt  DateTime?     @map("last_verified_at")
+  createdAt       DateTime      @default(now()) @map("created_at")
+  updatedAt       DateTime      @updatedAt @map("updated_at")
+
+  /// Fast path for office scoping (Phase 1 D2). When true, the user may act on
+  /// every city office's AIP records and `UserOfficeScope` is not consulted.
+  /// Carried in the JWT; the office id list is not (§5.4).
+  allOfficesScope Boolean @default(false) @map("all_offices_scope")
+
+  emailVerifications                 EmailVerification[]
+  refreshTokens                      RefreshToken[]
+  userInvites                        UserInvite[]
+  passwordResetTokens                PasswordResetToken[]
+  lguusers                           LGUUser[]
+  ncpcusers                          NCPCUser[]
+  registryFeedbackReviews            PublicRegistryFeedback[]     @relation("FeedbackReviewer")
+  auditLogsAsTarget                  UserAuditLog[]               @relation("AuditTarget")
+  auditLogsAsActor                   UserAuditLog[]               @relation("AuditActor")
+  permissions                        UserPermission[]
+  permissionsGranted                 UserPermission[]             @relation("UserPermissionGrantedBy")
+  programAuditLogs                   ProgramAuditLog[]            @relation("ProgramAuditActor")
+  officeScopes                       UserOfficeScope[]
+  officeScopesGranted                UserOfficeScope[]            @relation("UserOfficeScopeGrantedBy")
+  invitesSent                        UserInvite[]                 @relation("UserInviteSentBy")
+  ppmpComments                       PpmpComment[]
+  createdThematicTags                ThematicTag[]
+  appliedProgramThematicTags         ProgramThematicTag[]
+  appliedProjectActivityThematicTags ProjectActivityThematicTag[]
+
+  budgetDocumentsFinalized BudgetDocument[]         @relation("BudgetDocumentFinalizedBy")
+  budgetDocumentAudits     BudgetDocumentAuditLog[]
+  budgetItemTagsApplied    BudgetItemThematicTag[]
+
+  @@map("users")
+}
+
+/// Mirror of `PERMISSION_CATALOG` (api/src/permissions/permission-catalog.ts),
+/// reconciled at every application bootstrap by `PermissionCatalogSyncService`.
+/// The code is the source of truth; this table exists so the control-panel UI can
+/// query keys and so `UserPermission` has something to reference.
+///
+/// Rows whose key leaves the catalog are flagged `isActive = false` rather than
+/// deleted — `UserPermission` may still reference them historically.
+model Permission {
+  key         String  @id
+  label       String
+  module      String
+  description String
+  /// False for keys reserved for a later phase: grantable, but nothing gates on
+  /// them yet. Mirrors `PermissionDefinition.enforced`.
+  enforced    Boolean @default(false)
+  isActive    Boolean @default(true) @map("is_active")
+
+  users UserPermission[]
+
+  @@index([module])
+  @@map("permissions")
+}
+
+/// Explicit grant of one permission key to one user. **Grant-only**: absence is
+/// denial, and `Role` contributes nothing at runtime (Phase 1 D11). The §6
+/// templates are presets that write these rows; every row stays independently
+/// editable afterwards.
+model UserPermission {
+  userId    String   @map("user_id")
+  key       String   @map("key")
+  grantedBy String   @map("granted_by")
+  grantedAt DateTime @default(now()) @map("granted_at")
+
+  user       User       @relation(fields: [userId], references: [id], onDelete: Cascade)
+  permission Permission @relation(fields: [key], references: [key], onDelete: Cascade)
+  granter    User       @relation("UserPermissionGrantedBy", fields: [grantedBy], references: [id])
+
+  @@id([userId, key])
+  @@index([key])
+  @@index([grantedBy])
+  @@map("user_permissions")
+}
+
+/// Explicit grant: this user may act on this city office's AIP records.
+/// Independent of `LGUUser`, which records the user's *home* office — the two are
+/// unioned by `OfficeScopeService.effectiveOfficeIds` so existing users keep
+/// today's access with no backfill.
+///
+/// Stored per office, never per cluster (Phase 1 D2): the control panel groups the
+/// picker by cluster for convenience, but a cluster reorganisation must not
+/// silently change anyone's access.
+model UserOfficeScope {
+  userId    String   @map("user_id")
+  officeId  String   @map("office_id")
+  grantedBy String   @map("granted_by")
+  grantedAt DateTime @default(now()) @map("granted_at")
+
+  user    User   @relation(fields: [userId], references: [id], onDelete: Cascade)
+  office  Office @relation(fields: [officeId], references: [id], onDelete: Cascade)
+  granter User   @relation("UserOfficeScopeGrantedBy", fields: [grantedBy], references: [id])
+
+  @@id([userId, officeId])
+  @@index([officeId])
+  @@index([grantedBy])
+  @@map("user_office_scopes")
+}
+
+model LGUUser {
+  id        String   @id @default(uuid(7))
+  userId    String   @map("user_id")
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  officeId  String   @map("office_id")
+  office    Office   @relation(fields: [officeId], references: [id], onDelete: Cascade)
+  createdAt DateTime @default(now()) @map("created_at")
+
+  @@index([userId])
+  @@index([officeId])
+  @@map("lgu_users")
+}
+
+model NCPCUser {
+  id                         String                    @id @default(uuid(7))
+  userId                     String                    @map("user_id")
+  user                       User                      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  // Nullable: null = the NCPC umbrella head (endorses "as NCPC as a whole").
+  // A set CSO = that CSO's representative (NCPC endorser pivot Phase 2).
+  civilSocietyOrganizationId String?                   @map("civil_society_organization_id")
+  civilSocietyOrganization   CivilSocietyOrganization? @relation(fields: [civilSocietyOrganizationId], references: [id], onDelete: Cascade)
+  createdAt                  DateTime                  @default(now()) @map("created_at")
+
+  @@index([userId])
+  @@map("ncpc_users")
+}
+
+/// Immutable audit trail of administrative changes to a user account: role
+/// reassignment, office reassignment, and (de)activation. One row per changed
+/// field per edit. `summary` carries a human-readable before→after string and
+/// `metadata` the structured before/after values for richer rendering.
+model UserAuditLog {
+  id           String          @id @default(uuid(7))
+  targetUserId String          @map("target_user_id")
+  targetUser   User            @relation("AuditTarget", fields: [targetUserId], references: [id], onDelete: Cascade)
+  actorUserId  String          @map("actor_user_id")
+  actor        User            @relation("AuditActor", fields: [actorUserId], references: [id], onDelete: Cascade)
+  actorRole    Role            @map("actor_role")
+  action       UserAuditAction
+  summary      String
+  metadata     Json?
+  createdAt    DateTime        @default(now()) @map("created_at")
+
+  @@index([targetUserId])
+  @@index([actorUserId])
+  @@map("user_audit_logs")
+}
+
+/// One record per verification attempt. Expired/used records are kept for audit.
+model EmailVerification {
+  id        String    @id @default(uuid(7))
+  userId    String    @map("user_id")
+  user      User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  code      String // bcrypt hash of the 6-digit code
+  expiresAt DateTime  @map("expires_at")
+  usedAt    DateTime? @map("used_at")
+  createdAt DateTime  @default(now()) @map("created_at")
+
+  @@index([userId])
+  @@map("email_verifications")
+}
+
+/// Stored as a SHA-256 hash of the raw token. Raw token is sent to client once and never stored.
+model RefreshToken {
+  id        String    @id @default(uuid(7))
+  userId    String    @map("user_id")
+  user      User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  token     String    @unique // SHA-256 hash of the raw token
+  expiresAt DateTime  @map("expires_at")
+  revokedAt DateTime? @map("revoked_at")
+  createdAt DateTime  @default(now()) @map("created_at")
+
+  @@index([userId])
+  @@map("refresh_tokens")
+}
+
+/// One-time token emailed to a new user so they can set their password.
+/// All invite data is stored here; the User row is only created when the invite is accepted.
+/// userId is null until accepted; revokedAt allows admins to cancel an outstanding invite.
+model UserInvite {
+  id     String  @id @default(uuid(7))
+  userId String? @map("user_id")
+  user   User?   @relation(fields: [userId], references: [id], onDelete: SetNull)
+
+  firstName                  String        @map("first_name")
+  lastName                   String        @map("last_name")
+  email                      String
+  role                       Role          @default(STAFF)
+  identityType               IdentityType? @map("identity_type")
+  officeId                   String?       @map("office_id")
+  civilSocietyOrganizationId String?       @map("civil_society_organization_id")
+
+  /// The grants to apply when the invite is accepted (Phase 1 D11/D2). Held here
+  /// rather than on the user because the User row does not exist until then, and
+  /// the admin decides access at invite time, not later.
+  ///
+  /// Plain arrays rather than join tables: an invite is short-lived and its
+  /// payload is never queried by key, so `user_permissions` / `user_office_scopes`
+  /// remain the only things anything reads for authorization.
+  permissions     String[] @default([])
+  allOfficesScope Boolean  @default(false) @map("all_offices_scope")
+  officeScopeIds  String[] @default([]) @map("office_scope_ids")
+
+  /// Who sent the invite, and therefore who chose the grants above. Becomes the
+  /// `granted_by` on the resulting UserPermission / UserOfficeScope rows, so the
+  /// audit column names a real decision-maker rather than the invitee.
+  invitedByUserId String? @map("invited_by_user_id")
+  invitedBy       User?   @relation("UserInviteSentBy", fields: [invitedByUserId], references: [id])
+
+  token     String    @unique // SHA-256 hash of the raw token
+  expiresAt DateTime  @map("expires_at")
+  usedAt    DateTime? @map("used_at")
+  revokedAt DateTime? @map("revoked_at")
+  createdAt DateTime  @default(now()) @map("created_at")
+
+  @@index([userId])
+  @@index([email])
+  @@map("user_invites")
+}
+
+/// One-time token emailed to a user to reset their password.
+model PasswordResetToken {
+  id        String    @id @default(uuid(7))
+  userId    String    @map("user_id")
+  user      User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  token     String    @unique // SHA-256 hash of the raw token
+  expiresAt DateTime  @map("expires_at")
+  usedAt    DateTime? @map("used_at")
+  createdAt DateTime  @default(now()) @map("created_at")
+
+  @@index([userId])
+  @@map("password_reset_tokens")
+}
+
+model FinishLine {
+  id                 String                    @id @default(uuid(7))
+  name               String
+  fullName           String                    @map("full_name")
+  visionNumber       Int?                      @map("vision_number")
+  shortName          String?                   @map("short_name")
+  color              String?
+  createdAt          DateTime                  @default(now()) @map("created_at")
+  updatedAt          DateTime                  @updatedAt @map("updated_at")
+  subFinishLines     SubFinishLine[]
+  finishLineClusters FinishLineCluster[]
+  budgetCeilings     FinishLineBudgetCeiling[]
+  programs           Program[]
+
+  budgetItems BudgetItem[]
+
+  @@map("finish_lines")
+}
+
+model SubFinishLine {
+  id           String     @id @default(uuid(7))
+  code         String     @unique
+  name         String
+  finishLineId String     @map("finish_line_id")
+  finishLine   FinishLine @relation(fields: [finishLineId], references: [id])
+  isActive     Boolean    @default(true) @map("is_active")
+  createdAt    DateTime   @default(now()) @map("created_at")
+  updatedAt    DateTime   @updatedAt @map("updated_at")
+  programs     Program[]
+
+  @@index([finishLineId])
+  @@map("sub_finish_lines")
+}
+
+model Cluster {
+  id                        String                     @id @default(uuid(7))
+  name                      String
+  fullName                  String?                    @map("full_name")
+  createdAt                 DateTime                   @default(now()) @map("created_at")
+  updatedAt                 DateTime                   @updatedAt @map("updated_at")
+  finishLineClusters        FinishLineCluster[]
+  offices                   Office[]
+  civilSocietyOrganizations CivilSocietyOrganization[]
+  exportLogs                AIPExportLog[]
+
+  @@map("clusters")
+}
+
+model FinishLineCluster {
+  id           String     @id @default(uuid(7))
+  finishLineId String     @map("finish_line_id")
+  finishLine   FinishLine @relation(fields: [finishLineId], references: [id], onDelete: Cascade)
+  clusterId    String     @map("cluster_id")
+  cluster      Cluster    @relation(fields: [clusterId], references: [id], onDelete: Cascade)
+  createdAt    DateTime   @default(now()) @map("created_at")
+
+  @@index([finishLineId])
+  @@index([clusterId])
+  @@map("finish_line_clusters")
+}
+
+model CivilSocietyOrganization {
+  id         String   @id @default(uuid(7))
+  name       String
+  code       String?  @unique // 3-digit padded; SUPER_ADMIN-assigned on onboarding
+  isActive   Boolean  @default(true) @map("is_active")
+  canEndorse Boolean  @default(false) @map("can_endorse")
+  createdAt  DateTime @default(now()) @map("created_at")
+  updatedAt  DateTime @updatedAt @map("updated_at")
+
+  clusterId String  @map("cluster_id")
+  cluster   Cluster @relation(fields: [clusterId], references: [id])
+
+  ncpcusers    NCPCUser[]
+  endorsements ProgramEndorsement[]
+
+  @@map("civil_society_organizations")
+}
+
+// ---------------------------------------------------------------------------
+// Committees (e.g. the Local Finance Committee) — many-to-many with Office
+// ---------------------------------------------------------------------------
+
+model Committee {
+  id        String   @id @default(uuid(7))
+  code      String   @unique // e.g. "LFC" (Local Finance Committee)
+  name      String
+  createdAt DateTime @default(now()) @map("created_at")
+  updatedAt DateTime @updatedAt @map("updated_at")
+
+  memberships      CommitteeMembership[]
+  programApprovals ProgramApproval[]
+
+  @@map("committees")
+}
+
+/// Join row: which Offices sit on which Committee.
+model CommitteeMembership {
+  id            String    @id @default(uuid(7))
+  committeeId   String    @map("committee_id")
+  committee     Committee @relation(fields: [committeeId], references: [id], onDelete: Cascade)
+  officeId      String    @map("office_id")
+  office        Office    @relation(fields: [officeId], references: [id], onDelete: Cascade)
+  sequenceOrder Int       @default(0) @map("sequence_order")
+  createdAt     DateTime  @default(now()) @map("created_at")
+
+  @@unique([committeeId, officeId])
+  @@index([officeId])
+  @@map("committee_memberships")
+}
+
+// ---------------------------------------------------------------------------
+// AIP reference data (seeded from DBM/DILG sources)
+// ---------------------------------------------------------------------------
+
+model PAPSector {
+  id            String   @id @default(uuid(7))
+  code          String   @unique // 4-digit DBM PAP sector code, BOM Annex 2
+  name          String
+  subsectorCode String?  @map("subsector_code")
+  isActive      Boolean  @default(true) @map("is_active")
+  annexSource   String?  @default("BOM Annex 2") @map("annex_source")
+  createdAt     DateTime @default(now()) @map("created_at")
+  updatedAt     DateTime @updatedAt @map("updated_at")
+
+  programs Program[]
+  offices  Office[]
+
+  budgetItems BudgetItem[]
+
+  @@map("pap_sectors")
+}
+
+model UACSObject {
+  id           String       @id @default(uuid(7))
+  code         String       @unique // UACS object code (string, may have leading zeros)
+  description  String
+  expenseClass ExpenseClass @map("expense_class")
+  isActive     Boolean      @default(true) @map("is_active")
+  createdAt    DateTime     @default(now()) @map("created_at")
+  updatedAt    DateTime     @updatedAt @map("updated_at")
+
+  lineItems     LineItem[]
+  ppmpLineItems PPMPLineItem[]
+
+  budgetObjectLines BudgetObjectLine[]
+
+  @@map("uacs_objects")
+}
+
+model ClimateTypologyCode {
+  id          String        @id @default(uuid(7))
+  code        String        @unique // e.g., CCA_001, CCM_003
+  pillar      ClimatePillar
+  name        String
+  description String?
+  isActive    Boolean       @default(true) @map("is_active")
+  createdAt   DateTime      @default(now()) @map("created_at")
+  updatedAt   DateTime      @updatedAt @map("updated_at")
+
+  tagCodes ClimateChangeTagCode[]
+
+  @@map("climate_typology_codes")
+}
+
+model SGLGIndicator {
+  id        String   @id @default(uuid(7))
+  pillar    String // e.g., "Financial Administration", "Disaster Preparedness"
+  code      String   @unique
+  name      String
+  dilgYear  Int      @map("dilg_year")
+  isActive  Boolean  @default(true) @map("is_active")
+  createdAt DateTime @default(now()) @map("created_at")
+  updatedAt DateTime @updatedAt @map("updated_at")
+
+  programs Program[]
+
+  @@map("sglg_indicators")
+}
+
+/// UN 2030 Agenda Sustainable Development Goals. Codes are zero-padded
+/// (SDG-01 … SDG-17) so a plain `code asc` sorts numerically — no separate
+/// ordinal column to keep in step. Unlike SGLG there is no edition year: the
+/// 17 goals are fixed until 2030.
+model SDGGoal {
+  id          String   @id @default(uuid(7))
+  code        String   @unique
+  name        String
+  isActive    Boolean  @default(true) @map("is_active")
+  annexSource String?  @default("UN 2030 Agenda") @map("annex_source")
+  createdAt   DateTime @default(now()) @map("created_at")
+  updatedAt   DateTime @updatedAt @map("updated_at")
+
+  programs ProgramSDGGoal[]
+
+  @@map("sdg_goals")
+}
+
+// ---------------------------------------------------------------------------
+// Budget Cycle, AIP Cycle and Finish-Line Budget Ceilings
+// ---------------------------------------------------------------------------
+
+/// One fiscal year's whole budget (CONTEXT.md "Budget Cycle"): consultations
+/// through the enacted Ordinance and its execution. The AIP is one stage of it
+/// (`aipCycle`, 0..1, so historical years can hold an Ordinance alone). Its id
+/// equals its AIPCycle's id wherever both exist — the P0 backfill copied them —
+/// but code reaches one from the other through the relation, never by id.
+/// specs/012, docs/adr/0002.
+model BudgetCycle {
+  id         String @id @default(uuid(7))
+  fiscalYear Int    @unique @map("fiscal_year")
+
+  /// Where the cycle stands, 0–9: the stages in client/src/lib/budget-cycle.ts
+  /// (0 Consultations … 8 Execution, 9 Accountability). Set by staff, guarded
+  /// (BudgetCyclesService.setStage); a CHECK keeps it in range.
+  currentStage    Int   @default(0) @map("current_stage")
+  /// Stages running alongside `currentStage` (cycles overlap).
+  alongsideStages Int[] @default([]) @map("alongside_stages")
+
+  /// The total the enacted ordinance states, and its two parts (specs/013).
+  /// A headline only — never summed into anything; the parts are null or add
+  /// up to it (a DB CHECK). Not the staff-only `SpecialFundAmount`.
+  statedTotal        Decimal? @map("stated_total") @db.Decimal(18, 2)
+  statedOfficeTotal  Decimal? @map("stated_office_total") @db.Decimal(18, 2)
+  statedSpecialTotal Decimal? @map("stated_special_total") @db.Decimal(18, 2)
+  /// Where the stated total comes from, e.g. `Ord. 2025-131`.
+  statedSource       String?  @map("stated_source")
+
+  createdAt DateTime @default(now()) @map("created_at")
+  updatedAt DateTime @updatedAt @map("updated_at")
+
+  aipCycle  AIPCycle?
+  documents BudgetDocument[]
+
+  @@map("budget_cycles")
+}
+
+model AIPCycle {
+  id            String         @id @default(uuid(7))
+  fiscalYear    Int            @unique @map("fiscal_year")
+  /// The Budget Cycle this AIP is the AIP stage of (1:1).
+  budgetCycleId String         @unique @map("budget_cycle_id")
+  budgetCycle   BudgetCycle    @relation(fields: [budgetCycleId], references: [id])
+  status        AIPCycleStatus @default(PLANNING)
+  openedAt      DateTime?      @map("opened_at")
+  closedAt      DateTime?      @map("closed_at")
+  lockedAt      DateTime?      @map("locked_at")
+
+  /// Whether the public Overview may compare this cycle against the previous
+  /// enacted year. Off by default and flipped by hand, because the comparison is
+  /// only honest once enough offices have published: a "+/- x% vs last year"
+  /// computed from six of sixty-three offices is not a small error, it is the
+  /// wrong number. No coverage threshold can know when the budget office
+  /// considers the proposal comparable, so a person decides.
+  publicComparisonEnabled Boolean @default(false) @map("public_comparison_enabled")
+
+  /// Whether each public section shows this year's Overview tab. Off: the tab is
+  /// hidden and the Overview URL redirects to Browse. The AIP Overview starts off
+  /// (a proposal fills up office by office), the Annual Budget Overview starts on
+  /// (an enacted budget is complete), the PPMP Overview starts off (plans are
+  /// published one office at a time). Three flags, not one, so enacting a year
+  /// shows its Annual Overview without touching what its AIP switch was.
+  publicAipOverviewEnabled    Boolean @default(false) @map("public_aip_overview_enabled")
+  publicAnnualOverviewEnabled Boolean @default(true) @map("public_annual_overview_enabled")
+  publicPpmpOverviewEnabled   Boolean @default(false) @map("public_ppmp_overview_enabled")
+
+  /// Whether this cycle's published budget is open data: downloadable as a zip
+  /// and served by `/api/v1/open-data`. Off by default and switched on by a
+  /// super admin, so nothing is shared until someone decides to (specs/007).
+  openDataEnabled Boolean @default(false) @map("open_data_enabled")
+
+  createdAt DateTime @default(now()) @map("created_at")
+  updatedAt DateTime @updatedAt @map("updated_at")
+
+  ceilings           FinishLineBudgetCeiling[]
+  programs           Program[]
+  exportLogs         AIPExportLog[]
+  approvalBatches    ProgramApprovalBatch[]
+  ppmps              PPMP[]
+  specialFundAmounts SpecialFundAmount[]
+  fundStatedAmounts  FundStatedAmount[]
+
+  @@map("aip_cycles")
+}
+
+model FinishLineBudgetCeiling {
+  id              String     @id @default(uuid(7))
+  aipCycleId      String     @map("aip_cycle_id")
+  aipCycle        AIPCycle   @relation(fields: [aipCycleId], references: [id], onDelete: Cascade)
+  finishLineId    String     @map("finish_line_id")
+  finishLine      FinishLine @relation(fields: [finishLineId], references: [id])
+  totalCeiling    Decimal    @map("total_ceiling") @db.Decimal(18, 2)
+  createdByUserId String     @map("created_by_user_id")
+  createdAt       DateTime   @default(now()) @map("created_at")
+  updatedAt       DateTime   @updatedAt @map("updated_at")
+
+  history FinishLineBudgetCeilingHistory[]
+
+  @@unique([aipCycleId, finishLineId])
+  @@index([finishLineId])
+  @@map("finish_line_budget_ceilings")
+}
+
+model FinishLineBudgetCeilingHistory {
+  id              String                  @id @default(uuid(7))
+  ceilingId       String                  @map("ceiling_id")
+  ceiling         FinishLineBudgetCeiling @relation(fields: [ceilingId], references: [id], onDelete: Cascade)
+  totalCeiling    Decimal                 @map("total_ceiling") @db.Decimal(18, 2)
+  changedByUserId String                  @map("changed_by_user_id")
+  changedAt       DateTime                @default(now()) @map("changed_at")
+
+  @@index([ceilingId])
+  @@map("finish_line_budget_ceiling_history")
+}
+
+/// A file the city handed us that programs and PPAs were imported from. Staff
+/// follow it from the registry to check an imported row against the city's own
+/// sheet. Rows point here with `sourceDocumentId` + `sourceRef`.
+model SourceDocument {
+  id          String   @id @default(uuid(7))
+  /// The file name as the city sent it. The seed upserts on it.
+  name        String   @unique
+  /// Where staff open it — a Google Sheets `/edit` URL, or the city portal's
+  /// PDF. Null for a file we hold but nobody hosts (the FY2026 `.doc`).
+  url         String?
+  /// Worksheet name → Google Sheets `gid`, so `ECON!r305` can link to its row.
+  sheetGids   Json     @default("{}") @map("sheet_gids")
+  /// Where the city hosts it, when `url` points at our mirrored copy (specs/017 FR-009).
+  originalUrl String?  @map("original_url")
+  /// The mirrored copy's key in our storage.
+  storageKey  String?  @map("storage_key")
+  createdAt   DateTime @default(now()) @map("created_at")
+
+  programs            Program[]
+  projectActivities   ProjectActivity[]
+  budgetItems         BudgetItem[]
+  budgetObjectLines   BudgetObjectLine[]
+  budgetReceiptLines  BudgetReceiptLine[]
+  budgetIndebtedness  BudgetIndebtedness[]
+  budgetObligations   BudgetStatutoryObligation[]
+  budgetPrintedTotals BudgetPrintedTotal[]
+  budgetOfficeHeaders BudgetOfficeHeader[]
+
+  @@map("source_documents")
+}
+
+// ---------------------------------------------------------------------------
+// Program (AIP entry, parent of ProjectActivity)
+// ---------------------------------------------------------------------------
+
+model Program {
+  id         String   @id @default(uuid(7))
+  aipCycleId String   @map("aip_cycle_id")
+  aipCycle   AIPCycle @relation(fields: [aipCycleId], references: [id])
+
+  // Programs are LGU-only (the NCPC proponent track was retired). `officeId`
+  // is the proponent; it stays nullable for legacy SUPER_ADMIN-created rows.
+  officeId String? @map("office_id")
+  office   Office? @relation("ImplementingOffice", fields: [officeId], references: [id])
+
+  /// The office whose printed AB sheet this program appears under, in that
+  /// sheet's COMPONENT PROGRAMS band. Null for the ordinary case, where a
+  /// program prints under its own office.
+  ///
+  /// **Not an AIP-code segment.** A component program's code names its own
+  /// `officeId`, exactly as the city's book does — City Health Office II's
+  /// programs carry `11(1)` while printing inside CHO's sheet. Setting or
+  /// clearing this therefore restates nothing.
+  hostOfficeId String? @map("host_office_id")
+  hostOffice   Office? @relation("ComponentHost", fields: [hostOfficeId], references: [id])
+
+  papSectorId String    @map("pap_sector_id")
+  papSector   PAPSector @relation(fields: [papSectorId], references: [id])
+
+  /// DBM subsector classification. **Not** an AIP-code segment — the city's
+  /// format has no slot for it (the realignment replaced it with papClass), so
+  /// editing this restates nothing. Kept because it is real data and it lives
+  /// inside `ProgramVersion.snapshot`.
+  papSubsectorCode String @default("000") @map("pap_subsector_code")
+
+  /// Which AIP form section this program prints under, and **AIP code segment
+  /// 5** (GAS → 001, STO → 002, Operations → 003). The program ordinal restarts
+  /// inside each class, so this decides both the segment and the rank.
+  ///
+  /// Null on legacy rows; they fall through to OPERATIONS everywhere, including
+  /// the emitted segment. `import-data-warnings.ts` keeps flagging them so the
+  /// fall-through never passes for a real classification.
+  ///
+  /// The city's book also uses `004` for component programs budgeted in a host
+  /// office's bucket. We never emit it — component programs carry their own
+  /// office code instead, and AB 2026's `004` codes are imported verbatim.
+  papClass PapClass? @map("pap_class")
+
+  finishLineId    String         @map("finish_line_id")
+  finishLine      FinishLine     @relation(fields: [finishLineId], references: [id])
+  subFinishLineId String?        @map("sub_finish_line_id")
+  subFinishLine   SubFinishLine? @relation(fields: [subFinishLineId], references: [id])
+  sglgIndicatorId String?        @map("sglg_indicator_id")
+  sglgIndicator   SGLGIndicator? @relation(fields: [sglgIndicatorId], references: [id])
+
+  name        String
+  description String?
+  remarks     String?
+
+  /// The printed sheet's **Performance Indicator** column — the measurable
+  /// sentence ("Percentage of PPAs implemented within budget and schedule").
+  ///
+  /// Optional: offices often draft a program before the indicator is settled.
+  /// Named `expectedOutput` for historical reasons; it predates the AB
+  /// template's three-column split and was relabelled rather than migrated.
+  expectedOutput String? @map("expected_output")
+
+  /// The printed sheet's **Major Final Output** column — the short service
+  /// label ("Administrative and Support Services"), repeated down a run of rows
+  /// and merged vertically when exported.
+  majorFinalOutput String? @map("major_final_output")
+
+  /// The printed sheet's **Target for the Budget Year** column. Free text, not
+  /// a number: the city writes "100%", "27 BASCA" and "1 (walk) / 3 (lectures)"
+  /// in the same column.
+  targetForBudgetYear String? @map("target_for_budget_year")
+
+  implementationStartMonth Int? @map("implementation_start_month")
+  implementationStartYear  Int? @map("implementation_start_year")
+  implementationEndMonth   Int? @map("implementation_end_month")
+  implementationEndYear    Int? @map("implementation_end_year")
+
+  /// Unique **per cycle**, not globally: the code has no year segment, so the
+  /// city reuses the same string every fiscal year and 2026's
+  /// `3000-2-01-11(1)-003-001-000` is byte-identical to 2027's. See the
+  /// `@@unique`s below.
+  tentativeAipReferenceCode String  @map("tentative_aip_reference_code")
+  aipReferenceCode          String? @map("aip_reference_code")
+
+  /// User-controlled rank within the code scope (aipCycleId, officeId,
+  /// papSectorId, papClass). Drives the program ordinal segment of the
+  /// tentative AIP code — see AIPCodesService.resyncTentativeProgramCodes. The
+  /// ordinal restarts inside each papClass, matching the city's book. Mirrors
+  /// ProjectActivity.orderIndex.
+  orderIndex Int @default(0) @map("order_index")
+
+  status          ProgramStatus @default(DRAFT)
+  rejectionReason String?       @map("rejection_reason")
+  currentVersion  Int           @default(0) @map("current_version")
+
+  // Denormalized rollups (maintained by BudgetRollupService)
+  psTotal       Decimal @default(0) @map("ps_total") @db.Decimal(18, 2)
+  mooeTotal     Decimal @default(0) @map("mooe_total") @db.Decimal(18, 2)
+  feTotal       Decimal @default(0) @map("fe_total") @db.Decimal(18, 2)
+  coTotal       Decimal @default(0) @map("co_total") @db.Decimal(18, 2)
+  grandTotal    Decimal @default(0) @map("grand_total") @db.Decimal(18, 2)
+  // Sum of root PA proposedBudget values; used as sort key when grandTotal is zero
+  proposedTotal Decimal @default(0) @map("proposed_total") @db.Decimal(18, 2)
+
+  // Per-expense-class proposed rollups (Phase 1 D3), maintained by
+  // EstimateRollupService. Strictly additive information: proposedTotal keeps
+  // exactly the meaning it has today, and the line-item family above is
+  // untouched.
+  /// Points at the ProgramVersion the public is currently served (Phase 1 D13).
+  /// Public visibility keys on this being non-null, never on status.
+  publishedVersionId String?         @map("published_version_id")
+  publishedVersion   ProgramVersion? @relation("PublishedVersion", fields: [publishedVersionId], references: [id])
+  publishedAt        DateTime?       @map("published_at")
+  publishedByUserId  String?         @map("published_by_user_id")
+
+  /// Published mirrors, written at publish time and read by the PUBLIC LIST
+  /// query so an open revision never leaks a peso figure or a renamed program.
+  publishedName          String?  @map("published_name")
+  publishedProposedTotal Decimal? @map("published_proposed_total") @db.Decimal(18, 2)
+
+  psProposedTotal   Decimal @default(0) @map("ps_proposed_total") @db.Decimal(18, 2)
+  mooeProposedTotal Decimal @default(0) @map("mooe_proposed_total") @db.Decimal(18, 2)
+  feProposedTotal   Decimal @default(0) @map("fe_proposed_total") @db.Decimal(18, 2)
+  coProposedTotal   Decimal @default(0) @map("co_proposed_total") @db.Decimal(18, 2)
+
+  /// Whether this program's money is its own or its PPAs'.
+  ///
+  /// The same enum `ProjectActivity` uses, one level up, and for the same
+  /// reason: a row either states an amount or derives one, never both. The
+  /// default is `ACTIVITY_CHILDREN` — "derive from what is under me" — so every
+  /// row that existed before this column keeps exactly its old meaning. Note
+  /// the defaults differ by level on purpose: a PA defaults to `DIRECT_COSTS`
+  /// because a PA is usually a leaf, a Program to derived because a program
+  /// usually has PPAs.
+  ///
+  /// In `DIRECT_COSTS` the three `*ProposedTotal` columns above are the
+  /// **input** and `proposedTotal` is their sum; in `ACTIVITY_CHILDREN` all
+  /// four are outputs summed from root PAs. Identical to the PA rule.
+  costMode PPACostMode @default(ACTIVITY_CHILDREN) @map("cost_mode")
+
+  /// Funding sources, for a program that carries its own money. Mirrors
+  /// `ProjectActivity.fundSources` so a direct-cost program states the same
+  /// facts a direct-cost PPA does and the AIP form's Funding Source column is
+  /// never blank. Empty for a derived program, which draws on whatever its
+  /// PPAs draw on.
+  fundSources FundSource[] @map("fund_sources")
+
+  /// Decisions the 2027 workbook importer had to make on this program's behalf,
+  /// in the office's own words ("Finish line inferred from the implementing
+  /// office", "The workbook lists this program twice"). Written only by the
+  /// importer; empty on every hand-authored program.
+  ///
+  /// Stored **only** because these cannot be re-derived: an inferred finish line
+  /// leaves the row looking exactly like one deliberately chosen, so there is
+  /// nothing left to detect. Data *gaps* used to live here too and no longer do
+  /// — they are recomputed on every read by `src/programs/import-data-warnings.ts`
+  /// and surface as advisory `warnings`, so fixing the data clears them by
+  /// itself. Storing them meant the opposite: the sentence outlived the fix and
+  /// the program stayed unpublishable forever.
+  ///
+  /// Non-empty blocks publishing (`INCOMPLETE_IMPORT`). Cleared only by
+  /// `ProgramPublishService.acknowledgeImport`, which logs an `IMPORT_REVIEWED`
+  /// audit row carrying what it cleared.
+  importWarnings String[] @map("import_warnings")
+
+  /// The file and row this program was imported from (`ECON!r305`). Null for
+  /// rows authored in the portal. Provenance only — nothing reads it but the
+  /// registry's "open in sheet" link.
+  sourceDocumentId String?         @map("source_document_id")
+  sourceDocument   SourceDocument? @relation(fields: [sourceDocumentId], references: [id], onDelete: SetNull)
+  sourceRef        String?         @map("source_ref")
+
+  createdByUserId String    @map("created_by_user_id")
+  createdAt       DateTime  @default(now()) @map("created_at")
+  updatedAt       DateTime  @updatedAt @map("updated_at")
+  deletedAt       DateTime? @map("deleted_at")
+
+  /// Set while `status` is ARCHIVED (specs/013): superseded, kept for its
+  /// history, counted nowhere. The reason is shown on the public page.
+  archivedAt     DateTime? @map("archived_at")
+  archivedReason String?   @map("archived_reason")
+
+  projectActivities  ProjectActivity[]
+  versions           ProgramVersion[]
+  verdicts           ProgramVerdict[]
+  endorsements       ProgramEndorsement[]
+  approvals          ProgramApproval[]
+  comments           ProgramComment[]
+  readStates         ProgramReadState[]
+  auditLogs          ProgramAuditLog[]
+  supportingOffices  ProgramSupportingOffice[]
+  sdgGoals           ProgramSDGGoal[]
+  climateChangeTag   ClimateChangeTag?
+  fundAllocations    FundAllocation[]
+  thematicTags       ProgramThematicTag[]
+  budgetItemsSourced BudgetItem[]              @relation("BudgetItemSourceProgram")
+  ppmpLineItems      PPMPLineItem[]
+
+  /// Codes are unique per cycle, not globally — the format carries no year, so
+  /// every fiscal year reissues the same strings. A global unique index worked
+  /// only while one cycle had volume; the 2026 load is what breaks it.
+  @@unique([aipCycleId, tentativeAipReferenceCode])
+  @@unique([aipCycleId, aipReferenceCode])
+  @@index([aipCycleId, status])
+  @@index([finishLineId])
+  @@index([subFinishLineId])
+  @@index([officeId])
+  @@index([hostOfficeId])
+  /// The code scope, papClass included: the program ordinal restarts per class.
+  @@index([aipCycleId, officeId, papSectorId, papClass, orderIndex])
+  @@map("programs")
+}
+
+model ProgramSupportingOffice {
+  programId String  @map("program_id")
+  officeId  String  @map("office_id")
+  program   Program @relation(fields: [programId], references: [id], onDelete: Cascade)
+  office    Office  @relation(fields: [officeId], references: [id])
+
+  @@id([programId, officeId])
+  @@map("program_supporting_offices")
+}
+
+model ProgramSDGGoal {
+  programId String  @map("program_id")
+  sdgGoalId String  @map("sdg_goal_id")
+  program   Program @relation(fields: [programId], references: [id], onDelete: Cascade)
+  sdgGoal   SDGGoal @relation(fields: [sdgGoalId], references: [id])
+
+  @@id([programId, sdgGoalId])
+  @@map("program_sdg_goals")
+}
+
+// ---------------------------------------------------------------------------
+// ProjectActivity, LineItem, ClimateChangeTag
+// ---------------------------------------------------------------------------
+
+model ProjectActivity {
+  id                      String            @id @default(uuid(7))
+  programId               String            @map("program_id")
+  program                 Program           @relation(fields: [programId], references: [id], onDelete: Cascade)
+  parentProjectActivityId String?           @map("parent_project_activity_id")
+  parent                  ProjectActivity?  @relation("PAHierarchy", fields: [parentProjectActivityId], references: [id])
+  children                ProjectActivity[] @relation("PAHierarchy")
+
+  type        PPAType
+  costMode    PPACostMode @default(DIRECT_COSTS) @map("cost_mode")
+  name        String
+  description String?
+  remarks     String?
+
+  /// The printed sheet's **Performance Indicator** column. See
+  /// `Program.expectedOutput` for why the field is named this way.
+  expectedOutput String? @map("expected_output")
+
+  /// The printed sheet's **Major Final Output** column — the short service
+  /// label, merged vertically across a run of rows when exported.
+  majorFinalOutput String? @map("major_final_output")
+
+  /// The printed sheet's **Target for the Budget Year** column. Free text.
+  targetForBudgetYear String? @map("target_for_budget_year")
+
+  tentativeAipReferenceCode String  @map("tentative_aip_reference_code")
+  aipReferenceCode          String? @map("aip_reference_code")
+
+  implementationStartMonth Int? @map("implementation_start_month")
+  implementationStartYear  Int? @map("implementation_start_year")
+  implementationEndMonth   Int? @map("implementation_end_month")
+  implementationEndYear    Int? @map("implementation_end_year")
+
+  orderIndex Int @default(0) @map("order_index")
+
+  /// Server-computed from the three estimates below when any is set (D3);
+  /// falls back to its manually-entered value when all three are NULL, which is
+  /// how rows imported from the 2027 shortlist keep working.
+  proposedBudget Decimal? @map("proposed_budget") @db.Decimal(18, 2)
+
+  /// Funds this PPA draws on. Amount-less by design (see the FundSource enum),
+  /// so it never has to reconcile against the estimates below. Empty on legacy
+  /// rows; the export falls back to GF, which is what it printed before.
+  fundSources FundSource[] @map("fund_sources")
+
+  // Phase 1 cost estimates (D3). For costMode = ACTIVITY_CHILDREN these are the
+  // sum over children and are read-only in the UI.
+  psEstimate   Decimal? @map("ps_estimate") @db.Decimal(18, 2)
+  mooeEstimate Decimal? @map("mooe_estimate") @db.Decimal(18, 2)
+  feEstimate   Decimal? @map("fe_estimate") @db.Decimal(18, 2)
+  coEstimate   Decimal? @map("co_estimate") @db.Decimal(18, 2)
+
+  // Cached rollups
+  psTotal    Decimal @default(0) @map("ps_total") @db.Decimal(18, 2)
+  mooeTotal  Decimal @default(0) @map("mooe_total") @db.Decimal(18, 2)
+  feTotal    Decimal @default(0) @map("fe_total") @db.Decimal(18, 2)
+  coTotal    Decimal @default(0) @map("co_total") @db.Decimal(18, 2)
+  grandTotal Decimal @default(0) @map("grand_total") @db.Decimal(18, 2)
+
+  /// Import provenance, as on `Program.sourceRef`.
+  sourceDocumentId String?         @map("source_document_id")
+  sourceDocument   SourceDocument? @relation(fields: [sourceDocumentId], references: [id], onDelete: SetNull)
+  sourceRef        String?         @map("source_ref")
+
+  createdByUserId String   @map("created_by_user_id")
+  createdAt       DateTime @default(now()) @map("created_at")
+  updatedAt       DateTime @updatedAt @map("updated_at")
+
+  lineItems          LineItem[]
+  climateChangeTag   ClimateChangeTag?
+  fundAllocations    FundAllocation[]
+  thematicTags       ProjectActivityThematicTag[]
+  budgetItemsSourced BudgetItem[]                 @relation("BudgetItemSourcePA")
+  ppmpLineItems      PPMPLineItem[]
+
+  /// Scoped to the program rather than global, for the same reason
+  /// `Program`'s codes are scoped to the cycle: a PA code embeds its program's
+  /// code, so once program codes repeat across fiscal years, PA codes do too.
+  ///
+  /// Scoping to the program keeps the guard that matters. Two PAs can only ever
+  /// collide inside one program — across programs the embedded program code
+  /// already differs — so this still catches the resync bug the constraint
+  /// exists for (that is what the two-pass `~{id}` sentinel write is dodging).
+  @@unique([programId, tentativeAipReferenceCode])
+  @@unique([programId, aipReferenceCode])
+  @@index([programId])
+  @@index([parentProjectActivityId])
+  @@map("project_activities")
+}
+
+model LineItem {
+  id                String          @id @default(uuid(7))
+  projectActivityId String          @map("project_activity_id")
+  projectActivity   ProjectActivity @relation(fields: [projectActivityId], references: [id], onDelete: Cascade)
+
+  expenseClass    ExpenseClass @map("expense_class")
+  uacsObjectId    String       @map("uacs_object_id")
+  uacsObject      UACSObject   @relation(fields: [uacsObjectId], references: [id])
+  uacsCode        String       @map("uacs_code") // snapshot at write
+  uacsDescription String       @map("uacs_description") // snapshot at write
+
+  quantity   Decimal @db.Decimal(14, 2)
+  unit       String
+  unitCost   Decimal @map("unit_cost") @db.Decimal(18, 2)
+  lineTotal  Decimal @map("line_total") @db.Decimal(18, 2)
+  remarks    String?
+  orderIndex Int     @default(0) @map("order_index")
+
+  createdAt DateTime @default(now()) @map("created_at")
+  updatedAt DateTime @updatedAt @map("updated_at")
+
+  @@index([projectActivityId])
+  @@index([uacsObjectId])
+  @@map("line_items")
+}
+
+/// A standalone Project Procurement Management Plan. Deliberately **not**
+/// linked to any Program/ProjectActivity/LineItem (spec: PPMP Creation,
+/// FR-015) — `aipCycleId` tags the fiscal year only, never a Program.
+/// No status field: always editable, full CRUD, no workflow (FR-014).
+model PPMP {
+  id String @id @default(uuid(7))
+
+  officeId String @map("office_id")
+  office   Office @relation(fields: [officeId], references: [id])
+
+  aipCycleId String   @map("aip_cycle_id")
+  aipCycle   AIPCycle @relation(fields: [aipCycleId], references: [id])
+
+  /// Typed directly by the office at creation — no more FK to `Program`.
+  /// Reverses specs/005 research.md Decision 2 (a real `programId` unique
+  /// FK, name/code derived from it): that made a Project's identity depend
+  /// on picking an existing Program row and blocked a second Project from
+  /// naming the same one, which didn't match how offices actually plan —
+  /// a free-text "which AIP Program funds this" note, not a structured link.
+  fundingProgram String @map("funding_program")
+
+  /// The Project's own name — typed directly, never derived (see
+  /// `fundingProgram` above for why derivation was dropped).
+  name String
+
+  /// Picked once at creation, independent of the Program link above —
+  /// categorizes the Project itself for the registry table, the way
+  /// PapClass sections a Program there.
+  classification PpmpClassification @default(OPERATIONS) @map("classification")
+
+  lineItems PPMPLineItem[]
+  comments  PpmpComment[]
+  feedback  PpmpFeedback[]
+
+  /// Three-state approval gate (see PpmpStatus) — DRAFT at creation, APPROVED
+  /// unlocks Publish. Editing an APPROVED Project reverts it to DRAFT if it
+  /// was never published, or REVISION (and unpublishes it) if it was.
+  status     PpmpStatus @default(DRAFT) @map("status")
+  approvedAt DateTime?  @map("approved_at")
+
+  /// Publishing is still one act, not its own status machine — no
+  /// draft/revision snapshot of published content. Editing a published
+  /// Project changes what the public page shows immediately, but Publish
+  /// itself now requires `status == APPROVED` (see PpmpService.publish).
+  isPublished Boolean   @default(false) @map("is_published")
+  publishedAt DateTime? @map("published_at")
+
+  /// specs/012 D9. An Indicative PPMP is the office's plan before the budget is
+  /// enacted. Its Final copy is made from it once the year's Ordinance is
+  /// ENACTED (`POST /ppmp/:id/create-final`), with each line relinked from an
+  /// AIP program/PA to the Ordinance PPA that funds it. One Final per Indicative.
+  kind         PpmpKind @default(INDICATIVE)
+  sourcePpmpId String?  @unique @map("source_ppmp_id")
+  sourcePpmp   PPMP?    @relation("PpmpFinal", fields: [sourcePpmpId], references: [id], onDelete: SetNull)
+  finalPpmp    PPMP?    @relation("PpmpFinal")
+
+  createdAt DateTime @default(now()) @map("created_at")
+  updatedAt DateTime @updatedAt @map("updated_at")
+
+  @@index([officeId])
+  @@index([aipCycleId])
+  @@index([isPublished])
+  @@map("ppmps")
+}
+
+model PPMPLineItem {
+  id     String @id @default(uuid(7))
+  ppmpId String @map("ppmp_id")
+  ppmp   PPMP   @relation(fields: [ppmpId], references: [id], onDelete: Cascade)
+
+  /// "Name of the Project to be Procured" on the real GPPB PPMP form —
+  /// independent of the linked Program's own name (specs/003 research.md
+  /// Decision 1: two differently-named items can share one Program's code).
+  /// Named `lineItemName`, not `projectName` — "Project" is the PPMP itself
+  /// (named from its Program), and this field describes one procurement
+  /// item under it, so reusing "Project Name" here was actively confusing.
+  lineItemName String @map("line_item_name")
+
+  preProcurementConferenceRequired Boolean @default(false) @map("pre_procurement_conference_required")
+
+  /// Both ranges default Jan-2027..Dec-2027 in the client form; DB defaults
+  /// here are a migration safety net only, not license for the API to skip
+  /// requiring them on new writes (specs/003 data-model.md).
+  procurementStartMonth Int @default(1) @map("procurement_start_month")
+  procurementStartYear  Int @default(2027) @map("procurement_start_year")
+  procurementEndMonth   Int @default(12) @map("procurement_end_month")
+  procurementEndYear    Int @default(2027) @map("procurement_end_year")
+
+  /// Free text, one field — not a structured month/year picker, and not a
+  /// start/end pair. Offices write things like "within 30 days of PO" that
+  /// don't split into two dates.
+  deliveryPeriod String? @map("delivery_period")
+
+  /// Optional — offices don't always have these decided when they first log
+  /// the line item.
+  typeOfProject     PPMPProjectType?     @map("type_of_project")
+  modeOfProcurement PPMPProcurementMode? @map("mode_of_procurement")
+
+  uacsObjectId    String     @map("uacs_object_id")
+  uacsObject      UACSObject @relation(fields: [uacsObjectId], references: [id])
+  uacsCode        String     @map("uacs_code") // snapshot at write
+  uacsDescription String     @map("uacs_description") // snapshot at write
+
+  quantity  Decimal @db.Decimal(14, 2)
+  unit      String
+  unitCost  Decimal @map("unit_cost") @db.Decimal(18, 2)
+  lineTotal Decimal @map("line_total") @db.Decimal(18, 2) // server-computed: quantity * unitCost
+
+  fundSource   FundSource   @map("fund_source")
+  expenseClass ExpenseClass @map("expense_class")
+
+  /// Optional — set only by POST .../document, never by create/update.
+  supportingDocumentUrl  String? @map("supporting_document_url")
+  supportingDocumentName String? @map("supporting_document_name")
+
+  /// specs/012 D8: optionally, the budget row this line is bought for. At most
+  /// one (DB CHECK `ppmp_line_items_one_link`): an AIP program or PA while the
+  /// PPMP is Indicative, an Ordinance PPA once it is Final. Optional by design —
+  /// `PPMP.fundingProgram` free text stays the fallback (specs/005).
+  programId         String?          @map("program_id")
+  program           Program?         @relation(fields: [programId], references: [id], onDelete: SetNull)
+  projectActivityId String?          @map("project_activity_id")
+  projectActivity   ProjectActivity? @relation(fields: [projectActivityId], references: [id], onDelete: SetNull)
+  budgetItemId      String?          @map("budget_item_id")
+  budgetItem        BudgetItem?      @relation(fields: [budgetItemId], references: [id], onDelete: SetNull)
+
+  remarks    String?
+  orderIndex Int     @default(0) @map("order_index")
+
+  createdAt DateTime @default(now()) @map("created_at")
+  updatedAt DateTime @updatedAt @map("updated_at")
+
+  @@index([ppmpId])
+  @@index([uacsObjectId])
+  @@index([programId])
+  @@index([projectActivityId])
+  @@index([budgetItemId])
+  @@map("ppmp_line_items")
+}
+
+model PpmpComment {
+  id     String @id @default(uuid(7))
+  ppmpId String @map("ppmp_id")
+  ppmp   PPMP   @relation(fields: [ppmpId], references: [id], onDelete: Cascade)
+
+  authorUserId String @map("author_user_id")
+  author       User   @relation(fields: [authorUserId], references: [id])
+
+  /// One level of replies only — enforced at the service layer, not here.
+  parentCommentId String?       @map("parent_comment_id")
+  parentComment   PpmpComment?  @relation("PpmpCommentReplies", fields: [parentCommentId], references: [id])
+  replies         PpmpComment[] @relation("PpmpCommentReplies")
+
+  content String
+
+  createdAt DateTime @default(now()) @map("created_at")
+
+  @@index([ppmpId])
+  @@index([parentCommentId])
+  @@map("ppmp_comments")
+}
+
+model PpmpFeedback {
+  id     String @id @default(uuid(7))
+  ppmpId String @map("ppmp_id")
+  ppmp   PPMP   @relation(fields: [ppmpId], references: [id], onDelete: Cascade)
+
+  submitterName  String? @map("submitter_name")
+  submitterEmail String? @map("submitter_email")
+  message        String
+
+  /// Reuses Program's own feedback enums — same options, same meaning
+  /// ("do you support this Project?" / "what kind of feedback is this?"),
+  /// so the public form and its rendering are identical to AIP's.
+  category  ProgramFeedbackCategory? @map("category")
+  sentiment ProgramCommentSentiment? @map("sentiment")
+
+  /// One reply per submission — no thread (specs/005 research.md Decision 4).
+  officialReply           String?   @map("official_reply")
+  officialRepliedAt       DateTime? @map("official_replied_at")
+  officialRepliedByUserId String?   @map("official_replied_by_user_id")
+
+  createdAt DateTime @default(now()) @map("created_at")
+
+  @@index([ppmpId])
+  @@map("ppmp_feedback")
+}
+
+/// A climate expenditure tag (CCET). Sits on exactly one of a PPA or a program
+/// — the 2027 AIP tags programs that state their own costs (ENRO `10.`) and
+/// parent rows (HSDO `11.`) — enforced by the `climate_change_tags_one_owner`
+/// CHECK in the migration. Carries 0..n typology codes: a tag with an amount and
+/// no code is allowed (the workbook has them) but blocks publishing.
+model ClimateChangeTag {
+  id                String                 @id @default(uuid(7))
+  projectActivityId String?                @unique @map("project_activity_id")
+  projectActivity   ProjectActivity?       @relation(fields: [projectActivityId], references: [id], onDelete: Cascade)
+  programId         String?                @unique @map("program_id")
+  program           Program?               @relation(fields: [programId], references: [id], onDelete: Cascade)
+  codes             ClimateChangeTagCode[]
+  ccaAmount         Decimal                @default(0) @map("cca_amount") @db.Decimal(18, 2)
+  ccmAmount         Decimal                @default(0) @map("ccm_amount") @db.Decimal(18, 2)
+  remarks           String?
+
+  createdAt DateTime @default(now()) @map("created_at")
+  updatedAt DateTime @updatedAt @map("updated_at")
+
+  @@map("climate_change_tags")
+}
+
+/// A row's money split by fund (pre-final 2027: NCGH "12." GF ₱3M + SHF ₱2M + GAA ₱280M).
+/// Optional: without any, the row is declared as one total over its `fundSources`.
+/// With some, they are the source of truth — the estimate rollup sets the owner's
+/// PS/MOOE/CO and `fundSources` from them. Only a row that states its own costs
+/// (`DIRECT_COSTS`) holds any. Exactly one owner (DB CHECK).
+model FundAllocation {
+  id                String           @id @default(uuid(7))
+  programId         String?          @map("program_id")
+  program           Program?         @relation(fields: [programId], references: [id], onDelete: Cascade)
+  projectActivityId String?          @map("project_activity_id")
+  projectActivity   ProjectActivity? @relation(fields: [projectActivityId], references: [id], onDelete: Cascade)
+  fundSource        FundSource       @map("fund_source")
+  ps                Decimal          @default(0) @db.Decimal(18, 2)
+  mooe              Decimal          @default(0) @db.Decimal(18, 2)
+  fe                Decimal          @default(0) @db.Decimal(18, 2)
+  co                Decimal          @default(0) @db.Decimal(18, 2)
+  orderIndex        Int              @default(0) @map("order_index")
+
+  @@unique([programId, fundSource])
+  @@unique([projectActivityId, fundSource])
+  @@map("fund_allocations")
+}
+
+/// What a fund's legal minimum is measured against (specs/016).
+enum FundRuleBase {
+  NTA // National Tax Allotment (the IRA before Mandanas)
+  REGULAR_REVENUE // estimated revenue from regular sources
+  TOTAL_APPROPRIATION // the whole budget (GAD)
+}
+
+/// The law behind a fund, from a fiscal year on (specs/016 FR-006). Rule checks
+/// read it per request and are advisory, derived, never stored. The percent is
+/// a floor — RA 7160 §287, RA 10121 §21 and RA 9710 §36 all say "not less than".
+model FundRule {
+  id             String        @id @default(uuid(7))
+  fundSource     FundSource    @map("fund_source")
+  effectiveFrom  Int           @map("effective_from")
+  legalBasis     String?       @map("legal_basis")
+  /// Plain language; shown on the public fund page.
+  description    String
+  minimumPercent Decimal?      @map("minimum_percent") @db.Decimal(6, 3)
+  minimumBase    FundRuleBase? @map("minimum_base")
+  createdAt      DateTime      @default(now()) @map("created_at")
+  updatedAt      DateTime      @updatedAt @map("updated_at")
+
+  @@unique([fundSource, effectiveFrom])
+  @@map("fund_rules")
+}
+
+/// A special fund's stated amount for one cycle, by fund (specs/016 FR-007).
+/// Replaces `SpecialFundAmount`, which keyed it on the fake LDF/SPAF/LDRRMF
+/// offices. Staff-only: never in a public total or open data.
+model FundStatedAmount {
+  id              String     @id @default(uuid(7))
+  fundSource      FundSource @map("fund_source")
+  aipCycleId      String     @map("aip_cycle_id")
+  aipCycle        AIPCycle   @relation(fields: [aipCycleId], references: [id], onDelete: Cascade)
+  statedAmount    Decimal    @map("stated_amount") @db.Decimal(18, 2)
+  note            String?
+  updatedByUserId String?    @map("updated_by_user_id")
+  createdAt       DateTime   @default(now()) @map("created_at")
+  updatedAt       DateTime   @updatedAt @map("updated_at")
+
+  @@unique([fundSource, aipCycleId])
+  @@map("fund_stated_amounts")
+}
+
+/// Deprecated (specs/016): replaced by `FundStatedAmount`, read by nothing,
+/// dropped in phase 6.
+/// A special fund's stated amount for one cycle — the figure Form 7 prints when
+/// the fund lists no PPAs (2027: LDF ≈ ₱272M with none). Staff-only: never read
+/// by public or open-data paths. Flags about it are derived on read, never
+/// stored (invariant 20).
+model SpecialFundAmount {
+  id              String   @id @default(uuid(7))
+  officeId        String   @map("office_id")
+  office          Office   @relation(fields: [officeId], references: [id])
+  aipCycleId      String   @map("aip_cycle_id")
+  aipCycle        AIPCycle @relation(fields: [aipCycleId], references: [id], onDelete: Cascade)
+  statedAmount    Decimal  @map("stated_amount") @db.Decimal(18, 2)
+  note            String?
+  updatedByUserId String?  @map("updated_by_user_id")
+  createdAt       DateTime @default(now()) @map("created_at")
+  updatedAt       DateTime @updatedAt @map("updated_at")
+
+  @@unique([officeId, aipCycleId])
+  @@map("special_fund_amounts")
+}
+
+model ClimateChangeTagCode {
+  tagId      String              @map("tag_id")
+  tag        ClimateChangeTag    @relation(fields: [tagId], references: [id], onDelete: Cascade)
+  ccetCodeId String              @map("ccet_code_id")
+  ccetCode   ClimateTypologyCode @relation(fields: [ccetCodeId], references: [id])
+
+  @@id([tagId, ccetCodeId])
+  @@index([ccetCodeId])
+  @@map("climate_change_tag_codes")
+}
+
+/// The open, extensible catalog of beneficiary categories (PWD, Senior
+/// Citizens, Youth, Women, Children, LGBTQIA+, and anything created since).
+/// Global across fiscal years/AIP cycles, same as ClimateTypologyCode.
+model ThematicTag {
+  id              String   @id @default(uuid(7))
+  /// Exactly as typed by whoever created it — what's displayed.
+  name            String
+  /// trim().toLowerCase() of `name`. The actual uniqueness guard (FR-007) —
+  /// keeps "PWD" / "pwd" / " PWD " from becoming three catalog rows.
+  normalizedName  String   @unique @map("normalized_name")
+  isActive        Boolean  @default(true) @map("is_active")
+  createdByUserId String   @map("created_by_user_id")
+  createdBy       User     @relation(fields: [createdByUserId], references: [id])
+  createdAt       DateTime @default(now()) @map("created_at")
+  updatedAt       DateTime @updatedAt @map("updated_at")
+
+  programTags ProgramThematicTag[]
+  paTags      ProjectActivityThematicTag[]
+
+  budgetItemTags BudgetItemThematicTag[]
+
+  @@map("thematic_tags")
+}
+
+/// A tag applied directly to a Program. A program may carry any number.
+model ProgramThematicTag {
+  programId       String      @map("program_id")
+  program         Program     @relation(fields: [programId], references: [id], onDelete: Cascade)
+  tagId           String      @map("tag_id")
+  tag             ThematicTag @relation(fields: [tagId], references: [id])
+  appliedByUserId String      @map("applied_by_user_id")
+  appliedBy       User        @relation(fields: [appliedByUserId], references: [id])
+  appliedAt       DateTime    @default(now()) @map("applied_at")
+
+  @@id([programId, tagId])
+  @@index([tagId])
+  @@map("program_thematic_tags")
+}
+
+/// A tag applied directly to a Project/Activity. Distinct from a tag the PA
+/// only displays because its parent Program carries it (FR-008) — this table
+/// holds *only* direct applications; inheritance is never written here.
+model ProjectActivityThematicTag {
+  projectActivityId String          @map("project_activity_id")
+  projectActivity   ProjectActivity @relation(fields: [projectActivityId], references: [id], onDelete: Cascade)
+  tagId             String          @map("tag_id")
+  tag               ThematicTag     @relation(fields: [tagId], references: [id])
+  appliedByUserId   String          @map("applied_by_user_id")
+  appliedBy         User            @relation(fields: [appliedByUserId], references: [id])
+  appliedAt         DateTime        @default(now()) @map("applied_at")
+
+  @@id([projectActivityId, tagId])
+  @@index([tagId])
+  @@map("project_activity_thematic_tags")
+}
+
+// ---------------------------------------------------------------------------
+// Versioning, verdicts, endorsements, comments
+// ---------------------------------------------------------------------------
+
+model ProgramVersion {
+  id                String   @id @default(uuid(7))
+  programId         String   @map("program_id")
+  program           Program  @relation(fields: [programId], references: [id], onDelete: Cascade)
+  version           Int // monotonic per program
+  snapshot          Json // full Program + PAs + LineItems + Tag tree at submit
+  submittedByUserId String   @map("submitted_by_user_id")
+  submittedAt       DateTime @default(now()) @map("submitted_at")
+
+  // The LFC approval batch this version was submitted into (set at
+  // batchSubmitForApproval). Nullable for legacy/never-submitted versions.
+  approvalBatchId String?               @map("approval_batch_id")
+  approvalBatch   ProgramApprovalBatch? @relation(fields: [approvalBatchId], references: [id], onDelete: SetNull)
+
+  verdicts     ProgramVerdict[]
+  endorsements ProgramEndorsement[]
+  approvals    ProgramApproval[]
+  comments     ProgramComment[]
+  auditLogs    ProgramAuditLog[]
+  publishedFor Program[]            @relation("PublishedVersion")
+
+  @@unique([programId, version])
+  @@index([approvalBatchId])
+  @@map("program_versions")
+}
+
+/// Append-only who-did-what stream for one program — the **edit history**.
+/// Distinct from ProgramVersion, which answers "what did this look like at v3?";
+/// this answers "who changed what, when, and on whose behalf?".
+///
+/// Never updated, never hard-deleted. Survives the program's soft delete and a
+/// comment's soft delete, because the trail has to outlive what it describes.
+model ProgramAuditLog {
+  id        String  @id @default(uuid(7))
+  programId String  @map("program_id")
+  program   Program @relation(fields: [programId], references: [id], onDelete: Cascade)
+
+  /// What the action was aimed at. For PA-level rows this is the PA id, which is
+  /// what the per-PPA History tab filters on.
+  targetType AuditTargetType @default(PROGRAM) @map("target_type")
+  targetId   String?         @map("target_id")
+
+  action ProgramAuditAction
+
+  actorUserId String @map("actor_user_id")
+  actor       User   @relation("ProgramAuditActor", fields: [actorUserId], references: [id])
+  actorRole   Role   @map("actor_role")
+
+  /// The office the actor was acting FOR — the proponent office, not the actor's
+  /// home office. This is the column that makes an encoder's work attributable.
+  onBehalfOfOfficeId String? @map("on_behalf_of_office_id")
+  onBehalfOfOffice   Office? @relation(fields: [onBehalfOfOfficeId], references: [id])
+
+  /// Human-readable one-liner, written at log time so rendering never depends on
+  /// re-resolving rows that may since have been deleted.
+  summary String
+  /// Structured field-level diff: { field: { from, to } }. Null for actions with
+  /// no field delta (e.g. PUBLISHED).
+  changes Json?
+
+  /// Which published version this happened against — null while pre-publish.
+  programVersionId String?         @map("program_version_id")
+  programVersion   ProgramVersion? @relation(fields: [programVersionId], references: [id])
+
+  createdAt DateTime @default(now()) @map("created_at")
+
+  @@index([programId, createdAt])
+  @@index([targetType, targetId, createdAt])
+  @@index([actorUserId])
+  @@index([onBehalfOfOfficeId])
+  @@map("program_audit_logs")
+}
+
+model ProgramVerdict {
+  id               String         @id @default(uuid(7))
+  programId        String         @map("program_id")
+  program          Program        @relation(fields: [programId], references: [id], onDelete: Cascade)
+  programVersionId String         @map("program_version_id")
+  programVersion   ProgramVersion @relation(fields: [programVersionId], references: [id])
+  verdict          VerdictType
+  amountSuggested  Decimal?       @map("amount_suggested") @db.Decimal(18, 2)
+  reason           String?
+  decidedByUserId  String         @map("decided_by_user_id")
+  decidedAt        DateTime       @default(now()) @map("decided_at")
+
+  @@index([programId])
+  @@index([programVersionId])
+  @@map("program_verdicts")
+}
+
+model ProgramEndorsement {
+  id               String                    @id @default(uuid(7))
+  programId        String                    @map("program_id")
+  program          Program                   @relation(fields: [programId], references: [id], onDelete: Cascade)
+  programVersionId String                    @map("program_version_id")
+  programVersion   ProgramVersion            @relation(fields: [programVersionId], references: [id])
+  endorserType     EndorserType              @default(LGU) @map("endorser_type")
+  // Exactly one endorser FK is set per type (enforced by a CHECK constraint and
+  // per-type partial unique indexes added in the migration — see Phase 2):
+  //   LGU  → endorserOfficeId set, endorserCsoId null
+  //   NCPC → endorserOfficeId null; endorserCsoId null (umbrella head) or set (CSO rep)
+  endorserOfficeId String?                   @map("endorser_office_id")
+  endorserOffice   Office?                   @relation(fields: [endorserOfficeId], references: [id])
+  endorserCsoId    String?                   @map("endorser_cso_id")
+  endorserCso      CivilSocietyOrganization? @relation(fields: [endorserCsoId], references: [id])
+  // Affirmative-only: a row's existence is the concurrence (NCPC endorser pivot
+  // OD-2). `endorsedAt`/`endorsedByUserId` record who concurred and when; there
+  // is no status — objections are ENDORSEMENT-stage comments.
+  endorsedByUserId String?                   @map("endorsed_by_user_id")
+  endorsedAt       DateTime?                 @map("endorsed_at")
+  notes            String?
+  createdAt        DateTime                  @default(now()) @map("created_at")
+
+  // Per-type uniqueness (one endorsement per endorser per version) is enforced by
+  // partial unique indexes in the migration, which @@unique cannot express.
+  @@index([programId])
+  @@index([endorserCsoId])
+  @@map("program_endorsements")
+}
+
+/// A committee member office's sign-off on a ProgramVersion. One row per
+/// (version, committee, member office). A program is APPROVED only when every
+/// row for the current version is APPROVED (committee consensus). A REJECTED
+/// row returns the program to FOR_REVISION.
+model ProgramApproval {
+  id               String         @id @default(uuid(7))
+  programId        String         @map("program_id")
+  program          Program        @relation(fields: [programId], references: [id], onDelete: Cascade)
+  programVersionId String         @map("program_version_id")
+  programVersion   ProgramVersion @relation(fields: [programVersionId], references: [id])
+  committeeId      String         @map("committee_id")
+  committee        Committee      @relation(fields: [committeeId], references: [id])
+  officeId         String         @map("office_id")
+  office           Office         @relation(fields: [officeId], references: [id])
+  status           ApprovalStatus @default(PENDING)
+  decidedByUserId  String?        @map("decided_by_user_id")
+  decidedAt        DateTime?      @map("decided_at")
+  notes            String?
+  createdAt        DateTime       @default(now()) @map("created_at")
+
+  // The proponent-office batch this approval belongs to. New LFC approval rows
+  // always carry a batch id; nullable for migration compatibility with historical rows.
+  approvalBatchId String?               @map("approval_batch_id")
+  approvalBatch   ProgramApprovalBatch? @relation(fields: [approvalBatchId], references: [id], onDelete: SetNull)
+
+  @@unique([programVersionId, committeeId, officeId])
+  @@index([programId])
+  @@index([approvalBatchId])
+  @@map("program_approvals")
+}
+
+/// A proponent office's batch submission of programs into the LFC sequential
+/// approval gate. The batch advances office-by-office only when **all** in-scope
+/// programs are approved by the current office, and finalizes only when the last
+/// office has approved them all. `currentSequenceOrder` is the LFC member office
+/// (by CommitteeMembership.sequenceOrder) currently acting on the batch.
+model ProgramApprovalBatch {
+  id                   String    @id @default(uuid(7))
+  aipCycleId           String    @map("aip_cycle_id")
+  aipCycle             AIPCycle  @relation(fields: [aipCycleId], references: [id], onDelete: Cascade)
+  officeId             String    @map("office_id")
+  office               Office    @relation(fields: [officeId], references: [id])
+  submittedByUserId    String    @map("submitted_by_user_id")
+  submittedAt          DateTime  @default(now()) @map("submitted_at")
+  currentSequenceOrder Int       @default(0) @map("current_sequence_order")
+  closedAt             DateTime? @map("closed_at")
+  createdAt            DateTime  @default(now()) @map("created_at")
+  updatedAt            DateTime  @updatedAt @map("updated_at")
+
+  versions  ProgramVersion[]
+  approvals ProgramApproval[]
+
+  @@index([aipCycleId, officeId])
+  @@map("program_approval_batches")
+}
+
+model ProgramComment {
+  id               String           @id @default(uuid(7))
+  /// Exactly one of `programId` (an AIP program) and `budgetItemId` (a PPA in
+  /// an LEP or Ordinance) is set — a DB CHECK (specs/012 D3). Access goes
+  /// through CommentsService.assertCanReadTarget.
+  programId        String?          @map("program_id")
+  program          Program?         @relation(fields: [programId], references: [id], onDelete: Cascade)
+  budgetItemId     String?          @map("budget_item_id")
+  budgetItem       BudgetItem?      @relation(fields: [budgetItemId], references: [id], onDelete: Cascade)
+  programVersionId String?          @map("program_version_id")
+  programVersion   ProgramVersion?  @relation(fields: [programVersionId], references: [id])
+  authorUserId     String?          @map("author_user_id")
+  stage            CommentStage
+  targetType       CommentTarget    @default(PROGRAM) @map("target_type")
+  targetId         String?          @map("target_id")
+  parentCommentId  String?          @map("parent_comment_id")
+  parentComment    ProgramComment?  @relation("CommentReplies", fields: [parentCommentId], references: [id])
+  replies          ProgramComment[] @relation("CommentReplies")
+  content          String
+
+  // Public feedback submitter identity (only on PUBLIC_FEEDBACK stage comments).
+  submitterName  String?                  @map("submitter_name")
+  submitterEmail String?                  @map("submitter_email")
+  category       ProgramFeedbackCategory? @map("category")
+  sentiment      ProgramCommentSentiment? @map("sentiment")
+
+  // Resolution is per-thread: only set on root comments (parentCommentId == null).
+  resolvedAt       DateTime? @map("resolved_at")
+  resolvedByUserId String?   @map("resolved_by_user_id")
+  resolveNote      String?   @map("resolve_note")
+
+  // Official public reply from LGU (only on root PUBLIC_FEEDBACK comments).
+  officialReply           String?   @map("official_reply")
+  officialRepliedAt       DateTime? @map("official_replied_at")
+  officialRepliedByUserId String?   @map("official_replied_by_user_id")
+  officialReplyEditedAt   DateTime? @map("official_reply_edited_at")
+
+  createdAt DateTime @default(now()) @map("created_at")
+  updatedAt DateTime @updatedAt @map("updated_at")
+
+  // Soft delete: removal sets deletedAt instead of dropping the row, so an
+  // admin can restore it. Deleting a comment cascades to its reply subtree.
+  deletedAt       DateTime? @map("deleted_at")
+  deletedByUserId String?   @map("deleted_by_user_id")
+
+  @@index([programId])
+  @@index([budgetItemId])
+  @@index([programVersionId])
+  @@index([parentCommentId])
+  @@index([deletedAt])
+  @@map("program_comments")
+}
+
+model AIPExportLog {
+  id                String       @id @default(uuid(7))
+  type              ExportType
+  status            ExportStatus @default(GENERATED)
+  aipCycleId        String       @map("aip_cycle_id")
+  clusterId         String?      @map("cluster_id")
+  fileName          String       @map("file_name")
+  requestedByUserId String       @map("requested_by_user_id")
+  requestedByRole   String       @map("requested_by_role")
+  requestedAt       DateTime     @default(now()) @map("requested_at")
+  filters           Json?
+  errorMessage      String?      @map("error_message")
+
+  aipCycle AIPCycle @relation(fields: [aipCycleId], references: [id])
+  cluster  Cluster? @relation(fields: [clusterId], references: [id])
+
+  @@index([aipCycleId])
+  @@index([clusterId])
+  @@index([requestedByUserId])
+  @@map("aip_export_logs")
+}
+
+/// Per-user, per-program read marker. A program shows an "unread" dot when it has
+/// activity newer than lastSeenAt; opening the program drawer bumps lastSeenAt.
+/// Reused by the future Notification feature.
+model ProgramReadState {
+  id         String   @id @default(uuid(7))
+  userId     String   @map("user_id")
+  programId  String   @map("program_id")
+  program    Program  @relation(fields: [programId], references: [id], onDelete: Cascade)
+  lastSeenAt DateTime @default(now()) @map("last_seen_at")
+  updatedAt  DateTime @updatedAt @map("updated_at")
+
+  @@unique([userId, programId])
+  @@index([programId])
+  @@map("program_read_states")
+}
+
+// ---------------------------------------------------------------------------
+// AIP code counter (atomic per-scope sequence)
+// ---------------------------------------------------------------------------
+
+model AIPCodeCounter {
+  id        String   @id @default(uuid(7))
+  scopeKey  String   @unique @map("scope_key")
+  nextValue Int      @default(1) @map("next_value")
+  updatedAt DateTime @updatedAt @map("updated_at")
+
+  @@map("aip_code_counters")
+}
+
+// ---------------------------------------------------------------------------
+// Public registry feedback (not tied to a specific program)
+// ---------------------------------------------------------------------------
+
+model PublicRegistryFeedback {
+  id             String                   @id @default(uuid(7))
+  submitterName  String?                  @map("submitter_name")
+  submitterEmail String?                  @map("submitter_email")
+  category       RegistryFeedbackCategory @default(GENERAL)
+  message        String
+  createdAt      DateTime                 @default(now()) @map("created_at")
+
+  reviewedAt   DateTime? @map("reviewed_at")
+  reviewedById String?   @map("reviewed_by_id")
+  reviewedBy   User?     @relation("FeedbackReviewer", fields: [reviewedById], references: [id])
+  internalNote String?   @map("internal_note")
+
+  // Soft delete: removal sets deletedAt instead of dropping the row so an admin
+  // can restore it. deletedById records the actor (no relation, audit only).
+  deletedAt   DateTime? @map("deleted_at")
+  deletedById String?   @map("deleted_by_id")
+
+  @@index([category])
+  @@index([createdAt])
+  @@index([reviewedAt])
+  @@index([deletedAt])
+  @@map("public_registry_feedback")
+}
+
+// ---------------------------------------------------------------------------
+// Demo deployment (specs/010-lgu-demo). Filled only in the demo's control
+// database; empty everywhere else. Personal data: never read by AI agents.
+// ---------------------------------------------------------------------------
+
+/// The guided demo path, in order. `furthestStep` only moves forward.
+enum DemoStep {
+  SETUP
+  CUSTOMISE
+  CREATE
+  EDIT
+  PUBLISH
+  LIVE
+  READINESS
+}
+
+enum DemoNotificationKind {
+  FINISHED
+  DIGEST
+}
+
+/// One visitor's demo run, and one lead for Stride. The visitor's own data
+/// lives in a separate database, `dbName`, cloned from the Demo City template.
+model DemoSession {
+  id                   String    @id @default(uuid(7))
+  /// SHA-256 of the session token; the token itself is only in the visitor's cookie.
+  tokenHash            String    @unique @map("token_hash")
+  dbName               String    @unique @map("db_name")
+  psgcCode             String?   @map("psgc_code")
+  isLgu                Boolean   @map("is_lgu")
+  /// The portal's name: the LGU's, or the organisation's when not an LGU.
+  lguName              String    @map("lgu_name")
+  /// Province (or region, for independent cities) shown beside the LGU name.
+  lguContext           String?   @map("lgu_context")
+  lguType              String?   @map("lgu_type")
+  visitorName          String    @map("visitor_name")
+  position             String
+  palette              String    @default("civic-blue")
+  /// First time each step was reached: { "SETUP": "<iso>", … }.
+  steps                Json      @default("{}")
+  furthestStep         DemoStep  @default(SETUP) @map("furthest_step")
+  readiness            Json?
+  questionnaireVersion Int?      @map("questionnaire_version")
+  email                String?
+  mobile               String?
+  note                 String?
+  finishedAt           DateTime? @map("finished_at")
+  digestedAt           DateTime? @map("digested_at")
+  lastActiveAt         DateTime  @default(now()) @map("last_active_at")
+  dbDroppedAt          DateTime? @map("db_dropped_at")
+  createdAt            DateTime  @default(now()) @map("created_at")
+
+  @@index([lastActiveAt])
+  @@index([finishedAt, digestedAt])
+  @@map("demo_sessions")
+}
+
+/// Outbox of messages to the operator, retried until sent.
+model DemoNotification {
+  id             String               @id @default(uuid(7))
+  kind           DemoNotificationKind
+  /// `finished:<sessionId>` or `digest:<YYYY-MM-DD>`; the receiver dedupes on it too.
+  idempotencyKey String               @unique @map("idempotency_key")
+  sessionIds     String[]             @map("session_ids")
+  /// The exact body sent, built when the row is created.
+  payload        Json
+  attempts       Int                  @default(0)
+  lastError      String?              @map("last_error")
+  sentAt         DateTime?            @map("sent_at")
+  /// Set when the receiver refused it (4xx): retrying would fail the same way.
+  failedAt       DateTime?            @map("failed_at")
+  createdAt      DateTime             @default(now()) @map("created_at")
+
+  @@index([sentAt])
+  @@map("demo_notifications")
+}
+
+// ---------------------------------------------------------------------------
+// Budget Documents: the LEP and the Ordinance (specs/012, docs/adr/0001)
+// ---------------------------------------------------------------------------
+
+/// LEP = the Local Expenditure Program (Executive Budget) the Mayor proposes;
+/// ORDINANCE = the appropriation ordinance as enacted (CONTEXT.md). Further
+/// kinds (supplemental, DBM review) arrive with their first real document (#194).
+enum BudgetDocumentKind {
+  LEP
+  ORDINANCE
+}
+
+/// DRAFT → SUBMITTED (an LEP sent to the Sanggunian) | ENACTED (an Ordinance
+/// approved by the Mayor). Anything but DRAFT is frozen; there is no reopen —
+/// a bad import is fixed by reseeding while still DRAFT.
+enum BudgetDocumentStatus {
+  DRAFT
+  SUBMITTED
+  ENACTED
+}
+
+enum BudgetDocumentAuditAction {
+  IMPORTED
+  EDITED
+  ACKNOWLEDGED
+  FINALIZED
+  RETIRED_SOURCE
+  RESTORED_SOURCE
+  /// A staff comment on a document PPA was resolved, deleted or restored.
+  COMMENT
+}
+
+/// One LEP or Ordinance of a Budget Cycle: a by-PPA table (`items`) and a
+/// by-object table (`objectLines`), the same shape for both kinds. At most one
+/// of each kind per cycle.
+model BudgetDocument {
+  id            String               @id @default(uuid(7))
+  budgetCycleId String               @map("budget_cycle_id")
+  budgetCycle   BudgetCycle          @relation(fields: [budgetCycleId], references: [id])
+  kind          BudgetDocumentKind
+  status        BudgetDocumentStatus @default(DRAFT)
+
+  /// The file or portal page it was imported from, as the city named it.
+  sourceDocumentName String? @map("source_document_name")
+
+  finalizedAt       DateTime? @map("finalized_at")
+  finalizedByUserId String?   @map("finalized_by_user_id")
+  finalizedBy       User?     @relation("BudgetDocumentFinalizedBy", fields: [finalizedByUserId], references: [id], onDelete: SetNull)
+
+  createdAt DateTime @default(now()) @map("created_at")
+  updatedAt DateTime @updatedAt @map("updated_at")
+
+  lepDetail       LepDetail?
+  ordinanceDetail OrdinanceDetail?
+  items           BudgetItem[]
+  objectLines     BudgetObjectLine[]
+  receiptLines    BudgetReceiptLine[]
+  indebtedness    BudgetIndebtedness[]
+  obligations     BudgetStatutoryObligation[]
+  printedTotals   BudgetPrintedTotal[]
+  officeHeaders   BudgetOfficeHeader[]
+  auditLogs       BudgetDocumentAuditLog[]
+
+  @@unique([budgetCycleId, kind])
+  @@map("budget_documents")
+}
+
+model LepDetail {
+  documentId     String         @id @map("document_id")
+  document       BudgetDocument @relation(fields: [documentId], references: [id], onDelete: Cascade)
+  /// When the Mayor submitted it to the Sanggunian (due by 16 October).
+  submittedAt    DateTime?      @map("submitted_at")
+  budgetMessage  String?        @map("budget_message")
+  /// The total the city can appropriate for the year (its estimated income
+  /// and available resources), declared first when an LEP is started. The
+  /// LEP's PPAs should fit within it; going over is warned, not blocked.
+  allocableTotal Decimal?       @map("allocable_total") @db.Decimal(18, 2)
+
+  @@map("lep_details")
+}
+
+model OrdinanceDetail {
+  documentId      String         @id @map("document_id")
+  document        BudgetDocument @relation(fields: [documentId], references: [id], onDelete: Cascade)
+  ordinanceNumber String?        @map("ordinance_number")
+  /// The Sanggunian's vote. Passing alone is not enactment (CONTEXT.md "Enacted").
+  passedAt        DateTime?      @map("passed_at")
+  /// Approved by the Mayor (signed, or the 10 days lapsed): the enactment date.
+  approvedAt      DateTime?      @map("approved_at")
+  budgetMessage   String?        @map("budget_message")
+
+  @@map("ordinance_details")
+}
+
+/// A PPA in an LEP or Ordinance — the by-PPA (MVMMFOPIT) table.
+///
+///   total = own (ps + mooe + fe + co) + Σ children.total      (docs/adr/0004)
+///   document total = Σ total over roots (parentId = null)
+///
+/// `rootItemId` is the root of the row's tree (its own id for a root), playing
+/// the role `ProjectActivity.programId` plays for the AIP: a whole tree loads
+/// with one `where`, and "any descendant has tag X" is a Prisma `some`.
+/// Classification is stored, not derived from the office, so an enacted record
+/// never changes when an office moves cluster.
+model BudgetItem {
+  id         String         @id @default(uuid(7))
+  documentId String         @map("document_id")
+  document   BudgetDocument @relation(fields: [documentId], references: [id], onDelete: Cascade)
+
+  parentId   String?      @map("parent_id")
+  parent     BudgetItem?  @relation("BudgetItemTree", fields: [parentId], references: [id], onDelete: Cascade)
+  children   BudgetItem[] @relation("BudgetItemTree")
+  rootItemId String       @map("root_item_id")
+  rootItem   BudgetItem   @relation("BudgetItemRoot", fields: [rootItemId], references: [id], onDelete: Cascade)
+  treeItems  BudgetItem[] @relation("BudgetItemRoot")
+
+  officeId     String      @map("office_id")
+  office       Office      @relation("BudgetItemOffice", fields: [officeId], references: [id])
+  /// The office whose printed sheet lists this PPA in its component band.
+  hostOfficeId String?     @map("host_office_id")
+  hostOffice   Office?     @relation("BudgetItemHostOffice", fields: [hostOfficeId], references: [id])
+  finishLineId String?     @map("finish_line_id")
+  finishLine   FinishLine? @relation(fields: [finishLineId], references: [id])
+  papSectorId  String?     @map("pap_sector_id")
+  papSector    PAPSector?  @relation(fields: [papSectorId], references: [id])
+  papClass     PapClass?   @map("pap_class")
+
+  /// As printed in the document.
+  aipReferenceCode     String? @map("aip_reference_code")
+  name                 String
+  majorFinalOutput     String? @map("major_final_output")
+  performanceIndicator String? @map("performance_indicator")
+  target               String?
+
+  /// The row's own amount, by expense class. Never includes its children.
+  ps      Decimal @default(0) @db.Decimal(18, 2)
+  mooe    Decimal @default(0) @db.Decimal(18, 2)
+  fe      Decimal @default(0) @db.Decimal(18, 2)
+  co      Decimal @default(0) @db.Decimal(18, 2)
+  /// Own money the document states as a total only, with no PS/MOOE/FE/CO
+  /// split (AB 2026's uncoded rows). Counted in `total`, in no class.
+  unsplit Decimal @default(0) @db.Decimal(18, 2)
+  /// Own amount (ps + mooe + fe + co + unsplit) + Σ children's totals, kept by
+  /// BudgetDocumentsService.
+  total   Decimal @default(0) @db.Decimal(18, 2)
+
+  fundSource FundSource? @map("fund_source")
+  orderIndex Int         @default(0) @map("order_index")
+
+  /// Where the row came from: an AIP program or PA, or the previous stage's
+  /// PPA (LEP → Ordinance). At most one is set (CHECK).
+  sourceProgramId         String?          @map("source_program_id")
+  sourceProgram           Program?         @relation("BudgetItemSourceProgram", fields: [sourceProgramId], references: [id], onDelete: SetNull)
+  sourceProjectActivityId String?          @map("source_project_activity_id")
+  sourceProjectActivity   ProjectActivity? @relation("BudgetItemSourcePA", fields: [sourceProjectActivityId], references: [id], onDelete: SetNull)
+  sourceItemId            String?          @map("source_item_id")
+  sourceItem              BudgetItem?      @relation("BudgetItemSource", fields: [sourceItemId], references: [id], onDelete: SetNull)
+  successors              BudgetItem[]     @relation("BudgetItemSource")
+  ppmpLineItems           PPMPLineItem[]
+  /// Why this row's figure differs from its source (the city's
+  /// "LEP vs hearing + reason" sheet). Staff-only; not in open data.
+  adjustmentReason        String?          @map("adjustment_reason")
+
+  /// Decisions the import made on this row's behalf (invariant 20): stored
+  /// only because nothing can re-derive them. An ORDINANCE cannot be ENACTED
+  /// while any row still carries one.
+  importWarnings   String[]        @map("import_warnings")
+  /// `table 2 row 11`, `Sheet!r12`: where in the file the row was read.
+  sourceRef        String?         @map("source_ref")
+  /// Import provenance: which file (`sourceDocument`), the page of it when the
+  /// file has pages (a PDF; a Word `.doc` stores none), and `sourceRef` — the
+  /// table or sheet and row within it.
+  sourceDocumentId String?         @map("source_document_id")
+  sourceDocument   SourceDocument? @relation(fields: [sourceDocumentId], references: [id], onDelete: SetNull)
+  sourcePage       Int?            @map("source_page")
+
+  createdAt DateTime @default(now()) @map("created_at")
+  updatedAt DateTime @updatedAt @map("updated_at")
+
+  thematicTags BudgetItemThematicTag[]
+  comments     ProgramComment[]
+  objectLines  BudgetObjectLine[]
+
+  @@index([documentId, rootItemId])
+  @@index([documentId, officeId])
+  @@index([parentId])
+  @@index([aipReferenceCode])
+  @@map("budget_items")
+}
+
+/// A by-object row of an LEP or Ordinance (the PAOO table): office × UACS
+/// account × fund. The grain execution monitoring will hang off (specs/012 D4).
+model BudgetObjectLine {
+  id                       String          @id @default(uuid(7))
+  documentId               String          @map("document_id")
+  document                 BudgetDocument  @relation(fields: [documentId], references: [id], onDelete: Cascade)
+  officeId                 String          @map("office_id")
+  office                   Office          @relation(fields: [officeId], references: [id])
+  uacsObjectId             String?         @map("uacs_object_id")
+  uacsObject               UACSObject?     @relation(fields: [uacsObjectId], references: [id])
+  /// The account code as printed.
+  uacsCode                 String          @map("uacs_code")
+  accountTitle             String?         @map("account_title")
+  expenseClass             ExpenseClass    @map("expense_class")
+  fundSource               FundSource?     @map("fund_source")
+  /// The chart account the printed code resolves to (`5-02-03-210-03` → `5-02-03-210`); null when none does.
+  accountCode              String?         @map("account_code")
+  account                  ChartAccount?   @relation(fields: [accountCode], references: [code])
+  /// The city's suffix under the account (`03` in `5-02-03-210-03`).
+  subCode                  String?         @map("sub_code")
+  /// The budget year. The form prints the two years before it beside it (specs/017 FR-004).
+  amount                   Decimal         @db.Decimal(18, 2)
+  pastYearActual           Decimal?        @map("past_year_actual") @db.Decimal(18, 2)
+  currentFirstSemActual    Decimal?        @map("current_first_sem_actual") @db.Decimal(18, 2)
+  currentSecondSemEstimate Decimal?        @map("current_second_sem_estimate") @db.Decimal(18, 2)
+  currentYearTotal         Decimal?        @map("current_year_total") @db.Decimal(18, 2)
+  budgetItemId             String?         @map("budget_item_id")
+  budgetItem               BudgetItem?     @relation(fields: [budgetItemId], references: [id], onDelete: SetNull)
+  orderIndex               Int             @default(0) @map("order_index")
+  sourceRef                String?         @map("source_ref")
+  /// Import provenance: which file (`sourceDocument`), the page of it when the
+  /// file has pages (a PDF; a Word `.doc` stores none), and `sourceRef` — the
+  /// table or sheet and row within it.
+  sourceDocumentId         String?         @map("source_document_id")
+  sourceDocument           SourceDocument? @relation(fields: [sourceDocumentId], references: [id], onDelete: SetNull)
+  sourcePage               Int?            @map("source_page")
+  createdAt                DateTime        @default(now()) @map("created_at")
+
+  @@index([documentId, officeId])
+  @@map("budget_object_lines")
+}
+
+model BudgetDocumentAuditLog {
+  id          String                    @id @default(uuid(7))
+  documentId  String                    @map("document_id")
+  document    BudgetDocument            @relation(fields: [documentId], references: [id], onDelete: Cascade)
+  /// The PPA concerned, if any. Plain id so the entry outlives the row.
+  itemId      String?                   @map("item_id")
+  action      BudgetDocumentAuditAction
+  actorUserId String?                   @map("actor_user_id")
+  actor       User?                     @relation(fields: [actorUserId], references: [id], onDelete: SetNull)
+  /// What changed. No personal data beyond the actor id.
+  detail      Json                      @default("{}")
+  createdAt   DateTime                  @default(now()) @map("created_at")
+
+  @@index([documentId, createdAt])
+  @@map("budget_document_audit_logs")
+}
+
+model BudgetItemThematicTag {
+  budgetItemId    String      @map("budget_item_id")
+  budgetItem      BudgetItem  @relation(fields: [budgetItemId], references: [id], onDelete: Cascade)
+  tagId           String      @map("tag_id")
+  tag             ThematicTag @relation(fields: [tagId], references: [id])
+  appliedByUserId String      @map("applied_by_user_id")
+  appliedBy       User        @relation(fields: [appliedByUserId], references: [id])
+  appliedAt       DateTime    @default(now()) @map("applied_at")
+
+  @@id([budgetItemId, tagId])
+  @@index([tagId])
+  @@map("budget_item_thematic_tags")
+}
+
+// ---------------------------------------------------------------------------
+// specs/017: the rest of the budget book — chart of accounts, receipts,
+// Forms 5 and 6, and the totals the book prints (checked, never summed).
+// ---------------------------------------------------------------------------
+
+enum AccountGroup {
+  ASSET
+  LIABILITY
+  EQUITY
+  INCOME
+  EXPENSE
+}
+
+enum IncomeClass {
+  RECURRING
+  NON_RECURRING
+}
+
+/// COA's chart of accounts for LGUs (GAM for LGUs Vol III, 2020), every level.
+/// Keyed by the code as printed (`5-02-03-010`). `UACSObject` stays the AIP's
+/// expense-object list; this is what imported book lines resolve to.
+model ChartAccount {
+  code         String       @id
+  /// The 10-digit form (`5020301000`); null above general-ledger level.
+  code10       String?      @unique @map("code10")
+  title        String
+  /// group | major | sub_major | gl
+  level        String
+  accountGroup AccountGroup @map("account_group")
+  parentCode   String?      @map("parent_code")
+  /// PS | MOOE | FE | CO, or `INCOME:<category>`; null where COA gives none.
+  budgetClass  String?      @map("budget_class")
+  isContra     Boolean      @default(false) @map("is_contra")
+
+  objectLines  BudgetObjectLine[]
+  receiptLines BudgetReceiptLine[]
+
+  @@map("chart_accounts")
+}
+
+/// One line of a Receipts Program, as printed. Heading lines (Tax Revenue,
+/// Real Property Tax) carry the sum the book prints for them; the money is on
+/// the leaves. `officeId` null = the General Fund's own program; set = an
+/// economic enterprise's own receipts sheet (a restatement, never added to it).
+model BudgetReceiptLine {
+  id                       String              @id @default(uuid(7))
+  documentId               String              @map("document_id")
+  document                 BudgetDocument      @relation(fields: [documentId], references: [id], onDelete: Cascade)
+  parentId                 String?             @map("parent_id")
+  parent                   BudgetReceiptLine?  @relation("ReceiptTree", fields: [parentId], references: [id], onDelete: Cascade)
+  children                 BudgetReceiptLine[] @relation("ReceiptTree")
+  officeId                 String?             @map("office_id")
+  office                   Office?             @relation(fields: [officeId], references: [id])
+  particulars              String
+  printedCode              String?             @map("printed_code")
+  accountCode              String?             @map("account_code")
+  account                  ChartAccount?       @relation(fields: [accountCode], references: [code])
+  subCode                  String?             @map("sub_code")
+  incomeClass              IncomeClass?        @map("income_class")
+  pastYearActual           Decimal?            @map("past_year_actual") @db.Decimal(18, 2)
+  currentFirstSemActual    Decimal?            @map("current_first_sem_actual") @db.Decimal(18, 2)
+  currentSecondSemEstimate Decimal?            @map("current_second_sem_estimate") @db.Decimal(18, 2)
+  currentYearTotal         Decimal?            @map("current_year_total") @db.Decimal(18, 2)
+  /// The budget year; null when the book prints nothing there.
+  amount                   Decimal?            @db.Decimal(18, 2)
+  orderIndex               Int                 @default(0) @map("order_index")
+  sourceDocumentId         String?             @map("source_document_id")
+  sourceDocument           SourceDocument?     @relation(fields: [sourceDocumentId], references: [id], onDelete: SetNull)
+  sourcePage               Int?                @map("source_page")
+  sourceRef                String?             @map("source_ref")
+
+  @@index([documentId, officeId])
+  @@map("budget_receipt_lines")
+}
+
+/// LBP Form 5, Statement of Indebtedness: one loan per row.
+model BudgetIndebtedness {
+  id                  String          @id @default(uuid(7))
+  documentId          String          @map("document_id")
+  document            BudgetDocument  @relation(fields: [documentId], references: [id], onDelete: Cascade)
+  orderIndex          Int             @default(0) @map("order_index")
+  creditor            String
+  purpose             String
+  /// As printed ("12/14/2021"); the books are not consistent enough to parse.
+  dateContracted      String?         @map("date_contracted")
+  term                String?
+  principal           Decimal         @db.Decimal(18, 2)
+  previousPrincipal   Decimal?        @map("previous_principal") @db.Decimal(18, 2)
+  previousInterest    Decimal?        @map("previous_interest") @db.Decimal(18, 2)
+  budgetYearPrincipal Decimal?        @map("budget_year_principal") @db.Decimal(18, 2)
+  budgetYearInterest  Decimal?        @map("budget_year_interest") @db.Decimal(18, 2)
+  balance             Decimal?        @db.Decimal(18, 2)
+  sourceDocumentId    String?         @map("source_document_id")
+  sourceDocument      SourceDocument? @relation(fields: [sourceDocumentId], references: [id], onDelete: SetNull)
+  sourcePage          Int?            @map("source_page")
+  sourceRef           String?         @map("source_ref")
+
+  @@index([documentId])
+  @@map("budget_indebtedness")
+}
+
+/// LBP Form 6, Statement of Statutory and Contractual Obligations and
+/// Budgetary Requirements: one line per obligation, under its printed section.
+model BudgetStatutoryObligation {
+  id               String          @id @default(uuid(7))
+  documentId       String          @map("document_id")
+  document         BudgetDocument  @relation(fields: [documentId], references: [id], onDelete: Cascade)
+  orderIndex       Int             @default(0) @map("order_index")
+  /// The printed section heading ("Statutory and Contractual Obligations").
+  section          String
+  particulars      String
+  amount           Decimal         @db.Decimal(18, 2)
+  sourceDocumentId String?         @map("source_document_id")
+  sourceDocument   SourceDocument? @relation(fields: [sourceDocumentId], references: [id], onDelete: SetNull)
+  sourcePage       Int?            @map("source_page")
+  sourceRef        String?         @map("source_ref")
+
+  @@index([documentId])
+  @@map("budget_statutory_obligations")
+}
+
+/// A total the book prints (Form 7, the summaries, the PS ceiling, a sheet's
+/// TOTAL row). Stored to check derived sums against, never added to anything.
+model BudgetPrintedTotal {
+  id               String          @id @default(uuid(7))
+  documentId       String          @map("document_id")
+  document         BudgetDocument  @relation(fields: [documentId], references: [id], onDelete: Cascade)
+  /// RECEIPTS | FORM7 | SUMMARY | PS_LIMIT | FORM5 | FORM6 | OBJECT_SHEET | BUDGET_MESSAGE
+  kind             String
+  /// What it totals: an office acronym, a sector, "GF", "GA", "EE".
+  scope            String
+  label            String
+  amount           Decimal         @db.Decimal(18, 2)
+  sourceDocumentId String?         @map("source_document_id")
+  sourceDocument   SourceDocument? @relation(fields: [sourceDocumentId], references: [id], onDelete: SetNull)
+  sourcePage       Int?            @map("source_page")
+  sourceRef        String?         @map("source_ref")
+
+  @@index([documentId, kind])
+  @@map("budget_printed_totals")
+}
+
+/// An office's header block as one budget book prints it (LBP Form 4: mandate /
+/// legal basis, vision, mission, organizational outcomes), so each year keeps its
+/// own (specs/017). `Office.mandateLegalBasis` etc. are the office's *current*
+/// header, maintained by staff and printed on the AIP's LBP Form 4; a document
+/// seed never writes them. Scanned years' text is OCR: see the import report.
+model BudgetOfficeHeader {
+  id                     String          @id @default(uuid(7))
+  documentId             String          @map("document_id")
+  document               BudgetDocument  @relation(fields: [documentId], references: [id], onDelete: Cascade)
+  officeId               String          @map("office_id")
+  office                 Office          @relation(fields: [officeId], references: [id])
+  mandateLegalBasis      String?         @map("mandate_legal_basis")
+  vision                 String?
+  mission                String?
+  organizationalOutcomes String[]        @map("organizational_outcomes")
+  sourceDocumentId       String?         @map("source_document_id")
+  sourceDocument         SourceDocument? @relation(fields: [sourceDocumentId], references: [id], onDelete: SetNull)
+  sourcePage             Int?            @map("source_page")
+  sourceRef              String?         @map("source_ref")
+
+  @@unique([documentId, officeId])
+  @@map("budget_office_headers")
+}
+
+/// A question asked of the Data Explorer (specs/018 R15). No IP, user agent,
+/// user id or audio. `text` is null when EXPLORER_LOG_QUESTIONS is off and is
+/// nulled after 12 months; the view and the counts stay. Personal-data table.
+model ExplorerQuestion {
+  id               String              @id @default(uuid(7))
+  text             String?
+  lang             String
+  normalisedHash   String              @map("normalised_hash")
+  /// cache | card | model | refused | resting
+  answeredBy       String              @map("answered_by")
+  view             Json?
+  refusal          String?
+  catalogueVersion String              @map("catalogue_version")
+  promptVersion    String?             @map("prompt_version")
+  /// What was answered, whatever the rung (specs/020 B1.1): the view (Ask) or
+  /// `{ query, mark }` (chat). Budget-side; cache hits carry it too.
+  spec             Json?
+  createdAt        DateTime            @default(now()) @map("created_at")
+  calls            ExplorerModelCall[]
+  feedback         ExplorerFeedback[]
+
+  @@index([createdAt])
+  @@index([normalisedHash])
+  @@map("explorer_questions")
+}
+
+/// One model call behind an explorer answer (specs/018 R16): what went in,
+/// what came out, and whether it passed the validator. Personal-data table
+/// (`input` carries the question).
+model ExplorerModelCall {
+  id              String             @id @default(uuid(7))
+  questionId      String?            @map("question_id")
+  question        ExplorerQuestion?  @relation(fields: [questionId], references: [id], onDelete: SetNull)
+  /// ask | explain | transcribe
+  kind            String
+  model           String
+  promptHash      String             @map("prompt_hash")
+  input           Json
+  rawOutput       String?            @map("raw_output")
+  validatedOutput Json?              @map("validated_output")
+  ok              Boolean
+  latencyMs       Int                @map("latency_ms")
+  tokensIn        Int?               @map("tokens_in")
+  tokensOut       Int?               @map("tokens_out")
+  createdAt       DateTime           @default(now()) @map("created_at")
+  feedback        ExplorerFeedback[]
+
+  @@index([createdAt])
+  @@map("explorer_model_calls")
+}
+
+/// A visitor's verdict on an explorer answer (specs/018 R16). The device key is
+/// a random id from the visitor's browser, stored only as a salted hash.
+model ExplorerFeedback {
+  id            String             @id @default(uuid(7))
+  questionId    String?            @map("question_id")
+  question      ExplorerQuestion?  @relation(fields: [questionId], references: [id], onDelete: Cascade)
+  callId        String?            @map("call_id")
+  call          ExplorerModelCall? @relation(fields: [callId], references: [id], onDelete: Cascade)
+  /// correct | wrong | unsure
+  verdict       String
+  reason        String?
+  text          String?
+  deviceKeyHash String?            @map("device_key_hash")
+  /// The spec the verdict is about, copied at rating time (specs/020 B1.1, KTO
+  /// log): a later re-answer of the same question cannot change what was rated.
+  spec          Json?
+  /// sha256 of the canonical spec: groups verdicts on the same answer.
+  specHash      String?            @map("spec_hash")
+  createdAt     DateTime           @default(now()) @map("created_at")
+
+  @@index([createdAt])
+  @@index([specHash])
+  @@map("explorer_feedback")
+}
+
+/// A resident's question kept to improve the explorer's models (specs/020 B4).
+/// Stored only with BOTH opt-ins: the LGU's (EXPLORER_TRAINING_CAPTURE=1, set
+/// only after its privacy notice says so) and the resident's own (unticked by
+/// default), and only when the scrubber flagged nothing — a flagged question
+/// is dropped, never stored redacted. No device key, IP or account. Deleted
+/// after 12 months. Personal-data table (AGENTS.md, SECURITY.md).
+model ExplorerTrainingQuestion {
+  id        String   @id @default(uuid(7))
+  text      String
+  lang      String
+  /// What the explorer answered: the view (Ask) or `{ query, mark }` (chat).
+  spec      Json?
+  /// The scrubber's verdict: `{ regex, personP, model }`.
+  verdict   Json
+  /// ask | chat
+  kind      String
+  consentAt DateTime @map("consent_at")
+  createdAt DateTime @default(now()) @map("created_at")
+
+  @@index([createdAt])
+  @@map("explorer_training_questions")
+}
+
+/// A shared Data Explorer workbook (specs/018 redesign P3, W9/W20): the state
+/// behind a `/explore/w/<id>` link. Immutable, kept with no expiry; the id is
+/// a hash of the state, so the same workbook always gets the same link. No
+/// personal data: no device key, no IP, no chat transcript.
+model ExplorerSnapshot {
+  /// First 12 characters of base64url(SHA-256(canonical state)).
+  id        String   @id
+  state     Json
+  createdAt DateTime @default(now()) @map("created_at")
+
+  @@map("explorer_snapshots")
+}
+
+/// A subject people ask about ("education", "youth", "farmers") and what it
+/// means in the data, as rules (specs/018 redesign W16). Membership is derived
+/// per read from the rules, never stored per row. `draft` topics show only
+/// where EXPLORER_INCLUDE_DRAFTS is on; staff approve them before they go public.
+model ExplorerTopic {
+  id          String              @id
+  label       String
+  description String?
+  /// `{ en: [...], fil: [...], bcl: [...] }` — how people say it.
+  aliases     Json                @default("{}")
+  /// draft | approved
+  status      String              @default("draft")
+  rules       ExplorerTopicRule[]
+  createdAt   DateTime            @default(now()) @map("created_at")
+  updatedAt   DateTime            @updatedAt @map("updated_at")
+
+  @@map("explorer_topics")
+}
+
+/// One way a row belongs to a topic; a row is in the topic when any rule matches.
+model ExplorerTopicRule {
+  id      String        @id @default(uuid(7))
+  topicId String        @map("topic_id")
+  topic   ExplorerTopic @relation(fields: [topicId], references: [id], onDelete: Cascade)
+  /// office | cluster | sector | finishLine | fund | theme | keyword
+  kind    String
+  /// A catalogue code (`CAgO`, `health`, `SEF`) or, for `keyword`, a
+  /// case-insensitive pattern matched against the row's name.
+  value   String
+
+  @@index([topicId])
+  @@map("explorer_topic_rules")
+}
+
+/// What a budget row IS, in residents' words (specs/018 redesign W22–W24): a
+/// two-level taxonomy loaded from `prisma/data/explorer-labels.json`. A
+/// sub-label has a parent; labels are non-additive (a row can carry several).
+/// `draft` labels show only where EXPLORER_INCLUDE_DRAFTS is on.
+model ExplorerLabel {
+  id          String               @id
+  parentId    String?              @map("parent_id")
+  parent      ExplorerLabel?       @relation("ExplorerLabelTree", fields: [parentId], references: [id], onDelete: Cascade)
+  children    ExplorerLabel[]      @relation("ExplorerLabelTree")
+  label       String
+  definition  String
+  /// `{ en: [...], fil: [...], bcl: [...] }` — how people say it.
+  aliases     Json                 @default("{}")
+  /// `{ functionalGroup, cofog, finishLine }` — the official frames it maps to.
+  maps        Json                 @default("{}")
+  /// draft | approved
+  status      String               @default("draft")
+  orderIndex  Int                  @default(0) @map("order_index")
+  annotations ExplorerAnnotation[]
+  createdAt   DateTime             @default(now()) @map("created_at")
+  updatedAt   DateTime             @updatedAt @map("updated_at")
+
+  @@index([parentId])
+  @@map("explorer_labels")
+}
+
+/// One budget row the labelling run has read (W25, W30): its assembled text
+/// (budget data only, public record), the hash that decides a re-run, and its
+/// vector. Rows: AIP programs and PAs, budget items, account lines, Projects.
+model ExplorerRow {
+  /// The labelled row's own id (a Program, ProjectActivity, BudgetItem, BudgetObjectLine or PPMP id).
+  rowId          String    @id @map("row_id")
+  /// aip-program | aip-pa | budget-item | object-line | project
+  rowKind        String    @map("row_kind")
+  /// The record its labels also count for: a PA's program, a budget item's top-level PPA; itself otherwise.
+  rootId         String    @map("root_id")
+  text           String
+  textHash       String    @map("text_hash")
+  /// Unit-length embedding; `real[]` so it runs on any Postgres.
+  /// ponytail: cosine in memory; move to pgvector when rows reach ~100k.
+  embedding      Float[]   @db.Real
+  /// The model that made `embedding` (specs/020 B3.4): vectors from two models never compare.
+  embeddingModel String?   @map("embedding_model")
+  labelledAt     DateTime? @map("labelled_at")
+  /// Set when Stride decided this row: a re-run never touches it again (W23).
+  reviewedAt     DateTime? @map("reviewed_at")
+  updatedAt      DateTime  @updatedAt @map("updated_at")
+
+  @@index([rootId])
+  @@map("explorer_rows")
+}
+
+/// A label on a row (W23): live at once unless `inReview` (very low
+/// confidence), which counts nowhere until Stride decides. No personal data:
+/// the reviewer is recorded as `stride`, never a user.
+model ExplorerAnnotation {
+  id         String        @id @default(uuid(7))
+  rowId      String        @map("row_id")
+  rootId     String        @map("root_id")
+  labelId    String        @map("label_id")
+  label      ExplorerLabel @relation(fields: [labelId], references: [id], onDelete: Cascade)
+  confidence Float
+  reason     String
+  /// model | stride
+  decidedBy  String        @default("model") @map("decided_by")
+  inReview   Boolean       @default(false) @map("in_review")
+  createdAt  DateTime      @default(now()) @map("created_at")
+
+  @@unique([rowId, labelId])
+  @@index([rootId])
+  @@map("explorer_annotations")
+}

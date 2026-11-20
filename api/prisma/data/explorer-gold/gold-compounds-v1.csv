@@ -1,0 +1,759 @@
+row_id,kind,office,text,proposed,picks,decision
+b250fca4-e856-4243-b5d8-8b62b4d97664,budget-item,"Office of the City Agriculturist","Budget PPA: AGRI-TOURISM
+Major final output: Implementation of a plan to develop local farms, especially in the upland to agri-tourism and/or learning sites for agriculture
+Office: Office of the City Agriculturist
+Its sub-items: AGRI-TOURISM","","[{""id"":""agriculture"",""confidence"":0.9},{""id"":""tourism-culture.tourism"",""confidence"":0.7}]",
+01a134e1-b444-71cb-a81e-0ee67e960555,aip-pa,"Office of the City Agriculturist","Activity: Agri-tourism
+Expected output: Implementation of a plan to develop local farms, especially in the upland to agri-tourism and/or learning sites for agriculture
+Part of: Tourism Destination Development
+Office: Office of the City Agriculturist","","[{""id"":""agriculture.crops"",""confidence"":0.78},{""id"":""tourism-culture.tourism"",""confidence"":0.72}]",
+01a134e3-b473-70bc-8299-ca323c37914c,aip-pa,"Investment and Trade Promotion Office","Activity: Mountain and Agri-Tourism - Facilities improvement at MINP and other mountain resort/agri-tourism sites
+Expected output: 30% of facility improvement requirements delivered
+Part of: Tourism Destination Development
+Office: Investment and Trade Promotion Office","","[{""id"":""tourism-culture.tourism"",""confidence"":0.97},{""id"":""infrastructure.buildings"",""confidence"":0.6}]",
+01a0109e-b3fa-75aa-954f-dbf6c882093c,aip-pa,"Office of the City Agriculturist","Activity: AGRI-TOURISM
+Expected output: # of agri-tourism sites
+Part of: AGRI-TOURISM
+Office: Office of the City Agriculturist","","[{""id"":""agriculture.crops"",""confidence"":0.95},{""id"":""tourism-culture.tourism"",""confidence"":0.68}]",
+6cd88f5d-5b6a-464d-968f-b8de4b07e949,budget-item,"Office of the City Agriculturist","Budget PPA: AGRI-TOURISM
+Major final output: Implementation of a plan to develop local farms, especially in the upland to agri-tourism and/or learning sites for agriculture
+Part of: AGRI-TOURISM
+Office: Office of the City Agriculturist
+Money in: Maintenance and Other Operating Expenses","","[{""id"":""agriculture"",""confidence"":0.9},{""id"":""tourism-culture.tourism"",""confidence"":0.7}]",
+01a134e4-522c-765c-9e8f-d55e67bdaae5,aip-pa,"Agricultural and Biosystems Engineering Department","Activity: Training and Assesment with NC II for Agricultural Machineries and Facilities Operation & Maintenance
+Part of: Naga City Agri-Mechanization & Farmer Empowerment
+Office: Agricultural and Biosystems Engineering Department","","[{""id"":""agriculture.farm-machinery"",""confidence"":0.95},{""id"":""livelihood-jobs.employment"",""confidence"":0.58}]",
+01a134e4-7990-707c-bda4-4bde20930785,aip-pa,"Agricultural and Biosystems Engineering Department","Activity: Registration of Agricultural Machineries & Post harvest Facilities through RAFMES (Ordinance no.2023-006)
+Expected output: Centralized data of MFADDIEs & Machinery owners of Naga City
+Part of: Standards and Regulation of Farm Machineries & Post Harvest Machineries in Naga City
+Office: Agricultural and Biosystems Engineering Department","","[{""id"":""agriculture.farm-machinery"",""confidence"":0.97},{""id"":""governance.planning-monitoring"",""confidence"":0.36}]",
+01a134df-aad8-7018-b74b-c3ac037fe9b7,aip-program,"Naga City Dangerous Drugs Board","Program: Anti-Drug Policy Monitoring and Barangay Drug-Clearing Oversight Program
+Office: Naga City Dangerous Drugs Board
+Sector: General Public Services Sector
+Its projects and activities: BADAC Functionality Monitoring Project; Inter-Agency Information Governance, Referral, and Data-Sharing Coordination; Barangay Drug-Clearing Program Monitoring and Technical Support; PWUD Program Statistics, Case Data, and Management Information Services; Reformation Program and Facility Standards Review and Administrative Oversight; Barangay Anti-Drug Abuse Council (BADAC) Functionality Monitoring and Assessment Support; Barangay Drug-Clearing Monitoring Project; Program Data and Information Management Project; and 2 more","","[{""id"":""peace-order.drugs"",""confidence"":0.99},{""id"":""governance.planning-monitoring"",""confidence"":0.72}]",
+01a134df-6ece-72a6-88a4-657e33ce60a2,aip-program,"Naga City Dangerous Drugs Board","Program: Anti-Drug Governance, Institutional Support, and Administrative Management Program
+Office: Naga City Dangerous Drugs Board
+Sector: General Public Services Sector","","[{""id"":""peace-order.drugs"",""confidence"":0.98},{""id"":""governance.administration"",""confidence"":0.9}]",
+01a0109a-26e2-7491-9dc4-47165f76e70a,aip-pa,"Naga City Dangerous Drugs Board","Activity: Naga City Anti-Drug Abuse Program/ Naga City Dangerous Drugs Board
+Expected output: Percentage of crime prevention and public safety PPAs fully implemented within budget and schedule
+Part of: Naga City Anti-Drug Abuse Program/ Naga City Dangerous Drugs Board
+Office: Naga City Dangerous Drugs Board","","[{""id"":""peace-order.drugs"",""confidence"":0.99}]",
+01a134df-ab95-735b-a42e-265fc2711407,aip-pa,"Naga City Dangerous Drugs Board","Activity: Barangay Anti-Drug Abuse Council (BADAC) Functionality Monitoring and Assessment Support
+Expected output: 100% of the 27 barangays monitored or assessed against applicable BADAC functionality indicators, with required Means of Verification consolidated, compliance gaps documented, and technical assistance or corrective recommendations provided.
+Part of: Anti-Drug Policy Monitoring and Barangay Drug-Clearing Oversight Program › BADAC Functionality Monitoring Project
+Office: Naga City Dangerous Drugs Board","","[{""id"":""peace-order.drugs"",""confidence"":0.98},{""id"":""governance.public-information"",""confidence"":0.4}]",
+01a0109a-20b7-7626-b09c-c04137495e47,budget-item,"Naga City Dangerous Drugs Board","Budget PPA: Naga City Anti-Drug Abuse Program/ Naga City Dangerous Drugs Board
+Major final output: Crime prevention and public safety services
+Office: Naga City Dangerous Drugs Board
+Money in: Personnel Services","","[{""id"":""peace-order.drugs"",""confidence"":0.98}]",
+01a134de-5591-712f-aef4-8169136b22b2,aip-pa,"Information & Technology Office","Activity: Cybersecurity Infrastructure Hardening, Disaster Recovery, Business Continuity, and Digital Resilience Program
+Expected output: City ICT infrastructure maintained at approved availability targets; priority systems and networks protected through layered cybersecurity controls; security events centrally monitored and responded to; backup and disaster-recovery capabilities regularly tested; and recovery objectives for critical and non-critical systems defined, approved, and validated through documented exercises.
+Part of: Network, Database, Geospatial, Cybersecurity, and Digital Infrastructure Administration › Cybersecurity Infrastructure Hardening, Disaster Recovery, Business Continuity, and Digital Resilience Program
+Office: Information & Technology Office","","[{""id"":""governance.digital-government"",""confidence"":0.99}]",
+01a134de-5567-77ad-965a-f11c835b4035,aip-pa,"Information & Technology Office","Project: Cybersecurity Infrastructure Hardening, Disaster Recovery, Business Continuity, and Digital Resilience Program
+Expected output: City ICT infrastructure maintained at approved availability targets; priority systems and networks protected through layered cybersecurity controls; security events centrally monitored and responded to; backup and disaster-recovery capabilities regularly tested; and recovery objectives for critical and non-critical systems defined, approved, and validated through documented exercises.
+Part of: Network, Database, Geospatial, Cybersecurity, and Digital Infrastructure Administration
+Office: Information & Technology Office","","[{""id"":""governance.digital-government"",""confidence"":0.99}]",
+01a134e3-d125-76a9-859e-22e58963a568,aip-pa,"Naga City Cooperative Development Office","Activity: Business Continuity Plan (3 days)
+Part of: Naga City Cooperative Training and Enhancement Programs › Supplemental / Enhancement Trainings
+Office: Naga City Cooperative Development Office","","[{""id"":""disaster-risk.preparedness"",""confidence"":0.62},{""id"":""livelihood-jobs.livelihood"",""confidence"":0.5}]",
+9d2328e0-dec7-4a4a-8c07-cc7c49bc6e70,budget-item,"Market Enterprise and Promotions Office","Budget PPA: Input session on business mgt, marketing and reiated topics conducted to staltholders
+Part of: COPFRATIONS
+Office: Market Enterprise and Promotions Office
+Money in: Personnel Services, Capital Outlay","","[{""id"":""livelihood-jobs.livelihood"",""confidence"":0.88},{""id"":""education.schools"",""confidence"":0.35}]",
+01a1bed2-9885-727c-8316-6dd6f066c5f8,object-line,"Special Purpose Appropriations Fund","Budget account line: 3. Metro Naga Chamber of Commerce and Industry - Bicol Business Week (5-02-99-080)
+Expense class: MOOE
+Office: Special Purpose Appropriations Fund","","[{""id"":""livelihood-jobs.investment"",""confidence"":0.9},{""id"":""livelihood-jobs"",""confidence"":0.8}]",
+cbe55a5a-f4d7-4340-b608-87b3d5d28093,budget-item,"Market Enterprise and Promotions Office","Budget PPA: Bi-annual inspection and monitoringof weighing andmeasuring devicesof business establishment withinNCPM,CBD1-2. andin 27 Barangays of Naga.
+Office: Market Enterprise and Promotions Office
+Money in: Maintenance and Other Operating Expenses","","[{""id"":""livelihood-jobs.markets"",""confidence"":0.93}]",
+fa8d6239-81f9-4f22-8170-48f664e2c446,budget-item,"Office of the City Treasurer","Budget PPA: Business-One-Stop-Shop benchmarking
+Major final output: Support to Local Treasury Operation
+Office: Office of the City Treasurer
+Its sub-items: Business-One-Stop-Shop benchmarking","","[{""id"":""governance.finance-revenue"",""confidence"":0.95}]",
+01a01099-3a26-72bb-ba7e-3c8806a73ece,aip-pa,"Office of the City Treasurer","Activity: Strengthening payment and collection strategy, effective conduct of. Business-One-Stop-Shop and on-time review and revision of Naga City Revenue Code.
+Expected output: Percentage of annual city budget developed through institutionalized participatory processes involving citizens, civil society, and sectoral representatives or percentage of city budget prioritized influenced by cittizen's proposals submitted through participatory mechanism.
+Part of: Strengthening payment and collection strategy, effective conduct of. Business-One-Stop-Shop and on-time review and revision of Naga City Revenue Code.
+Office: Office of the City Treasurer","","[{""id"":""governance.finance-revenue"",""confidence"":0.9},{""id"":""governance.planning-monitoring"",""confidence"":0.62}]",
+01a134db-070b-7408-bbfb-072ab19eeaa8,aip-pa,"Naga City Children's Affairs Office","Activity: Capability Building and Intersectoral Partnerships
+Expected output: Improved learning outcomes for Naga's children and youth; Increased participation of citizens, especially youth, in civic education programs and activities.
+Part of: Child Rights Promotion and Protection Program › Capacity Building and Partnerships Project
+Office: Naga City Children's Affairs Office","","[{""id"":""children"",""confidence"":0.96},{""id"":""youth"",""confidence"":0.9},{""id"":""governance.public-information"",""confidence"":0.7}]",
+3b4452f8-9f01-4725-80e6-c097ceeaff07,budget-item,"Naga City Children's Affairs Office","Budget PPA: CAPABILITY BUILDING AND ESTABLISHING INTERSECTORAL COMMUNICATIONS AND FUNCTIONAL PARTNERSHIPS
+Major final output: Children’s welfare and development services
+Office: Naga City Children's Affairs Office
+Its sub-items: Strengthening Intersectoral Coordination and Governance; LCPC & BCPC Benchmarking; Child Participation and Leadership Platforms; Capacity Building for Duty-Bearers","","[{""id"":""children"",""confidence"":0.99},{""id"":""governance.administration"",""confidence"":0.72}]",
+01a134e8-352d-771a-8288-0d1909555ed5,aip-pa,"Office of the City Social Welfare and Development Officer","Activity: Capability Building and training of CSWDO Personnel
+Expected output: Personnel Trained on Priority Social Welfare Programs and Services
+Part of: Performance Assessment, Review, Capacity Development, and Team Development Services
+Office: Office of the City Social Welfare and Development Officer","","[{""id"":""social-welfare"",""confidence"":0.96},{""id"":""governance.administration"",""confidence"":0.5}]",
+01a01097-7835-719f-a6cf-4a063dc5822d,budget-item,"Naga City Children's Affairs Office","Budget PPA: CAPABILITY BUILDING AND ESTABLISHING INTERSECTORAL COMMUNICATIONS AND FUNCTIONAL PARTNERSHIPS
+Major final output: Children’s welfare and development services
+Office: Naga City Children's Affairs Office
+Its sub-items: Strengthening Intersectoral Coordination and Governance; LCPC & BCPC Benchmarking; Child Participation and Leadership Platforms; Capacity Building for Duty-Bearers","","[{""id"":""children"",""confidence"":0.98},{""id"":""governance.public-information"",""confidence"":0.62}]",
+01a134df-2d44-75dc-a0d7-5b8891a110ca,aip-pa,"Public Safety Office - People's Law Enforcement Board","Activity: Capability Building & Search for Outstanding PNCOs
+Expected output: 100% completion of pre-award documentation—including approved Search Guidelines, Committee Resolutions, Evaluation Rubrics, Masterlist of Nominees, Field Validation Reports, and Scoring Summaries—prior to final selection; and Top 5 Outstanding PNCOs recognized and awarded during a formal ceremony, with 100% of proceedings, awardee resolutions, and financial releases documented in a Post-Activity Report.
+Part of: Public Accountability and Capacity Development Project
+Office: Public Safety Office - People's Law Enforcement Board","","[{""id"":""peace-order.public-safety"",""confidence"":0.97}]",
+01a1becf-0837-702d-82bd-41cc64005e0b,object-line,"Office of the City Mayor","Budget account line: Building&OtherStructures-OtherStructures (1-07-04-990)
+Expense class: CO
+Office: Office of the City Mayor","","[{""id"":""infrastructure.buildings"",""confidence"":0.62},{""id"":""infrastructure"",""confidence"":0.62}]",
+01a134df-81e5-733f-b42f-da3a0e09617d,aip-pa,"Naga City Dangerous Drugs Board","Activity: Inter-Agency Coordination, Meetings, Training, and Capacity-Building Support
+Expected output: 100% of approved inter-agency meetings, workshops, training activities, and coordination requirements involving authorized anti-drug enforcement, prosecution, and partner agencies supported or conducted within approved schedules, with agreements, action points, and participation documented.
+Part of: Drug Supply Reduction Program › Intelligence, Enforcement, and Prosecution Support Project
+Office: Naga City Dangerous Drugs Board","","[{""id"":""peace-order.drugs"",""confidence"":0.98},{""id"":""peace-order.public-safety"",""confidence"":0.86}]",
+01a0109f-f324-71ff-9b2c-455834c21be2,budget-item,"Market Enterprise and Promotions Office","Budget PPA: NCPM building insurance
+Major final output: Administrative and Support Services
+Office: Market Enterprise and Promotions Office
+Money in: Maintenance and Other Operating Expenses","","[{""id"":""livelihood-jobs.markets"",""confidence"":0.95},{""id"":""governance.administration"",""confidence"":0.72}]",
+01a1bed2-9885-727c-8314-8f00ad73fb18,object-line,"Investment and Trade Promotion Office","Budget account line: Building & Other Structures - Other Structures (1-07-04-990)
+Expense class: CO
+Office: Investment and Trade Promotion Office","","[{""id"":""livelihood-jobs.investment"",""confidence"":0.6}]",
+01a1bed0-ceed-71d8-99a0-1525fe5c8af8,object-line,"Education, Scholarship and Sports Office","Budget account line: Building&Other Structures-OtherStructures (1-07-04-990)
+Expense class: CO
+Office: Education, Scholarship and Sports Office","","[{""id"":""education"",""confidence"":0.95},{""id"":""infrastructure.buildings"",""confidence"":0.6}]",
+01a134db-2ea5-71cd-8de5-c16c5b35f91a,aip-pa,"Office of the Sangguniang Panlungsod Members","Activity: Capacity Building and Training on Development Programs, including GAD
+Expected output: Enhanced competencies and improved office services.
+Part of: Legislative Capacity and Institutional Development Program › Legislative Capability Enhancement Project
+Office: Office of the Sangguniang Panlungsod Members","","[{""id"":""governance.legislation"",""confidence"":0.98},{""id"":""women-gender"",""confidence"":0.55}]",
+02d58ee6-b52a-4e95-ab76-f146164ccae0,budget-item,"Office of the City Assessor","Budget PPA: Training and Seminars on GAD, CPDs and capacity building and development
+Major final output: Administrative support and service
+Part of: Training and Seminars on GAD, CPDs and capacity building and development
+Office: Office of the City Assessor
+Money in: Maintenance and Other Operating Expenses","","[{""id"":""governance.administration"",""confidence"":0.8},{""id"":""women-gender"",""confidence"":0.72}]",
+01a134de-b001-77b9-9be6-1bf2322de459,aip-pa,"Public Safety Office","Activity: Public Safety Training, Capacity Building, and Values Formation Services
+Expected output: Four (4) quarterly capacity-building/values-formation sessions conducted reaching ≥80% of personnel with ≥85% post-training assessment rating.
+Part of: Public Safety Planning, Coordination, and Community Engagement Program › Public Safety Training and Capacity Development Project
+Office: Public Safety Office","","[{""id"":""peace-order.public-safety"",""confidence"":0.98},{""id"":""governance.administration"",""confidence"":0.7}]",
+01a0109f-ed99-768e-82bc-193e6429592c,budget-item,"Market Enterprise and Promotions Office","Budget PPA: Capacity Building and Skills Development Program
+Major final output: Administrative and Support Services
+Office: Market Enterprise and Promotions Office
+Money in: Maintenance and Other Operating Expenses","","[{""id"":""livelihood-jobs.markets"",""confidence"":0.9},{""id"":""governance.administration"",""confidence"":0.55}]",
+01a0109c-1a91-7596-8fa3-ed3e0759cfa5,budget-item,"Office of the City Population Officer","Budget PPA: CAPACITY BUILDING
+Major final output: Nutrition services
+Office: Office of the City Population Officer
+Money in: Maintenance and Other Operating Expenses","","[{""id"":""health.nutrition"",""confidence"":0.9},{""id"":""health"",""confidence"":0.82}]",
+01a0109f-f34e-7308-b50a-bf417084458a,aip-pa,"Market Enterprise and Promotions Office","Activity: NCPM building insurance
+Expected output: Percentage reduction in disruption-related complaints or damages due to power, utility, or uninsured loss events at NCPM and satellite markets
+Part of: NCPM building insurance
+Office: Market Enterprise and Promotions Office","","[{""id"":""livelihood-jobs.markets"",""confidence"":0.95},{""id"":""governance.administration"",""confidence"":0.55}]",
+794b5465-2ec9-4e89-a6aa-350eb4a80474,budget-item,"Office of the City Civil Registrar","Budget PPA: Capacity Development - Team Building - Bench Marking - Trainings & Seminars
+Major final output: Updated and improved skills and knowledge of employees
+Office: Office of the City Civil Registrar
+Its sub-items: Capacity Development - Team Building - Bench Marking - Trainings & Seminars","","[{""id"":""governance.administration"",""confidence"":0.86},{""id"":""governance.public-information"",""confidence"":0.4}]",
+01a134e7-2f86-76ab-b091-59835e7bba84,aip-program,"Naga City General Hospital","Program: Hospital/Facility Building Expansion and Modernization Projects
+Office: Naga City General Hospital
+Sector: Other Economic Services Sector","","[{""id"":""health.hospital-care"",""confidence"":0.97},{""id"":""infrastructure.buildings"",""confidence"":0.96},{""id"":""health"",""confidence"":0.95}]",
+01a134e3-60a2-765c-b78f-ebafeeba168e,aip-pa,"Investment and Trade Promotion Office","Activity: Digital Marketing - Activate email maketing comprised of: email list building, subscriber acquisition, newsletter subscription, and email updates - Continuous social media marketing through Invest in Naga Facebook page and more active promotion on LinkedIn account through content calendar preparation, campaign management, ads boosting, profile building, and analytics report generation - Regular maintenance of website through publishing of articles and updating of information bank
+Expected output: Presence of general promotions campaign as evidenced by the following: a) web and social media channels - 3; b) number of social media followers - 25,000; e-mail list subscribers - 200
+Part of: Investment Marketing & Investment Generation - Expanded investment marketing program which includes general effort to promote Naga and specific locations within the city among prospective locators in priority industries, as well as actual ""selling"" to convince investors to locate in Naga
+Office: Investment and Trade Promotion Office","","[{""id"":""livelihood-jobs.investment"",""confidence"":0.98},{""id"":""governance.digital-government"",""confidence"":0.72},{""id"":""governance.public-information"",""confidence"":0.7}]",
+01a0109a-6060-7139-bffe-460d1b37e650,budget-item,"Office of the City Information Officer- City Events, Protocol & Public Information Office","Budget PPA: Team Building
+Major final output: Administrative and Support Services
+Office: Office of the City Information Officer- City Events, Protocol & Public Information Office
+Money in: Maintenance and Other Operating Expenses","","[{""id"":""governance.administration"",""confidence"":0.9},{""id"":""governance"",""confidence"":0.8}]",
+01a134e6-15f0-7443-bea1-59be351ea53f,aip-pa,"Office of the City Engineer","Activity: Cross Drainage and Drainage Cover, Near Del Villar Apt., Carnation St.
+Part of: Flood Mitigation and Control
+Office: Office of the City Engineer","","[{""id"":""infrastructure.drainage-flood"",""confidence"":0.98},{""id"":""disaster-risk.mitigation"",""confidence"":0.95}]",
+01a1bed0-ceed-71d8-99a4-808dcd492f38,object-line,"Local Development Fund","Budget account line: Cross drainage,SanJose St.Sabang (1-07-03-020)
+Expense class: CO
+Office: Local Development Fund","","[{""id"":""infrastructure.drainage-flood"",""confidence"":0.96}]",
+01a134e6-161c-7027-9429-29eccbccae73,aip-pa,"Office of the City Engineer","Activity: Drainage and Cross Drainage, Manelinza Compound and Matiway Road, San Felipe
+Part of: Flood Mitigation and Control
+Office: Office of the City Engineer","","[{""id"":""infrastructure.drainage-flood"",""confidence"":0.99},{""id"":""disaster-risk.mitigation"",""confidence"":0.95}]",
+01a134e6-18fc-76c0-a0de-efa9814a1dae,aip-pa,"Office of the City Engineer","Activity: Drainage and Cross Drainage, Balconville
+Part of: Flood Mitigation and Control
+Office: Office of the City Engineer","","[{""id"":""infrastructure.drainage-flood"",""confidence"":0.99},{""id"":""disaster-risk.mitigation"",""confidence"":0.95}]",
+01a134e6-12da-77fb-ac9d-f513f6235a80,aip-pa,"Office of the City Engineer","Activity: RC Pipe Drainage and Cross Drainage, Along Soriano Ave. Villa Sorabella
+Part of: Flood Mitigation and Control
+Office: Office of the City Engineer","","[{""id"":""infrastructure.drainage-flood"",""confidence"":0.99},{""id"":""disaster-risk.mitigation"",""confidence"":0.95}]",
+01a1bed2-9885-727c-8315-6f902d7362bf,object-line,"Local Disaster Risk Reduction and Management Fund","Budget account line: Infrastructure Assets - Water Supply Systems (1-07-03-040)
+Expense class: CO
+Office: Local Disaster Risk Reduction and Management Fund","","[{""id"":""infrastructure.water-power"",""confidence"":0.98}]",
+01a1bed0-ceec-737e-a46d-5ce0bda96217,object-line,"Office of the City Mayor","Budget account line: Rep.&Maint.-Infrastructure Assets(Vater Supply Syst (5-02-13-03(-03)
+Expense class: MOOE
+Office: Office of the City Mayor","","[{""id"":""infrastructure.water-power"",""confidence"":0.88},{""id"":""infrastructure"",""confidence"":0.86}]",
+01a1becf-083a-720a-931f-1c4ac6245113,object-line,"Public Safety Office","Budget account line: Rep &Maint-infrastructure Assets(Communication Netwo (5-02-13-030-05)
+Expense class: MOOE
+Office: Public Safety Office","","[{""id"":""peace-order.public-safety"",""confidence"":0.9},{""id"":""governance.administration"",""confidence"":0.45}]",
+01a134de-52ca-722d-9b72-1d9d4e4a2ed8,aip-pa,"Information & Technology Office","Activity: Enterprise Geospatial Information Infrastructure and Shared GIS Platform
+Expected output: City network, database, geospatial, identity, cybersecurity, hosting, storage, and related enterprise digital infrastructure maintained and progressively enhanced during CY 2027, with critical infrastructure availability, security, access, backup, recovery, monitoring, and interoperability requirements implemented according to approved service and security standards.
+Part of: Network, Database, Geospatial, Cybersecurity, and Digital Infrastructure Administration › Enterprise Geospatial Information Infrastructure and Shared GIS Platform
+Office: Information & Technology Office","","[{""id"":""governance.digital-government"",""confidence"":0.99}]",
+01a1bed2-9885-727c-8315-b824365b6b8b,object-line,"Local Development Fund","Budget account line: a. Infrastructure Assets- Road Networks (1-07-03-010)
+Expense class: CO
+Office: Local Development Fund","","[{""id"":""infrastructure.roads"",""confidence"":0.99},{""id"":""infrastructure"",""confidence"":0.95}]",
+01a134de-0a71-757d-b258-81d374662cd1,aip-program,"Information & Technology Office","Program: Digital Governance Administration and Institutional Support Program
+Office: Information & Technology Office
+Sector: General Public Services Sector","","[{""id"":""governance.digital-government"",""confidence"":0.95},{""id"":""governance.administration"",""confidence"":0.72}]",
+01a134dc-7381-779c-9003-13552aa1160b,aip-pa,"Office of the City Legal Officer","Activity: Digital Governance Advisory and Coordination
+Expected output: Digital governance coordination activities completed.
+Part of: Digital Governance Legal Frameworking and ICT Compliance Program › ICT Legal Governance Project
+Office: Office of the City Legal Officer","","[{""id"":""governance.digital-government"",""confidence"":0.96},{""id"":""governance.administration"",""confidence"":0.68}]",
+01a134dc-7211-715f-b365-cfe10d96ee66,aip-pa,"Office of the City Legal Officer","Activity: Digital Governance Legal Frameworking and ICT Compliance Program
+Expected output: ICT-related contracts, digital governance instruments, and interoperability frameworks legally supported.
+Part of: Digital Governance Legal Frameworking and ICT Compliance Program › ICT Legal Governance Project
+Office: Office of the City Legal Officer","","[{""id"":""governance.digital-government"",""confidence"":0.99},{""id"":""governance.administration"",""confidence"":0.74}]",
+01a134dc-716d-7546-a22e-80a625edc37c,aip-program,"Office of the City Legal Officer","Program: Digital Governance Legal Frameworking and ICT Compliance Program
+Office: Office of the City Legal Officer
+Sector: General Public Services Sector
+Its projects and activities: Legal Database Subscription; Digital Governance Advisory and Coordination; Digital Governance Legal Frameworking and ICT Compliance Program; ICT-related Contracts and NDAs; Digital Payment Integration and Interoperability; Software Licensing and Data Sovereignty; ICT Law and Cybersecurity Training; ICT Legal Governance Project","","[{""id"":""governance.digital-government"",""confidence"":0.98},{""id"":""governance.administration"",""confidence"":0.7}]",
+01a134db-d09d-756e-97fb-78bb7d197306,aip-program,"i-Governance Program","Program: Digital Governance and Institutional Support Program
+Office: i-Governance Program
+Sector: General Public Services Sector","","[{""id"":""governance.digital-government"",""confidence"":0.98}]",
+be6eb119-6e36-4d37-98ba-6ac8443b1e23,budget-item,"Investment and Trade Promotion Office","Budget PPA: Marketing and Promotions
+Major final output: branding and tourism promotions campaign sustained, bringing Naga and its tourism products to the consciousness of prospective tourists
+Office: Investment and Trade Promotion Office
+Its sub-items: Tourism Promotions Campaign, including branding and brand implementation; Support to Organizers of MICE and Other Special Events Bringing in Tourists from Outside Camarines Sur","","[{""id"":""tourism-culture.tourism"",""confidence"":0.95},{""id"":""livelihood-jobs.investment"",""confidence"":0.7}]",
+177619c1-26da-4da0-86ca-8326f394f7d0,budget-item,"Investment and Trade Promotion Office","Budget PPA: 2Investment Marketing & Investment Generation- Expanded investment marketing program which includes general effort to promote Naga and specific locations within the city among prospective locators in priority industries, as well as actual ""selling"" to convince investors to locate in Naga
+Major final output: Updated website & printed promotional materials
+Office: Investment and Trade Promotion Office
+Its sub-items: 2Investment Marketing & Investment Generation- Expanded investment marketing program which includes general effort to promote Naga and specific locations within the city among prospective locators in priority industries, as well as actual ""selling"" to convince investors to locate in Naga","","[{""id"":""livelihood-jobs.investment"",""confidence"":0.98},{""id"":""governance.public-information"",""confidence"":0.66}]",
+3911e084-6c2d-4d1b-837f-b17dbfbec1de,budget-item,"Office of the City Agriculturist","Budget PPA: Marketing uoddns Program- Enabling farmersto fromtheir markets
+Part of: C.OPERATIONS
+Office: Office of the City Agriculturist","","[{""id"":""agriculture.crops"",""confidence"":0.88},{""id"":""livelihood-jobs.markets"",""confidence"":0.7}]",
+d631a5a9-17fc-45f4-acd1-18b82bb241f4,budget-item,"Investment and Trade Promotion Office","Budget PPA: Marketing and Promotions
+Major final output: Tourism services
+Part of: TOURISM
+Office: Investment and Trade Promotion Office
+Money in: Maintenance and Other Operating Expenses","","[{""id"":""tourism-culture.tourism"",""confidence"":0.98}]",
+01a0109e-9045-759f-833d-8b9bc003bc92,budget-item,"Office of the City Agriculturist","Budget PPA: AGRICULTURAL MARKETING PROGRAM
+Major final output: Access to markets with favorable prices for farmers' produce
+Office: Office of the City Agriculturist
+Money in: Maintenance and Other Operating Expenses","","[{""id"":""agriculture.livestock"",""confidence"":0.82},{""id"":""livelihood-jobs.markets"",""confidence"":0.6}]",
+01a134e1-58a1-754d-a0f3-4feaa91808b7,aip-pa,"City Disaster Risk Reduction Management Office","Project: Post-Disaster Recovery Capacity Building Project
+Part of: Disaster Rehabilitation and Recovery Program
+Office: City Disaster Risk Reduction Management Office","","[{""id"":""disaster-risk.preparedness"",""confidence"":0.95},{""id"":""disaster-risk.response-relief"",""confidence"":0.8}]",
+01a134de-568b-70f9-af95-e9ddb3a0d016,aip-pa,"Information & Technology Office","Activity: Disaster Recovery Center and Automated Data Replication
+Part of: Network, Database, Geospatial, Cybersecurity, and Digital Infrastructure Administration › Cybersecurity Infrastructure Hardening, Disaster Recovery, Business Continuity, and Digital Resilience Program
+Office: Information & Technology Office","","[{""id"":""governance.digital-government"",""confidence"":0.99}]",
+01a0109c-81c8-71b9-9adb-f9ec523723c3,aip-pa,"Office of the City Social Welfare and Development Officer","Activity: Provision of welfare goods to needy individuals and victims of natural and man made disaster
+Expected output: Percentage of individuals and families in crisis situation provided appropriate assistance
+Part of: Provision of welfare goods to needy individuals and victims of natural and man made disaster
+Office: Office of the City Social Welfare and Development Officer","","[{""id"":""social-welfare.crisis-aid"",""confidence"":0.98}]",
+01a134e1-0e64-740a-afb1-3d06ccb376b5,aip-program,"City Disaster Risk Reduction Management Office","Program: Disaster Preparedness Program
+Office: City Disaster Risk Reduction Management Office
+Sector: General Public Services Sector
+Its projects and activities: Conduct of Drills and Simulation Exercises; Early Warning System (EWS); Joint Operations Center (JOC); Early Warning and Emergency Communications Project; Conduct of Trainings on BLS, First Aid, Search and Rescue, and Search and Retrieval; Emergency Coordination and Command Center Project; Implementation of DRRM for Health; Disaster Preparedness Training and Capacity Development Project; and 2 more","","[{""id"":""disaster-risk.preparedness"",""confidence"":0.99},{""id"":""disaster-risk.response-relief"",""confidence"":0.62}]",
+dac1e20f-cdb4-4681-be93-85f7af7d929c,budget-item,"Office of the City Social Welfare and Development Officer","Budget PPA: Provision of welfare goods to needy individuals and victims of natural and man made disaster
+Major final output: Social welfare and development services
+Part of: Provision of welfare goods to needy individuals and victims of natural and man made disaster
+Office: Office of the City Social Welfare and Development Officer
+Money in: Maintenance and Other Operating Expenses","","[{""id"":""social-welfare.crisis-aid"",""confidence"":0.95},{""id"":""disaster-risk.response-relief"",""confidence"":0.9}]",
+299c5aae-e4b6-43bc-83a3-ee3dd74e7d09,budget-item,"Naga City General Hospital","Budget PPA: Prorurementof equipment and suppliesfor disaster management and healtipromotion
+Major final output: Services
+Part of: B.SUPPORTTO OPERATION
+Office: Naga City General Hospital
+Money in: Maintenance and Other Operating Expenses","","[{""id"":""health"",""confidence"":0.84}]",
+07bf4413-4b4b-4e6a-b417-ce3ea82fd78e,budget-item,"City Health Office II","Budget PPA: Emergency and Disaster Preparedness in health (stockpiling, rapid response, training) (DRRM-H)
+Major final output: Medical,dental and laboratory services
+Office: City Health Office II
+Its sub-items: Emergency and Disaster Preparedness in health (stockpiling, rapid response, training) (DRRM-H)","","[{""id"":""health.disease-control"",""confidence"":0.95},{""id"":""disaster-risk.preparedness"",""confidence"":0.84}]",
+01a134e0-83a1-7478-9e20-a8c4976d66ab,aip-pa,"City Disaster Risk Reduction Management Office","Project: Disaster Risk Financing and Insurance Project
+Part of: Disaster Prevention and Mitigation Program
+Office: City Disaster Risk Reduction Management Office","","[{""id"":""disaster-risk.mitigation"",""confidence"":0.98}]",
+01a134da-d817-732b-858c-23ce02c720db,aip-pa,"City Disaster Risk Reduction Management Office","Project: Disaster Risk Assessment, Mapping, and Data Management Project
+Part of: DRRM Planning, Coordination, Data, and Capacity Development Program
+Office: City Disaster Risk Reduction Management Office","","[{""id"":""disaster-risk.mitigation"",""confidence"":0.9}]",
+01a134da-d879-70db-83c2-6cb3c546381f,aip-pa,"City Disaster Risk Reduction Management Office","Activity: Disaster Risk Assessment, Mapping, and Data Management Services
+Expected output: 100% of barangays/priority areas included in the approved CY 2027 risk-assessment program provided with updated hazard, exposure, vulnerability, capacity, and risk information, with applicable maps, geotagged data, barangay risk profiles, disaster statistics, research data, and databases validated and updated within the prescribed schedule.
+Part of: DRRM Planning, Coordination, Data, and Capacity Development Program › Disaster Risk Assessment, Mapping, and Data Management Project
+Office: City Disaster Risk Reduction Management Office","","[{""id"":""disaster-risk.mitigation"",""confidence"":0.93},{""id"":""governance.planning-monitoring"",""confidence"":0.55}]",
+d3578a3b-2945-4154-b569-5bef6ec6411c,budget-item,"Our Lady of Lourdes Infirmary","Budget PPA: DRRM-H (Disaster Risk Reduction and Management in Health)
+Major final output: DRRM-H institutionalized in the City-wide Health System
+Part of: DRRM-H (Disaster Risk Reduction and Management in Health)
+Office: Our Lady of Lourdes Infirmary
+Money in: Maintenance and Other Operating Expenses","","[{""id"":""health"",""confidence"":0.96},{""id"":""disaster-risk.preparedness"",""confidence"":0.7}]",
+01a134da-d926-704a-8a8e-102997ae8a65,aip-pa,"City Disaster Risk Reduction Management Office","Activity: Community-Based Disaster Risk Reduction and Management (CBDRRM) Training of Trainers – 4 Days
+Part of: DRRM Planning, Coordination, Data, and Capacity Development Program › DRRM Training, Drills, and Simulation Project
+Office: City Disaster Risk Reduction Management Office","","[{""id"":""disaster-risk.preparedness"",""confidence"":0.97},{""id"":""disaster-risk.mitigation"",""confidence"":0.62}]",
+01a134e0-84ad-70d8-8d78-fac50a5918ef,aip-pa,"City Disaster Risk Reduction Management Office","Activity: DRRM Research Fund
+Expected output: Completed evidence-based research papers and hazard maps to inform local policy and disaster planning.
+Part of: Disaster Prevention and Mitigation Program › Disaster Risk Research and Planning Project
+Office: City Disaster Risk Reduction Management Office","","[{""id"":""disaster-risk.mitigation"",""confidence"":0.95},{""id"":""governance.planning-monitoring"",""confidence"":0.72}]",
+01a134da-d7ec-776a-b17d-c226b2b93c7c,aip-pa,"City Disaster Risk Reduction Management Office","Activity: DRRM Research and Planning, Policy Development, and Standards Compliance Services
+Expected output: 100% of DRRM plans, contingency plans, incident response plans, continuity arrangements, protocols, guidelines, LDRRMF planning documents, compliance reports, and other documents programmed for preparation or updating in CY 2027 completed within approved schedules, with required Gawad KALASAG and other compliance documentation prepared and submitted within prescribed periods.
+Part of: DRRM Planning, Coordination, Data, and Capacity Development Program › DRRM Research, Planning, Policy, and Standards Project
+Office: City Disaster Risk Reduction Management Office","","[{""id"":""disaster-risk.preparedness"",""confidence"":0.95},{""id"":""governance.planning-monitoring"",""confidence"":0.58}]",
+01a134da-d73f-76ff-b549-eabfa8326e46,aip-pa,"City Disaster Risk Reduction Management Office","Project: DRRM Research, Planning, Policy, and Standards Project
+Part of: DRRM Planning, Coordination, Data, and Capacity Development Program
+Office: City Disaster Risk Reduction Management Office","","[{""id"":""disaster-risk.preparedness"",""confidence"":0.92}]",
+01a0109a-26b6-7371-8fd7-06214b5c1341,budget-item,"Naga City Dangerous Drugs Board","Budget PPA: Naga City Anti-Drug Abuse Program/ Naga City Dangerous Drugs Board
+Major final output: Crime prevention and public safety services
+Office: Naga City Dangerous Drugs Board
+Money in: Maintenance and Other Operating Expenses","","[{""id"":""peace-order.drugs"",""confidence"":0.98}]",
+29ab48f5-fbf8-43e2-89e8-7ec47424b7de,budget-item,"Public Safety Office","Budget PPA: Naga City Anti- Drug Abuse Program/Naga City Dangerous Drugs Board
+Part of: C.OPERATIONS
+Office: Public Safety Office
+Money in: Capital Outlay","","[{""id"":""peace-order.drugs"",""confidence"":0.98},{""id"":""peace-order.public-safety"",""confidence"":0.7}]",
+d70dcf98-62bd-4193-b98a-ab67d7a68331,budget-item,"Naga City Dangerous Drugs Board","Budget PPA: Naga City Anti-Drug Abuse Program/ Naga City Dangerous Drugs Board
+Major final output: Crime prevention and public safety services
+Part of: Naga City Anti-Drug Abuse Program/ Naga City Dangerous Drugs Board
+Office: Naga City Dangerous Drugs Board
+Money in: Personnel Services","","[{""id"":""peace-order.drugs"",""confidence"":0.98},{""id"":""peace-order.public-safety"",""confidence"":0.72}]",
+da1bc841-8c88-4628-bcb7-f0da6e755530,budget-item,"Naga City Dangerous Drugs Board","Budget PPA: Naga City Anti-Drug Abuse Program/ Naga City Dangerous Drugs Board
+Major final output: Crime prevention and public safety services
+Office: Naga City Dangerous Drugs Board
+Its sub-items: Naga City Anti-Drug Abuse Program/ Naga City Dangerous Drugs Board","","[{""id"":""peace-order.drugs"",""confidence"":0.98},{""id"":""peace-order"",""confidence"":0.9}]",
+44e8fbfe-2cd4-4e96-bcc4-aeb6dccb5484,budget-item,"Naga City Dangerous Drugs Board","Budget PPA: Naga City Anti-Drug Abuse Program/ Naga City Dangerous Drugs Board
+Major final output: Crime prevention and public safety services
+Office: Naga City Dangerous Drugs Board
+Its sub-items: Naga City Anti-Drug Abuse Program/ Naga City Dangerous Drugs Board","","[{""id"":""peace-order.drugs"",""confidence"":0.98},{""id"":""peace-order.public-safety"",""confidence"":0.72}]",
+01a134e5-d773-7359-be03-e946ebb0fe65,aip-pa,"Office of the City Engineer","Activity: Power Supply of Mac MAriano Elementary School, Balatas
+Part of: Support to Education
+Office: Office of the City Engineer","","[{""id"":""education.schools"",""confidence"":0.99},{""id"":""infrastructure.water-power"",""confidence"":0.98}]",
+01a134e5-d987-71ae-b6ca-1a56efb920f5,aip-pa,"Office of the City Engineer","Activity: 2-Storey 6-Classroom School Bldg. Yabu Elementary School
+Part of: Support to Education
+Office: Office of the City Engineer","","[{""id"":""infrastructure.buildings"",""confidence"":0.99},{""id"":""education.schools"",""confidence"":0.95}]",
+01a134e5-dab8-739d-9d23-0a6902fc1cc5,aip-pa,"Office of the City Engineer","Activity: Stage, Mac Mariano Elementary School, Balatas
+Part of: Support to Education
+Office: Office of the City Engineer","","[{""id"":""infrastructure.buildings"",""confidence"":0.96},{""id"":""education.schools"",""confidence"":0.95}]",
+01a134e5-d7c5-70aa-980a-a162934947e7,aip-pa,"Office of the City Engineer","Activity: Power Supply of Julian Meliton Elementary School, Concepcion Pequeña
+Part of: Support to Education
+Office: Office of the City Engineer","","[{""id"":""infrastructure.water-power"",""confidence"":0.98},{""id"":""education.schools"",""confidence"":0.95}]",
+01a134e5-da04-7744-b7d4-b3cc2cbac4ce,aip-pa,"Office of the City Engineer","Activity: Construction of Perimeter Fence and Gate, Salunguigui Elementary School, Cararayan, Naga City
+Part of: Support to Education
+Office: Office of the City Engineer","","[{""id"":""infrastructure.buildings"",""confidence"":0.98},{""id"":""education.schools"",""confidence"":0.95}]",
+01a134e1-2efb-7401-b332-6fecca328fad,aip-pa,"City Disaster Risk Reduction Management Office","Activity: Child-Friendly Spaces in Evacuation Centers
+Expected output: Established and operational Child-Friendly Spaces in designated evacuation centers.
+Part of: Disaster Response Program › Child-Centered Preparedness and Protection Project
+Office: City Disaster Risk Reduction Management Office","","[{""id"":""children"",""confidence"":0.99},{""id"":""disaster-risk.preparedness"",""confidence"":0.9}]",
+01a134db-07e9-728d-b62e-ad9c3a11b21f,aip-pa,"Naga City Children's Affairs Office","Activity: Child-Friendly Spaces in Evacuation Centers
+Expected output: Flood Resilient Naga; Strengthened primary care; Organized and secured communities.
+Part of: Child Rights Promotion and Protection Program › Child Resilience and Disaster Preparedness Project
+Office: Naga City Children's Affairs Office","","[{""id"":""children"",""confidence"":0.96},{""id"":""disaster-risk.preparedness"",""confidence"":0.84},{""id"":""social-welfare.care-facilities"",""confidence"":0.52}]",
+01a134e1-2f4f-7049-b2c4-75dd6313552d,aip-pa,"City Disaster Risk Reduction Management Office","Activity: Supply and Delivery of Food Supplies, Community Kitchen Supplies and Materials, and Janitorial and Sanitation Materials for Camp/Evacuation Centers
+Expected output: Adequate welfare support and sanitation maintained for IDPs (Internally Displaced Persons) in evacuation centers.
+Part of: Disaster Response Program › Emergency Relief and Camp Management Project
+Office: City Disaster Risk Reduction Management Office","","[{""id"":""disaster-risk.response-relief"",""confidence"":0.98},{""id"":""social-welfare.crisis-aid"",""confidence"":0.72}]",
+01a1becf-0839-74e9-b4ca-41582a6b2d30,object-line,"Local Development Fund","Budget account line: InfsructuraAssets-Flood Control System (1-07-03-020)
+Expense class: CO
+Office: Local Development Fund","","[{""id"":""infrastructure.drainage-flood"",""confidence"":0.98}]",
+01a1bed2-9885-727c-8315-eb600859ba42,object-line,"Local Development Fund","Budget account line: d. Infrastructure Assets- Flood Control Systems (1-07-03-020)
+Expense class: CO
+Office: Local Development Fund","","[{""id"":""infrastructure.drainage-flood"",""confidence"":0.99},{""id"":""disaster-risk.mitigation"",""confidence"":0.9}]",
+01a1becd-43c0-7258-a1c0-0e19f15a3c02,object-line,"Local Development Fund","Budget account line: InfrastructureAssets-Flood Control System (1-07-03-020)
+Expense class: CO
+Office: Local Development Fund","","[{""id"":""infrastructure.drainage-flood"",""confidence"":0.99}]",
+01a1bed2-9884-7208-bdc4-03e1c5a1ccca,object-line,"Office of the City Engineer","Budget account line: Rep. & Maint.-Infra Assets (Flood Control System) (5-02-13-030-02)
+Expense class: MOOE
+Office: Office of the City Engineer","","[{""id"":""infrastructure"",""confidence"":0.99},{""id"":""infrastructure.drainage-flood"",""confidence"":0.99}]",
+01a1bed2-9885-727c-8315-6902a46b6baf,object-line,"Local Disaster Risk Reduction and Management Fund","Budget account line: Infrastructure Assets - Flood Control Systems (1-07-03-020)
+Expense class: CO
+Office: Local Disaster Risk Reduction and Management Fund","","[{""id"":""infrastructure.drainage-flood"",""confidence"":0.99}]",
+01a0109f-6746-75c6-92ad-ec29c1e132e0,budget-item,"Solid Waste Management Office","Budget PPA: Installation/replacement of garbage collection billboards and signages
+Part of: Maintenance of existing barangay and school MRFs
+Office: Solid Waste Management Office
+Money in: Maintenance and Other Operating Expenses","","[{""id"":""environment.solid-waste"",""confidence"":0.97}]",
+c04e598e-22c8-41c1-86e8-ec6986c2610a,budget-item,"Solid Waste Management Office","Budget PPA: 5.lnstallation and replacement of old units Garbage Collection Schedule/Segregation Billboards and signages
+Major final output: Awarenesson waste segregation asperCity Ordinance 2001- 990
+Office: Solid Waste Management Office
+Money in: Maintenance and Other Operating Expenses","","[{""id"":""environment.solid-waste"",""confidence"":0.98}]",
+01a134e4-d976-778d-8e41-3d55dc97820a,aip-pa,"Solid Waste Management Office","Activity: Additional personnel for garbage collection expansion and street sweeping operations
+Expected output: Increase garbage collection efficiency
+Part of: Garbage Collection Operations
+Office: Solid Waste Management Office","","[{""id"":""environment.solid-waste"",""confidence"":0.98},{""id"":""governance.administration"",""confidence"":0.4}]",
+344861d2-df06-4464-aacd-dff3d9d54e6d,budget-item,"Solid Waste Management Office","Budget PPA: Garbage Collection Program
+Part of: B.SUPPORT TO OPERATIONS
+Office: Solid Waste Management Office
+Money in: Maintenance and Other Operating Expenses","","[{""id"":""environment.solid-waste"",""confidence"":0.99}]",
+01a134e4-d825-75ac-a6b2-48b7e531b41d,aip-program,"Solid Waste Management Office","Program: Garbage Collection Operations
+Major final output: Garbage Collection and Street Sweeping Services
+Office: Solid Waste Management Office
+Sector: Other Economic Services Sector
+Its projects and activities: Repair, maintenance and installation of City, Barangay and School, MRF's; Installation of additional garbage bins and rolling trash bins; Installation/replacement of garbage collection billboards and signages; Implementation of City Ordinance 2025-002, Instituting an engagement with 27 Barangays in the management of solid waste; Proposed garbage collection pedicab for barangays; Additional personnel for garbage collection expansion and street sweeping operations","","[{""id"":""environment.solid-waste"",""confidence"":0.99}]",
+01a134e5-d79c-703c-8f0d-375c52a8e6fc,aip-pa,"Office of the City Engineer","Activity: Power Supply of Balatas High School, Balatas
+Part of: Support to Education
+Office: Office of the City Engineer","","[{""id"":""education.schools"",""confidence"":0.99},{""id"":""infrastructure.water-power"",""confidence"":0.98}]",
+01a134e5-d8ae-7658-83e5-159eea41bbce,aip-pa,"Office of the City Engineer","Activity: Completion of 3-Storey 12-Classroom School Bldg. Sta. Cruz High School
+Part of: Support to Education
+Office: Office of the City Engineer","","[{""id"":""infrastructure.buildings"",""confidence"":0.99},{""id"":""education.schools"",""confidence"":0.95}]",
+01a134e5-d882-75f4-a0d8-62daf3e96d6e,aip-pa,"Office of the City Engineer","Activity: Power Supply of Salunguigui High School, Cararayan
+Part of: Support to Education
+Office: Office of the City Engineer","","[{""id"":""infrastructure.water-power"",""confidence"":0.98},{""id"":""education.schools"",""confidence"":0.95}]",
+01a134e5-d95c-75cd-a786-80fd209ed6b2,aip-pa,"Office of the City Engineer","Activity: 2-Storey 6-Classroom School Bldg. San Isidro High School
+Part of: Support to Education
+Office: Office of the City Engineer","","[{""id"":""infrastructure.buildings"",""confidence"":0.99},{""id"":""education.schools"",""confidence"":0.95}]",
+01a1bed0-ceed-71d8-99a3-83679c8b439c,object-line,"Local Development Fund","Budget account line: High School,Bgy.Mabolo (1-07-04-020)
+Expense class: CO
+Office: Local Development Fund","","[{""id"":""education.schools"",""confidence"":0.96},{""id"":""infrastructure.buildings"",""confidence"":0.9}]",
+01a134da-d694-714e-84a5-f4169b3ea183,aip-pa,"City Disaster Risk Reduction Management Office","Project: Budget and Investment Planning Project
+Part of: DRRM Planning, Coordination, Data, and Capacity Development Program
+Office: City Disaster Risk Reduction Management Office","","[{""id"":""disaster-risk.preparedness"",""confidence"":0.9}]",
+01a134df-72e1-72e9-b87c-9db021bd7c21,aip-pa,"Naga City Dangerous Drugs Board","Project: Budget and Investment Planning Project
+Part of: Anti-Drug Planning, Coordination, and Capacity Development Program
+Office: Naga City Dangerous Drugs Board","","[{""id"":""governance.planning-monitoring"",""confidence"":0.95}]",
+01a134dd-bb44-71e7-b3b5-902f6bb54f71,aip-pa,"Office of the City General Services Officer","Project: Budget and Investment Planning Project
+Part of: General Support and Coordination Program
+Office: Office of the City General Services Officer","","[{""id"":""governance.finance-revenue"",""confidence"":0.9},{""id"":""governance.planning-monitoring"",""confidence"":0.78}]",
+01a134de-ae4e-7414-9f63-9d8796b6ab01,aip-pa,"Public Safety Office","Project: Budget and Investment Planning Project
+Part of: Public Safety Planning, Coordination, and Community Engagement Program
+Office: Public Safety Office","","[{""id"":""peace-order.public-safety"",""confidence"":0.98},{""id"":""governance.planning-monitoring"",""confidence"":0.72}]",
+01a0109f-2747-710d-9182-db0f077ae06c,budget-item,"Investment and Trade Promotion Office","Budget PPA: Preparation of Roadmaps/Plans for Priority Industries - Preparation of roadmaps, plans or special programs to prepare or develop specific locations or industries to ensure readiness for investment promotion and actual investments
+Major final output: Presence of roadmaps/plans
+Part of: Investment Policy & Industry Development
+Office: Investment and Trade Promotion Office
+Money in: Maintenance and Other Operating Expenses","","[{""id"":""livelihood-jobs.investment"",""confidence"":0.95},{""id"":""livelihood-jobs.livelihood"",""confidence"":0.7}]",
+01a134e8-fe32-7199-9595-1a5023eaab0d,aip-program,"Persons with Disability Affairs Office","Program: Budget Planning, Investment Programming, and PPMP Preparation Services
+Office: Persons with Disability Affairs Office
+Sector: General Public Services Sector","","[{""id"":""pwd"",""confidence"":0.98},{""id"":""governance.planning-monitoring"",""confidence"":0.88}]",
+01a134de-ae7a-74ac-bdc0-863478fab460,aip-pa,"Public Safety Office","Activity: Budget Planning, Investment Programming, and PPMP Preparation Services
+Expected output: 100% of required office budget proposals, PPAs, targets, cost estimates, supporting justifications, AIP, PPMP, APP, and related planning documents prepared, reviewed, consolidated, endorsed, or submitted in accordance with approved planning priorities, office mandate, budget preparation guidelines, and prescribed deadlines.
+Part of: Public Safety Planning, Coordination, and Community Engagement Program › Budget and Investment Planning Project
+Office: Public Safety Office","","[{""id"":""governance.planning-monitoring"",""confidence"":0.96},{""id"":""governance.finance-revenue"",""confidence"":0.62}]",
+01a134e7-1ce8-7620-8e1e-f4bbb3137185,aip-program,"Naga City General Hospital","Program: Budget Planning, Investment Programming, and PPMP Preparation Services
+Office: Naga City General Hospital
+Sector: Other Economic Services Sector","","[{""id"":""health.hospital-care"",""confidence"":0.9},{""id"":""health"",""confidence"":0.9},{""id"":""governance.planning-monitoring"",""confidence"":0.72}]",
+02dfcf9c-5a9f-44dc-b0d4-e15266d9f902,budget-item,"Market Enterprise and Promotions Office","Budget PPA: MEPO–NCPM 15th Anniversary Celebration (Includes sanitation and orderliness initiatives, vendor recognition, market trade exhibits, investment promotion, and stakeholder engagement activities.)
+Major final output: MEPO services
+Office: Market Enterprise and Promotions Office
+Its sub-items: MEPO–NCPM 15th Anniversary Celebration (Includes sanitation and orderliness initiatives, vendor recognition, market trade exhibits, investment promotion, and stakeholder engagement activities.)","","[{""id"":""livelihood-jobs.markets"",""confidence"":0.95},{""id"":""livelihood-jobs.investment"",""confidence"":0.72},{""id"":""tourism-culture.festivals"",""confidence"":0.4}]",
+01a134e2-6e7c-734b-9f96-0a555ba552ab,aip-program,"Bicol Central Station","Program: Budget Planning, Investment Programming, and PPMP Preparation Services
+Office: Bicol Central Station
+Sector: Other Economic Services Sector","","[{""id"":""governance.planning-monitoring"",""confidence"":0.9}]",
+01a134e6-8d3a-702c-929b-642794927fda,aip-pa,"Office of the City Health Officer","Activity: Budget Planning, Investment Programming, and PPMP Preparation Services
+Expected output: 100% of required office budget proposals, PPAs, targets, cost estimates, supporting justifications, AIP, PPMP, APP, and related planning documents prepared, reviewed, consolidated, endorsed, or submitted in accordance with approved planning priorities, office mandate, budget preparation guidelines, and prescribed deadlines.
+Part of: Medical Equipment and Semi-Expendable Asset Maintenance
+Office: Office of the City Health Officer","","[{""id"":""health"",""confidence"":0.9},{""id"":""governance.planning-monitoring"",""confidence"":0.82}]",
+01a134e6-7295-7530-821b-1dfb345dcc58,aip-program,"City Parks & Recreational Facilities Mgt Office","Program: Budget Planning, Investment Programming, and PPMP Preparation Services
+Office: City Parks & Recreational Facilities Mgt Office
+Sector: General Public Services Sector","","[{""id"":""governance.planning-monitoring"",""confidence"":0.9},{""id"":""governance.finance-revenue"",""confidence"":0.72}]",
+01a134e9-88a5-711c-b1e5-d4a2ff6e013d,aip-program,"Bicol Science and Technology Centrum","Program: Budget Planning, Investment Programming, and PPMP Preparstion Services
+Office: Bicol Science and Technology Centrum
+Sector: Social Services Sector","","[{""id"":""governance.planning-monitoring"",""confidence"":0.9}]",
+01a134e3-0b1a-72ac-aa37-0a531d0385ec,aip-program,"Investment and Trade Promotion Office","Program: Budget Planning, Investment Programming, and PPMP Preparation Services
+Office: Investment and Trade Promotion Office
+Sector: Other Economic Services Sector","","[{""id"":""livelihood-jobs.investment"",""confidence"":0.95},{""id"":""governance.planning-monitoring"",""confidence"":0.7}]",
+01a134e3-60cb-705d-bb6a-7d9150bf3552,aip-pa,"Investment and Trade Promotion Office","Activity: Publications and Communication - Produce print and digital publications which include * Leaflet inserts for general and industry-specific promotions * Investment presentations and fact sheet * Other investment materials
+Expected output: 4 individual leaflet inserts (1 for gneral promotions and 3 for industry-specific promotions)
+Part of: Investment Marketing & Investment Generation - Expanded investment marketing program which includes general effort to promote Naga and specific locations within the city among prospective locators in priority industries, as well as actual ""selling"" to convince investors to locate in Naga
+Office: Investment and Trade Promotion Office","","[{""id"":""livelihood-jobs.investment"",""confidence"":0.98},{""id"":""governance.public-information"",""confidence"":0.8},{""id"":""tourism-culture.heritage-arts"",""confidence"":0.35}]",
+01a134e3-60f5-712a-a3e9-299ce9a8c5bc,aip-pa,"Investment and Trade Promotion Office","Activity: Investor Visits, Missions, Networking Events, and other Selling Activities - Conduct investor visits * Research and participate to upcoming investment conferences, events, etc. * Identify investors through networking events * Maintain communication with targeted investors
+Expected output: 4 investor visits, missions, networking events and other ""selling"" activities
+Part of: Investment Marketing & Investment Generation - Expanded investment marketing program which includes general effort to promote Naga and specific locations within the city among prospective locators in priority industries, as well as actual ""selling"" to convince investors to locate in Naga
+Office: Investment and Trade Promotion Office","","[{""id"":""livelihood-jobs.investment"",""confidence"":0.98},{""id"":""governance.public-information"",""confidence"":0.55}]",
+82fc1769-c9d9-46a9-9314-5ee09bd48820,budget-item,"Investment and Trade Promotion Office","Budget PPA: Investment Policy & Industry Development
+Office: Investment and Trade Promotion Office
+Its sub-items: Investment Priorities Planning - Determination and review of investment priorities (like BOI's IPP), preferably to be done at least every 3 years; Preparation of Roadmaps/Plans for Priority Industries - Preparation of roadmaps, plans or special programs to prepare or develop specific locations or industries to ensure readiness for investment promotion and actual investments","","[{""id"":""livelihood-jobs.investment"",""confidence"":0.98}]",
+01a010a0-53af-7391-a25f-cad2cab4f69c,budget-item,"Market Enterprise and Promotions Office","Budget PPA: MEPO–NCPM 15th Anniversary Celebration (Includes sanitation and orderliness initiatives, vendor recognition, market trade exhibits, investment promotion, and stakeholder engagement activities.)
+Major final output: MEPO services
+Office: Market Enterprise and Promotions Office
+Money in: Maintenance and Other Operating Expenses","","[{""id"":""livelihood-jobs.markets"",""confidence"":0.97},{""id"":""tourism-culture.festivals"",""confidence"":0.36}]",
+4795ba49-e8ca-4997-9bc9-e12c11a91c60,budget-item,"Market Enterprise and Promotions Office","Budget PPA: MEPO–NCPM 15th Anniversary Celebration (Includes sanitation and orderliness initiatives, vendor recognition, market trade exhibits, investment promotion, and stakeholder engagement activities.)
+Major final output: MEPO services
+Part of: MEPO–NCPM 15th Anniversary Celebration (Includes sanitation and orderliness initiatives, vendor recognition, market trade exhibits, investment promotion, and stakeholder engagement activities.)
+Office: Market Enterprise and Promotions Office
+Money in: Maintenance and Other Operating Expenses","","[{""id"":""livelihood-jobs.markets"",""confidence"":0.95},{""id"":""livelihood-jobs.investment"",""confidence"":0.72},{""id"":""tourism-culture.festivals"",""confidence"":0.4}]",
+c69de901-9a8e-4fe1-91f7-71d008a52513,budget-item,"Office of the City Treasurer","Budget PPA: Team-Building Activity,Frontline seminar/training andotherrelated capacity developmentfor CTOpersonnel
+Major final output: Administrative andSupport services
+Office: Office of the City Treasurer
+Its sub-items: Team-Building Activity,Frontline seminar/training andotherrelated capacity developmentfor CTOpersonnel; Benchmarking visit toLGU's adapting electronicofficial receipt","","[{""id"":""governance.finance-revenue"",""confidence"":0.9}]",
+01a134dc-2026-7459-bc21-65d85d0ce157,aip-pa,"Office of the City Legal Officer","Project: Governance Capacity Building Project
+Part of: Transparency, Accountability, and Legal Awareness Program
+Office: Office of the City Legal Officer","","[{""id"":""governance.administration"",""confidence"":0.9},{""id"":""governance.public-information"",""confidence"":0.52}]",
+01a134da-4452-73dc-8049-8d23ec4cb647,aip-pa,"GAD Office","Activity: Capacity Building of GAD Implementers
+Expected output: Vision 8.1.1: GAD implementers effectively integrate gender-responsive policies and strategies into planning, budgeting, implementation, monitoring, and service delivery.
+Part of: Gender Mainstreaming and Inclusive Governance Program › Gender Mainstreaming Project
+Office: GAD Office","","[{""id"":""women-gender"",""confidence"":0.98},{""id"":""governance.administration"",""confidence"":0.68}]",
+01a1becd-43c2-7587-bc6c-f3ad5ee14d99,object-line,"Office of the Sangguniang Panlungsod Members","Budget account line: Rep.&Maint.-BuildingsandOtherStructures（Building (5-02-13-040-01)
+Expense class: MOOE
+Office: Office of the Sangguniang Panlungsod Members","","[{""id"":""governance.legislation"",""confidence"":0.99},{""id"":""infrastructure.buildings"",""confidence"":0.72}]",
+01a1becf-083a-720a-9321-59d0772ef018,object-line,"Solid Waste Management Office","Budget account line: Building&OtherStructures-OtherStructures (1-07-04-990)
+Expense class: CO
+Office: Solid Waste Management Office","","[{""id"":""environment.solid-waste"",""confidence"":0.98},{""id"":""infrastructure.buildings"",""confidence"":0.78}]",
+01a134e5-8740-775e-8d86-208fb86e03ed,aip-pa,"Office of the City Engineer","Activity: Evacuation Center and Multi-Purpose Building, Bgy. Hall Cmpd., Calauag
+Part of: Building Infrastructure Projects
+Office: Office of the City Engineer","","[{""id"":""infrastructure.buildings"",""confidence"":0.98},{""id"":""disaster-risk.preparedness"",""confidence"":0.9}]",
+01a134e5-827d-700b-bce4-355e7fba79d3,aip-pa,"Office of the City Engineer","Activity: Multi-purpose Building, Bgy. Hall Balatas Cmpd., Balatas
+Part of: Building Infrastructure Projects
+Office: Office of the City Engineer","","[{""id"":""infrastructure.buildings"",""confidence"":0.99}]",
+01a134e5-852e-7268-92e0-c2aef0f56b2b,aip-pa,"Office of the City Engineer","Activity: Community Multi-Purpose Building, Sunshineville Z1 Urban Poor , Del Rosario
+Part of: Building Infrastructure Projects
+Office: Office of the City Engineer","","[{""id"":""infrastructure.buildings"",""confidence"":0.97},{""id"":""social-welfare"",""confidence"":0.45}]",
+01a134e6-1469-72af-9a45-d07a101eaa4e,aip-pa,"Office of the City Engineer","Activity: RC Pipe Drainage, Gimenez Park Subdivision
+Part of: Flood Mitigation and Control
+Office: Office of the City Engineer","","[{""id"":""infrastructure.drainage-flood"",""confidence"":0.99},{""id"":""disaster-risk.mitigation"",""confidence"":0.95}]",
+01a134e6-14bd-7713-bb9d-1959a48de585,aip-pa,"Office of the City Engineer","Activity: RC Pipe Drainage, Gimenez Park Subdivision, Concepcion Pequeña
+Part of: Flood Mitigation and Control
+Office: Office of the City Engineer","","[{""id"":""infrastructure.drainage-flood"",""confidence"":0.99},{""id"":""disaster-risk.mitigation"",""confidence"":0.95}]",
+01a134e6-14e9-72ae-a7bd-3ca8995dcc93,aip-pa,"Office of the City Engineer","Activity: RC Pipe Drainage, Bacolod St. Gimenez Subdivision, Concepcion Pequeña
+Part of: Flood Mitigation and Control
+Office: Office of the City Engineer","","[{""id"":""infrastructure.drainage-flood"",""confidence"":0.99},{""id"":""disaster-risk.mitigation"",""confidence"":0.95}]",
+01a134e6-153d-77e8-89c6-85a4fe4545f5,aip-pa,"Office of the City Engineer","Activity: RC Pipe Drainage, Cathedral St. near ADNU, Bagumbayan Sur
+Part of: Flood Mitigation and Control
+Office: Office of the City Engineer","","[{""id"":""infrastructure.drainage-flood"",""confidence"":0.99},{""id"":""disaster-risk.mitigation"",""confidence"":0.95}]",
+01a134e6-1590-72a2-a3fb-5b9fca156252,aip-pa,"Office of the City Engineer","Activity: RC Pipe Drainage, Beside Livelihood Training Center
+Part of: Flood Mitigation and Control
+Office: Office of the City Engineer","","[{""id"":""infrastructure.drainage-flood"",""confidence"":0.98},{""id"":""disaster-risk.mitigation"",""confidence"":0.95}]",
+01a134de-aea5-7701-b5ad-49193bef1875,aip-pa,"Public Safety Office","Project: Public Safety Planning and Standards Compliance Project
+Part of: Public Safety Planning, Coordination, and Community Engagement Program
+Office: Public Safety Office","","[{""id"":""peace-order.public-safety"",""confidence"":0.96},{""id"":""peace-order.traffic"",""confidence"":0.82}]",
+01a134de-b1bd-74af-901f-62054e03bd87,aip-pa,"Public Safety Office","Activity: Public Safety Facilities, Vehicles, and Equipment Services (incl. acquisition of boom truck, utility trucks, and electric patrol motorcycles for traffic management and road safety operations)
+Expected output: Boom truck, utility trucks, and electric patrol motorcycles acquired and deployed to improve reliability of traffic management infrastructure and response capacity.
+Part of: Public Safety Planning, Coordination, and Community Engagement Program › Public Safety Facilities, Vehicles, and Equipment Project
+Office: Public Safety Office","","[{""id"":""peace-order.traffic"",""confidence"":0.9},{""id"":""peace-order.public-safety"",""confidence"":0.84}]",
+01a134de-b121-7748-a278-e9e83f50dfb2,aip-pa,"Public Safety Office","Activity: Command Center, Communications, and Field Operations Support Services (Center for Safety and Resilience [CESAR] operations & management; integrated CCTV system; public safety data collection & reporting system)
+Expected output: Public safety monitoring, emergency coordination, and resilience management operations conducted through the CESAR Center; integrated CCTV system installed, maintained, and utilized for surveillance, incident monitoring, and investigation support at ≥95% system uptime.
+Part of: Public Safety Planning, Coordination, and Community Engagement Program › Command Center and Field Operations Support Project
+Office: Public Safety Office","","[{""id"":""peace-order.public-safety"",""confidence"":0.98},{""id"":""governance.digital-government"",""confidence"":0.62}]",
+01a134de-b02b-7528-8cdf-45038a5492e4,aip-pa,"Public Safety Office","Project: Inter-Agency Coordination and Public Safety Partnership Project
+Part of: Public Safety Planning, Coordination, and Community Engagement Program
+Office: Public Safety Office","","[{""id"":""peace-order.public-safety"",""confidence"":0.93},{""id"":""governance.public-information"",""confidence"":0.58}]",
+01a134de-dadc-762e-b4ca-b5ef34544c00,aip-pa,"Public Safety Office","Activity: Public Safety Inspection and Compliance Assistance Services (incl. ordinance violation inspection/apprehension and inspection, surveillance & enforcement operations)
+Expected output: Violations identified, documented, and enforced; surveillance, inspection, and enforcement activities conducted in identified priority areas within three (3) working days of request.
+Part of: Traffic Management, Ordinance Enforcement, and Public Safety Operations Program › Public Order and Ordinance Enforcement Project
+Office: Public Safety Office","","[{""id"":""peace-order.public-safety"",""confidence"":0.95},{""id"":""peace-order.traffic"",""confidence"":0.6}]",
+01a134e6-17ff-737a-8031-6d9013a0cd1e,aip-pa,"Office of the City Engineer","Activity: RCBC, Road Concreting & Grouted Riprap, Zone 6, San Isidro
+Part of: Flood Mitigation and Control
+Office: Office of the City Engineer","","[{""id"":""infrastructure.drainage-flood"",""confidence"":0.9},{""id"":""disaster-risk.mitigation"",""confidence"":0.9},{""id"":""infrastructure.roads"",""confidence"":0.7}]",
+57e8aacc-e605-4a97-87a2-ace6faae89c3,budget-item,"Housing and Settlements Development Office","Budget PPA: Road Concreting and Drainage, Palmera 3, Cararayan
+Major final output: Disaster-resilient infrastructure
+Office: Housing and Settlements Development Office
+Fund: Local Development Fund
+Money in: Capital Outlay","","[{""id"":""infrastructure.drainage-flood"",""confidence"":0.97},{""id"":""infrastructure.roads"",""confidence"":0.88}]",
+01a1bed0-ceed-71d8-99a3-bebe034f69e1,object-line,"Local Development Fund","Budget account line: Road concreting,Caimito toDau St.Liboton (1-07-03-010)
+Expense class: CO
+Office: Local Development Fund","","[{""id"":""infrastructure.roads"",""confidence"":0.99}]",
+01a134e7-ea38-76af-ae3c-b0b27a111a97,aip-pa,"Housing and Settlements Development Office","Activity: Road Concreting, Isarog Heights 2, Carolina, Naga City
+Expected output: Improved and resilient local infrastructure constructed/rehabilitated, enhancing safe community mobility and slope/drainage integrity.
+Part of: On-Site Development, Settlement Upgrading and Basic Services Improvement Program
+Office: Housing and Settlements Development Office","","[{""id"":""infrastructure.roads"",""confidence"":0.97},{""id"":""housing.resettlement"",""confidence"":0.72}]",
+01a134e0-8aab-73ca-b296-db42dde8e7bf,aip-pa,"City Disaster Risk Reduction Management Office","Activity: Drainage and Road Concreting at Zone 6, San Isidro
+Expected output: Reduce incidence of flooding.
+Part of: Disaster Prevention and Mitigation Program › Flood Mitigation Infrastructure and Intervention Project
+Office: City Disaster Risk Reduction Management Office","","[{""id"":""infrastructure.drainage-flood"",""confidence"":0.99},{""id"":""disaster-risk.mitigation"",""confidence"":0.9},{""id"":""infrastructure.roads"",""confidence"":0.82}]",
+01a134de-aed2-74cf-96b3-d17310efbe93,aip-pa,"Public Safety Office","Activity: Public Safety Planning, Policy Development, and Standards Compliance Services (incl. LPTRP implementation support and traffic signage/road marking monitoring & coordination)
+Expected output: 2027 Annual Public Safety & Deployment Plan approved; enforcement protocols and traffic schemes updated; implementation and monitoring support provided for approved public transport routes.
+Part of: Public Safety Planning, Coordination, and Community Engagement Program › Public Safety Planning and Standards Compliance Project
+Office: Public Safety Office","","[{""id"":""peace-order.public-safety"",""confidence"":0.97},{""id"":""peace-order.traffic"",""confidence"":0.88},{""id"":""governance.planning-monitoring"",""confidence"":0.7}]",
+01a134de-d926-717c-9124-1c8d6e8f2437,aip-pa,"Public Safety Office","Activity: PPA 14.6 – Bike Lane Road Marking, Repainting, and Safety Improvement Services
+Expected output: Bike lane markings are clearly visible, properly delineated, and regularly maintained, contributing to safer and more organized movement of cyclists and other road users.
+Part of: Traffic Management, Ordinance Enforcement, and Public Safety Operations Program › Traffic Management and Road Safety Project › Traffic Engineering Support, Signage, and Road Furniture Coordination Services (incl. road marking installation/repainting; traffic signage installation, maintenance & replacement; road safety inspection and traffic engineering assessment)
+Office: Public Safety Office","","[{""id"":""peace-order.traffic"",""confidence"":0.96},{""id"":""infrastructure.roads"",""confidence"":0.9}]",
+01a134de-d8aa-7126-83fd-2d3952384bde,aip-pa,"Public Safety Office","Project: Traffic Engineering Support, Signage, and Road Furniture Coordination Services (incl. road marking installation/repainting; traffic signage installation, maintenance & replacement; road safety inspection and traffic engineering assessment)
+Expected output: Road markings, pedestrian crossings, and pavement markings installed/repainted in identified areas; traffic signs installed, repaired, and replaced; road safety inspections conducted with recommendations submitted.
+Part of: Traffic Management, Ordinance Enforcement, and Public Safety Operations Program › Traffic Management and Road Safety Project
+Office: Public Safety Office","","[{""id"":""peace-order.traffic"",""confidence"":0.97},{""id"":""infrastructure.roads"",""confidence"":0.9}]",
+01a134e5-36b6-764d-9951-84b245493590,aip-pa,"Office of the City Engineer","Activity: Proposed Road Opening and Revetment, at St. Claire, Concepcion Pequeña, Naga City
+Part of: Roads and Bridges Project
+Office: Office of the City Engineer","","[{""id"":""infrastructure.roads"",""confidence"":0.9},{""id"":""infrastructure.drainage-flood"",""confidence"":0.78}]",
+01a134e5-3733-779b-9f94-4ad5a02f5a81,aip-pa,"Office of the City Engineer","Activity: Proposed Road Opening and Drainage at Golden Roseville Subd. to Ateneo Gate 2, Bagumbayan
+Part of: Roads and Bridges Project
+Office: Office of the City Engineer","","[{""id"":""infrastructure.roads"",""confidence"":0.9},{""id"":""infrastructure.drainage-flood"",""confidence"":0.9}]",
+01a134e5-3709-7105-85ca-5528f4e6a9a2,aip-pa,"Office of the City Engineer","Activity: Proposed Road Opening and Drainage at City Health 2 Rd. to Sta. Cruz poro, Naga City
+Part of: Roads and Bridges Project
+Office: Office of the City Engineer","","[{""id"":""infrastructure.roads"",""confidence"":0.9},{""id"":""infrastructure.drainage-flood"",""confidence"":0.9}]",
+5e21eeae-9691-4353-a317-e54499db0c1e,budget-item,"Office of the City Engineer","Budget PPA: Road Reblocking, Almeda Highway along St. Jude Subd., Concepcion Grande
+Major final output: Disaster-resilient infrastructure
+Office: Office of the City Engineer
+Fund: Local Development Fund
+Money in: Capital Outlay","","[{""id"":""infrastructure.roads"",""confidence"":0.98}]",
+01a134e6-179b-705e-ba15-7ba01fe42381,aip-pa,"Office of the City Engineer","Activity: RC Pipes & Road Reblocking, Regina St. Del Rosario
+Part of: Flood Mitigation and Control
+Office: Office of the City Engineer","","[{""id"":""infrastructure.drainage-flood"",""confidence"":0.9},{""id"":""disaster-risk.mitigation"",""confidence"":0.9},{""id"":""infrastructure.roads"",""confidence"":0.72}]",
+01a134e5-3440-77ad-bcda-b3b45196413e,aip-pa,"Office of the City Engineer","Activity: Road Reblocking, Along Almeda Highway, Concepcion Grande
+Part of: Roads and Bridges Project
+Office: Office of the City Engineer","","[{""id"":""infrastructure.roads"",""confidence"":0.99}]",
+01a134e5-34ab-75b8-8fb5-76fc73888ff9,aip-pa,"Office of the City Engineer","Activity: Road Reblocking, Bicol Central Station, Triangulo
+Part of: Roads and Bridges Project
+Office: Office of the City Engineer","","[{""id"":""infrastructure.roads"",""confidence"":0.99}]",
+01a134e5-3417-72e8-9acb-f61a277ec887,aip-pa,"Office of the City Engineer","Activity: Road Reblocking, Going to Deca Vistansa Sitio Salunguigui, Cararayan
+Part of: Roads and Bridges Project
+Office: Office of the City Engineer","","[{""id"":""infrastructure.roads"",""confidence"":0.99}]",
+01a134e0-86be-77e0-9fc2-fe0f1264167b,aip-pa,"City Disaster Risk Reduction Management Office","Activity: Drainage and Road Widening from Jolly Neighbors to Queborac Road, Sta. Cruz
+Expected output: Reduce incidence of flooding.
+Part of: Disaster Prevention and Mitigation Program › Flood Mitigation Infrastructure and Intervention Project
+Office: City Disaster Risk Reduction Management Office","","[{""id"":""infrastructure.drainage-flood"",""confidence"":0.97},{""id"":""disaster-risk.mitigation"",""confidence"":0.95},{""id"":""infrastructure.roads"",""confidence"":0.78}]",
+01a134e5-35a9-70aa-8b9b-db9b0e020405,aip-pa,"Office of the City Engineer","Activity: Proposed Road Widening and Storm Drainage, at ER Luna St. to M.Castro St. Tinago, Naga City
+Part of: Roads and Bridges Project
+Office: Office of the City Engineer","","[{""id"":""infrastructure.roads"",""confidence"":0.95},{""id"":""infrastructure.drainage-flood"",""confidence"":0.93}]",
+01a134e0-88ee-7089-a4f3-9cf042f64ff0,aip-pa,"City Disaster Risk Reduction Management Office","Activity: Drainage and Road Widening at Magnolia St., Bagumbayan Sur
+Expected output: Reduce incidence of flooding.
+Part of: Disaster Prevention and Mitigation Program › Flood Mitigation Infrastructure and Intervention Project
+Office: City Disaster Risk Reduction Management Office","","[{""id"":""infrastructure.drainage-flood"",""confidence"":0.98},{""id"":""disaster-risk.mitigation"",""confidence"":0.9},{""id"":""infrastructure.roads"",""confidence"":0.8}]",
+01a134e6-143f-700c-bb58-93bdadd40de7,aip-pa,"Office of the City Engineer","Activity: Drainage and Road Widening, from Jolly Neighbors to Queborac Road, Sta. Cruz
+Part of: Flood Mitigation and Control
+Office: Office of the City Engineer","","[{""id"":""infrastructure.drainage-flood"",""confidence"":0.9},{""id"":""disaster-risk.mitigation"",""confidence"":0.9},{""id"":""infrastructure.roads"",""confidence"":0.7}]",
+01a134e7-cb52-729f-ba6a-487fbf7b6378,aip-pa,"Housing and Settlements Development Office","Activity: Completion of the Road Widening Project of Balatas-Cararayan-Delsorario Road
+Expected output: Road widening completed. Ensures that the 20-m ROW is implemented
+Part of: Housing Inter-agency Coordination, Partnership and Resource Mobilization Services
+Office: Housing and Settlements Development Office","","[{""id"":""infrastructure.roads"",""confidence"":0.97},{""id"":""housing.housing-land"",""confidence"":0.72}]",
+01a134e5-d930-746c-8ae1-06c3371be9e0,aip-pa,"Office of the City Engineer","Activity: 2-Storey 6-Classroom School Bldg. , Salunguigui ES, Cararayan
+Part of: Support to Education
+Office: Office of the City Engineer","","[{""id"":""infrastructure.buildings"",""confidence"":0.99},{""id"":""education.schools"",""confidence"":0.95}]",
+01a134e5-d9b1-76d8-8326-850749393309,aip-pa,"Office of the City Engineer","Activity: 2-Storey 4-Classroom School Bldg. Salunguigui High School
+Part of: Support to Education
+Office: Office of the City Engineer","","[{""id"":""infrastructure.buildings"",""confidence"":0.99},{""id"":""education.schools"",""confidence"":0.95}]",
+01a134e5-d904-77db-bba5-7ed9980ce1a7,aip-pa,"Office of the City Engineer","Activity: 2-Storey 6-Classroom School Bldg. Julian Meliton Elem School, Concepcion Pequeña
+Part of: Support to Education
+Office: Office of the City Engineer","","[{""id"":""infrastructure.buildings"",""confidence"":0.99},{""id"":""education.schools"",""confidence"":0.95}]",
+01a134e5-d8d9-7149-b4f7-9af6ae541276,aip-pa,"Office of the City Engineer","Activity: 2-Storey 6-Classroom School Bldg. Balatas High School
+Part of: Support to Education
+Office: Office of the City Engineer","","[{""id"":""infrastructure.buildings"",""confidence"":0.99},{""id"":""education.schools"",""confidence"":0.95}]",
+01a134e8-defa-75ed-afab-95ab3a3eafc4,aip-program,"Office for Senior Citizens Affairs","Program: Senior Citizen Organization, Barangay, and Sectoral Partnership Support Program
+Office: Office for Senior Citizens Affairs
+Sector: General Public Services Sector
+Its projects and activities: LGU Counterpart for BASCA Members’ Annual Dues","","[{""id"":""senior-citizens"",""confidence"":0.98},{""id"":""governance.public-information"",""confidence"":0.45}]",
+ea3d544b-6454-496a-9977-ee97ffad4249,budget-item,"Office of the City Population Officer","Budget PPA: SUPPLEMENTAL FEEDING TO SENIOR CITIZEN- provide additional food to undernourished and indigent elderly.
+Major final output: Nutrition services
+Part of: DIETARY SUPPLEMENTATION PROGRAM
+Office: Office of the City Population Officer
+Money in: Maintenance and Other Operating Expenses","","[{""id"":""senior-citizens"",""confidence"":0.98},{""id"":""health.nutrition"",""confidence"":0.98}]",
+01a134e8-f00f-707d-b173-73ad2e7188fd,aip-pa,"Office for Senior Citizens Affairs","Activity: Senior Citizen Counterpart City Officials and Department Heads Program
+Expected output: Qualified senior citizens selected or elected to serve as counterparts of City officials and department heads during the elderly-sector observance, with authorized honoraria and program requirements properly processed and documented.
+Part of: Senior Citizen Participation, Leadership, and Intergenerational Engagement Program
+Office: Office for Senior Citizens Affairs","","[{""id"":""senior-citizens"",""confidence"":0.99},{""id"":""social-welfare.care-facilities"",""confidence"":0.35}]",
+01a134e8-ce6f-754a-a358-d70f1b0b9de6,aip-pa,"Office for Senior Citizens Affairs","Activity: Senior Citizen Paskohan Food Assistance Program
+Expected output: 100% of qualified senior citizens included in the approved Paskohan beneficiary list provided with prescribed food assistance within the scheduled distribution period, with complete acknowledgment and distribution records.
+Part of: Senior Citizen Food and Nutrition Assistance Program
+Office: Office for Senior Citizens Affairs","","[{""id"":""senior-citizens"",""confidence"":0.99},{""id"":""social-welfare.cash-benefits"",""confidence"":0.74}]",
+01a134e8-e4cc-713c-a18a-0fbbe2900dd2,aip-pa,"Office for Senior Citizens Affairs","Activity: Senior Citizen Burial Assistance Program
+Expected output: 100% of qualified families of deceased senior citizens with complete applications provided with the authorized burial financial assistance within prescribed processing periods, with releases supported by complete beneficiary and payment documentation.
+Part of: Veterans, Centenarians, and Longevity Recognition and Assistance Program
+Office: Office for Senior Citizens Affairs","","[{""id"":""senior-citizens"",""confidence"":0.99},{""id"":""social-welfare.cash-benefits"",""confidence"":0.96}]",
+01a134e8-ce9a-7555-9655-02a0e4117f0f,aip-pa,"Office for Senior Citizens Affairs","Activity: Rice Assistance for Abandoned and Indigent Senior Citizens
+Expected output: 40 qualified abandoned and indigent senior citizens provided with the prescribed 10-kilogram rice assistance per approved distribution cycle, with beneficiary eligibility and releases properly documented.
+Part of: Senior Citizen Food and Nutrition Assistance Program
+Office: Office for Senior Citizens Affairs","","[{""id"":""senior-citizens"",""confidence"":0.99},{""id"":""social-welfare.cash-benefits"",""confidence"":0.72}]",
+01a0109c-f1bf-721b-85d4-3b44c467b4e7,budget-item,"Office for Senior Citizens Affairs","Budget PPA: Free Movies for 1,400 Naga City Senior Citizens goers monthly at ₱124.00/head
+Major final output: SC availed and enjoyed the free movie
+Office: Office for Senior Citizens Affairs
+Money in: Maintenance and Other Operating Expenses","","[{""id"":""senior-citizens"",""confidence"":0.99},{""id"":""tourism-culture.heritage-arts"",""confidence"":0.4}]",
+9d04e1e4-92e7-43cb-8ea7-017c5e288dc5,budget-item,"Office of the City Population Officer","Budget PPA: Guppiermertai Feedingfor malnourished Senior Citizens
+Part of: Nutrition
+Office: Office of the City Population Officer
+Money in: Maintenance and Other Operating Expenses","","[{""id"":""senior-citizens"",""confidence"":0.98},{""id"":""health.nutrition"",""confidence"":0.96}]",
+01a134e6-b812-741b-ba0e-61dc96c0b6f6,aip-pa,"Office of the City Health Officer","Activity: Health and Welfare of Senior Citizens
+Expected output: Increased program coverage for senior citizens.
+Part of: Non-Communicable Disease Prevention and Control Program › Healthy Aging Project
+Office: Office of the City Health Officer","","[{""id"":""senior-citizens"",""confidence"":0.97},{""id"":""health.disease-control"",""confidence"":0.9}]",
+01a1bed2-9885-727c-8315-a26c4f303915,object-line,"Local Development Fund","Budget account line: Social Pension for Senior Citizens (5-02-99-080)
+Expense class: MOOE
+Office: Local Development Fund","","[{""id"":""senior-citizens"",""confidence"":0.99},{""id"":""social-welfare.cash-benefits"",""confidence"":0.96}]",
+2a156fda-e663-405d-b725-bb019b07122c,budget-item,"Office of the City Treasurer","Budget PPA: Team-Building Activity,Frontline seminar/training andotherrelated capacity developmentfor CTOpersonnel
+Major final output: Administrative andSupport services
+Part of: Team-Building Activity,Frontline seminar/training andotherrelated capacity developmentfor CTOpersonnel
+Office: Office of the City Treasurer
+Money in: Maintenance and Other Operating Expenses","","[{""id"":""governance.finance-revenue"",""confidence"":0.88},{""id"":""governance.administration"",""confidence"":0.55}]",
+7d255d7e-2d1d-478d-9cb7-c7c66a9c672c,budget-item,"Office of the City Information Officer- City Events, Protocol & Public Information Office","Budget PPA: Team Building
+Major final output: Administrative and Support Services
+Office: Office of the City Information Officer- City Events, Protocol & Public Information Office
+Its sub-items: Team Building","","[{""id"":""governance.administration"",""confidence"":0.9},{""id"":""governance.public-information"",""confidence"":0.82}]",
+5618b128-4088-483c-886b-282eb3b675cc,budget-item,"Office of the City Accountant","Budget PPA: Capacity Development, Team Building, Benchmarking and Accountancy Week Celebration
+Major final output: Improved service delivery performance as a result of learning and development interventions
+Part of: Capacity Development, Team Building, Benchmarking and Accountancy Week Celebration
+Office: Office of the City Accountant
+Money in: Maintenance and Other Operating Expenses","","[{""id"":""governance.finance-revenue"",""confidence"":0.95},{""id"":""governance.administration"",""confidence"":0.72}]",
+01a010a1-6997-70ca-b1f4-8e688461407f,budget-item,"Office of the City Accountant","Budget PPA: Capacity Development, Team Building, Benchmarking and Accountancy Week Celebration
+Major final output: Improved service delivery performance as a result of learning and development interventions
+Office: Office of the City Accountant
+Money in: Maintenance and Other Operating Expenses","","[{""id"":""governance.administration"",""confidence"":0.95},{""id"":""governance.finance-revenue"",""confidence"":0.9}]",
+01a01098-c388-7190-b0cf-60bdb2e7c15b,budget-item,"Office of the City Civil Registrar","Budget PPA: Capacity Development - Team Building - Bench Marking - Trainings & Seminars
+Major final output: Updated and improved skills and knowledge of employees
+Office: Office of the City Civil Registrar
+Money in: Maintenance and Other Operating Expenses","","[{""id"":""governance.administration"",""confidence"":0.96}]",
+01a134e5-86c4-74be-87f2-4f9624d5cd90,aip-pa,"Office of the City Engineer","Activity: 3 Storey Health Center Building, Tinago
+Part of: Building Infrastructure Projects
+Office: Office of the City Engineer","","[{""id"":""infrastructure.buildings"",""confidence"":0.98},{""id"":""health.primary-care"",""confidence"":0.97}]",
+d611c01d-3116-4d2b-97db-188a295db613,budget-item,"Market Enterprise and Promotions Office","Budget PPA: NCPM building insurance
+Major final output: Administrative and Support Services
+Part of: NCPM building insurance
+Office: Market Enterprise and Promotions Office
+Money in: Maintenance and Other Operating Expenses","","[{""id"":""livelihood-jobs.markets"",""confidence"":0.9}]",
+835d3b3e-25ac-461e-8cfa-03b3d537dc31,budget-item,"Market Enterprise and Promotions Office","Budget PPA: Capacity Building and Skills Development Program
+Major final output: Administrative and Support Services
+Office: Market Enterprise and Promotions Office
+Its sub-items: Capacity Building and Skills Development Program","","[{""id"":""livelihood-jobs.livelihood"",""confidence"":0.88}]",
+01a134e0-2df1-72d9-bc8e-720ca2f25a77,aip-pa,"Office of the City Information Officer- City Events, Protocol & Public Information Office","Activity: Capacity Building for Conservation of Cultural Properties
+Expected output: Personnel, stakeholders, and partners capacitated on cultural property conservation and heritage management.
+Part of: Cultural Heritage Conservation, Documentation, Mapping, and Public Learning Services Program › Heritage Conservation and Cultural Property Management Project
+Office: Office of the City Information Officer- City Events, Protocol & Public Information Office","","[{""id"":""tourism-culture.heritage-arts"",""confidence"":0.97}]",
+01a010a0-1a2b-75f7-80ac-ff02d084858b,budget-item,"Market Enterprise and Promotions Office","Budget PPA: Repainting of inner walls, beams, posts, and ceilings of the NCPM building
+Major final output: MEPO services
+Office: Market Enterprise and Promotions Office
+Money in: Maintenance and Other Operating Expenses","","[{""id"":""livelihood-jobs.markets"",""confidence"":0.9},{""id"":""infrastructure.buildings"",""confidence"":0.7}]",
+01a134e1-7e60-763b-9294-c6aa6a324b96,aip-pa,"Office of the City Agriculturist","Activity: Direct Technical Assistance for Farmers
+Expected output: Farmers have access to updated agricultural technologies being implemented in their farms
+Part of: Technology Support Activities for Higher Productivity and Income
+Office: Office of the City Agriculturist","","[{""id"":""agriculture.crops"",""confidence"":0.96},{""id"":""livelihood-jobs.livelihood"",""confidence"":0.7}]",
+01a0109e-7d02-753a-93e5-5f813098c35b,budget-item,"Office of the City Agriculturist","Budget PPA: Direct Technical Assistance for Farmers
+Major final output: Farmers have access to updated agricultural technologies being implemented in their farms
+Part of: TECHNOLOGY SUPPORT ACTIVITIES FOR HIGHER PRODUCTIVITY AND INCOME
+Office: Office of the City Agriculturist
+Money in: Maintenance and Other Operating Expenses","","[{""id"":""agriculture.crops"",""confidence"":0.98},{""id"":""agriculture"",""confidence"":0.95}]",
+01a134e9-64ce-759f-8c4a-625cea8628f2,aip-program,"Lingkod Barangay Office","Program: Technical Assistance to the 27 Barangays
+Major final output: Participatory Governance and Citizen Empowerment Program — Strengthened Barangay Governance and Operational Performance
+Office: Lingkod Barangay Office
+Sector: Social Services Sector
+Its projects and activities: Conduct of Barangay Operations Assessment with Feedback and Mentoring; Setting of Barangay Operational Baseline Standards; Development of Barangay Operations Assessment and Evaluation Tool","","[{""id"":""governance.planning-monitoring"",""confidence"":0.9}]",
+01a134da-31ba-731e-9c66-0e7a61c76630,aip-program,"City Procurement Office","Program: Procurement Coordination, Technical Assistance, and Inter-Office Liaison Services
+Office: City Procurement Office
+Sector: General Public Services Sector","","[{""id"":""governance.finance-revenue"",""confidence"":0.86}]",
+01a134e9-3600-73fa-9444-c62b05eb9586,aip-pa,"Lingkod Barangay Office","Activity: Technical Assistance and support to Barangay Programs, Projects & Activities
+Part of: Inter-Agency Coordination, Liaison, and Partnership Services › Liga ng mga Barangay Secretariat Services
+Office: Lingkod Barangay Office","","[{""id"":""governance.administration"",""confidence"":0.88},{""id"":""governance.public-information"",""confidence"":0.6}]",
+52135a2a-61d0-445a-a0c5-cad56602b86d,budget-item,"Office of the City Treasurer","Budget PPA: Preparation and assistance in the conduct of Barangay and SK Elections.
+Major final output: Local Treasury Operation Services
+Office: Office of the City Treasurer
+Its sub-items: Preparation and assistance in the conduct of Barangay and SK Elections.","","[{""id"":""governance.finance-revenue"",""confidence"":0.97},{""id"":""governance"",""confidence"":0.9}]",
+01a134e3-d1f9-76c8-9751-b216c0aad3c7,aip-pa,"Naga City Cooperative Development Office","Activity: Assistance to Compliance of Mandatory Reports
+Part of: Naga City Cooperative Training and Enhancement Programs › Supplemental / Enhancement Trainings
+Office: Naga City Cooperative Development Office","","[{""id"":""livelihood-jobs.livelihood"",""confidence"":0.82}]",
+01a134dd-3413-76bc-8459-8d83e10f7eb2,aip-pa,"Office of the City Treasurer","Activity: Public Assistance Upgrade through the Establishment of a Comfortable and Humid-Free Taxpayer's Lounge
+Expected output: Reduced discomfort of taxpayers caused by direct heat and humidity through proper air-conditioning or ventilation systems.
+Part of: Revenue Administration and Digital Transformation Program › Taxpayer Service Enhancement Project
+Office: Office of the City Treasurer","","[{""id"":""governance.administration"",""confidence"":0.6},{""id"":""livelihood-jobs.markets"",""confidence"":0.35}]",
+570876c8-5af1-4f21-9891-c328547f4b0f,budget-item,"Public Safety Office","Budget PPA: Assistance to Bureau of Jail Mgt&Penology
+Office: Public Safety Office
+Its sub-items: Assistance to Bureau of Jail Mgt&Penology","","[{""id"":""peace-order.emergency"",""confidence"":0.98},{""id"":""governance.administration"",""confidence"":0.45}]",
+01a0109c-5f67-71b1-9da9-f6cee6011cae,budget-item,"Housing and Settlements Development Office","Budget PPA: Housing Materials Assistance Program
+Major final output: 100% of service provided to beneficiaries who are in dire need of housing materials when requested and necessary
+Office: Housing and Settlements Development Office
+Its sub-items: Housing Material Assistance to urban poor beneficiaries","","[{""id"":""housing.resettlement"",""confidence"":0.78}]",
+01a134e3-85d9-7329-ad60-9b560c08d8a2,aip-pa,"Investment and Trade Promotion Office","Activity: Improvements/Refinements to the existing tourism products (faith, education, governance, purpose tourism)
+Part of: Tourism Product Development
+Office: Investment and Trade Promotion Office","","[{""id"":""tourism-culture.tourism"",""confidence"":0.88},{""id"":""tourism-culture.heritage-arts"",""confidence"":0.55}]",
+01a134e3-917a-7509-8291-33ae37c07fe7,aip-pa,"Investment and Trade Promotion Office","Activity: Onboarding of Travel Operators for Selling of Tourism Products a. Pitching of Tourism Products / Tourism Missions b. Familiarization Tour of Travel Operators c. Provision of Tools Kits and all other materials d. Promotions of Travel Operators and Packages II. MICE and Other Special Events a. Update Directory of Civic Organizations b. Email Marketing, Visits, etc. c. Provision of Bid Books d. Provision of Subsidy and Support
+Part of: Marketing and Promotions › Tourist Influx Generation
+Office: Investment and Trade Promotion Office","","[{""id"":""tourism-culture.tourism"",""confidence"":0.97},{""id"":""livelihood-jobs.investment"",""confidence"":0.7}]",
+01a134e3-906a-77cb-9c34-0bbadeb411b3,aip-pa,"Investment and Trade Promotion Office","Project: Tourism Brand Implementation and Tourism Products Promotional Campaign
+Expected output: 4 Branding and tourism promotions campaign implemented, bringing Naga and its tourism products to the consciousness of prospective tourists
+Part of: Marketing and Promotions
+Office: Investment and Trade Promotion Office","","[{""id"":""tourism-culture.tourism"",""confidence"":0.98},{""id"":""livelihood-jobs.investment"",""confidence"":0.68}]",
+01a134e3-90cf-756f-837a-cf5eb1f6fc25,aip-pa,"Investment and Trade Promotion Office","Activity: Tourism Brand Implementation and Tourism Products Promotional Campaign
+Expected output: 4 Branding and tourism promotions campaign implemented, bringing Naga and its tourism products to the consciousness of prospective tourists
+Part of: Marketing and Promotions › Tourism Brand Implementation and Tourism Products Promotional Campaign
+Office: Investment and Trade Promotion Office","","[{""id"":""tourism-culture.tourism"",""confidence"":0.98},{""id"":""livelihood-jobs.investment"",""confidence"":0.68}]",
+01a1afd5-d5fb-73ff-a641-ffdd1122e789,aip-pa,"City Disaster Risk Reduction Management Office","Activity: Drainage Rehabilitation at Urban Poor Sites in Naga City (c/o HSDO and NCUPFI)
+Expected output: Reduce incidence of flooding.
+Part of: Disaster Prevention and Mitigation Program › Flood Mitigation Infrastructure and Intervention Project
+Office: City Disaster Risk Reduction Management Office","","[{""id"":""infrastructure.drainage-flood"",""confidence"":0.98},{""id"":""disaster-risk.mitigation"",""confidence"":0.95}]",
+cbec2f6e-a08f-4c94-bc4a-4840dfa89443,budget-item,"Housing and Settlements Development Office","Budget PPA: Urban Poor Federation
+Part of: B.OPERATIONS
+Office: Housing and Settlements Development Office
+Money in: Maintenance and Other Operating Expenses","","[{""id"":""housing"",""confidence"":0.72},{""id"":""housing.resettlement"",""confidence"":0.58}]",
+c6a2b4c0-87ee-4638-a816-b7e6bec0e8ec,budget-item,"Housing and Settlements Development Office","Budget PPA: Urban Poor Federation
+Major final output: Housing programs and services
+Office: Housing and Settlements Development Office
+Its sub-items: Urban Poor Federation","","[{""id"":""housing"",""confidence"":0.95},{""id"":""housing.resettlement"",""confidence"":0.55}]",
+01a0109c-701c-76e8-9302-a1e2043e4a66,budget-item,"Housing and Settlements Development Office","Budget PPA: Urban Poor Federation
+Major final output: Housing programs and services
+Office: Housing and Settlements Development Office
+Money in: Maintenance and Other Operating Expenses","","[{""id"":""housing"",""confidence"":0.95},{""id"":""housing.socialized-housing"",""confidence"":0.72}]",
+cf204634-30a1-457e-96a3-e99fc974a8c8,budget-item,"Housing and Settlements Development Office","Budget PPA: Housing Material Assistance to urban poor beneficiaries
+Major final output: 100% of service provided to beneficiaries who are in dire need of housing materials when requested and necessary
+Part of: Housing Materials Assistance Program
+Office: Housing and Settlements Development Office
+Money in: Maintenance and Other Operating Expenses","","[{""id"":""housing"",""confidence"":0.96},{""id"":""social-welfare.crisis-aid"",""confidence"":0.55}]",
+01a134da-8f71-7403-aa92-1c35f046bd02,aip-pa,"Naga City Youth Development Office","Activity: Profiling, Archiving, Documentation, Report Consolidation, and Records-Keeping - Katipunan ng Kabataan (KK) Profiling Activities (RA 10742, RA 11768, CON 2025-079) - Barangay Youth Development Council (BYDC) Assistance (CON 2025-086) - CYO Profiling Data and Archiving, Accomplishment Reports - NCCYD Profiling Data, Minutes, Notices, and Resolutions - SKF Profiling Data, Minutes, Notices, and Resolutions - SKF ABYIP, CBYDP, M&E Reports - Exisiting Youth Policies (City Ordinances and National Laws)
+Expected output: Established and maintained a centralized youth profiling, documentation, and reporting system, comprising updated KK, BYDC, CYO, NCCYD, and SKF databases, consolidated ABYIP/CBYDP M&E reports, and a legal policy repository, that ensured full compliance with RA 10742, RA 11768, and local ordinances while streamlining data retrieval, reporting, and record transparency.
+Part of: Youth Leadership, Active Citizenship, and Participatory Governance Services › Profiling, Archiving, Documentation, Report Consolidation, and Records-Keeping - Katipunan ng Kabataan (KK) Profiling Activities (RA 10742, RA 11768, CON 2025-079) - Barangay Youth Development Council (BYDC) Assistance (CON 2025-086) - CYO Profiling Data and Archiving, Accomplishment Reports - NCCYD Profiling Data, Minutes, Notices, and Resolutions - SKF Profiling Data, Minutes, Notices, and Resolutions - SKF ABYIP, CBYDP, M&E Reports - Exisiting Youth Policies (City Ordinances and National Laws)
+Office: Naga City Youth Development Office","","[{""id"":""youth"",""confidence"":0.99},{""id"":""governance.digital-government"",""confidence"":0.58}]",
+01a134da-b7e6-703a-8458-c0ff0664e122,aip-pa,"Naga City Youth Development Office","Activity: Profiling, Archiving, and Records-Keeping - Barangay Youth Development Council (BYDC) - CYO Alumni - CYO Profiling Data, Accomplishment Reports - NCCYD Profiling Data, Minutes, Notices, and Resolutions - SKF Profiling Data, Minutes, Notices, and Resolutions - SKF ABYIP, CBYDP, M&E Reports - KK Profiling Data - BYDC Profiling Data, Notices, Minutes, and Resolutions - Exisiting Youth Policies (City Ordinances and National Laws
+Expected output: Launched a centralized digital ecosystem comprising of an updated youth website, an operational Help Desk, and an accessible online archive—that streamlined public assistance and enhanced data transparency.
+Part of: Profiling, Archiving, Documentation and Report Consolidation
+Office: Naga City Youth Development Office","","[{""id"":""youth"",""confidence"":0.98},{""id"":""governance.digital-government"",""confidence"":0.78}]",
+01a134da-8f47-773b-bbd1-27c59b0169f3,aip-pa,"Naga City Youth Development Office","Project: Profiling, Archiving, Documentation, Report Consolidation, and Records-Keeping - Katipunan ng Kabataan (KK) Profiling Activities (RA 10742, RA 11768, CON 2025-079) - Barangay Youth Development Council (BYDC) Assistance (CON 2025-086) - CYO Profiling Data and Archiving, Accomplishment Reports - NCCYD Profiling Data, Minutes, Notices, and Resolutions - SKF Profiling Data, Minutes, Notices, and Resolutions - SKF ABYIP, CBYDP, M&E Reports - Exisiting Youth Policies (City Ordinances and National Laws)
+Expected output: Established and maintained a centralized youth profiling, documentation, and reporting system, comprising updated KK, BYDC, CYO, NCCYD, and SKF databases, consolidated ABYIP/CBYDP M&E reports, and a legal policy repository, that ensured full compliance with RA 10742, RA 11768, and local ordinances while streamlining data retrieval, reporting, and record transparency.
+Part of: Youth Leadership, Active Citizenship, and Participatory Governance Services
+Office: Naga City Youth Development Office","","[{""id"":""youth"",""confidence"":0.99},{""id"":""governance.digital-government"",""confidence"":0.58}]",
