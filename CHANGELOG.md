@@ -15,4 +15,8 @@ importers and hosting.
 - A production stack built from the checkout: API, client, nginx with TLS, Redis, Postgres.
 - The privacy policy and terms ship as templates and say so until the LGU reviews them.
 
+- Fixed before release: text entered by staff could close a JSON-LD script element on public pages; CSV
+  exports wrote cells starting with `=`, `+`, `-` or `@` as formulas; export downloads lost their progress
+  percentage after the Next.js 16.4.5 update.
+
 Known limits: see "Not yet general" in [`FEATURES.md`](FEATURES.md).

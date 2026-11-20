@@ -108,6 +108,8 @@ domain invariants numbered 1–20 are in [`api/docs/aip-reference.md`](api/docs/
 
 - **A route handler must not build a redirect from `request.url`.** In the standalone container (`HOSTNAME=0.0.0.0`) a route handler's `request.url` is the bind address, so `NextResponse.redirect(new URL(path, request.url))` sent demo visitors to `https://0.0.0.0:3000/…` ("See it live", the expired-demo restart). Return `new NextResponse(null, { status: 307, headers: { Location: path } })` — a relative Location the browser resolves against the real host. Middleware is unaffected. Same guard test.
 
+- **A route handler cannot send `Content-Length`: Next strips it.** Since 16.4.5 Next removes `Content-Length`, `Content-Encoding` and `Transfer-Encoding` from every route handler response, silently, so a proxied file reaches the browser chunked with no size. The export proxies send `X-Content-Length` instead (`lengthHeader` in `client/src/lib/download-length.ts`) and `downloadWithProgress` reads it. A file the browser fetches itself (the open-data zip, the framed source PDF) cannot get its total back this way.
+
 - **Switching language is a full page load, never a `next/link`.** `/fil/x` and `/bcl/x` are middleware rewrites of `/x` (specs/014), so to the client router the three are one route: a soft navigation between them changed the URL and kept the page, and `<html lang>` lives in the root layout, which a soft navigation never re-renders. The language switcher uses plain anchors (`source-guards.test.ts` fails on `next/link` there). Links *within* a language (`LocaleLink`) are fine. **`next.config.ts` redirects match before the middleware strips the prefix**, so a redirect for `/x` needs a `/:locale(fil|bcl)/x` twin or the prefixed URL 404s.
 
 ## Infrastructure

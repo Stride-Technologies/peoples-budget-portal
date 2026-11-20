@@ -1,5 +1,6 @@
 import { NextResponse } from 'next/server';
 import { getSession } from '@/lib/session';
+import { lengthHeader } from '@/lib/download-length';
 
 const API_URL = process.env.API_URL ?? 'http://localhost:8000/api/v1';
 
@@ -62,9 +63,7 @@ export async function GET(
       'Content-Disposition':
         response.headers.get('content-disposition') ??
         `attachment; filename="${form}.xlsx"`,
-      ...(response.headers.get('content-length')
-        ? { 'Content-Length': response.headers.get('content-length')! }
-        : {}),
+      ...lengthHeader(response.headers),
       'Cache-Control': 'no-store',
     },
   });

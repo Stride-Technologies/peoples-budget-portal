@@ -14,7 +14,16 @@ export function toCsv(
   const field = (value: Cell): string => {
     // Rows hold strings, numbers, booleans and nulls only (open-data.mapper.ts).
     if (value === null || value === undefined) return '';
-    const text = String(value);
+    // A text cell starting = + - @ (or tab/CR) is a formula to spreadsheet
+    // apps: prefix it with ' so it stays text. Numbers, including negative
+    // amounts, are left as they are.
+    const raw = String(value);
+    const text =
+      typeof value === 'string' &&
+      /^[=+\-@\t\r]/.test(raw) &&
+      !/^[-+]?\d+(\.\d+)?$/.test(raw)
+        ? `'${raw}`
+        : raw;
     return /[",\r\n]/.test(text) ? `"${text.replace(/"/g, '""')}"` : text;
   };
   const lines = [

@@ -17,6 +17,7 @@ import {
 } from '@/components/ui/table';
 import type { RegistryFeedbackListResponse, RegistryFeedbackCategory } from '@/lib/api';
 import { apiReviewRegistryFeedback } from '@/lib/api';
+import { csvCell } from '@/lib/csv';
 import { GOAL } from '@/lib/goal-label';
 
 
@@ -52,13 +53,6 @@ function formatDate(iso: string) {
     dateStyle: 'medium',
     timeStyle: 'short',
   }).format(new Date(iso));
-}
-
-function csvCell(value: string): string {
-  if (value.includes(',') || value.includes('"') || value.includes('\n')) {
-    return `"${value.replace(/"/g, '""')}"`;
-  }
-  return value;
 }
 
 function downloadCsv(items: RegistryFeedbackListResponse['items']) {

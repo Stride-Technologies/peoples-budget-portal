@@ -1,5 +1,6 @@
 import { NextResponse } from 'next/server';
 import { getSession } from '@/lib/session';
+import { lengthHeader } from '@/lib/download-length';
 
 const API_URL = process.env.API_URL ?? 'http://localhost:8000/api/v1';
 
@@ -43,8 +44,9 @@ export async function GET(request: Request) {
 
   // Streamed straight through rather than buffered: the browser can then show
   // real download progress, and a growing export never has to sit whole in this
-  // process's memory on its way past. Content-Length is forwarded for the same
-  // reason — without it the client has no denominator and can only spin.
+  // process's memory on its way past. Its size goes in X-Content-Length (Next
+  // strips Content-Length here): without it the client has no denominator and
+  // can only spin.
   return new Response(response.body, {
     status: response.status,
     headers: {
@@ -54,9 +56,7 @@ export async function GET(request: Request) {
       'Content-Disposition':
         response.headers.get('content-disposition') ??
         'attachment; filename="aip-complete-export.xlsx"',
-      ...(response.headers.get('content-length')
-        ? { 'Content-Length': response.headers.get('content-length')! }
-        : {}),
+      ...lengthHeader(response.headers),
       'Cache-Control': 'no-store',
     },
   });

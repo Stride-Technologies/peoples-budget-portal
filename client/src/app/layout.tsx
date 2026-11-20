@@ -11,7 +11,7 @@ import { apiGetAipCycles, type AipCycleRecord } from "@/lib/api";
 import { GoogleAnalytics } from "@/components/analytics/google-analytics";
 import { CookieConsentBanner } from "@/components/analytics/cookie-consent-banner";
 import { isProd } from "@/lib/site-env";
-import { OG_IMAGES, SITE_URL } from "@/lib/seo";
+import { OG_IMAGES, SITE_URL, jsonLdHtml } from "@/lib/seo";
 import { BrandProvider } from "@/components/brand/brand-provider";
 import { getBrand } from "@/lib/brand-server";
 import { paletteStyle } from "@/lib/palettes";
@@ -115,7 +115,7 @@ export default async function RootLayout({
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
+            __html: jsonLdHtml({
               "@context": "https://schema.org",
               "@type": "GovernmentOrganization",
               "@id": `${SITE_URL}/#organization`,
