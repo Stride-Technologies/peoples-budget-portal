@@ -24,7 +24,7 @@ pages ignore any other.
 
 | Path | Shape |
 |---|---|
-| `sessions/index.json` | `[{ id, title, date?, durationSec, body?, source? }]`, in the order to show them. `date` is `YYYY-MM-DD`. `body` is an id from `hearings.json`; absent means the first body. `source` is `youtube` (the id is the YouTube video's) or `file` (the API holds the video); absent means `file` when the id starts with `fb`, else `youtube` |
+| `sessions/index.json` | `[{ id, title, date?, durationSec, body?, source? }]`, in the order to show them. `date` is `YYYY-MM-DD`. `body` is an id from `hearings.json`; absent means the first body. `source` is `youtube` (the id is the YouTube video's); **any other value** means the API holds the video (`file`, or where the stream was first shown, such as `facebook`); absent means the API holds it when the id starts with `fb`, else `youtube` |
 | `sessions/<id>.json` | `{ segments: [{ start, end, text, skip?, words? }] }`. Times are seconds from the start. `skip` marks broadcast audio that is not part of the session (an ad, a jingle); the pages hide those lines unless asked. `words` is `[[start, end], …]`, one pair per space-separated word of `text` |
 | `sessions/<id>.summary.json` | `{ headline?, glance: [item], sections: [{ title, items: [item], finishLines? }], issues: [{ topic, summary, offices?, refs, finishLines?, cluster?, at? }], meta?: { model? } }`, where an `item` is `{ lead, text, refs }`. **`refs` are indexes into the session's segments**: where a reader checks the claim. `finishLines` are goal numbers (1 to 8); `cluster` is a name from `portal.json`; `at` is seconds |
 | `sessions/<id>.summary.tl.json`, `.bcl.json` | The same summary in Filipino or Bikol, same shape and same `refs` |
@@ -44,6 +44,8 @@ pages ignore any other.
 
 ## Rules
 
+- The portal sends `User-Agent: peoples-budget-portal (hearings pages; <its address>)`. An API that filters by
+  user agent must let it through.
 - Every path answers `GET` with JSON, or 404 when there is nothing. The portal reads server-side and caches
   each answer for five minutes, so the API needs no CORS headers for the pages. Posters and `file` videos are
   loaded by the visitor's browser straight from the API.
