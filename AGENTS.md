@@ -51,6 +51,7 @@ pnpm --filter api db:check:sample-city    # Prove the sample city names no place
 pnpm --filter api db:seed:tags -- --dry-run   # Create only the missing thematic tags
 pnpm --filter api test                    # API unit tests (jest)
 pnpm --filter client test                 # Client unit tests (node --test)
+python3 -m unittest discover -s services/hearings   # Hearings pipeline tests (standard library, no model)
 pnpm --filter api exec tsx prisma/publish-cycle.ts --year 2027 --dry-run   # Publish every ready program in a year
 pnpm --filter api db:seed:document -- --year <fy> --book <json> [--dry-run]   # An enacted budget from a book file (one city's layout: docs/loading-your-data.md)
 pnpm --filter api db:verify:document -- --year <fy>                           # Its totals against the book

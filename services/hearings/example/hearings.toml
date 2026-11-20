@@ -1,0 +1,47 @@
+# Settings for the hearings pipeline (services/hearings/README.md). Copy this folder, then edit.
+# Paths are relative to this file.
+
+output = "out"     # the folder a web server serves: this is your hearings API. Everything in it is public
+work = "work"      # recordings and half-done work. Never serve this one
+
+# --- the speech model -------------------------------------------------------------------------------------------
+[speech]
+engine = "faster-whisper"   # runs on a CPU. Or "omnilingual" (needs a GPU; knows many Philippine languages)
+model = "small"             # faster-whisper: tiny, base, small, medium, large-v3. omnilingual: omniASR_LLM_3B_v2
+language = "en"             # the engine's own code: faster-whisper "en", "tl"; omnilingual "tgl_Latn", "bcl_Latn". "" = let it guess
+compute_type = "int8"       # faster-whisper only: int8 is the quick one on a CPU
+line_seconds = 30           # the length of one transcript line. omnilingual needs under 40
+
+# Word timings, so the page marks each word as it is said. Needs torch and torchaudio; fine on a CPU.
+[align]
+enabled = false
+
+# --- the summary model: any OpenAI-compatible endpoint -----------------------------------------------------------
+# Leave base_url empty for no summary: the transcript pages work without one.
+[summary]
+base_url = ""                         # "http://127.0.0.1:11434/v1" (Ollama), "http://127.0.0.1:8080/v1", a hosted one
+model = ""
+api_key_env = "HEARINGS_LLM_KEY"      # the NAME of the environment variable holding the key. Never write the key here
+transcript_languages = "English and Filipino"   # told to the model, so it expects the mix
+
+# One table per translation of the summary. Contract v1 names two: tl (Filipino) and bcl (Bikol).
+# [translate.tl]
+# name = "Filipino"
+# register = "conversational Filipino, as in national news, not formal textbook Tagalog"
+
+# --- your LGU's own data -----------------------------------------------------------------------------------------
+[data]
+glossary = ["terms.txt", "heard_as.txt"]      # how names, places, offices and acronyms are written
+documents = "documents.json"                  # ordinances and resolutions a session may name
+# These three are the sample's, so the example runs as it is. Point them at your own:
+roster = "../sample/councilors.json"          # the members: shown on the pages, and their names are glossary terms
+goals = "../sample/portal.json"               # your goals and clusters: issues are tagged with these
+reader_glossary = "../sample/glossary.json"   # terms the session page explains to a reader
+
+# The bodies whose sessions you publish. The first is the default.
+[[bodies]]
+id = "council"
+name = "Sample City Council"
+about = "Sessions of a made-up council, for trying the pipeline."
+describe = "a session of the Sample City Council, the city's legislature"   # how the summary model is told what it reads
+headline_form = "The council <did X>, <did Y>, and <did Z>."

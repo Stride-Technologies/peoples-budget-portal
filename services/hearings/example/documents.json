@@ -1,0 +1,20 @@
+[
+ {
+  "kind": "proposed",
+  "no": "2027-001",
+  "title": "Supplemental Annual Investment Program for the health office (sample)",
+  "url": "https://example.gov.ph/ordinances/2027-001"
+ },
+ {
+  "kind": "ordinance",
+  "no": "2026-014",
+  "title": "An ordinance establishing the barangay health station improvement program (sample)",
+  "url": "https://example.gov.ph/ordinances/2026-014"
+ },
+ {
+  "kind": "resolution",
+  "no": "2027-003",
+  "title": "A resolution requesting a progress report on the drainage project (sample)",
+  "url": "https://example.gov.ph/resolutions/2027-003"
+ }
+]

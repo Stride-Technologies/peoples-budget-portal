@@ -17,6 +17,9 @@ importers and hosting.
 - Council hearings pages (`/hearings`), read from a hearings API whose address is a setting
   (`NEXT_PUBLIC_HEARINGS_API_URL`); off by default. The contract is `docs/hearings-api.md`.
   Fixed before release: a session whose `source` was neither `youtube` nor `file` was handed to YouTube's player.
+- A hearings pipeline (`services/hearings`): one command turns a recording into that API's files, with
+  the speech model and the summary model as settings. The production stack's nginx serves its output
+  folder at `/hearings-data/` (`HEARINGS_DIR`).
 
 - Fixed before release: text entered by staff could close a JSON-LD script element on public pages; CSV
   exports wrote cells starting with `=`, `+`, `-` or `@` as formulas; export downloads lost their progress

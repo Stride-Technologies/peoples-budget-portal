@@ -25,6 +25,7 @@ jobs:
       - run: pnpm --filter client exec tsc --noEmit
       - run: pnpm --filter api test
       - run: pnpm --filter client test
+      - run: python3 -m unittest discover -s services/hearings  # standard library only
       - run: pnpm --filter api db:check:sample-city
       - run: pnpm build:api
       - run: pnpm build:client
