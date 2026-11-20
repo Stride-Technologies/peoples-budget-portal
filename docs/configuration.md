@@ -53,6 +53,7 @@ LBP Forms 4 and 7.
 | `NEXT_PUBLIC_RECAPTCHA_SITE_KEY` | reCAPTCHA v3 site key for the feedback forms |
 | `NEXT_PUBLIC_EXPLORER_ENABLED` | `1` shows the Data Explorer |
 | `NEXT_PUBLIC_HEARINGS_API_URL` | The address of a hearings API ([`hearings-api.md`](hearings-api.md)). Set: the portal shows the council's sessions at `/hearings`. Unset: no hearings pages |
+| `HEARINGS_DIR` | Read by `docker-compose.yml`, not the client: the folder nginx serves at `/hearings-data/`, for an LGU that makes its own hearings data ([`modules/hearings.md`](modules/hearings.md)). Default `/var/www/hearings` |
 
 ## The API
 
