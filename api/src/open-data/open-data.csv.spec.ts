@@ -41,4 +41,16 @@ describe('toCsv', () => {
       `${BOM}col_a,col_b\r\nPeñafrancia,32235000.00\r\n`,
     );
   });
+
+  it('keeps formula-looking text as text and leaves numbers alone', () => {
+    const csv = toCsv(
+      [
+        { name: 'a', csvName: 'a' },
+        { name: 'b', csvName: 'b' },
+        { name: 'c', csvName: 'c' },
+      ],
+      [{ a: '=1+1', b: '-1250.00', c: -3 }],
+    );
+    expect(csv.split('\r\n')[1]).toBe("'=1+1,-1250.00,-3");
+  });
 });

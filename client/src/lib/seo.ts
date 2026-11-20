@@ -21,3 +21,20 @@ export function canonical(path = "/"): string {
 export const noindexMetadata: Pick<Metadata, "robots"> = {
   robots: { index: false, follow: false },
 };
+
+/**
+ * JSON for an inline `<script type="application/ld+json">`. `JSON.stringify`
+ * leaves `<`, `>` and `&` as they are, so staff-entered text such as a PA name
+ * containing `</script><script>…` closed the element and ran as script on the
+ * public page (security audit NV3). Escaping them as `\u003c` etc. keeps the
+ * JSON identical to a parser and inert to the HTML tokenizer; U+2028/9 are
+ * escaped for older JS parsers.
+ */
+export function jsonLdHtml(value: unknown): string {
+  return JSON.stringify(value)
+    .replace(/</g, "\\u003c")
+    .replace(/>/g, "\\u003e")
+    .replace(/&/g, "\\u0026")
+    .replace(/\u2028/g, "\\u2028")
+    .replace(/\u2029/g, "\\u2029");
+}

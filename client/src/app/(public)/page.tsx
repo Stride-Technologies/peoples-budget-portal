@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import { LandingPage } from '@/components/public/landing-page';
-import { OG_IMAGES, SITE_URL } from '@/lib/seo';
+import { OG_IMAGES, SITE_URL, jsonLdHtml } from '@/lib/seo';
 import { localeAlternates } from '@/i18n/server';
 import { compactPeso } from '@/lib/currency-formatter';
 import { cyclesIn } from '@/lib/public-sections';
@@ -75,7 +75,7 @@ export default async function PublicHomePage() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify([
+          __html: jsonLdHtml([
             { '@context': 'https://schema.org', '@type': 'WebSite', name: brand.siteName, url: SITE_URL },
             { '@context': 'https://schema.org', '@type': 'GovernmentOrganization', name: brand.government, ...(brand.website ? { url: brand.website } : {}) },
           ]),

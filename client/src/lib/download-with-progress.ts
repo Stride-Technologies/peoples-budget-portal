@@ -8,16 +8,19 @@
  *    nothing. This is where almost all of the wait currently is: the Annual
  *    Budget book takes ~300ms to generate and ~91KB to send.
  *  - **downloading** — bytes are arriving. A percentage is only reported when
- *    the response carries `Content-Length`; without a denominator the caller is
- *    told `null` and should keep showing an indeterminate state rather than
- *    invent a number.
+ *    the response states its size (`X-Content-Length` from our export proxies,
+ *    else `Content-Length` — see `download-length.ts`); without a denominator
+ *    the caller is told `null` and should keep showing an indeterminate state
+ *    rather than invent a number.
  *
  * Falls back to `blob()` where the response has no readable stream, which also
  * means no progress — reporting a fake 50% would be worse than reporting none.
  */
+import { totalBytes } from './download-length';
+
 export interface DownloadProgress {
   phase: 'preparing' | 'downloading';
-  /** 0-100, or null when the response gave no Content-Length. */
+  /** 0-100, or null when the response stated no size. */
   percent: number | null;
   receivedBytes: number;
 }
@@ -45,7 +48,7 @@ export async function downloadWithProgress(
     /filename="([^"]+)"/i.exec(response.headers.get('content-disposition') ?? '')?.[1] ??
     fallbackFilename;
 
-  const total = Number(response.headers.get('content-length')) || 0;
+  const total = totalBytes(response.headers);
   let blob: Blob;
 
   if (response.body) {

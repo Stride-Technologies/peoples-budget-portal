@@ -5,7 +5,7 @@ import type { Metadata } from 'next';
 import { loadPublicProgram, loadPublicFeedback, loadPublicCycles } from '../_actions';
 import { amountLabelFor } from '@/lib/public-sections';
 import { PublicProgramDetailView } from '@/components/public/public-program-detail-view';
-import { canonical, OG_IMAGES, SITE_URL } from '@/lib/seo';
+import { canonical, OG_IMAGES, SITE_URL, jsonLdHtml } from '@/lib/seo';
 import { getBrand } from '@/lib/brand-server';
 
 interface Props {
@@ -68,7 +68,7 @@ export default async function PublicProgramDetailPage({ params }: Props) {
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceJsonLd) }}
+        dangerouslySetInnerHTML={{ __html: jsonLdHtml(serviceJsonLd) }}
       />
       <div className="mx-auto w-full max-w-3xl px-4 py-6 sm:px-6 lg:px-8">
       <Link

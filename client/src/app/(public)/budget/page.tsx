@@ -3,7 +3,7 @@ import type { Metadata } from 'next';
 import { Suspense } from 'react';
 import { PublicRegistryClient } from '@/components/public/public-registry-client';
 import { loadPublicCycles, loadPublicClusters, loadPublicFinishLines, loadPublicThematicTags, loadPublicRegistry } from './_actions';
-import { canonical, OG_IMAGES, SITE_URL } from '@/lib/seo';
+import { canonical, OG_IMAGES, SITE_URL, jsonLdHtml } from '@/lib/seo';
 import { getBrand } from '@/lib/brand-server';
 
 const REGISTRY_URL = canonical('/budget');
@@ -81,7 +81,7 @@ export default async function PublicRegistryPage() {
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(datasetJsonLd) }}
+        dangerouslySetInnerHTML={{ __html: jsonLdHtml(datasetJsonLd) }}
       />
       <Suspense>
         <PublicRegistryClient

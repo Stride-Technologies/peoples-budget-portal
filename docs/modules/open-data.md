@@ -141,3 +141,9 @@ the same change as the policy page's unconfirmed copy.
 Reads `aip_cycles`, `programs`, `program_versions`, `offices`, `clusters`,
 `finish_lines`, `pap_sectors`, `ppmps`, `ppmp_line_items` (`line_total` only),
 `climate_typology_codes`. Writes `aip_cycles.open_data_enabled` (via `aip-cycles`).
+
+## CSV safety
+
+The CSV writer (`open-data.csv.ts`) prefixes a text cell that starts with
+`=` `+` `-` `@`, a tab or a CR with `'`, so a spreadsheet never runs it as a
+formula. Numbers, including negative amounts, are written as they are.
