@@ -1,4 +1,5 @@
 import 'server-only';
+import { SITE_URL } from '@/lib/seo';
 import { HEARINGS_API_URL } from './config';
 import {
   SUMMARY_LANGS,
@@ -27,6 +28,8 @@ async function get<T>(path: string): Promise<T | null> {
     const res = await fetch(`${HEARINGS_API_URL}/${path}`, {
       next: { revalidate: 300 },
       signal: AbortSignal.timeout(10_000),
+      // Say who is asking: an API may turn away programs it takes for scrapers, by name.
+      headers: { 'User-Agent': `peoples-budget-portal (hearings pages; ${SITE_URL})` },
     });
     return res.ok ? ((await res.json()) as T) : null;
   } catch {

@@ -46,6 +46,9 @@ test('a video is a file when the API says so or the id starts with fb', () => {
   assert.equal(sourceOf({ id: 'abc' }), 'youtube');
   assert.equal(sourceOf({ id: 'fb123' }), 'file');
   assert.equal(sourceOf({ id: 'abc', source: 'file' }), 'file');
+  // An API may name where the stream was first shown; it still holds the copy.
+  assert.equal(sourceOf({ id: 'fb123', source: 'facebook' }), 'file');
+  assert.equal(sourceOf({ id: 'fb123', source: 'youtube' }), 'youtube');
   assert.equal(posterUrl('https://h.example', { id: 'fb123' }), 'https://h.example/video/fb123.jpg');
   assert.equal(posterUrl('https://h.example', { id: 'abc' }), 'https://i.ytimg.com/vi/abc/hqdefault.jpg');
 });

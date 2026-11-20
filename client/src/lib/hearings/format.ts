@@ -13,8 +13,12 @@ export interface SessionEntry {
   durationSec: number;
   /** Which body met: an id listed in `hearings.json`. Absent means the first one. */
   body?: string;
-  /** Where the video is. Absent: `file` when the id starts with `fb`, else `youtube` (v1 rule). */
-  source?: 'youtube' | 'file';
+  /**
+   * Where the video is: `youtube` (the id is the YouTube video's), or anything else when the API
+   * holds its own copy (`file`, or the name of where the stream was first shown, such as
+   * `facebook`). Absent: a file when the id starts with `fb`, else YouTube.
+   */
+  source?: string;
 }
 
 /** One line of `sessions/<id>.json`. */
@@ -125,7 +129,7 @@ export const clock = (sec: number): string =>
 export const hours = (durationSec: number): number => Math.round(durationSec / 360) / 10;
 
 export const sourceOf = (s: Pick<SessionEntry, 'id' | 'source'>): 'youtube' | 'file' =>
-  s.source ?? (s.id.startsWith('fb') ? 'file' : 'youtube');
+  s.source ? (s.source === 'youtube' ? 'youtube' : 'file') : s.id.startsWith('fb') ? 'file' : 'youtube';
 
 /** A session's poster: the API's own frame for a file, YouTube's for a YouTube video. */
 export const posterUrl = (apiUrl: string, s: Pick<SessionEntry, 'id' | 'source'>): string =>
