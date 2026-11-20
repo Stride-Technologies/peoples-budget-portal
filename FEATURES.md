@@ -56,6 +56,7 @@ What the portal does, and how finished each part is. Behaviour is in [`SPEC.md`]
 | SEO: sitemap, robots, JSON-LD, share image drawn from the LGU's settings | ✅ | |
 | Search engines kept out until the site is marked production | ✅ | |
 | Data Explorer: chart builder over every public year, share links, exports; AI question box | 🔭 | `/explore` |
+| Council hearings: session list, transcript that follows the video, issues by goal, members. Read from a hearings API you point it at; off by default | 🟡 the pages are here; the pipeline that makes the data is not yet | `/hearings/*` |
 
 ## Not yet general
 

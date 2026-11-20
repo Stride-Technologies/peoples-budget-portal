@@ -14,6 +14,7 @@ import { getT } from "@/i18n/server";
 import { rich } from "@/i18n/rich";
 import type { MessageKey } from "@/i18n/t";
 import { EXPLORER_ENABLED } from "@/lib/explore/view-url";
+import { HEARINGS_ENABLED } from "@/lib/hearings/config";
 
 const SITE_NAME = "People's Budget Portal";
 
@@ -33,6 +34,7 @@ const FOOTER_LINKS: { label: MessageKey; href: string }[] = [
   { label: "footer.aip", href: "/aip" },
   { label: "footer.annual", href: "/annual" },
   ...(EXPLORER_ENABLED ? [{ label: "footer.explore" as MessageKey, href: "/explore" }] : []),
+  ...(HEARINGS_ENABLED ? [{ label: "footer.hearings" as MessageKey, href: "/hearings" }] : []),
   { label: "footer.learn", href: "/learn" },
   { label: "footer.ppmp", href: "/ppmp" },
   { label: "footer.developers", href: "/developers" },

@@ -41,6 +41,8 @@ ENV NEXT_PUBLIC_RECAPTCHA_SITE_KEY=$NEXT_PUBLIC_RECAPTCHA_SITE_KEY
 # The Data Explorer's nav entry and /explore page (specs/018); unset = off.
 ARG NEXT_PUBLIC_EXPLORER_ENABLED
 ENV NEXT_PUBLIC_EXPLORER_ENABLED=$NEXT_PUBLIC_EXPLORER_ENABLED
+ARG NEXT_PUBLIC_HEARINGS_API_URL
+ENV NEXT_PUBLIC_HEARINGS_API_URL=$NEXT_PUBLIC_HEARINGS_API_URL
 # CI runs tsc + eslint before this image is built; skip the redundant checks
 # here to avoid OOM on the memory-constrained DO Droplet (2 GB / 4 GB heap).
 ENV SKIP_TS_CHECK=1

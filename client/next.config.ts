@@ -24,17 +24,37 @@ const UUID =
 // that trade is ever worth it; the other directives still stop framing, plugin
 // content, <base> hijacks and off-site form posts.
 const isDev = process.env.NODE_ENV === "development";
+// The hearings pages (docs/modules/hearings.md), only where a hearings API is configured: its
+// origin for posters and its own copies of videos, and YouTube for the sessions streamed there.
+// The player is the cookie-less one, and its script loads only when a visitor plays a video.
+const hearingsOrigin = (() => {
+  try {
+    const url = new URL((process.env.NEXT_PUBLIC_HEARINGS_API_URL ?? "").trim());
+    return /^https?:$/.test(url.protocol) ? url.origin : "";
+  } catch {
+    return "";
+  }
+})();
+const hearings = hearingsOrigin
+  ? {
+      script: " https://www.youtube.com",
+      img: ` https://i.ytimg.com ${hearingsOrigin}`,
+      frame: " https://www.youtube-nocookie.com",
+      media: `media-src 'self' ${hearingsOrigin}`,
+    }
+  : { script: "", img: "", frame: "", media: "" };
 const csp = [
   "default-src 'self'",
   // 'unsafe-eval' only for `next dev` (React's dev-time stack reconstruction).
-  `script-src 'self' 'unsafe-inline'${isDev ? " 'unsafe-eval'" : ""} https://www.googletagmanager.com https://www.google.com/recaptcha/ https://www.gstatic.com/recaptcha/`,
+  `script-src 'self' 'unsafe-inline'${isDev ? " 'unsafe-eval'" : ""} https://www.googletagmanager.com https://www.google.com/recaptcha/ https://www.gstatic.com/recaptcha/${hearings.script}`,
   "style-src 'self' 'unsafe-inline'",
-  "img-src 'self' data: blob: https://*.google-analytics.com https://*.googletagmanager.com",
+  `img-src 'self' data: blob: https://*.google-analytics.com https://*.googletagmanager.com${hearings.img}`,
   "font-src 'self' data:",
   // GA4 also beacons to www.google.com/g/collect (seen in a browser, not in the guide).
   `connect-src 'self' https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com https://www.google.com https://*.g.doubleclick.net${isDev ? " ws:" : ""}`,
   // 'self': the staff source viewer frames /api/source-pdf.
-  "frame-src 'self' https://www.google.com/recaptcha/ https://recaptcha.google.com/recaptcha/",
+  `frame-src 'self' https://www.google.com/recaptcha/ https://recaptcha.google.com/recaptcha/${hearings.frame}`,
+  ...(hearings.media ? [hearings.media] : []),
   "frame-ancestors 'none'",
   "object-src 'none'",
   "base-uri 'self'",

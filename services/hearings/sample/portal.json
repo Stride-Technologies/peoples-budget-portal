@@ -1,0 +1,22 @@
+{
+ "finishLines": {
+  "1": "A Thriving and Inclusive Economy",
+  "2": "A Cleaner, Greener and Flood-Resilient City",
+  "3": "Safer Streets and Communities",
+  "4": "Healthy and Educated Residents with Decent Homes",
+  "5": "History, Language and Heritage Preserved",
+  "6": "An Open, Digital and Participatory City",
+  "7": "Good Governance and Innovation",
+  "8": "An Efficient, Citizen-Focused Local Government"
+ },
+ "clusters": [
+  "Governance",
+  "Economy",
+  "Safety & Security",
+  "Environment & Infrastructure",
+  "Education",
+  "Health",
+  "Social",
+  "Arts & Culture"
+ ]
+}

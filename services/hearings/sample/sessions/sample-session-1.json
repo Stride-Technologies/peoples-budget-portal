@@ -1,0 +1,65 @@
+{
+ "segments": [
+  {
+   "start": 0,
+   "end": 30,
+   "text": "The session is called to order. The secretary will call the roll.",
+   "lang": "en"
+  },
+  {
+   "start": 30,
+   "end": 60,
+   "text": "All ten members are present. There is a quorum.",
+   "lang": "en"
+  },
+  {
+   "start": 60,
+   "end": 90,
+   "text": "First on the agenda is the supplemental Annual Investment Program for the health office.",
+   "lang": "en"
+  },
+  {
+   "start": 90,
+   "end": 120,
+   "text": "The health office asks for two more barangay health stations and medicine for six months.",
+   "lang": "en"
+  },
+  {
+   "start": 120,
+   "end": 150,
+   "text": "Buy one take one at the public market this weekend only.",
+   "lang": "en",
+   "skip": "aired"
+  },
+  {
+   "start": 150,
+   "end": 180,
+   "text": "The committee on appropriations recommends approval of Proposed Ordinance 2027-001.",
+   "lang": "en"
+  },
+  {
+   "start": 180,
+   "end": 210,
+   "text": "A member asks where the money comes from. The budget officer answers: savings in Maintenance and Other Operating Expenses.",
+   "lang": "en"
+  },
+  {
+   "start": 210,
+   "end": 240,
+   "text": "Next is a resolution asking the engineering office to report on the drainage project by March.",
+   "lang": "en"
+  },
+  {
+   "start": 240,
+   "end": 270,
+   "text": "The resolution is approved without objection.",
+   "lang": "en"
+  },
+  {
+   "start": 270,
+   "end": 300,
+   "text": "There being no other business, the session is adjourned.",
+   "lang": "en"
+  }
+ ]
+}
