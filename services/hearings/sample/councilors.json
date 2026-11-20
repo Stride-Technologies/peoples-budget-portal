@@ -1,0 +1,17 @@
+[
+ {
+  "slug": "presiding-officer",
+  "name": "The Presiding Officer (sample)",
+  "role": "Vice Mayor, presiding officer"
+ },
+ {
+  "slug": "member-one",
+  "name": "Member One (sample)",
+  "role": "Member"
+ },
+ {
+  "slug": "member-two",
+  "name": "Member Two (sample)",
+  "role": "Member"
+ }
+]

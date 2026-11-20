@@ -1,0 +1,9 @@
+{
+ "bodies": [
+  {
+   "id": "council",
+   "name": "Sample City Council",
+   "about": "A made-up session for trying the hearings pages. Nothing here was said by anyone."
+  }
+ ]
+}

@@ -13,6 +13,7 @@ import { useT } from '@/i18n/locale-provider';
 import { splitLocale } from '@/i18n/locales';
 import type { MessageKey } from '@/i18n/t';
 import { EXPLORER_ENABLED } from '@/lib/explore/view-url';
+import { HEARINGS_ENABLED } from '@/lib/hearings/config';
 
 // /budget is deliberately absent. It is still a live route — the parent of every
 // /budget/<programId> deep link, and where /registry and the old
@@ -28,6 +29,8 @@ const NAV_LINKS: { label: MessageKey; href: string }[] = [
   { label: 'nav.ppmp', href: '/ppmp' },
   // specs/018, behind NEXT_PUBLIC_EXPLORER_ENABLED.
   ...(EXPLORER_ENABLED ? [{ label: 'nav.explore' as MessageKey, href: '/explore' }] : []),
+  // Only where a hearings API is configured (docs/modules/hearings.md).
+  ...(HEARINGS_ENABLED ? [{ label: 'nav.hearings' as MessageKey, href: '/hearings' }] : []),
   { label: 'nav.learn', href: '/learn' },
   { label: 'nav.developers', href: '/developers' },
 ];

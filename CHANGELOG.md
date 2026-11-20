@@ -14,6 +14,8 @@ importers and hosting.
 - A sample city and one command to load a city's offices, goals and AIP into an empty database.
 - A production stack built from the checkout: API, client, nginx with TLS, Redis, Postgres.
 - The privacy policy and terms ship as templates and say so until the LGU reviews them.
+- Council hearings pages (`/hearings`), read from a hearings API whose address is a setting
+  (`NEXT_PUBLIC_HEARINGS_API_URL`); off by default. The contract is `docs/hearings-api.md`.
 
 - Fixed before release: text entered by staff could close a JSON-LD script element on public pages; CSV
   exports wrote cells starting with `=`, `+`, `-` or `@` as formulas; export downloads lost their progress

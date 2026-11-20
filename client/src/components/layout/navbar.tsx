@@ -1,6 +1,7 @@
 'use client';
 
 import { EXPLORER_ENABLED } from '@/lib/explore/view-url';
+import { HEARINGS_ENABLED } from '@/lib/hearings/config';
 import React, { useState, useTransition } from 'react';
 import Link from 'next/link';
 import { LanguageSwitcher } from '@/components/i18n/language-switcher';
@@ -64,6 +65,7 @@ const publicPages = [
   { label: 'Annual Budget', href: '/annual' },
   { label: 'PPMP', href: '/ppmp' },
   ...(EXPLORER_ENABLED ? [{ label: 'Explore', href: '/explore' }] : []),
+  ...(HEARINGS_ENABLED ? [{ label: 'Hearings', href: '/hearings' }] : []),
   { label: 'Learn', href: '/learn' },
   { label: 'Developers', href: '/developers' },
   // Absent from the visitor nav on purpose, but kept here: it is still the

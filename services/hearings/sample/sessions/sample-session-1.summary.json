@@ -1,0 +1,91 @@
+{
+ "headline": "The council took up a supplemental investment program for the health office and asked for a report on a drainage project.",
+ "glance": [
+  {
+   "lead": "Health stations",
+   "text": "The health office asked for two more barangay health stations and six months of medicine.",
+   "refs": [
+    2,
+    3
+   ]
+  },
+  {
+   "lead": "Drainage report",
+   "text": "A resolution asks the engineering office to report on the drainage project by March.",
+   "refs": [
+    7,
+    8
+   ]
+  }
+ ],
+ "sections": [
+  {
+   "title": "Health",
+   "finishLines": [
+    4
+   ],
+   "items": [
+    {
+     "lead": "Supplemental program.",
+     "text": "The appropriations committee recommended approval; a member asked for the fund source.",
+     "refs": [
+      5,
+      6
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Infrastructure",
+   "finishLines": [
+    2
+   ],
+   "items": [
+    {
+     "lead": "Drainage.",
+     "text": "The council approved the request for a progress report without objection.",
+     "refs": [
+      7,
+      8
+     ]
+    }
+   ]
+  }
+ ],
+ "issues": [
+  {
+   "topic": "More barangay health stations",
+   "summary": "Two stations and six months of medicine, funded from savings.",
+   "offices": [
+    "City Health Office"
+   ],
+   "refs": [
+    3,
+    6
+   ],
+   "finishLines": [
+    4
+   ],
+   "cluster": "Health",
+   "at": 90
+  },
+  {
+   "topic": "Drainage project report",
+   "summary": "The engineering office is to report by March.",
+   "offices": [
+    "City Engineering Office"
+   ],
+   "refs": [
+    7
+   ],
+   "finishLines": [
+    2
+   ],
+   "cluster": "Environment & Infrastructure",
+   "at": 210
+  }
+ ],
+ "meta": {
+  "model": "written by hand, as an example"
+ }
+}

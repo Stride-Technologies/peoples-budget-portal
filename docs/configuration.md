@@ -52,6 +52,7 @@ LBP Forms 4 and 7.
 | `NEXT_PUBLIC_GA_MEASUREMENT_ID` | Google Analytics 4, shown only after the visitor consents. Unset: no analytics |
 | `NEXT_PUBLIC_RECAPTCHA_SITE_KEY` | reCAPTCHA v3 site key for the feedback forms |
 | `NEXT_PUBLIC_EXPLORER_ENABLED` | `1` shows the Data Explorer |
+| `NEXT_PUBLIC_HEARINGS_API_URL` | The address of a hearings API ([`hearings-api.md`](hearings-api.md)). Set: the portal shows the council's sessions at `/hearings`. Unset: no hearings pages |
 
 ## The API
 

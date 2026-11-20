@@ -1,0 +1,10 @@
+[
+ {
+  "id": "sample-session-1",
+  "title": "1st Regular Session (sample)",
+  "date": "2027-01-12",
+  "durationSec": 300,
+  "body": "council",
+  "source": "file"
+ }
+]
