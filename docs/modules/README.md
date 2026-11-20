@@ -63,7 +63,7 @@ covering purpose, endpoints, services, DTOs, and the tables it touches.
 | `public` | [public.md](public.md) | Unauthenticated registry browse + anonymous feedback |
 | `open-data` | [open-data.md](open-data.md) | Per-year open data: zip (CSV + JSON + METADATA.md) and the anonymous read-only `/open-data` API v1, behind a per-cycle switch |
 | `explorer` | [data-explorer.md](data-explorer.md) | Public Data Explorer (specs/018): catalogue + view engine behind `/public/explorer`, every figure computed once; AI Ask/Explain/voice behind switches |
-| hearings (client only) | [hearings.md](hearings.md) | Council sessions as public pages, read from a hearings API whose address is a setting. No API module: the portal stores nothing |
+| hearings (client, and `services/hearings`) | [hearings.md](hearings.md) | Council sessions as public pages, read from a hearings API whose address is a setting. No API module: the portal stores nothing. `services/hearings` is the pipeline that makes that API's files from a recording |
 | `explorer` (inference) | [inference-sidecar.md](inference-sidecar.md) | One inference port, three backends (OpenAI-compatible, the open-model sidecar in `services/inference`, the Stride API); the sidecar's HTTP contract (specs/020 B3) |
 
 ### Admin

@@ -1,0 +1,4 @@
+# A mishearing fuzzy matching cannot fix, because it starts with a different letter: `heard = Right spelling`.
+# Add a line when you see the speech model write the same wrong thing twice.
+kapital outlay = Capital Outlay
+em o o e = MOOE

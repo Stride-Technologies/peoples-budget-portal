@@ -131,4 +131,5 @@ Each is optional and set in `.env`. List the ones you turn on in your privacy po
 | reCAPTCHA v3 (Google) | visitor signals on the feedback forms | `RECAPTCHA_SECRET_KEY`, `NEXT_PUBLIC_RECAPTCHA_SITE_KEY` |
 | Google Analytics 4 | page views, after the visitor consents | `NEXT_PUBLIC_GA_MEASUREMENT_ID` |
 | A hearings API, and YouTube for sessions streamed there | the visitor's address, when they open a hearings page (posters) or play a video | `NEXT_PUBLIC_HEARINGS_API_URL`; unset: neither |
+| The summary model you give the hearings pipeline (any OpenAI-compatible endpoint, or one on your own machine) | session transcripts: what was said in a public session | `[summary]` in the pipeline's settings (`services/hearings`); empty: nothing is sent |
 | A model provider (any OpenAI-compatible endpoint), or the bundled sidecar on your own server | Data Explorer questions and public budget text | `LLM_BASE_URL`, `EMBED_BASE_URL`, `EXPLORER_INFERENCE_*` |

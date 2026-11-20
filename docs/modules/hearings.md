@@ -34,6 +34,59 @@ NEXT_PUBLIC_HEARINGS_API_URL=http://127.0.0.1:8765 pnpm dev:client
 
 The sample has no video file, so its player says so; the transcript, summary and other pages work.
 
+## Making your own data
+
+`services/hearings` is the pipeline: from a recording to this API's files, on one machine, with open
+models you choose. [`services/hearings/README.md`](../../services/hearings/README.md) has the
+settings, the rules it holds, and what has and has not been run.
+
+```mermaid
+flowchart LR
+    V[YouTube link<br/>or a video file] --> W[services/hearings<br/>hearings.py run]
+    W --> F[(output folder)]
+    F --> N[nginx<br/>/hearings-data/]
+    N -->|NEXT_PUBLIC_HEARINGS_API_URL| P[/hearings pages/]
+```
+
+From a video link to a page, on the production stack ([`../deployment.md`](../deployment.md)):
+
+1. **Settings.** Copy `services/hearings/example/` somewhere of your own and edit `hearings.toml`:
+   your council's name, your members, goals, glossary and documents, the speech model, and (if you
+   want summaries) a model endpoint. Set `output = "/var/www/hearings"`, a folder you make first
+   (`sudo mkdir -p /var/www/hearings && sudo chown "$USER" /var/www/hearings`).
+2. **Run it** on a machine with Python 3.11+, `ffmpeg` and `uv`:
+
+   ```bash
+   uv run --with faster-whisper python services/hearings/hearings.py --config /path/to/hearings.toml run "https://www.youtube.com/watch?v=VIDEO_ID"
+   ```
+
+   This need not be the server. YouTube refuses downloads from many cloud servers; if yours is
+   one, run the pipeline on an office computer and copy the folder over
+   (`rsync -a out/ server:/var/www/hearings/`).
+3. **Read what it wrote** before anyone else does (the README's "Read it before you publish").
+4. **Serve it.** The stack's nginx already serves `/var/www/hearings` at
+   `https://<SITE_HOST>/hearings-data/`, read-only, with `noindex`. Another folder: set
+   `HEARINGS_DIR` in `.env`. Until the folder has files, every path there answers 404.
+5. **Turn the pages on.** In `.env`:
+
+   ```bash
+   NEXT_PUBLIC_HEARINGS_API_URL="https://budget.example.gov.ph/hearings-data"
+   ```
+
+   Then rebuild the client and bring the stack up (add `--profile local-db` if you use the bundled
+   database, as in the deployment guide):
+
+   ```bash
+   docker compose build client && docker compose up -d
+   ```
+
+6. Open `/hearings`. A new session appears within five minutes of the pipeline finishing (the
+   portal caches each answer that long); nothing is rebuilt.
+
+Any web server can stand in for step 4, on any host: the API is only files. It must answer byte-range
+requests, or a `file` session's video cannot be seeked: nginx, Caddy and Apache do; Python's
+`http.server` does not, so use that one for a look at the transcript only.
+
 ## Rules
 
 - **The API is another party's data.** Text is rendered as text. A link from it reaches an `href` only if it
@@ -47,14 +100,17 @@ The sample has no video file, so its player says so; the transcript, summary and
 - **Not indexed.** These are machine transcripts of named people; every hearings page sends `noindex`.
 - **Machine-made, and labelled so.** Every page carries the notice. Lines a person corrected are marked
   "reviewed" when the API offers them.
-- **Attendance is not shown**, though a pipeline may produce it: a roll call heard by a machine is too easy to
-  get wrong about a named person.
+- **Attendance is not shown**, and `services/hearings` does not produce it: a roll call heard by a machine is
+  too easy to get wrong about a named person.
+- **A member's page lists actions only from an API that has reviewers.** `services/hearings` writes the roster
+  and no actions: each one needs a person to confirm it first.
 - Page labels are English until translated; a summary shows in Filipino or Bikol when the API has one.
 
-## Not here yet
+## Not here
 
-The pipeline that makes these files from a recording (`services/hearings`, on open models) and the recipe for
-serving its output from the production stack. Until then the API is one you already have, or the sample.
+A reviewer workspace (corrections, confirmed actions), attendance, and a pipeline that runs on more than one
+machine. The nginx location has been checked in the stock nginx image with a test certificate, not yet on a
+live server.
 
 Code: `client/src/lib/hearings/` (types, reads, helpers), `client/src/components/public/hearings/`,
-`client/src/app/(public)/hearings/`.
+`client/src/app/(public)/hearings/`; the pipeline is `services/hearings/`.

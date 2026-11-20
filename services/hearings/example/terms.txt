@@ -1,0 +1,14 @@
+# One term per line, written the way it should appear. The transcript's spelling of it is corrected to this.
+# An acronym (all capitals) matches exactly only. A single word shorter than 6 letters matches exactly only.
+# Every name here is made up.
+Barangay San Roque
+Barangay Bagong Silang
+Maharlika Highway
+City Health Office
+City Engineering Office
+City Budget Office
+Committee on Appropriations
+CHO
+CEO
+MOOE
+AIP

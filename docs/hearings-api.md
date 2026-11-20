@@ -3,7 +3,8 @@
 What the portal's hearings pages read. It is **a folder of JSON files and two JSON endpoints**, public and
 read-only, with no key: any web server that serves the folder is a hearings API. The portal reads it from
 `NEXT_PUBLIC_HEARINGS_API_URL` ([`modules/hearings.md`](modules/hearings.md)). A made-up example is in
-[`services/hearings/sample/`](../services/hearings/sample).
+[`services/hearings/sample/`](../services/hearings/sample), and [`services/hearings`](../services/hearings/README.md)
+writes these files from a recording.
 
 ```mermaid
 flowchart LR

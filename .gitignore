@@ -131,3 +131,7 @@ __pycache__/
 
 # Reviewer sheets exported by tools/translate/review_sheet.py
 /review/
+
+# Hearings pipeline: what it writes (public output, private work folder)
+services/hearings/**/out/
+services/hearings/**/work/

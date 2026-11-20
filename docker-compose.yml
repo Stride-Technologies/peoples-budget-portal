@@ -100,6 +100,9 @@ services:
       - ./nginx/nginx.conf:/etc/nginx/templates/default.conf.template:ro
       - /etc/letsencrypt:/etc/letsencrypt:ro
       - /var/www/certbot:/var/www/certbot:ro
+      # The hearings pipeline's output folder, served at /hearings-data/ (docs/modules/hearings.md).
+      # Empty unless you run the pipeline: Docker creates the folder if it is not there.
+      - ${HEARINGS_DIR:-/var/www/hearings}:/srv/hearings:ro
     depends_on:
       - api
       - client
