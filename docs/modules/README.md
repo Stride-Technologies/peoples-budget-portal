@@ -65,12 +65,6 @@ covering purpose, endpoints, services, DTOs, and the tables it touches.
 | `explorer` | [data-explorer.md](data-explorer.md) | Public Data Explorer (specs/018): catalogue + view engine behind `/public/explorer`, every figure computed once; AI Ask/Explain/voice behind switches |
 | `explorer` (inference) | [inference-sidecar.md](inference-sidecar.md) | One inference port, three backends (OpenAI-compatible, the open-model sidecar in `services/inference`, the Stride API); the sidecar's HTTP contract (specs/020 B3) |
 
-### Demo deployment
-
-| Module | Page | Responsibility |
-|---|---|---|
-| `demo` | demo.md | `DEMO_MODE=1` only: per-visitor databases, demo setup and steps, readiness checklist, leads outbox, lgu-intel feed |
-
 ### Admin
 
 | Module | Page | Responsibility |

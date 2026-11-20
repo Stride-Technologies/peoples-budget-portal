@@ -83,7 +83,7 @@ shareable, crawlable URL.
 ```mermaid
 flowchart LR
     R["/bcl/learn"] --> M{middleware}
-    M -->|staff route, demo, or language not live| X["307 to /learn<br/>(prefix dropped)"]
+    M -->|staff route or language not live| X["307 to /learn<br/>(prefix dropped)"]
     M -->|public| W["rewrite to /learn<br/>+ x-locale: bcl"]
     W --> P["page: getT() / useT()"]
 ```
@@ -125,7 +125,7 @@ flowchart LR
 | `/aip-registry/<year>[/program/<programId>[/<paId>]][/edit]` | One URL per fiscal year and per open PPA, same shape as the public `/<section>/<year>/…` pages (`client/src/lib/registry-paths.ts`). The path is the source of truth for which drawer is open: opening, closing, editing and changing FY push a history entry (`history.pushState`, no server round-trip), so Back closes a drawer and a URL can be shared. The registry itself is `app/aip-registry/[year]/layout.tsx` (a layout, so it survives the path changing under it); `[[...ppa]]/page.tsx` only checks the path. A wrong year redirects to the PPA's real one; a malformed tail falls back to the year. Bare `/aip-registry` redirects to the remembered year, else the open cycle, and translates the older `?program=<id>` / `?open=&kind=&mode=view|edit` links. Create drawers have no URL (`?kind=&mode=create&open=<parent>`). |
 | `/aip-registry` (contents) | The master list of programs/projects/activities, with tabs, filters, search (now including thematic tags, specs/011), and a role-gated export menu scaffold. Create and edit for a program, project or activity all happen in place here, via drawers (`NewProgramDrawer`, `NewProjectActivityDrawer`, and the overview drawers' edit mode) |
 | `/finish-lines` | Browse the eight strategic finish lines and their budget utilisation |
-| `/programs/new`, `/programs/[id]/edit`, `/programs/[id]/add-project`, `/projects/[id]/edit`, `/projects/[id]/add-activity`, `/activities/[id]/edit` | Retired (specs/011) — thin server redirects: edit routes go to the PPA's own registry path (`…/edit`), add routes to the parent's year with the create drawer open. `/programs/new?demo=1` is kept as a real page: the demo's guided Create step prefills a program the drawer has no way to seed |
+| `/programs/new`, `/programs/[id]/edit`, `/programs/[id]/add-project`, `/projects/[id]/edit`, `/projects/[id]/add-activity`, `/activities/[id]/edit` | Retired (specs/011) — thin server redirects: edit routes go to the PPA's own registry path (`…/edit`), add routes to the parent's year with the create drawer open. |
 | `/programs/[id]/compare` | Side-by-side version comparison |
 
 ### Control panel (`SUPER_ADMIN` only)

@@ -128,8 +128,7 @@ flowchart TD
   asker's language + 6 default cards; every id in the answer schema is a catalogue enum.
 - **Budget (R19).** Each call's cost (`LLM_PRICE_{IN,OUT}_PER_MTOK`, usage tokens or chars/4) is
   added to a UTC-day counter; at `EXPLORER_DAILY_BUDGET_USD` Ask rests (cards, cache) and
-  `capabilities.mode` says `resting`. Counters live in the cache store (Redis when set,
-  demo-scoped) via `CacheService.incrBy`; a store outage fails open, the IP throttle still holds.
+  `capabilities.mode` says `resting`. Counters live in the cache store (Redis when set) via `CacheService.incrBy`; a store outage fails open, the IP throttle still holds.
 - **Limits (design §12).** Per IP: ask 60 / 10 min, feedback 30 / 10 min, log 60 / min. Per
   device (salted hash of `deviceKey`): ask 30 / h and 100 / day — model calls only — and
   feedback 10 / h. `explorer.controller.spec.ts` fails if a route lacks `@Throttle`.
